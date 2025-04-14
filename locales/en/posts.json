@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "label": "Local Guide",
+      "slug": "definitive-guide-on-where-to-tattoo-en-cali",
+      "title": "Definitive Guide: Where to Get a Tattoo in Cali, Colombia — Top 5 Studios",
+      "description": "Discover the best tattoo studios in Cali, renowned for their exceptional art, impeccable hygiene, and talented artists. We present an exclusive selection to ensure your next tattoo experience is unparalleled.",
+      "image": "/img/blog/post1.png",
+      "date": "April 08, 2025",
+      "cta": "Read more",
+      "ctaUrl": "definitive-guide-on-where-to-tattoo-en-cali"
+    },
+    {
+      "label": "Travel",
+      "slug": "reason-to-travel-to-colombia-for-your-next-tattoo",
+      "title": "7 Reasons to Travel to Colombia for Your Next Tattoo",
+      "description": "Discover why Colombia has become the perfect destination to combine tourism and high-quality tattoos. From world-class artistic talent to affordable prices, unique cultural experiences, and impeccable hygiene standards.",
+      "image": "/img/blog/post2.png", 
+      "date": "April 14, 2025",
+      "cta": "Read more",
+      "ctaUrl": "reason-to-travel-to-colombia-for-your-next-tattoo"
+    }
+  ]
+}

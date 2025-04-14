@@ -1,0 +1,24 @@
+{
+    "posts": [
+      {
+        "label": "Guía Local",
+        "slug": "definitive-guide-on-where-to-tattoo-en-cali",
+        "title": "Guía Definitiva: Dónde Tatuarse en Cali, Colombia — Top 5 Estudios",
+        "description": "Descubre los mejores estudios de tatuaje en Cali, reconocidos por su arte excepcional, higiene impecable y artistas talentosos. Te presentamos una selección exclusiva para que tu próxima experiencia de tatuaje sea inigualable.",
+        "image": "/img/blog/post1.png",
+        "date": "08 de abril de 2025",
+        "cta": "Leer más",
+        "ctaUrl": "definitive-guide-on-where-to-tattoo-en-cali"
+      },
+      {
+        "label": "Viajes",
+        "slug": "reason-to-travel-to-colombia-for-your-next-tattoo",
+        "title": "7 Razones para Viajar a Colombia por tu Próximo Tatuaje",
+        "description": "Descubre por qué Colombia se ha convertido en el destino perfecto para combinar turismo y tatuajes de calidad excepcional. Desde talento artístico de clase mundial hasta precios accesibles, experiencias culturales únicas y estándares de higiene impecables.",
+        "image": "/img/blog/post2.png",
+        "date": "14 de abril de 2025",
+        "cta": "Leer más",
+        "ctaUrl": "reason-to-travel-to-colombia-for-your-next-tattoo"
+      }
+    ]
+  }

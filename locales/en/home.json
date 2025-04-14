@@ -1,0 +1,94 @@
+{
+    "nav_items": {
+        "portfolio": "PORTFOLIO",
+        "about": "ABOUT",
+        "blog": "BLOG",
+        "courses": "COURSES",
+        "vip": "VIP",
+        "contact": "CONTACT"
+    },
+    "hero_content":{
+        "title": "Recording a legacy",
+        "subtitle": "In Every Stroke",
+        "text": "An experience where we transform your story into permanent art",
+        "cta": "Book your Personalized Consultation"
+    },
+    "portfolio_section": {
+        "title": "PORTFOLIO",
+        "start_text": "The",
+        "style_text": "style",
+        "middle_text": "you want, for the",
+        "style_text_2": "vision",
+        "end_text": "you have",
+        "cta_label": "Do you want to start creating your own?",
+        "cta": "Book your Personalized Consultation"
+    },
+    "our_studio":{
+        "label_title": "OUR STUDIO",
+        "title": "The story behind",
+        "title_decorator": "Legassy",
+        "paragraph_1": "It all started with a clear idea: to create a space where the art of tattooing transcended the conventional. We didn't want to be just a studio, but a benchmark for quality, creativity and meaning. From the first stroke until today, we have built a brand with its own identity, where each piece is a unique work, thought out and designed to tell stories.",
+        "paragraph_2": "The motivation has always been the same: to provide each person with an experience that goes beyond the ink on the skin. We believe in tattoos as an expression of identity, a symbol of who we are and what we want to carry with us forever.",
+        "cta": "See more of the story"
+    },
+    "our_stories":{
+        "section_title":"OUR STORIES",
+        "title_start": "From",
+        "title_end": "to Legassy",
+        "stories": [
+            {
+                "city_california": "California",
+                "paragraph_1_california": "From California to Cali, Rome embarked on a journey to transform his arm into a canvas of strength and tradition. His Maori-style sleeve is more than a tattoo; it's a symbol of identity, culture, and connection to his roots. Every stroke, every pattern, tells a story that now stays with him forever.",
+                "paragraph_2_california": "If you want to see a little more about Rome's life and his tattoo after time, you can check it out on his Instagram: @romegoodwin."
+            },
+            {
+                "city_pensilvania": "Pensilvania",
+                "paragraph_1_pensilvania": "Maddie traveled to our studio with a clear idea: she wanted a tattoo that represented her free spirit and inner strength. Her fairy with a sword is the perfect combination of delicacy and power, a work full of detail and depth that reflects her essence. A design as unique as she is.",
+                "paragraph_2_pensilvania": "If you want to see a little more about Maddie's life and her tattoo after time, you can check it out on her Instagram: @m.deegs."
+            },
+            {
+                "city_luisiana": "Luisiana",
+                "paragraph_1_luisiana": "Emanuel decided to take his passion to the next level by tattooing the symbol of his audiovisual production company. A ribbon intertwined with an old-fashioned recording camera represents the beginning of his journey in the industry, a reminder of his vision and creativity. More than just a tattoo, it's an emblem of his hard work and dreams come true.",
+                "paragraph_2_luisiana": "If you want to see a little more about Emanuel's life and his tattoo after time, you can check him out on his Instagram: @legroom_productions."
+            }
+        ],
+        "cta": "See more about the study"
+},
+    "do_you_want_to_be":{
+        "title" : "Do you want to be part of our",
+        "title_decorator" : "VIP Club?",
+        "tags":{
+            "tag_1": "Priority appointments",
+            "tag_2": "Affiliate code",
+            "tag_3": "Monthly discounts"
+        },
+        "cta_label": "Are you interested?",
+        "cta": "Learn more about the VIP club"
+    },
+    "do_you_want_to_work":{
+        "title": "Do you want to work with us?",
+        "paragraph": "Join our team. We're looking for tattoo artist at least 5 years of experience and a creative portfolio. At Legacy Studios, we value the talent and the passion for art",
+        "cta": "Apply now"
+    },
+    "book_consultation": {
+        "section_title": "BOOK YOUR CONSULTATION",
+        "title": "Start to",
+        "title_decorator": "create your vision",
+        "title_end": "from today",
+        "cta": "Book your Personalized Consult",
+        "contact_text": "Or we contact you, which do you prefer?",
+        "email_label": "Email",
+        "info_title": "Contact us",
+        "confirm_phone_form": "Thank you! Your phone number has been submitted successfully.",
+        "error_phone_form": "There was an error submitting your phone number. Please try again.",
+        "confirm_email_form": "Thank you! Your email has been submitted successfully.",
+        "error_email_form": "There was an error submitting your email. Please try again."
+    },
+    "footer":{
+        "terms":"Terms & Conditions",
+        "privacy":"Privacy Policy"
+    }
+}
+
+
+

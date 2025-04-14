@@ -1,0 +1,37 @@
+{
+    "header":{
+        "section_title": "ABOUT US",
+        "title": "The story behind",
+        "title_decorator": "Legassy",
+        "description": "Three years ago, Legassy Studio was founded in Cali, Colombia, with the aim of creating experiences when creating permanent tattoo art. It was an arduous process that provided many lessons and a solid foundation for the entire team to grow."
+    },
+    "timeline": {
+        "title": "More than",
+        "title_decorator": "tattoos",
+        "title_end": "a",
+        "title_decorator_end": "vision",
+        "idea": "The idea",
+        "idea_description": "It all began with a clear idea: to create a space where the art of tattooing transcended convention. We didn't want to be just a studio, but a benchmark of quality, creativity, and meaning. From the first stroke to today, we've built a brand with its own identity, where each piece is a unique work, conceived and designed to tell stories.",
+        "motivation":"The motivation",
+        "motivation_description":"Our motivation has always been the same: to provide each person with an experience that goes beyond ink on their skin. We believe in tattoos as an expression of identity, a symbol of who we are and what we want to carry with us forever.",
+        "promise": "Our promise",
+        "promise_description": "That's why we're committed to delivering impeccable craftsmanship, with meticulous attention to every detail, utilizing high-quality techniques and superior materials. Every design we create is a reflection of our passion and our unwavering standard of excellence.",
+        "morethanastudio": "More than a studio",
+        "morethanastudio_description": "More than a studio, we are a community where art, dedication, and authenticity come together. Here, we don't just tattoo skin; we mark the stories of those who place their trust in us."
+    },
+    "why_get_tattoo": {
+        "section_title": "Why get a tattoo with",
+        "section_title_decorator": "us?",
+        "paragraph": "Our goal is to offer unique pieces of the highest quality and precision, transforming each design into an authentic expression of its wearer. Here, the ink not only marks the skin, but also the story of each person.",
+        "values":{
+            "quality": "Quality and precision",
+            "quality_description": "Every stroke counts. We ensure your tattoo achieves an unparalleled level of detail and perfection.",
+            "design": "Exclusive designs",
+            "design_description": "Nothing generic. We create custom pieces that truly represent your essence and style.",
+            "process": "A process design for you",
+            "process_description": "From the idea to the final result, we'll help you live a unique and meaningful experience.",
+            "experience": "Experience and professionalism",
+            "experience_description": "A team of specialized artists who guarantee impeccable and safe work."
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.testimonials_container{
+    @apply flex flex-col w-full;
+    background-image: url('./assets/backgroundImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

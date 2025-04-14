@@ -1,0 +1,37 @@
+{
+    "content": {
+      "section_title": "VIP CLUB",
+      "title": "What do you get by being",
+      "title_decorator": "VIP?",
+      "description": "Being part of our VIP Club goes beyond getting a tattoo — it's about joining an exclusive circle where quality, personalized attention, and special perks are designed just for you.",
+      "cta": "Join the VIP Club"
+    },
+    "benefits": [
+      {
+        "id": "discounts",
+        "title": "Discounts",
+        "description": "Exclusive discounts on tattoos and piercings."
+      },
+      {
+        "id": "priority",
+        "title": "Priority",
+        "description": "Priority booking so you can get your appointment without long waits."
+      },
+      {
+        "id": "promotions",
+        "title": "Promotions",
+        "description": "Special deals on tattoo sessions and packages."
+      },
+      {
+        "id": "exclusivity",
+        "title": "Exclusivity",
+        "description": "Access to exclusive designs and concepts only available for our VIP members."
+      },
+      {
+        "id": "events",
+        "title": "Events",
+        "description": "Private events and experiences where we share our passion for art."
+      }
+    ]
+  }
+  

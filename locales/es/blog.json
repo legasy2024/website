@@ -1,0 +1,18 @@
+{
+    "header": {
+        "section_title": "BLOGS",
+        "title": "Conoce más sobre el mundo de los",
+        "title_decorator": "Tatuajes",
+        "description": "Descubre el arte de la tinta a través de nuestras experiencias. Desde consejos para tu primer tatuaje hasta las últimas tendencias en diseño, aquí encontrarás todo lo que necesitas saber."
+    },
+    "posts":[
+        {
+            "slug": "minimalismo-1",
+            "title": "Minimalismo en la piel 1",
+            "description": "Descubre por qué los tatuajes minimalistas están conquistando el mundo del arte corporal. Desde líneas finas hasta diseños geométricos simples, esta tendencia demuestra que menos puede ser más.",
+            "image": "/img/blog/post1.png",
+            "date": "01 de enero de 2025",
+            "cta": "Leer más"
+        }
+    ]
+}

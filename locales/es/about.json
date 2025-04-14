@@ -1,0 +1,37 @@
+{
+    "header":{
+        "section_title": "SOBRE NOSOTROS",
+        "title": "La historia detrás de",
+        "title_decorator": "Legassy",
+        "description": "Hace 3 años se creó Legassy Studio en Cali, Colombia con la intención de crear experiencias cuando se tatua arte permanente. Fue un proceso arduo, que trajo muchas enseñanzas y una base sólida para el crecimiento del todo el equipo."
+    },
+    "timeline": {
+        "title": "Más que",
+        "title_decorator": "tatuajes",
+        "title_end": "una",
+        "title_decorator_end": "visión",
+        "idea": "La idea",
+        "idea_description": "Todo comenzó con una idea clara: crear un espacio donde el arte del tatuaje trascendiera lo convencional. No queríamos ser sólo un estudio, sino un referente de calidad, creatividad y significado. Desde el primer trazo hasta hoy, hemos construido una marca con identidad propia, donde cada pieza es una obra única, pensada y diseñada para contar historias.",
+        "motivation":"La motivación",
+        "motivation_description":"La motivación siempre ha sido la misma: brindar a cada persona una experiencia que vaya más allá de la tinta en la piel. Creemos en el tatuaje como una expresión de identidad, un símbolo de lo que somos y de lo que queremos llevar con nosotros para siempre.",
+        "promise": "Nuestra promesa",
+        "promise_description": "Por eso, nos comprometemos a ofrecer un trabajo impecable, con una atención minuciosa en cada detalle, utilizando técnicas de alto nivel y materiales de calidad superior. Cada diseño que creamos es el reflejo de nuestra pasión y nuestro estándar inquebrantable de excelencia.",
+        "morethanastudio": "Más que un estudio",
+        "morethanastudio_description": "Más que un estudio, somos una comunidad donde el arte, la dedicación y la autenticidad se encuentran. Aquí no solo se tatúa la piel, se marca la historia de quienes confían en nosotros."
+    },
+    "why_get_tattoo": {
+        "section_title": "¿Por qué tatuarte con",
+        "section_title_decorator": "Nosotros?",
+        "paragraph": "Nuestro propósito es ofrecer piezas únicas, con la más alta calidad y precisión, convirtiendo cada diseño en una expresión auténtica de quienes lo llevan. Aquí, la tinta no solo marca la piel, sino también la historia de cada persona.",
+        "values":{
+            "quality": "Calidad y precisión",
+            "quality_description": "Cada trazo cuenta. Nos aseguramos de que tu tatuaje tenga un nivel de detalle y perfección inigualable.",
+            "design": "Diseños exclusivos",
+            "design_description": "Nada genérico. Creamos piezas personalizadas que realmente representen tu esencia y estilo.",
+            "process": "Un proceso pensado para ti",
+            "process_description": "Desde la idea hasta el resultado final, te acompañamos para que vivas una experiencia única y significativa.",
+            "experience": "Experiencia y profesionalismo",
+            "experience_description": "Un equipo de artistas especializados que garantizan un trabajo impecable y seguro."
+        }
+    }
+}

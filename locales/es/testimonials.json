@@ -1,0 +1,21 @@
+{
+    "reviews": [
+      {
+        "review": "Excelente servicio, las instalaciones son cómodas, te brindan una excelente atención y te asesoran de la mejor manera, para que quedes 100% a gusto con tu tatuaje.",
+        "date": "01 de enero de 2025"
+      },
+      {
+        "review": "Un trabajo impecable, con mucha atención al detalle. La higiene y profesionalismo son de primera. Sin duda volveré para mi próximo tatuaje.",
+        "date": "15 de febrero de 2025"
+      },
+      {
+        "review": "Desde el primer momento te hacen sentir cómodo. Me encantó el diseño personalizado que me hicieron y el resultado final superó mis expectativas.",
+        "date": "10 de marzo de 2025"
+      },
+      {
+        "review": "Increíble experiencia, los artistas son muy talentosos y la calidad del trabajo es excelente. Definitivamente lo recomiendo.",
+        "date": "25 de marzo de 2025"
+      }
+    ]
+  }
+  

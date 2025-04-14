@@ -1,0 +1,10 @@
+.Do_you_section{
+    background-image: url('./assets/legassyBg.png');
+    background-repeat: no-repeat; 
+}
+@media (max-width: 400px){
+    .Do_you_section{
+        background-image: url('./assets/legassyBgMobile.png');
+        background-repeat: no-repeat; 
+    }
+}

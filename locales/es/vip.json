@@ -1,0 +1,36 @@
+{
+    "content":{
+        "section_title":"CLUB VIP",
+        "title": "¿Qué obtienes al ser",
+        "title_decorator": "VIP?",
+        "description": "Ser parte de nuestro Club VIP va más allá de llevar un tatuaje, es formar parte de un círculo exclusivo donde la calidad, la atención personalizada y las ventajas especiales están diseñadas solo para ti.",
+        "cta": "únete al Club VIP"
+    },
+    "benefits": [
+        {
+          "id": "discounts",
+          "title": "Descuentos",
+          "description": "Descuentos exclusivos en tatuajes y perforaciones."
+        },
+        {
+          "id": "priority",
+          "title": "Prioridad",
+          "description": "Prioridad en agendas, asegurando tu cita sin largas esperas."
+        },
+        {
+          "id": "promotions",
+          "title": "Promociones",
+          "description": "Promociones especiales en sesiones y paquetes de tatuajes."
+        },
+        {
+          "id": "exclusivity",
+          "title": "Exclusividad",
+          "description": "Acceso a diseños y conceptos exclusivos que solo nuestros VIP pueden tener."
+        },
+        {
+          "id": "events",
+          "title": "Eventos",
+          "description": "Eventos y experiencias privadas, donde compartimos la pasión por el arte."
+        }
+      ]
+}

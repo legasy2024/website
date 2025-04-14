@@ -1,0 +1,91 @@
+{
+    "nav_items": {
+        "portfolio": "PORTAFOLIO",
+        "about": "NOSOTROS",
+        "blog": "BLOG",
+        "courses": "CURSOS",
+        "vip": "VIP",
+        "contact": "CONTÁCTANOS"
+    },
+    "hero_content":{
+        "title": "Grabando un legado",
+        "subtitle": "En Cada Trazo",
+        "text": "Una experiencia donde transformamos tu historia en arte permanente",
+        "cta": "Reserva tu Consulta Personalizada"
+    },
+    "portfolio_section": {
+        "title": "PORTAFOLIO",
+        "start_text": "El",
+        "style_text": "estilo",
+        "middle_text": "que quieras, para la",
+        "style_text_2": "visión",
+        "end_text": "que tienes",
+        "cta_label": "¿Quieres comenzar a crear el tuyo?",
+        "cta": "Reserva tu Consulta Personalizada"
+    },
+    "our_studio":{
+        "label_title": "NUESTRO ESTUDIO",
+        "title": "La historia detrás de",
+        "title_decorator": "Legassy",
+        "paragraph_1": "Todo comenzó con una idea clara: crear un espacio donde el arte del tatuaje trascendiera lo convencional. No queríamos ser sólo un estudio, sino un referente de calidad, creatividad y significado. Desde el primer trazo hasta hoy, hemos construido una marca con identidad propia, donde cada pieza es una obra única, pensada y diseñada para contar historias.",
+        "paragraph_2": "La motivación siempre ha sido la misma: brindar a cada persona una experiencia que vaya más allá de la tinta en la piel. Creemos en el tatuaje como una expresión de identidad, un símbolo de lo que somos y de lo que queremos llevar con nosotros para siempre.",
+        "cta": "Ver más de la historia"
+    },
+    "our_stories":{
+        "section_title":"NUESTRAS HISTORIAS",
+        "title_start": "De",
+        "title_end": "a Legassy",
+        "stories": [
+            {
+                "city_california": "California",
+                "paragraph_1_california": "Desde California hasta Cali, Rome emprendió un viaje para transformar su brazo en un lienzo de fuerza y tradición. Su manga en estilo maorí es más que un tatuaje, es un símbolo de identidad, cultura y conexión con sus raíces. Cada trazo, cada patrón, cuenta una historia que ahora lo acompaña para siempre.",
+                "paragraph_2_california": "Si quieres ver un poco más sobre la vida de Rome y su tatuaje después del tiempo, puedes verlo en su instagram: @romegoodwin."
+            },
+            {
+                "city_pensilvania": "Pensilvania",
+                "paragraph_1_pensilvania": "Maddie viajó hasta nuestro estudio con una idea clara: quería un tatuaje que representa su espíritu libre y su fuerza interior. Su hada con espada es la perfecta combinación entre delicadeza y poder, una obra llena de detalles y profundidad que refleja su esencia. Un diseño tan único como ella.",
+                "paragraph_2_pensilvania": "Si quieres ver un poco más sobre la vida de Maddie y su tatuaje después del tiempo, puedes verlo en su instagram: @m.deegs."
+            },
+            {
+                "city_luisiana": "Luisiana",
+                "paragraph_1_luisiana": "Emanuel decidió llevar su pasión al siguiente nivel tatuando el símbolo de su productora audiovisual. Una cinta entrelazada con una cámara de grabación antigua representa el inicio de su camino en la industria, un recordatorio de su visión y creatividad. Más que un tatuaje, es el emblema de su esfuerzo y sueños hechos realidad.",
+                "paragraph_2_luisiana": "Si quieres ver un poco más sobre la vida de Emanuel y su tatuaje después del tiempo, puedes verlo en su instagram: @legroom_productions."
+            }
+        ],
+        "cta": "Ver más sobre el estudio"
+},
+    "do_you_want_to_be":{
+        "title" : "¿Quieres hacer parte de nuestro",
+        "title_decorator" : "Club VIP?",
+        "tags":{
+            "tag_1": "Citas prioritarias",
+            "tag_2": "Código de afiliados",
+            "tag_3": "Descuentos mensuales"
+        },
+        "cta_label": "¿Te interesa?",
+        "cta": "Conoce más sobre el club VIP"
+    },
+    "do_you_want_to_work":{
+        "title": "¿Quieres trabajar con nosotros?",
+        "paragraph": "Únete a nuestro equipo. Buscamos tatuadores con experiencia mínima de 5 años y un portfolio creativo. En Legassy Studios valoramos el talento y la pasión por el arte.",
+        "cta": "Aplica ahora"
+    },
+    "book_consultation": {
+        "section_title": "AGENDA TU CONSULTA",
+        "title": "Comienza a",
+        "title_decorator": "Crear tu visión",
+        "title_end": "desde hoy",
+        "cta": "Agenda tu Consulta Personalizada",
+        "contact_text": "O nosotros te contactamos, ¿Qué prefieres?",
+        "email_label": "Email",
+        "info_title": "Contáctanos",
+        "confirm_phone_form": "¡Gracias! Su número de teléfono se ha enviado correctamente.",
+        "error_phone_form": "Se ha producido un error al enviar su número de teléfono. Vuelva a intentarlo.",
+        "confirm_email_form": "¡Gracias! Tu correo electrónico se ha enviado correctamente.",
+        "error_email_form": "Se produjo un error al enviar tu correo electrónico. Inténtalo de nuevo."
+    },
+    "footer":{
+        "terms":"Términos y Condiciones",
+        "privacy":"Política de Privacidad"
+    }
+}
