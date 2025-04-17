@@ -48,6 +48,7 @@ function LandingSection({ translations }) {
             variants={containerVariants}
             initial="hidden"
             animate="visible"
+            className=""
           >
             <HeroBgImages />
           </motion.div>

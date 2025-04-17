@@ -7,17 +7,19 @@ import heroImg2 from "@/components/home/LandingSection/assets/heroImg2.png";
 import heroImg4 from "@/components/home/LandingSection/assets/heroimg4.png";
 import heroImg5 from "@/components/home/LandingSection/assets/heroImg5.png";
 import heroImg6 from "@/components/home/LandingSection/assets/heroImg6.png";
-import heroImg7 from "@/components/home/LandingSection/assets/heroImg7.JPEG";
+import heroImg7 from "@/components/home/LandingSection/assets/heroImg7.png";
 import heroImg8 from "@/components/home/LandingSection/assets/heroImage8.png";
 import heroImg10 from "@/components/home/LandingSection/assets/heroImg10.png";
+import heroImg9 from "@/components/home/LandingSection/assets/heroImg9.png";
 
 //Mobile changes
 import heroImg8Mobile from "@/components/home/LandingSection/assets/heroImg8Mobile.png";
 import heroImg5Mobile from "@/components/home/LandingSection/assets/heroImg5Mobile.png";
+import mobileImgOne from "@/components/home/LandingSection/assets/mobileImgone.png";
 
 const herosImgs = [
   {
-    img: heroImg7,
+    img: heroImg9,
     pos: "absolute right-8 top-32 rounded-xl hidden lg:block",
     width: 140,
     height: 130,
@@ -54,7 +56,7 @@ const herosImgs = [
   },
   {
     img: heroImg10,
-    pos: "absolute left-8 top-52 rounded-xl hidden lg:block",
+    pos: "absolute left-8 top-44 rounded-xl hidden lg:block",
     width: 110,
     height: 140,
     id: crypto.randomUUID(),
@@ -78,7 +80,16 @@ const herosImgs = [
     id: crypto.randomUUID(),
     alt: "Tattoo Code Geass",
     custom: 6, // Animation order
-  }
+  },
+  {
+    img: heroImg2,
+    pos: "absolute object-cover left-48 top-[675px] w-[150px] h-[60px] rounded-xl overflow-hidden hidden lg:block",
+    width: 130,
+    height: 140,
+    id: crypto.randomUUID(),
+    alt: "Tattoo Zeus",
+    custom: 9, // Animation order
+  },
 ];
 
 function HeroBgImages() {
@@ -195,10 +206,10 @@ function HeroBgImages() {
           custom={1}
         >
           <Image
-            src={heroImg5}
+            src={mobileImgOne}
             width={150}
             height={150}
-            className={'w-40 h-40 absolute left-0 top-28 sm:left-16 rounded-xl'}
+            className={'object-contain absolute left-0 top-28 sm:left-16 rounded-xl'}
             alt={`Hero image Zoro`}
           />
         </motion.div>

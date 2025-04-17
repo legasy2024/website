@@ -103,7 +103,7 @@ function HeroContent( { translations } ) {
         <Image src={emblemImg} width={80} height={80} alt="Emblema" />
       </motion.div>
       
-      <div className="flex flex-col items-center justify-center p-5 mb-44 lg:mb-0">
+      <div className="flex flex-col items-center justify-center p-5 mb-52 -mt-10 lg:mb-0">
         <motion.h1 
           className="bg-gradient-to-b from-white to-[#989898] text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl p-1"
           initial="hidden"
