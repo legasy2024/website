@@ -16,7 +16,6 @@ import caliUnoImg from './assets/partyImg.jpg'
 import cirstoReyImg from './assets/cristoReyImg.png'
 import empanadasImg from './assets/empanadas.png'
 
-// Animation variants
 const fadeIn = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 0.5 } }
