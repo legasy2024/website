@@ -39,6 +39,26 @@
       "date": "25 de abril de 2025",
       "cta": "Leer más",
       "ctaUrl": "cali-tattoo-scene-for-foreigners"
+    },
+    {
+      "label": "Precios",
+      "slug": "tattoo-prices-colombia-vs-usa",
+      "title": "Todo lo que Debes Saber sobre Precios de Tatuajes en Colombia vs. EE.UU.",
+      "description": "Descubre la extraordinaria ventaja que ofrece Colombia, y particularmente Cali, cuando se trata de combinar calidad artística excepcional con precios sorprendentemente accesibles para tatuajes en comparación con Estados Unidos.",
+      "image": "/img/blog/post5.png",
+      "date": "25 de abril de 2025",
+      "cta": "Leer más",
+      "ctaUrl": "tattoo-prices-colombia-vs-usa"
+    },
+    {
+      "label": "Inclusión",
+      "slug": "inclusive-tattoo-studios-in-colombia",
+      "title": "Estudios de Tatuajes Inclusivos en Colombia: Guía LGBTQ+ y Accesibilidad",
+      "description": "Descubre los estudios de tatuajes en Colombia que están liderando el cambio hacia una cultura de inclusión genuina, con especial atención a la comunidad LGBTQ+ y personas con necesidades de accesibilidad específicas. Legassy Studio destaca como un referente de inclusión en Cali.",
+      "image": "/img/blog/post6.png",
+      "date": "25 de abril de 2025",
+      "cta": "Leer más",
+      "ctaUrl": "inclusive-tattoo-studios-in-colombia"
     }
   ]
 }

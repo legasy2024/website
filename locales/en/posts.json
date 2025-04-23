@@ -15,7 +15,7 @@
       "slug": "reason-to-travel-to-colombia-for-your-next-tattoo",
       "title": "7 Reasons to Travel to Colombia for Your Next Tattoo",
       "description": "Discover why Colombia has become the perfect destination to combine tourism and high-quality tattoos. From world-class artistic talent to affordable prices, unique cultural experiences, and impeccable hygiene standards.",
-      "image": "/img/blog/post2.png", 
+      "image": "/img/blog/post2.png",
       "date": "April 14, 2025",
       "cta": "Read more",
       "ctaUrl": "reason-to-travel-to-colombia-for-your-next-tattoo"
@@ -39,6 +39,26 @@
       "date": "April 25, 2025",
       "cta": "Read more",
       "ctaUrl": "cali-tattoo-scene-for-foreigners"
+    },
+    {
+      "label": "Prices",
+      "slug": "tattoo-prices-colombia-vs-usa",
+      "title": "Everything You Need to Know About Tattoo Prices in Colombia vs. USA",
+      "description": "Discover the extraordinary advantage Colombia offers, particularly Cali, when it comes to combining exceptional artistic quality with surprisingly affordable prices for tattoos compared to the United States.",
+      "image": "/img/blog/post5.png",
+      "date": "April 25, 2025",
+      "cta": "Read more",
+      "ctaUrl": "tattoo-prices-colombia-vs-usa"
+    },
+    {
+      "label": "Inclusion",
+      "slug": "inclusive-tattoo-studios-in-colombia",
+      "title": "Inclusive Tattoo Studios in Colombia: LGBTQ+ Guide & Accessibility",
+      "description": "Discover the Colombian tattoo studios leading the change toward a culture of genuine inclusion, with special attention to the LGBTQ+ community and people with specific accessibility needs. Legassy Studio stands out as a benchmark for inclusion in Cali.",
+      "image": "/img/blog/post6.png",
+      "date": "April 25, 2025",
+      "cta": "Read more",
+      "ctaUrl": "inclusive-tattoo-studios-in-colombia"
     }
   ]
 }
