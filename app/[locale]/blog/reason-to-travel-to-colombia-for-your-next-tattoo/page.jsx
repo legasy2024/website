@@ -7,6 +7,11 @@ import dynamic from "next/dynamic";
 
 //Components
 import SecondBlog from "@/components/blog/BlogDetail/SecondBlog/SecondBlog"
+
+//Translations
+import secondBlogEs from "@/locales/es/secondblog.json"
+import secondBlogEn from "@/locales/en/secondblog.json"
+
 const DoYouWantToBe = dynamic(() => import("@/components/home/DoYouWantToBe/DoYouWantToBe"));
 const DoYouWantToWork = dynamic(() => import("@/components/common/DoYouWantToWork/DoYouWantToWork"));
 const BookConsult = dynamic(() => import("@/components/common/BookConsult/BookConsult"));
@@ -59,9 +64,12 @@ export async function generateMetadata({ params: { locale } }) {
 }
 
 
+
 export default async function Home({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
-
+  
+  const secondBlogContent = locale === "en" ? secondBlogEn : secondBlogEs;
+  
   const DoYouWantToBeTranslations = {
     title: t("home:do_you_want_to_be.title"),
     title_decorator: t("home:do_you_want_to_be.title_decorator"),
@@ -100,7 +108,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-       <SecondBlog />
+       <SecondBlog content={secondBlogContent} />
         <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
         <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">
