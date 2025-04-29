@@ -59,6 +59,26 @@
       "date": "25 de abril de 2025",
       "cta": "Leer más",
       "ctaUrl": "inclusive-tattoo-studios-in-colombia"
+    },
+    {
+      "label": "Proceso",
+      "slug": "remote-tattoo-process-colombia-from-usa",
+      "title": "¿Tatuarse en Colombia? Proceso de Trabajo con Artistas Colombianos a Distancia desde EEUU",
+      "description": "Descubre el paso a paso completo para colaborar a distancia con los mejores tatuadores colombianos, desde la selección del artista hasta tu viaje a Cali. Una guía detallada para conseguir arte corporal excepcional con un toque colombiano único.",
+      "image": "/img/blog/post7.png",
+      "date": "29 de abril de 2025",
+      "cta": "Leer más",
+      "ctaUrl": "remote-tattoo-process-colombia-from-usa"
+    },
+    {
+      "label": "Historia",
+      "slug": "history-of-tattoo-art-in-colombia",
+      "title": "Tatuajes en Colombia: Fusión de Historia y Modernidad",
+      "description": "Explora el fascinante recorrido del arte del tatuaje en Colombia, desde las prácticas ancestrales indígenas hasta las innovadoras técnicas contemporáneas. Descubre cómo los artistas actuales reinterpretan este legado cultural milenario creando un estilo único que está ganando reconocimiento mundial.",
+      "image": "/img/blog/post8.png",
+      "date": "30 de abril de 2025",
+      "cta": "Leer más",
+      "ctaUrl": "history-of-tattoo-art-in-colombia"
     }
   ]
 }

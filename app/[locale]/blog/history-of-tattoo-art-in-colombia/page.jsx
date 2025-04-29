@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 
 //Components
-import SixthBlog from "@/components/blog/BlogDetail/SixthBlog/SixthBlog"
+import EightBlog from "@/components/blog/BlogDetail/EightBlog/EightBlog"
 const DoYouWantToBe = dynamic(() => import("@/components/home/DoYouWantToBe/DoYouWantToBe"));
 const DoYouWantToWork = dynamic(() => import("@/components/common/DoYouWantToWork/DoYouWantToWork"));
 const BookConsult = dynamic(() => import("@/components/common/BookConsult/BookConsult"));
@@ -16,40 +16,40 @@ const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
 
 // Metadata en español
 const metadata = {
-  title: "Todo lo que Debes Saber sobre Precios de Tatuajes en Colombia vs. EE.UU.",
-  description: "Descubre la extraordinaria ventaja que ofrece Colombia, y particularmente Cali, cuando se trata de combinar calidad artística excepcional con precios sorprendentemente accesibles para tatuajes en comparación con Estados Unidos.",
-  keywords: "precios tatuajes colombia, tatuajes económicos colombia, comparativa precios tatuajes, tatuajes cali precios, ahorrar en tatuajes, tatuajes calidad precio, turismo de tatuajes, tatuajes estados unidos vs colombia, tatuajes baratos colombia, legassy studio precios",
+  title: "Tatuajes en Colombia: Fusión de Historia y Modernidad",
+  description: "Explora el fascinante recorrido del arte del tatuaje en Colombia, desde las prácticas ancestrales indígenas hasta las innovadoras técnicas contemporáneas. Descubre cómo este legado cultural milenario continúa evolucionando.",
+  keywords: "tatuajes colombia, historia tatuaje colombia, tatuajes precolombinos, arte tradicional tatuaje colombiano, estilos tatuaje colombiano, artistas tatuaje cali, convenciones tatuaje colombia, legassy studio, tatuajes indígenas, patrimonio cultural tatuajes",
   language: "es",
-  subject: "Comparativa de precios de tatuajes entre Colombia y Estados Unidos",
+  subject: "Historia y evolución del arte del tatuaje en Colombia",
   coverage: "Cali, Colombia",
   robots: "index, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/tattoo-prices-colombia-vs-usa",
+    canonical: "https://www.legassystudio.com/es/history-of-tattoo-art-in-colombia",
     languages: {
-      'es': '/es/tattoo-prices-colombia-vs-usa',
-      'en': '/en/tattoo-prices-colombia-vs-usa'
+      'es': '/es/history-of-tattoo-art-in-colombia',
+      'en': '/en/history-of-tattoo-art-in-colombia'
     }
   }
 };
 
 // Metadata en inglés
 const metadata_en = {
-  title: "Everything You Need to Know About Tattoo Prices in Colombia vs. USA",
-  description: "Discover the extraordinary advantage Colombia offers, particularly Cali, when it comes to combining exceptional artistic quality with surprisingly affordable prices for tattoos compared to the United States.",
-  keywords: "colombia tattoo prices, affordable tattoos colombia, tattoo price comparison, cali tattoo prices, save money on tattoos, tattoo value for money, tattoo tourism, usa vs colombia tattoos, cheap tattoos colombia, legassy studio prices",
+  title: "Tattoos in Colombia: Fusion of History and Modernity",
+  description: "Explore the fascinating journey of tattoo art in Colombia, from ancestral indigenous practices to innovative contemporary techniques. Discover how this millenary cultural legacy continues to evolve.",
+  keywords: "colombia tattoos, colombian tattoo history, pre-columbian tattoos, colombian traditional tattoo art, colombian tattoo styles, cali tattoo artists, colombia tattoo conventions, legassy studio, indigenous tattoos, cultural heritage tattoos",
   language: "en",
-  subject: "Comparison of tattoo prices between Colombia and the United States",
+  subject: "History and evolution of tattoo art in Colombia",
   coverage: "Cali, Colombia",
   robots: "index, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/tattoo-prices-colombia-vs-usa",
+    canonical: "https://www.legassystudio.com/en/history-of-tattoo-art-in-colombia",
     languages: {
-      'es': '/es/tattoo-prices-colombia-vs-usa',
-      'en': '/en/tattoo-prices-colombia-vs-usa'
+      'es': '/es/history-of-tattoo-art-in-colombia',
+      'en': '/en/history-of-tattoo-art-in-colombia'
     }
   }
 };
@@ -100,7 +100,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-       <SixthBlog />
+       <EightBlog />
         <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
         <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">

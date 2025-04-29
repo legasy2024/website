@@ -59,6 +59,26 @@
       "date": "April 25, 2025",
       "cta": "Read more",
       "ctaUrl": "inclusive-tattoo-studios-in-colombia"
+    },
+    {
+      "label": "Process",
+      "slug": "remote-tattoo-process-colombia-from-usa",
+      "title": "Getting Tattooed in Colombia? Remote Collaboration Process with Colombian Artists from the USA",
+      "description": "Discover the complete step-by-step process for collaborating remotely with the best Colombian tattoo artists, from selecting your artist to planning your trip to Cali. A detailed guide to getting exceptional body art with a unique Colombian touch.",
+      "image": "/img/blog/post7.png",
+      "date": "April 29, 2025",
+      "cta": "Read more",
+      "ctaUrl": "remote-tattoo-process-colombia-from-usa"
+    },
+    {
+      "label": "History",
+      "slug": "history-of-tattoo-art-in-colombia",
+      "title": "Tattoos in Colombia: Fusion of History and Modernity",
+      "description": "Explore the fascinating journey of tattoo art in Colombia, from ancestral indigenous practices to innovative contemporary techniques. Discover how today's artists are reinterpreting this millenary cultural legacy, creating a unique style that's gaining worldwide recognition.",
+      "image": "/img/blog/post8.png",
+      "date": "April 30, 2025",
+      "cta": "Read more",
+      "ctaUrl": "history-of-tattoo-art-in-colombia"
     }
   ]
 }

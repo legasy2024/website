@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 
 
 //Components
-import SixthBlog from "@/components/blog/BlogDetail/SixthBlog/SixthBlog"
+import SevenBlog from "@/components/blog/BlogDetail/SevenBlog/SevenBlog"
 const DoYouWantToBe = dynamic(() => import("@/components/home/DoYouWantToBe/DoYouWantToBe"));
 const DoYouWantToWork = dynamic(() => import("@/components/common/DoYouWantToWork/DoYouWantToWork"));
 const BookConsult = dynamic(() => import("@/components/common/BookConsult/BookConsult"));
@@ -16,40 +16,40 @@ const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
 
 // Metadata en español
 const metadata = {
-  title: "Todo lo que Debes Saber sobre Precios de Tatuajes en Colombia vs. EE.UU.",
-  description: "Descubre la extraordinaria ventaja que ofrece Colombia, y particularmente Cali, cuando se trata de combinar calidad artística excepcional con precios sorprendentemente accesibles para tatuajes en comparación con Estados Unidos.",
-  keywords: "precios tatuajes colombia, tatuajes económicos colombia, comparativa precios tatuajes, tatuajes cali precios, ahorrar en tatuajes, tatuajes calidad precio, turismo de tatuajes, tatuajes estados unidos vs colombia, tatuajes baratos colombia, legassy studio precios",
+  title: "¿Tatuarse en Colombia? Proceso de Trabajo con Artistas Colombianos a Distancia desde EEUU",
+  description: "Descubre el paso a paso completo para colaborar a distancia con los mejores tatuadores colombianos, desde la selección del artista hasta tu viaje a Cali. Una guía detallada para conseguir arte corporal excepcional.",
+  keywords: "tatuajes colombia, proceso tatuaje a distancia, tattoo artists cali, tatuajes desde estados unidos, tatuajes internacionales, appointment tattoo studios colombia, legassy studio, tatuaje viaje colombia, consulta virtual tatuaje, artistas tatuadores colombianos",
   language: "es",
-  subject: "Comparativa de precios de tatuajes entre Colombia y Estados Unidos",
+  subject: "Guía para proceso de tatuaje a distancia con artistas colombianos",
   coverage: "Cali, Colombia",
   robots: "index, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/tattoo-prices-colombia-vs-usa",
+    canonical: "https://www.legassystudio.com/es/remote-tattoo-process-colombia-from-usa",
     languages: {
-      'es': '/es/tattoo-prices-colombia-vs-usa',
-      'en': '/en/tattoo-prices-colombia-vs-usa'
+      'es': '/es/remote-tattoo-process-colombia-from-usa',
+      'en': '/en/remote-tattoo-process-colombia-from-usa'
     }
   }
 };
 
 // Metadata en inglés
 const metadata_en = {
-  title: "Everything You Need to Know About Tattoo Prices in Colombia vs. USA",
-  description: "Discover the extraordinary advantage Colombia offers, particularly Cali, when it comes to combining exceptional artistic quality with surprisingly affordable prices for tattoos compared to the United States.",
-  keywords: "colombia tattoo prices, affordable tattoos colombia, tattoo price comparison, cali tattoo prices, save money on tattoos, tattoo value for money, tattoo tourism, usa vs colombia tattoos, cheap tattoos colombia, legassy studio prices",
+  title: "Getting Tattooed in Colombia? Remote Collaboration Process with Colombian Artists from the USA",
+  description: "Discover the complete step-by-step process for collaborating remotely with the best Colombian tattoo artists, from selecting your artist to planning your trip to Cali. A detailed guide to exceptional body art.",
+  keywords: "colombia tattoos, remote tattoo process, cali tattoo artists, tattoos from united states, international tattoos, appointment tattoo studios colombia, legassy studio, tattoo travel colombia, virtual tattoo consultation, colombian tattoo artists",
   language: "en",
-  subject: "Comparison of tattoo prices between Colombia and the United States",
+  subject: "Guide for remote tattoo process with Colombian artists",
   coverage: "Cali, Colombia",
   robots: "index, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/tattoo-prices-colombia-vs-usa",
+    canonical: "https://www.legassystudio.com/en/remote-tattoo-process-colombia-from-usa",
     languages: {
-      'es': '/es/tattoo-prices-colombia-vs-usa',
-      'en': '/en/tattoo-prices-colombia-vs-usa'
+      'es': '/es/remote-tattoo-process-colombia-from-usa',
+      'en': '/en/remote-tattoo-process-colombia-from-usa'
     }
   }
 };
@@ -100,7 +100,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-       <SixthBlog />
+       <SevenBlog />
         <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
         <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">
