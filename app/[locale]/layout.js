@@ -50,6 +50,11 @@ export default async function Layout({ children, params: { locale } }) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        {/* Ahrefs Site Verification */}
+        <meta 
+          name="ahrefs-site-verification" 
+          content="3d7eba9b40dbc368d69901cb93dc90d497e3fa66558cdc3120ccc8f2da6c29bf"
+        />
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
