@@ -64,6 +64,13 @@ export default async function Layout({ children, params: { locale } }) {
             `,
           }}
         />
+        {/* Ahrefs Analytics */}
+        <Script
+          id="ahrefs-analytics"
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="eKnA0CCNRBrH8RuXrQ94Ug"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={dm_sans.className}>
         {/* Google Tag Manager (noscript) */}
