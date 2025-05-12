@@ -38,12 +38,9 @@ const staggerChildren = {
   }
 };
 
-export default function ClientBlogDetail() {
+export default function ClientBlogDetail({ content }) {
   // Datos estáticos del post
   const post = {
-    label: "Turismo",
-    title: "Tatuarse en Colombia: Artistas de Tatuajes que Hablan Inglés en Cali",
-    date: "25 de abril de 2025",
     image: "/img/blog/tatuajes-cali-english.png"
   };
 
@@ -61,7 +58,7 @@ export default function ClientBlogDetail() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.4 }}
         >
-          {post.label}
+          {content.label}
         </motion.label>
 
         <motion.h1
@@ -70,7 +67,7 @@ export default function ClientBlogDetail() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          {post.title}
+          {content.title}
         </motion.h1>
 
         <motion.p
@@ -79,7 +76,7 @@ export default function ClientBlogDetail() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          {post.date}
+          {content.date}
         </motion.p>
 
         <motion.div
@@ -107,8 +104,8 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            ¿Estás planeando un viaje a Colombia y quieres llevarte un recuerdo permanente en tu piel? Este blog te servirá como guía práctica si buscas tatuarte en Colombia y necesitas comunicarte en inglés con total confianza. Destacaremos estudios y artistas que ofrecen una experiencia cómoda y fluida para turistas o extranjeros. En este contexto, Legassy Studio brilla como una de las mejores opciones, gracias a su equipo bilingüe, su enfoque internacional y su habilidad para conectar con clientes de todo el mundo sin barreras de idioma.
-          </motion.p>
+            {content.intro}
+            </motion.p>
 
           <motion.h2
             className="text-2xl font-bold mt-4 mb-4"
@@ -117,7 +114,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            1. La Ventaja del Inglés en la Experiencia del Tatuaje
+            {content.sections[0].title}
           </motion.h2>
 
           <motion.div
@@ -128,7 +125,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={talentImg}
-              alt="La Ventaja del Inglés en la Experiencia del Tatuaje"
+              alt={content.sections[0].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -142,7 +139,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            La comunicación es crucial cuando se trata de arte permanente en tu piel. Los mejores artistas de tatuajes en Cali que hablan inglés ofrecen:
+          {content.sections[0].paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -151,7 +148,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Consultas detalladas donde puedes expresar exactamente lo que deseas
+          {content.sections[0].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -160,7 +157,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Explicaciones claras sobre el proceso, cuidados y expectativas
+          {content.sections[0].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -169,7 +166,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Tranquilidad mental al saber que puedes comunicar cualquier preocupación durante la sesión
+          {content.sections[0].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -178,7 +175,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Recomendaciones personalizadas adaptadas a tus gustos y necesidades específicas
+          {content.sections[0].paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -187,7 +184,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            En Legassy Studio, el equipo no solo domina el inglés técnico relacionado con tatuajes, sino que está familiarizado con modismos y jerga internacional, lo que hace que la experiencia sea completamente fluida para visitantes de Estados Unidos, Europa, Australia y otros países anglófonos.
+          {content.sections[0].paragraphs[5]}
           </motion.p>
 
           <motion.div
@@ -198,7 +195,7 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
           >
             <Link href="https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos" className="bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors">
-              Pedir una Asesoría Personalizada Gratis
+            {content.sections[0].cta_button}
             </Link>
           </motion.div>
 
@@ -209,7 +206,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            2. Estudios Destacados con Artistas Bilingües en Cali
+          {content.sections[1].title}
           </motion.h2>
 
           <motion.div
@@ -220,7 +217,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={pricesImg}
-              alt="Estudios Destacados con Artistas Bilingües en Cali"
+              alt={content.sections[1].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -235,7 +232,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Legassy Studio: Experiencia Internacional sin Barreras
+           {content.sections[1].subtitle}
           </motion.h3>
 
           <motion.p
@@ -244,7 +241,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Legassy Studio se ha posicionado como el destino preferido para turistas internacionales gracias a:
+          {content.sections[1].paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -253,7 +250,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Equipo 100% bilingüe: Todos los artistas y personal de recepción dominan el inglés
+          {content.sections[1].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -262,7 +259,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Proceso de diseño colaborativo: Desde la concepción hasta la ejecución, toda la comunicación puede realizarse en inglés
+          {content.sections[1].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -271,7 +268,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Servicio de acompañamiento: Asistencia para turistas que incluye recomendaciones de hospedaje, transporte y actividades complementarias
+          {content.sections[1].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -280,7 +277,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Plataforma digital en inglés: Reservaciones, consultas y seguimiento disponibles completamente en inglés
+          {content.sections[1].paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -289,7 +286,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Certificaciones internacionales: Formación técnica y artística con estándares globales
+            {content.sections[1].paragraphs[5]}
           </motion.p>
 
           <motion.p
@@ -299,7 +296,7 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
             className="italic border-l-4 border-[#A14E05] pl-4 my-4"
           >
-            "Nunca pensé que podría discutir los detalles más finos de mi diseño con tanta facilidad en Colombia. El equipo de Legassy hizo que me sintiera como si estuviera en un estudio de Nueva York o Londres, pero con la calidez colombiana y a un precio increíble." — Sarah T., turista de Boston
+          {content.sections[1].paragraphs[6]}
           </motion.p>
 
           <motion.div
@@ -310,7 +307,7 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
           >
             <Link href="https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos" className="bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors">
-              Pedir una Asesoría Personalizada Gratis
+            {content.sections[1].cta_button}
             </Link>
           </motion.div>
 
@@ -321,7 +318,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            3. La Importancia de los Estándares Internacionales de Seguridad
+          {content.sections[2].title}
           </motion.h2>
 
           <motion.div
@@ -332,7 +329,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={hygieneImg}
-              alt="La Importancia de los Estándares Internacionales de Seguridad"
+              alt={content.sections[2].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -346,7 +343,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Los estudios de tatuajes en Cali con personal que habla inglés típicamente adhieren a protocolos de seguridad y sanitarios de nivel internacional, lo que incluye:
+          {content.sections[2].paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -355,7 +352,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Equipos esterilizados con estándares certificados internacionalmente
+          {content.sections[2].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -364,7 +361,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Agujas de un solo uso con sellado de fábrica
+          {content.sections[2].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -373,7 +370,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Tintas hipoalergénicas de marcas premium importadas
+          {content.sections[2].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -382,7 +379,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Protocolos de higiene explicados detalladamente en inglés
+            {content.sections[2].paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -391,7 +388,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Instrucciones de cuidado posterior disponibles en inglés
+          {content.sections[2].paragraphs[5]}
           </motion.p>
 
           <motion.p
@@ -400,7 +397,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Legassy Studio va más allá al ofrecer certificados de los materiales utilizados y explicaciones detalladas sobre su procedencia y composición, brindando tranquilidad adicional a clientes internacionales.
+          {content.sections[2].paragraphs[6]}
           </motion.p>
 
           <motion.div
@@ -417,7 +414,7 @@ export default function ClientBlogDetail() {
               className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45] text-white font-medium py-2 px-6 rounded-full hover:opacity-90 transition-opacity flex items-center gap-2"
             >
               <FaInstagram size={18} />
-              Ver Portafolio
+              {content.sections[2].cta_button_portfolio}
             </Link>
           </motion.div>
 
@@ -428,7 +425,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            4. Estilos Artísticos y Especializaciones Disponibles
+          {content.sections[3].title}
           </motion.h2>
 
           <motion.div
@@ -439,7 +436,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={experienceImg}
-              alt="Estilos Artísticos y Especializaciones Disponibles"
+              alt={content.sections[3].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -453,7 +450,16 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Los artistas bilingües en Cali ofrecen una impresionante variedad de estilos, muchos de ellos con influencia tanto de tendencias globales como de elementos culturales colombianos:
+           {content.sections[3].paragraphs[0]}
+           </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+          {content.sections[3].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -462,7 +468,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Realismo fotográfico: Perfectamente ejecutado con atención meticulosa al detalle
+          {content.sections[3].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -471,7 +477,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Neo-tradicional: Con influencias de la iconografía precolombina
+          {content.sections[3].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -480,7 +486,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Blackwork y puntillismo: Técnicas de precisión con inspiración en patrones indígenas
+          {content.sections[3].paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -489,7 +495,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Acuarela: Con la vibrante paleta de colores característica del paisaje colombiano
+          {content.sections[3].paragraphs[5]}
           </motion.p>
 
           <motion.p
@@ -498,16 +504,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Minimalismo y línea fina: Ejecución delicada con conceptos contemporáneos
-          </motion.p>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            En Legassy Studio, cada artista tiene un portafolio digital disponible en inglés donde puedes explorar sus especialidades y estilo único antes de tu visita.
+          {content.sections[3].paragraphs[6]}
           </motion.p>
 
           <motion.div
@@ -518,7 +515,7 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
           >
             <Link href="https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos" className="bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors">
-              Pedir una Asesoría Personalizada Gratis
+            {content.sections[1].cta_button}
             </Link>
           </motion.div>
 
@@ -529,7 +526,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            5. El Proceso: Reserva y Consulta en Inglés
+          {content.sections[4].title}
           </motion.h2>
 
           <motion.div
@@ -540,7 +537,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={caliImg}
-              alt="El Proceso: Reserva y Consulta en Inglés"
+              alt={content.sections[4].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -554,7 +551,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Para los visitantes internacionales, el proceso típico en Legassy Studio incluye:
+          {content.sections[4].paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -563,7 +560,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Consulta inicial online: Completamente disponible en inglés a través de WhatsApp, email o videollamada
+          {content.sections[4].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -572,7 +569,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Diseño colaborativo: Intercambio de ideas y referencias con comunicación clara
+            {content.sections[4].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -581,7 +578,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Reserva con depósito: Proceso sencillo con instrucciones detalladas en inglés
+          {content.sections[4].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -590,7 +587,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Sesión de tatuaje: Comunicación fluida durante todo el proceso
+          {content.sections[4].paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -599,7 +596,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Instrucciones de cuidado: Guía completa en inglés para el cuidado posterior
+          {content.sections[4].paragraphs[5]}
           </motion.p>
 
           <motion.p
@@ -609,7 +606,7 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
             className="italic border-l-4 border-[#A14E05] pl-4 my-4"
           >
-            "El proceso fue impecable desde el primer contacto. Pude explicar exactamente lo que quería, recibí actualizaciones constantes sobre mi diseño y durante la sesión me sentí completamente cómodo gracias a la facilidad de comunicación." — Michael L., turista canadiense
+          {content.sections[4].paragraphs[6]}
           </motion.p>
 
           <motion.h2
@@ -619,7 +616,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            6. Consideraciones Culturales: Lo Mejor de Dos Mundos
+          {content.sections[5].title}
           </motion.h2>
 
           <motion.div
@@ -630,7 +627,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={empanadasImg}
-              alt="Consideraciones Culturales: Lo Mejor de Dos Mundos"
+              alt={content.sections[5].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -644,7 +641,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Los artistas bilingües ofrecen una ventaja única: pueden traducir conceptos culturales colombianos y recomendarte diseños con significado local mientras mantienen una comunicación perfecta:
+          {content.sections[5].paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -653,7 +650,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Símbolos precolombinos con explicación de su significado histórico
+          {content.sections[5].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -662,7 +659,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Fauna y flora colombiana representada artísticamente
+          {content.sections[5].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -671,7 +668,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Elementos de la cultura urbana de Cali interpretados de forma contemporánea
+          {content.sections[5].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -680,7 +677,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Fusión de estilos internacionales con toques distintivamente colombianos
+          {content.sections[5].paragraphs[4]}
           </motion.p>
 
           <motion.h2
@@ -690,7 +687,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            7. Consejos Prácticos para tu Experiencia de Tatuaje en Cali
+          {content.sections[6].title}
           </motion.h2>
 
           <motion.div
@@ -701,7 +698,7 @@ export default function ClientBlogDetail() {
           >
             <Image
               src={salsaImg}
-              alt="Consejos Prácticos para tu Experiencia de Tatuaje en Cali"
+              alt={content.sections[6].image_alt}
               loading="lazy"
               fill
               className="object-cover rounded-md"
@@ -715,7 +712,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Para sacar el máximo provecho de tu experiencia con artistas bilingües:
+          {content.sections[6].paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -724,7 +721,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Reserva con anticipación: Los mejores artistas suelen tener agenda completa semanas o meses por adelantado
+          {content.sections[6].paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -733,7 +730,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Comparte referencias visuales: Imágenes dicen más que palabras, especialmente cuando trabajas con artistas internacionales
+          {content.sections[6].paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -742,7 +739,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Sé específico sobre tus expectativas: Aprovecha la ventaja del idioma para comunicar exactamente lo que deseas
+          {content.sections[6].paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -751,7 +748,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Pregunta sobre los precios con anticipación: Los estudios con artistas bilingües tienen precios transparentes y pueden darte un presupuesto detallado
+          {content.sections[6].paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -760,7 +757,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Considera combinar tu tatuaje con turismo local: Muchos estudios como Legassy pueden recomendarte experiencias complementarias
+          {content.sections[6].paragraphs[5]}
           </motion.p>
 
           <motion.div
@@ -771,7 +768,7 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
           >
             <Link href="https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos" className="bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors">
-              Pedir una Asesoría Personalizada Gratis
+            {content.sections[1].cta_button}
             </Link>
           </motion.div>
 
@@ -782,7 +779,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            ¿Por Qué Elegir Legassy Studio para tu Tatuaje en Colombia?
+          {content.conclusion_title}
           </motion.h2>
 
           <motion.p
@@ -791,7 +788,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Legassy Studio se distingue como la opción preferida para visitantes de habla inglesa por:
+          {content.conclusion_paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -800,7 +797,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Experiencia verdaderamente bilingüe: Comunicación sin esfuerzo desde el primer contacto
+          {content.conclusion_paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -809,7 +806,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Calidad artística de nivel mundial: Técnicas avanzadas y atención al detalle excepcional
+          {content.conclusion_paragraphs[2]}
           </motion.p>
 
           <motion.p
@@ -818,7 +815,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Precios accesibles con servicios premium: Una fracción del costo en comparación con estudios similares en países anglófonos
+          {content.conclusion_paragraphs[3]}
           </motion.p>
 
           <motion.p
@@ -827,7 +824,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Ubicación estratégica en Cali: Fácil acceso desde zonas turísticas y hoteles internacionales
+          {content.conclusion_paragraphs[4]}
           </motion.p>
 
           <motion.p
@@ -836,7 +833,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            • Reseñas excepcionales de clientes internacionales: Testimonios que respaldan la calidad de su servicio bilingüe
+           {content.conclusion_paragraphs[5]}
           </motion.p>
 
           <motion.h2
@@ -846,7 +843,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            ¡Da el Siguiente Paso!
+          {content.cta_final_title}
           </motion.h2>
 
           <motion.p
@@ -855,7 +852,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Estás a un paso de asegurar una experiencia de tatuaje excepcional durante tu visita a Colombia. Legassy Studio ofrece asesorías personalizadas gratuitas en inglés para responder todas tus preguntas y comenzar a planificar tu tatuaje perfecto.
+          {content.cta_final_paragraph}
           </motion.p>
 
           <section className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
@@ -867,7 +864,7 @@ export default function ClientBlogDetail() {
               transition={{ duration: 0.5 }}
             >
               <Link href="https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos" className="bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors">
-                Pedir una Asesoría Personalizada Gratis
+              {content.final_cta_buttons.whatsapp}
               </Link>
             </motion.div>
 
@@ -885,7 +882,7 @@ export default function ClientBlogDetail() {
                 className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45] text-white font-medium py-2 px-6 rounded-full hover:opacity-90 transition-opacity flex items-center gap-2"
               >
                 <FaInstagram size={18} />
-                Ver Instagram
+                {content.final_cta_buttons.instagram}
               </Link>
             </motion.div>
           </section>
@@ -896,7 +893,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            No dejes que las barreras del idioma te impidan llevarte un recuerdo artístico permanente de tu viaje a Colombia. Con los artistas bilingües de Cali, especialmente en Legassy Studio, puedes disfrutar de lo mejor del talento artístico colombiano con la comodidad de comunicarte en inglés durante todo el proceso.
+            {content.footer_paragraphs[0]}
           </motion.p>
 
           <motion.p
@@ -905,7 +902,7 @@ export default function ClientBlogDetail() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            ¡Vení a Cali y llevate más que un tatuaje... llevate una historia para toda la vida, contada en el idioma que mejor entiendes!
+           {content.footer_paragraphs[1]}
           </motion.p>
 
           <motion.p
@@ -915,8 +912,8 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
             className="mt-8 text-[#888] italic"
           >
-            ¿Tienes preguntas específicas sobre tatuarse en Colombia como turista de habla inglesa? ¡Déjalas en los comentarios y nuestro equipo te responderá en inglés o español!
-          </motion.p>
+           {content.footer_paragraphs[2]}
+           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -925,9 +922,9 @@ export default function ClientBlogDetail() {
             transition={{ duration: 0.5 }}
             className="bg-[#2a2a2a] p-4 rounded-md mt-4"
           >
-            <p className="font-medium mb-2">Información de contacto:</p>
-            <p>Ubicación: Cali, Colombia</p>
-            <p>Teléfono: +57 (312) 871-7100</p>
+            <p className="font-medium mb-2">{content.contact_info.title}</p>
+            <p>{content.contact_info.location}</p>
+            <p>{content.contact_info.phone}</p>
           </motion.div>
         </motion.div>
       </motion.div>

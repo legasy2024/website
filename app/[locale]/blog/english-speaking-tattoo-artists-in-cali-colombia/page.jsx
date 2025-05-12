@@ -5,6 +5,10 @@ import initTranslations from "@/i18n";
 import dynamic from "next/dynamic";
 
 
+//Translations
+import thirdBlogEs from "@/locales/es/thirdblog.json"
+import thirdBlogEn from "@/locales/en/thirdblog.json"
+
 //Components
 import ThirdBlog from "@/components/blog/BlogDetail/ThirdBlog/ThirdBlog"
 const DoYouWantToBe = dynamic(() => import("@/components/home/DoYouWantToBe/DoYouWantToBe"));
@@ -60,6 +64,8 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function Home({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
+  const thirdBlogContent = locale === "en" ? thirdBlogEn : thirdBlogEs;
+
   const DoYouWantToBeTranslations = {
     title: t("home:do_you_want_to_be.title"),
     title_decorator: t("home:do_you_want_to_be.title_decorator"),
@@ -98,7 +104,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-       <ThirdBlog />
+       <ThirdBlog content={thirdBlogContent} />
         <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
         <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">
