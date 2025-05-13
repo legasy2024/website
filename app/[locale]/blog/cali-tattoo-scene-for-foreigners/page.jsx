@@ -4,6 +4,9 @@ import TranslationsProvider from "@/TranslationsProvider";
 import initTranslations from "@/i18n";
 import dynamic from "next/dynamic";
 
+//Translations
+import forthBlogEs from "@/locales/es/forthblog.json"
+import forthBlogEn from "@/locales/en/forthblog.json"
 
 //Components
 import ForthBlog from "@/components/blog/BlogDetail/ForthBlog/ForthBlog"
@@ -62,6 +65,8 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function Home({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
+  const forthBlogContent = locale === "en" ? forthBlogEn : forthBlogEs;
+
   const DoYouWantToBeTranslations = {
     title: t("home:do_you_want_to_be.title"),
     title_decorator: t("home:do_you_want_to_be.title_decorator"),
@@ -100,7 +105,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-       <ForthBlog />
+       <ForthBlog content={forthBlogContent}/>
         <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
         <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">
