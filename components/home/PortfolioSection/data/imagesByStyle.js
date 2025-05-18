@@ -62,7 +62,7 @@ import punt8 from "../assets/puntillismo/punt8.jpg"
 export const imageByStyles = {
     'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16, realismo17],
     'surrealismo': [surrealismo1, surrealismo2, surrealismo3, surrealismo4],
-    "línea_fina": [lineaFina1, lineaFina2, lineaFina3, lineaFina4, lineaFina6, lineaFina7],
+    "linea_fina": [lineaFina1, lineaFina2, lineaFina3, lineaFina4, lineaFina6, lineaFina7],
     "microrealismo": [microrealismo1, microrealismo2, microrealismo3, microrealismo4, microrealismo5, microrealismo6, microrealismo7, microrealismo8, microrealismo9],
 /*     PUNTILLISMO: ["/images/puntillismo1.jpg", "/images/puntillismo2.jpg"], */
     "anime": [anime1, anime2, anime3, anime4, anime5, anime6],

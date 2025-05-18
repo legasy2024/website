@@ -4,47 +4,71 @@ import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import './TattooCarrousel.css';
 
-function TattooCarrousel({ selectedStyle }) {
-    // Convert selectedStyle to lowercase to ensure matching with keys
-    const normalizedStyle = selectedStyle ? selectedStyle.toLowerCase().replace(/\s+/g, '_') : '';
-    const defaultStyle = "realismo"; 
-    
-    // Try to get images for the selected style, fallback to default if not found
-    const images = imageByStyles[normalizedStyle] || imageByStyles[defaultStyle] || [];
-    const carouselRef = useRef(null);
-    
-    // Reset carousel position when style changes
-    useEffect(() => {
-        if (carouselRef.current) {
-            carouselRef.current.scrollLeft = 0;
-        }
-    }, [selectedStyle]);
+// ✅ Función para eliminar tildes
+function normalizeText(text) {
+  return text
+    ?.normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // Elimina tildes
+    .toLowerCase()
+    .replace(/\s+/g, "_"); // Reemplaza espacios por guiones bajos
+}
 
-    return (
-      <div 
-        ref={carouselRef}
-        className="w-full h-full flex mt-8 gap-4 overflow-x-auto py-4 gap-x-8 custom-scrollbar"
-      >
-        {images.map((src, index) => (
-          <motion.div
-            key={`${normalizedStyle || defaultStyle}-${index}`}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="flex-shrink-0 w-[340px] h-[430px] relative rounded-lg shadow-md overflow-hidden"
-          >
-            <Image
-              src={src} 
-              alt={`${normalizedStyle || defaultStyle} tattoo ${index + 1}`} 
-              fill={true}
-              sizes="340px"
-              priority={index < 3} // Only prioritize first 3 images
-              className="object-contain" // Use object-contain to preserve aspect ratio
-            />
-          </motion.div>
-        ))}
-      </div>
-    );
+// ✅ Mapeo de todos los estilos posibles a sus claves en imageByStyles
+const styleKeyMap = {
+  realism: "realismo",
+  surrealism: "surrealismo",
+  fine_line: "linea_fina",
+  microrealism: "microrealismo",
+  anime: "anime",
+  pointillism: "puntillismo",
+  realismo: "realismo",
+  surrealismo: "surrealismo",
+  linea_fina: "linea_fina",
+  microrealismo: "microrealismo",
+  puntillismo: "puntillismo"
+};
+
+function TattooCarrousel({ selectedStyle }) {
+  const defaultStyle = "realismo";
+
+  // ✅ Normalizamos y mapeamos el estilo
+  const normalizedInput = normalizeText(selectedStyle);
+  const normalizedStyle = styleKeyMap[normalizedInput] || defaultStyle;
+
+  const images = imageByStyles[normalizedStyle] || [];
+  const carouselRef = useRef(null);
+
+  useEffect(() => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollLeft = 0;
+    }
+  }, [normalizedStyle]);
+
+  return (
+    <div
+      ref={carouselRef}
+      className="w-full h-full flex mt-8 gap-4 overflow-x-auto py-4 gap-x-8 custom-scrollbar"
+    >
+      {images.map((src, index) => (
+        <motion.div
+          key={`${normalizedStyle}-${index}`}
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex-shrink-0 w-[340px] h-[430px] relative rounded-lg shadow-md overflow-hidden"
+        >
+          <Image
+            src={src}
+            alt={`${normalizedStyle} tattoo ${index + 1}`}
+            fill={true}
+            sizes="340px"
+            priority={index < 3}
+            className="object-contain"
+          />
+        </motion.div>
+      ))}
+    </div>
+  );
 }
 
 export default TattooCarrousel;
