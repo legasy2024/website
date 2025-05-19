@@ -1,27 +1,31 @@
 /* Realismo */
-import realismo1 from "../assets/realismo/realismo1.JPG"
-import realismo2 from "../assets/realismo/realismo2.png"
+import realismo1 from "../assets/realismo/realismo1.jpg"
+import realismo2 from "../assets/realismo/realismo2.JPG"
 import realismo3 from "../assets/realismo/realismo3.JPG"
-import realismo4 from "../assets/realismo/realismo4.JPEG"
-import realismo5 from "../assets/realismo/realismo5.JPG"
-import realismo6 from "../assets/realismo/realismo6.JPG"
+import realismo4 from "../assets/realismo/realismo4.JPG"
+import realismo5 from "../assets/realismo/realismo5.jpg"
+import realismo6 from "../assets/realismo/realismo6.JPEG"
 import realismo7 from "../assets/realismo/realismo7.JPEG"
 import realismo8 from "../assets/realismo/realismo8.JPG"
 import realismo9 from "../assets/realismo/realismo9.JPG"
-import realismo10 from "../assets/realismo/realismo10.JPG"
-import realismo11 from "../assets/realismo/realismo11.png"
-import realismo12 from "../assets/realismo/realismo12.JPG"
-import realismo13 from "../assets/realismo/realismo13.JPG"
+import realismo10 from "../assets/realismo/realismo10.jpg"
+import realismo11 from "../assets/realismo/realismo11.JPEG"
+import realismo12 from "../assets/realismo/realismo12.JPEG"
+import realismo13 from "../assets/realismo/realismo13.jpg"
 import realismo14 from "../assets/realismo/realismo14.JPG"
-import realismo15 from "../assets/realismo/realismo15.JPG"
-import realismo16 from "../assets/realismo/realismo16.png"
-import realismo17 from "../assets/realismo/realismo17.JPG"
+import realismo15 from "../assets/realismo/realismo15.jpg"
+import realismo16 from "../assets/realismo/realismo16.JPEG"
 
 /* Surrealismo */
-import surrealismo1 from "../assets/surrealismo/surrealismo1.png"
+import surrealismo1 from "../assets/surrealismo/surrealismo1.jpg"
 import surrealismo2 from "../assets/surrealismo/surrealismo2.JPEG"
 import surrealismo3 from "../assets/surrealismo/surrealismo3.JPEG"
 import surrealismo4 from "../assets/surrealismo/surrealismo4.JPEG"
+import surrealismo5 from "../assets/surrealismo/surrealismo5.JPEG"
+import surrealismo6 from "../assets/surrealismo/surrealismo6.JPG"
+import surrealismo7 from "../assets/surrealismo/surrealismo7.JPEG"
+import surrealismo8 from "../assets/surrealismo/surrealismo8.JPEG"
+import surrealismo9 from "../assets/surrealismo/surrealismo9.JPEG"
 
 /* Linea Fina */
 import lineaFina1 from "../assets/linea-fina/lineaFina1.JPEG"
@@ -60,8 +64,8 @@ import punt7 from "../assets/puntillismo/punt7.JPG"
 import punt8 from "../assets/puntillismo/punt8.jpg"
 
 export const imageByStyles = {
-    'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16, realismo17],
-    'surrealismo': [surrealismo1, surrealismo2, surrealismo3, surrealismo4],
+    'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16],
+    'surrealismo': [surrealismo1, surrealismo2, surrealismo3, surrealismo4, surrealismo5, surrealismo6, surrealismo7, surrealismo8, surrealismo9],
     "linea_fina": [lineaFina1, lineaFina2, lineaFina3, lineaFina4, lineaFina6, lineaFina7],
     "microrealismo": [microrealismo1, microrealismo2, microrealismo3, microrealismo4, microrealismo5, microrealismo6, microrealismo7, microrealismo8, microrealismo9],
 /*     PUNTILLISMO: ["/images/puntillismo1.jpg", "/images/puntillismo2.jpg"], */

@@ -20,12 +20,18 @@ function Footer({ translations }) {
           </p>
         </span>
         <span className="flex flex-row gap-x-3">
-          <figure className="p-4 bg-white/10 rounded-full">
-            <Image src={logoIg} width={20} height={20} alt="social icon" />
-          </figure>
-          <figure className="p-4 bg-white/10 rounded-full">
-            <Image src={logoTiktok} width={20} height={20} alt="social icon" />
-          </figure>
+          <a href="https://www.instagram.com/legassystudio/" target="_blank" className="cursor-pointer" rel="noopener noreferrer">
+            <figure className="p-4 bg-white/10 rounded-full">
+              <Image src={logoIg} width={20} height={20} alt="social icon" />
+            </figure>
+          </a>
+
+          <a href="https://www.tiktok.com/@legassystudio" target="_blank" className="cursor-pointer"  rel="noopener noreferrer">
+            <figure className="p-4 bg-white/10 rounded-full">
+              <Image src={logoTiktok} width={20} height={20} alt="social icon" />
+            </figure>
+          </a>
+
         </span>
       </div>
     </footer>

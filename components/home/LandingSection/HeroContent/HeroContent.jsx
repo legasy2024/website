@@ -105,7 +105,7 @@ function HeroContent( { translations } ) {
       
       <div className="flex flex-col items-center justify-center p-5 mb-52 -mt-10 lg:mb-0">
         <motion.h1 
-          className="bg-gradient-to-b from-white to-[#989898] text-transparent bg-clip-text text-3xl sm:text-4xl md:text-5xl p-1"
+          className="bg-gradient-to-b from-white to-[#989898] text-transparent bg-clip-text text-2xl   md:text-5xl p-1"
           initial="hidden"
           animate="visible"
           variants={titleVariants}
@@ -113,8 +113,9 @@ function HeroContent( { translations } ) {
           {translations.hero_title}
         </motion.h1>
         
+
         <motion.h2 
-          className={`text-[#D8CDBC] text-4xl min-[400px]:text-5xl sm:text-7xl md:text-8xl mb-4 ${eagleFont.className}`}
+          className={`text-[#D8CDBC]  text-[40px]  md:text-8xl mb-4 ${eagleFont.className}`}
           initial="hidden"
           animate="visible"
           variants={subtitleVariants}
