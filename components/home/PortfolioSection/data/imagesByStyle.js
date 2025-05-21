@@ -29,10 +29,9 @@ import surrealismo9 from "../assets/surrealismo/surrealismo9.JPEG"
 
 /* Linea Fina */
 import lineaFina1 from "../assets/linea-fina/lineaFina1.JPEG"
-import lineaFina2 from "../assets/linea-fina/lineaFina2.JPEG"
 import lineaFina3 from "../assets/linea-fina/lineaFina3.JPEG"
 import lineaFina4 from "../assets/linea-fina/lineaFina4.JPEG"
-import lineaFina6 from "../assets/linea-fina/lineaFina6.JPEG"
+import lineaFina5 from "../assets/linea-fina/lineaFina5.jpg"
 import lineaFina7 from "../assets/linea-fina/lineaFina7.JPEG"
 
 /* Microrealismo */
@@ -66,7 +65,7 @@ import punt8 from "../assets/puntillismo/punt8.jpg"
 export const imageByStyles = {
     'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16],
     'surrealismo': [surrealismo1, surrealismo2, surrealismo3, surrealismo4, surrealismo5, surrealismo6, surrealismo7, surrealismo8, surrealismo9],
-    "linea_fina": [lineaFina1, lineaFina2, lineaFina3, lineaFina4, lineaFina6, lineaFina7],
+    "linea_fina": [lineaFina7, lineaFina5, lineaFina3, lineaFina4, lineaFina1],
     "microrealismo": [microrealismo1, microrealismo2, microrealismo3, microrealismo4, microrealismo5, microrealismo6, microrealismo7, microrealismo8, microrealismo9],
 /*     PUNTILLISMO: ["/images/puntillismo1.jpg", "/images/puntillismo2.jpg"], */
     "anime": [anime1, anime2, anime3, anime4, anime5, anime6],
