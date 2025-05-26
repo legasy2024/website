@@ -26,6 +26,7 @@ const styleKeyMap = {
   linea_fina: "linea_fina",
   microrealismo: "microrealismo",
   puntillismo: "puntillismo",
+  free_style: "libre",
   libre: "libre",
 };
 
