@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react'
 import Header from './Header'
 import Images from './Images'
 
-const tattooStylesEs = ["REALISMO", "SURREALISMO", "LÍNEA FINA", "MICROREALISMO", "ANIME", "PUNTILLISMO"];
-const tattooStylesEn = ["REALISM", "SURREALISM", "FINE LINE", "MICROREALISM", "ANIME" ,"POINTILLISM"];
+const tattooStylesEs = ["REALISMO", "SURREALISMO", "LÍNEA FINA", "MICROREALISMO", "ANIME", "PUNTILLISMO", "LIBRE"];
+const tattooStylesEn = ["REALISM", "SURREALISM", "FINE LINE", "MICROREALISM", "ANIME" ,"POINTILLISM", "FREE-STYLE"];
 
 const styleTranslation = {
   REALISM: "REALISMO",
@@ -14,6 +14,7 @@ const styleTranslation = {
   MICROREALISM: "MICROREALISMO",
   ANIME: "ANIME",
   POINTILLISM: "PUNTILLISMO",
+  LIBRE: "LIBRE",
 };
 
 function getLanguage() {

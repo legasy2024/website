@@ -159,7 +159,7 @@ function MemberCards() {
                 />
               </div>
               <label
-                className={`py-1 px-4 mt-5 md:mt-1 sm:px-2 md:px-4 text-xs md:text-sm text-TextSecondary-100 border rounded-full min-h-6 flex items-center justify-center ${
+                className={`py-1  text-center mt-5 md:mt-1 px-2 text-[10px]  text-TextSecondary-100 border rounded-lg min-h-6 flex items-center justify-center ${
                   art ? "border-[#C4C4C4]" : "border-transparent"
                 }`}
               >
@@ -169,7 +169,7 @@ function MemberCards() {
               <figcaption className="text-white font-bold text-base sm:text- md:text-lg text-center">
                 {name}
               </figcaption>
-              <p className="text-TextSecondary-100 -mt-3 mb-3 text-xs sm:text-sm md:text-base text-center">
+              <p className="text-slate-400 -mt-3 mb-3 text-xs sm:text-sm md:text-base text-center">
                 {position}
               </p>
             </figure>

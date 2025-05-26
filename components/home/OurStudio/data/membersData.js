@@ -3,6 +3,10 @@ import pabloImg from '../assets/pabloOrdonez.png';
 import miguelImg from '../assets/miguelRaigoza.png';
 import nathalia from '../assets/nathaliaPerez.png';
 import paolaImg from '../assets/paolaMarin.png'
+import angelImg from '../assets/angel.png';
+import mapacheImg from '../assets/mapache.png';
+import manuelImg from '../assets/manuel.png';
+
 
 export const membersDataEs = [
     {
@@ -48,6 +52,34 @@ export const membersDataEs = [
         position: "Recepcionista",
         img: paolaImg,
         alt: "Paola Marin",
+        lang: "es",
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Ángel",
+        art: "Realismo Sombra",
+        position: "Tatuador",
+        img: angelImg,
+        alt: "Ángel",
+        lang: "es",
+
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Mapache",
+        art: "Microrealismo y Linea Fina",
+        position: "Tatuador",   
+        img: mapacheImg,
+        alt: "Mapache",
+        lang: "es",
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Manuel",
+        art: "Realismo Sombra y Color",
+        position: "Tatuador",
+        img: manuelImg,
+        alt: "Manuel",
         lang: "es",
     }
 ]

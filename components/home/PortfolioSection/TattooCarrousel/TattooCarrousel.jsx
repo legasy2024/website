@@ -25,7 +25,8 @@ const styleKeyMap = {
   surrealismo: "surrealismo",
   linea_fina: "linea_fina",
   microrealismo: "microrealismo",
-  puntillismo: "puntillismo"
+  puntillismo: "puntillismo",
+  libre: "libre",
 };
 
 function TattooCarrousel({ selectedStyle }) {

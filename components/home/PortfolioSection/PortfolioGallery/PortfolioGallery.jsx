@@ -11,22 +11,20 @@ const styleTranslation = {
   MICROREALISM: "MICROREALISMO",
   ANIME: "ANIME",
   POINTILLISM: "PUNTILLISMO",
-};
-
-// Reverse mapping for translating from Spanish to English
-const reverseStyleTranslation = {
   "REALISMO": "REALISM",
   "SURREALISMO": "SURREALISM",
   "LÍNEA FINA": "FINE LINE",
   "MICROREALISMO": "MICROREALISM",
   "ANIME": "ANIME",
   "PUNTILLISMO": "POINTILLISM",
+  "FREE-STYLE": "LIBRE",
 };
+
 
 function PortfolioGallery({ locale }) {
   const tattooStyles = locale === "en" 
-    ? ["REALISM", "SURREALISM", "FINE LINE", "MICROREALISM", "ANIME", "POINTILLISM"]
-    : ["REALISMO", "SURREALISMO", "LÍNEA FINA", "MICROREALISMO", "ANIME", "PUNTILLISMO"];
+    ? ["REALISM", "SURREALISM", "FINE LINE", "MICROREALISM", "ANIME", "POINTILLISM", "FREE-STYLE"]
+    : ["REALISMO", "SURREALISMO", "LÍNEA FINA", "MICROREALISMO", "ANIME", "PUNTILLISMO", "LIBRE"];
 
   const [selectedStyle, setSelectedStyle] = useState(tattooStyles[0]);
 
