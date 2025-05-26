@@ -46,7 +46,7 @@ import microrealismo8 from "../assets/microrealismo/micro8.JPEG"
 import microrealismo9 from "../assets/microrealismo/micro9.JPEG"
 
 /* Anime */
-import anime1 from "../assets/anime/anime1.JGP"
+import anime1 from "../assets/anime/anime1.JPG"
 import anime2 from "../assets/anime/anime2.JPG"
 import anime3 from "../assets/anime/anime3.JPG"
 import anime4 from "../assets/anime/anime4.JPG"
