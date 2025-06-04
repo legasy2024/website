@@ -6,12 +6,45 @@ import TestimonialCard from "./TestimonialCard/TestimonialCard";
 import "./Testimonials.css";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 
-const DURATION = 5000; // 10 segundos por testimonio
+const DURATION = 5000; // 5 segundos por testimonio
 
-function getCookie(name) {
-  if (typeof document === "undefined") return "es"; // Default en SSR
-  const match = document.cookie.match(new RegExp("(^| )" + name + "=([^;]+)"));
-  return match ? match[2] : "es"; // Idioma por defecto: español
+function getCurrentLocale() {
+  if (typeof window === "undefined") return "es"; // Default en SSR
+  
+  // Method 1: Check URL pathname
+  const pathname = window.location.pathname;
+  if (pathname.startsWith('/en')) return "en";
+  if (pathname.startsWith('/es')) return "es";
+  
+  // Method 2: Check for NEXT_LOCALE cookie (Next.js default)
+  const cookies = document.cookie.split(';');
+  const localeCookie = cookies.find(cookie => 
+    cookie.trim().startsWith('NEXT_LOCALE=')
+  );
+  if (localeCookie) {
+    return localeCookie.split('=')[1].trim();
+  }
+  
+  // Method 3: Check for other common locale cookies
+  const commonCookies = ['locale', 'lang', 'language'];
+  for (const cookieName of commonCookies) {
+    const cookie = cookies.find(c => c.trim().startsWith(`${cookieName}=`));
+    if (cookie) {
+      const value = cookie.split('=')[1].trim();
+      if (value === 'en' || value === 'es') return value;
+    }
+  }
+  
+  // Method 4: Check localStorage
+  try {
+    const storedLocale = localStorage.getItem('locale') || localStorage.getItem('language');
+    if (storedLocale === 'en' || storedLocale === 'es') return storedLocale;
+  } catch (e) {
+    // localStorage might not be available
+  }
+  
+  // Default fallback
+  return "es";
 }
 
 function Testimonials() {
@@ -21,10 +54,37 @@ function Testimonials() {
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: false, amount: 0.3 });
 
-  // Leer el idioma desde la cookie cuando se carga la página
+  // Detect locale on mount and when URL changes
   useEffect(() => {
-    setCurrentLocale(getCookie("NEXT_LOCALE"));
+    const detectLocale = () => {
+      const locale = getCurrentLocale();
+      setCurrentLocale(locale);
+    };
+    
+    detectLocale();
+    
+    // Listen for URL changes (for client-side navigation)
+    const handleLocationChange = () => {
+      detectLocale();
+    };
+    
+    // Listen for popstate events (back/forward navigation)
+    window.addEventListener('popstate', handleLocationChange);
+    
+    // Optional: Listen for custom locale change events
+    window.addEventListener('localeChange', handleLocationChange);
+    
+    return () => {
+      window.removeEventListener('popstate', handleLocationChange);
+      window.removeEventListener('localeChange', handleLocationChange);
+    };
   }, []);
+
+  // Reset currentIndex when locale changes
+  useEffect(() => {
+    setCurrentIndex(0);
+    setProgress(0);
+  }, [currentLocale]);
 
   // Escoger los datos correctos según el idioma
   const testimonialsData = currentLocale === "en" ? testimonialsDataEn : testimonialsDataEs;
@@ -88,7 +148,7 @@ function Testimonials() {
       <motion.div className="z-10 w-full flex flex-col justify-center items-center">
         <AnimatePresence mode="wait">
           <motion.div
-            key={testimonialsData[currentIndex].id}
+            key={`${testimonialsData[currentIndex].id}-${currentLocale}`}
             variants={cardVariants}
             initial="hidden"
             animate="visible"
