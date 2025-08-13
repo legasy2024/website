@@ -14,7 +14,9 @@ import "@/globals.css";
 // Fonts
 const dm_sans = DM_Sans({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900', '1000']
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
+  display: 'swap',
+  preload: true,
 });
 
 // Components

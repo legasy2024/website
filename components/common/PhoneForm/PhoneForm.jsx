@@ -31,8 +31,8 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
     // Remove any non-digit characters
     const inputValue = e.target.value.replace(/\D/g, '');
     
-    // Limit to 9 digits maximum
-    const limitedValue = inputValue.slice(0, 9);
+    // Limit to 11 digits maximum (changed from 9)
+    const limitedValue = inputValue.slice(0, 11);
     
     setPhoneNumber(limitedValue);
     
@@ -108,7 +108,7 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
           placeholder="(000)-000-0000"
           value={phoneNumber}
           onChange={handlePhoneChange}
-          maxLength={9}
+          maxLength={11}
           disabled={loading}
         />
 
