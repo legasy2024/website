@@ -11,6 +11,10 @@ import pensilvaniaImg1 from "./assets/pensilvania1.png";
 import pensilvaniaImg2 from "./assets/pensilvania2.png";
 import luisianaImg1 from "./assets/luisiana1.png";
 import luisianaImg2 from "./assets/luisiana2.png";
+import newyorkImg1 from "./assets/newyork1.png";
+import newyorkImg2 from "./assets/newyork2.jpg";
+import nolanImg from "./assets/nolan.jpg";
+import nolamImg2 from "./assets/nolan2.JPEG";
 
 import localFont from "next/font/local";
 
@@ -50,6 +54,22 @@ function OurStories({ translations }) {
       paragraph1: translations.paragraph_1_luisiana,
       paragraph2: translations.paragraph_2_luisiana,
     },
+    {
+      img1: nolanImg,
+      img2: nolamImg2,
+      id: crypto.randomUUID(),
+      city: "New York",
+      paragraph1: translations.paragraph_1_newyork,
+      paragraph2: translations.paragraph_2_newyork,
+    },
+    {
+      img1: newyorkImg1,
+      img2: newyorkImg2,
+      id: crypto.randomUUID(),
+      city: "New York",
+      paragraph1: translations.paragraph_1_newyork_2,
+      paragraph2: translations.paragraph_2_newyork_2,
+    }
   ];
 
   // Animation variants

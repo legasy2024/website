@@ -67,17 +67,13 @@ const Timeline = ({ translations }) => {
     };
 
     return (
-        <div className="w-full max-w-7xl relative mx-auto px-4 sm:px-6 md:px-8 pt-12 bg-[#EDEDED]">
+        <div className="w-full  max-w-7xl relative mx-auto px-4 sm:px-6 md:px-8 pt-12 bg-[#EDEDED]">
 
             <Image src={bg_decoration} alt="Background decoration" loading='lazy' className="absolute  w-[500px] object-contain left-0 bottom-0 opacity-10" />
 
             {/* Title section */}
             <motion.div
-                ref={titleRef}
-                className="mb-16 hidden md:block"
-                variants={containerVariants}
-                initial="hidden"
-                animate={titleControls}
+                className="hidden md:block mb-8 "
             >
                 <motion.h2
                     className="text-3xl md:text-4xl font-semibold flex flex-row items-end text-left"

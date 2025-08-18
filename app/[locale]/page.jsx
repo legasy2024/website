@@ -104,6 +104,11 @@ export default async function Home({ params: { locale } }) {
     city_luisiana: t("home:our_stories.stories.2.city_luisiana"),
     paragraph_1_luisiana: t("home:our_stories.stories.2.paragraph_1_luisiana"),
     paragraph_2_luisiana: t("home:our_stories.stories.2.paragraph_2_luisiana"),
+    city_newyork: t("home:our_stories.stories.3.city_newyork"),
+    paragraph_1_newyork: t("home:our_stories.stories.3.paragraph_1_newyork"),
+    paragraph_2_newyork: t("home:our_stories.stories.3.paragraph_2_newyork"),
+    paragraph_1_newyork_2: t("home:our_stories.stories.4.paragraph_1_newyork_2"),
+    paragraph_2_newyork_2: t("home:our_stories.stories.4.paragraph_2_newyork_2"),
     cta: t("home:our_stories.cta"),
   }
 

@@ -7,6 +7,7 @@ import angelImg from '../assets/angel.png';
 import mapacheImg from '../assets/mapache.png';
 import manuelImg from '../assets/manuel.png';
 import jeffImg from '../assets/jeff.png';
+import kenjiImg from '../assets/kenji.png';
 
 
 export const membersDataEs = [
@@ -35,6 +36,15 @@ export const membersDataEs = [
         position: "Tatuadora",
         img: nathalia,
         alt: "Nathalia Perez",
+        lang: "es",
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Kenji",
+        art: "Realismo",
+        position: "Tatuador",
+        img: kenjiImg,
+        alt:"Kenji",
         lang: "es",
     },
     {
@@ -129,6 +139,15 @@ export const membersDataEn = [
         position: "Tattoo Artist",
         img: angelImg,
         alt:"Ángel",
+        lang: "en",
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Kenji",
+        art: "Realism",
+        position: "Tattoo Artist",
+        img: kenjiImg,
+        alt:"Kenji",
         lang: "en",
     },
     {

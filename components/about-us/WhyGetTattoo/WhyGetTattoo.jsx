@@ -13,6 +13,9 @@ import carr1 from "../assets/carrousel1.png";
 import carr2 from "../assets/carrousel2.png";
 import carr3 from "../assets/carrousel3.png";
 import carr4 from "../assets/carrousel4.png";
+import carr5 from "../assets/carrousel5.png";
+import carr6 from "../assets/carrousel6.png";
+import carr7 from "../assets/carrousel8.png";
 
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
@@ -28,6 +31,9 @@ const carrouselImages = [
   { id: crypto.randomUUID(), src: carr2, alt: "carrousel image 2" },
   { id: crypto.randomUUID(), src: carr3, alt: "carrousel image 3" },
   { id: crypto.randomUUID(), src: carr4, alt: "carrousel image 4" },
+  { id: crypto.randomUUID(), src: carr5, alt: "carrousel image 5" },
+  { id: crypto.randomUUID(), src: carr6, alt: "carrousel image 6" },
+  { id: crypto.randomUUID(), src: carr7, alt: "carrousel image 7" }
 ];
 
 // Animation variants
@@ -267,7 +273,7 @@ const WhyGetTattoo = ({ translations }) => {
             repeat: Infinity,
             repeatType: "loop",
             ease: "linear",
-            duration: 30,
+            duration: 90, 
           }}
         >
           {[...carrouselImages, ...carrouselImages].map(
