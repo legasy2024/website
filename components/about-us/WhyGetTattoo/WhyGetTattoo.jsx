@@ -36,6 +36,8 @@ const carrouselImages = [
   { id: crypto.randomUUID(), src: carr7, alt: "carrousel image 7" }
 ];
 
+const Hey = ""
+
 // Animation variants
 const titleVariants = {
   hidden: { opacity: 0, y: -20 },

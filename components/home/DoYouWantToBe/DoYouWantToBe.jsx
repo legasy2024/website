@@ -135,7 +135,7 @@ function DoYouWantToBe({ translations }) {
                   }
                 }
               }}
-              href="https://wa.me/message/XGIYHXPQU2JMA1?text=Hola!%20Vengo%20de%20la%20pagina%20web%2C%20quisiera%20tener%20mas%20informacion"
+              href="https://wa.me/3103110611?text=Hola!%20Vengo%20de%20la%20pagina%20web%2C%20quisiera%20tener%20mas%20informacion"
               target="_blank"
             >
               <Button className="px-2  z-10">

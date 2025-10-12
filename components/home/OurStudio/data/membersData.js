@@ -59,15 +59,6 @@ export const membersDataEs = [
     },
     {
         id: crypto.randomUUID(),
-        name: "Mapache",
-        art: "Microrealismo y Línea Fina",
-        position: "Tatuador",   
-        img: mapacheImg,
-        alt: "Mapache",
-        lang: "es",
-    },
-    {
-        id: crypto.randomUUID(),
         name: "Manuel",
         art: "Realismo Sombra y Color",
         position: "Tatuador",
@@ -148,15 +139,6 @@ export const membersDataEn = [
         position: "Tattoo Artist",
         img: kenjiImg,
         alt:"Kenji",
-        lang: "en",
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Mapache",
-        art: "Microrealism and Fine Line",
-        position: "Tattoo Artist",   
-        img: mapacheImg,
-        alt:"Mapache",
         lang: "en",
     },
     {

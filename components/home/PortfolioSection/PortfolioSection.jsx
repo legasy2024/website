@@ -66,7 +66,7 @@ function PortfolioSection({ translations, locale }) {
           className="mt-20"
           href={locale === 'en' 
             ? "https://wa.me/message/XGIYHXPQU2JMA1?text=Hello!%20I'm%20coming%20from%20the%20website%2C%20I%20would%20like%20more%20information" 
-            : "https://wa.me/message/XGIYHXPQU2JMA1?text=Hola!%20Vengo%20de%20la%20pagina%20web%2C%20quisiera%20tener%20mas%20informacion"}
+            : "https://wa.me/3103110611?text=Hola!%20Vengo%20de%20la%20pagina%20web%2C%20quisiera%20tener%20mas%20informacion"}
           target="_blank"
         >
           <CtaButton text={translations.cta_label} buttonText={translations.cta} />

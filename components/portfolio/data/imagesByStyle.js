@@ -15,6 +15,17 @@ import realismo13 from "../assets/realismo/realismo13.JPG"
 import realismo14 from "../assets/realismo/realismo14.JPG"
 import realismo15 from "../assets/realismo/realismo15.JPG"
 import realismo16 from "../assets/realismo/realismo16.JPEG"
+import realismo17 from "../assets/realismo/realismo17.jpg"
+import realismo18 from "../assets/realismo/realismo18.jpg"
+import realismo19 from "../assets/realismo/realismo19.jpg"
+import realismo20 from "../assets/realismo/realismo20.jpg"
+import realismo21 from "../assets/realismo/realismo21.JPEG"
+import realismo22 from "../assets/realismo/realismo22.JPEG"
+import realismo23 from "../assets/realismo/realismo23.JPEG"
+import realismo24 from "../assets/realismo/realismo24.JPG"
+import realismo25 from "../assets/realismo/realismo25.jpg"
+import realismo26 from "../assets/realismo/realismo26.jpg"
+import realismo27 from "../assets/realismo/realismo27.jpg"
 
 /* Surrealismo */
 import surrealismo1 from "../assets/surrealismo/surrealismo1.jpg"
@@ -33,6 +44,23 @@ import lineaFina3 from "../assets/linea-fina/lineaFina3.JPEG"
 import lineaFina4 from "../assets/linea-fina/lineaFina4.JPEG"
 import lineaFina5 from "../assets/linea-fina/lineaFina5.jpg"
 import lineaFina7 from "../assets/linea-fina/lineaFina7.JPEG"
+import lineaFina8 from "../assets/linea-fina/lineaFina8.jpg"
+import lineaFina9 from "../assets/linea-fina/lineaFina9.jpg"
+import lineaFina10 from "../assets/linea-fina/lineaFina10.jpg"
+import lineaFina11 from "../assets/linea-fina/lineaFina11.jpg"
+import lineaFina12 from "../assets/linea-fina/lineaFina12.jpg"
+import lineaFina13 from "../assets/linea-fina/lineaFina13.jpg"
+import lineaFina14 from "../assets/linea-fina/lineaFina14.jpg"
+import lineaFina15 from "../assets/linea-fina/lineaFina15.jpg"
+import lineaFina16 from "../assets/linea-fina/lineaFina16.jpg"
+import lineaFina17 from "../assets/linea-fina/lineaFina17.jpg"
+import lineaFina18 from "../assets/linea-fina/lineaFina18.jpg"
+import lineaFina19 from "../assets/linea-fina/lineaFina19.jpg"
+import lineaFina20 from "../assets/linea-fina/lineaFina20.jpg"
+import lineaFina21 from "../assets/linea-fina/lineaFina21.jpg"
+import lineaFina22 from "../assets/linea-fina/lineaFina22.jpg"
+import lineaFina23 from "../assets/linea-fina/lineaFina23.jpg"
+
 
 /* Microrealismo */
 import microrealismo1 from "../assets/microrealismo/micro1.JPG"
@@ -44,6 +72,7 @@ import microrealismo6 from "../assets/microrealismo/micro6.JPG"
 import microrealismo7 from "../assets/microrealismo/micro7.JPEG"
 import microrealismo8 from "../assets/microrealismo/micro8.JPEG"
 import microrealismo9 from "../assets/microrealismo/micro9.JPEG"
+import microrealismo10 from "../assets/microrealismo/micro10.jpg"
 
 /* Anime */
 import anime1 from "../assets/anime/anime1.JPG"
@@ -64,18 +93,19 @@ import punt6 from "../assets/puntillismo/punt6.JPG"
 import punt7 from "../assets/puntillismo/punt7.JPG"
 import punt8 from "../assets/puntillismo/punt8.jpg"
 import punt9 from "../assets/puntillismo/punt9.JPG"
+import punt10 from "../assets/puntillismo/punt10.jpg"
 
 import libre1 from "../assets/libre/libre1.JPEG"
 import libre2 from "../assets/libre/libre2.JPEG"
 import libre3 from "../assets/libre/libre3.JPEG"
 
 export const imageByStyles = {
-    'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16],
+    'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16, realismo17, realismo18, realismo19, realismo20, realismo21, realismo22, realismo23, realismo24, realismo25, realismo26, realismo27],
     'surrealismo': [surrealismo1, surrealismo2, surrealismo3, surrealismo4, surrealismo5, surrealismo6, surrealismo7, surrealismo8, surrealismo9],
-    "linea_fina": [lineaFina7, lineaFina5, lineaFina3, lineaFina4, lineaFina1],
-    "microrealismo": [microrealismo1, microrealismo2, microrealismo3, microrealismo4, microrealismo5, microrealismo6, microrealismo7, microrealismo8, microrealismo9],
+    "linea_fina": [lineaFina7, lineaFina5, lineaFina3, lineaFina4, lineaFina1, lineaFina8, lineaFina9, lineaFina10, lineaFina11, lineaFina12, lineaFina13, lineaFina14, lineaFina15, lineaFina16, lineaFina17, lineaFina18, lineaFina19, lineaFina20, lineaFina21, lineaFina22, lineaFina23],
+    "microrealismo": [microrealismo1, microrealismo2, microrealismo3, microrealismo4, microrealismo5, microrealismo6, microrealismo7, microrealismo8, microrealismo9, microrealismo10],
 /*     PUNTILLISMO: ["/images/puntillismo1.jpg", "/images/puntillismo2.jpg"], */
     "anime": [anime1, anime2, anime3, anime4, anime5, anime6, anime7, anime8],
-    "puntillismo": [punt1, punt2, punt3, punt4, punt5, punt6, punt7, punt8, punt9],
+    "puntillismo": [punt1, punt2, punt3, punt4, punt5, punt6, punt7, punt8, punt9, punt10],
     "libre": [libre1, libre2, libre3]
 }

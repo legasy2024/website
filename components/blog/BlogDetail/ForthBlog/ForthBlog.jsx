@@ -763,7 +763,7 @@ export default function ClientBlogDetail() {
           >
             <p className="font-medium mb-2">Información de contacto:</p>
             <p>Ubicación: Cali, Colombia</p>
-            <p>Teléfono: +57 (312) 871-7100</p>
+            <p>Teléfono: +57 (310) 311-0611</p>
           </motion.div>
         </motion.div>
       </motion.div>
