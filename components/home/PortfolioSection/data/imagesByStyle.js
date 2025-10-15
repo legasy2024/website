@@ -24,8 +24,6 @@ import realismo22 from "../../../portfolio/assets/realismo/realismo22.JPEG"
 import realismo23 from "../../../portfolio/assets/realismo/realismo23.JPEG"
 import realismo24 from "../../../portfolio/assets/realismo/realismo24.JPG"
 import realismo25 from "../../../portfolio/assets/realismo/realismo25.jpg"
-import realismo26 from "../../../portfolio/assets/realismo/realismo26.jpg"
-import realismo27 from "../../../portfolio/assets/realismo/realismo27.jpg"
 
 /* Surrealismo */
 import surrealismo1 from "../../../portfolio/assets/surrealismo/surrealismo1.jpg"
@@ -103,7 +101,7 @@ import libre2 from "../../../portfolio/assets/libre/libre2.JPEG"
 import libre3 from "../../../portfolio/assets/libre/libre3.JPEG"
 
 export const imageByStyles = {
-    'realismo': [realismo27, realismo26, realismo25, realismo24, realismo23, realismo22, realismo21, realismo20, realismo19, realismo18, realismo17, realismo16, realismo15, realismo14, realismo13, realismo12, realismo11, realismo10, realismo9, realismo8, realismo7, realismo6, realismo5, realismo4, realismo3, realismo2, realismo1],
+    'realismo': [ realismo25, realismo24, realismo23, realismo22, realismo21, realismo20, realismo19, realismo18, realismo17, realismo16, realismo15, realismo14, realismo13, realismo12, realismo11, realismo10, realismo9, realismo8, realismo7, realismo6, realismo5, realismo4, realismo3, realismo2, realismo1],
     'surrealismo': [surrealismo12, surrealismo11, surrealismo10, surrealismo9, surrealismo8, surrealismo7, surrealismo6, surrealismo5, surrealismo4, surrealismo3, surrealismo2, surrealismo1],
     "linea_fina": [lineaFina23, lineaFina22, lineaFina21, lineaFina20, lineaFina19, lineaFina18, lineaFina17, lineaFina16, lineaFina15, lineaFina14, lineaFina13, lineaFina12, lineaFina11, lineaFina10, lineaFina9, lineaFina8, lineaFina1, lineaFina4, lineaFina3, lineaFina5, lineaFina7],
     "microrealismo": [microrealismo10, microrealismo9, microrealismo8, microrealismo7, microrealismo6, microrealismo5, microrealismo4, microrealismo3, microrealismo2, microrealismo1],
