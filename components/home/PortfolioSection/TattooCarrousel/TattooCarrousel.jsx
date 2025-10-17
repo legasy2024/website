@@ -63,9 +63,11 @@ function TattooCarrousel({ selectedStyle }) {
             src={src}
             alt={`${normalizedStyle} tattoo ${index + 1}`}
             fill={true}
-            sizes="340px"
-            priority={index < 3}
-            className="object-contain"
+            sizes="(max-width: 640px) 280px, (max-width: 1024px) 340px, 340px"
+            priority={index < 2}
+            loading={index < 2 ? undefined : "lazy"}
+            quality={85}
+            className="object-cover"
           />
         </motion.div>
       ))}
