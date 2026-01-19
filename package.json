@@ -15,6 +15,7 @@
     "@vercel/speed-insights": "^1.0.10",
     "amazon-cognito-identity-js": "^6.3.12",
     "dotenv": "^16.4.5",
+    "firebase": "^12.8.0",
     "framer-motion": "^11.18.2",
     "i18next": "^23.7.18",
     "i18next-resources-to-backend": "^1.2.0",

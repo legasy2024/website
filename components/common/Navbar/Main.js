@@ -121,6 +121,11 @@ function Navbar({ translations }) {
                         </Link>
                       </motion.div>
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
+                        <Link href="/podcast" className={`${getLinkStyle('/podcast')} text-sm`}>
+                          {translations.podcast}
+                        </Link>
+                      </motion.div>
+                      {/* <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
                         <Link href="/curses" className={`${getLinkStyle('/curses')} text-sm`}>
                           {translations.courses}
                         </Link>
@@ -129,7 +134,7 @@ function Navbar({ translations }) {
                         <Link href="/vip" className={`${getLinkStyle('/vip')} text-sm`}>
                           {translations.vip}
                         </Link>
-                      </motion.div>
+                      </motion.div> */}
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
                         <Link href="/contact" className={`${getLinkStyle('/contact')} text-sm`}>
                           {translations.contact}
@@ -186,6 +191,13 @@ function Navbar({ translations }) {
                           {translations.blog}
                         </Link>
                         <Link
+                          href="/podcast"
+                          className={`block py-2 text-xl ${getLinkStyle('/podcast')}`}
+                          onClick={closeMenu}
+                        >
+                          {translations.podcast}
+                        </Link>
+                        {/* <Link
                           href="/curses"
                           className={`block py-2 text-xl ${getLinkStyle('/curses')}`}
                           onClick={closeMenu}
@@ -198,7 +210,7 @@ function Navbar({ translations }) {
                           onClick={closeMenu}
                         >
                           {translations.vip}
-                        </Link>
+                        </Link> */}
                         <Link
                           href="/contact"
                           className={`block py-2 text-xl ${getLinkStyle('/contact')}`}

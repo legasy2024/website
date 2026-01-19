@@ -5,6 +5,7 @@
         "blog": "BLOG",
         "courses": "COURSES",
         "vip": "VIP",
+        "podcast": "PODCAST",
         "contact": "CONTACT"
     },
     "hero_content":{

@@ -41,6 +41,7 @@ export default async function Layout({ children, params: { locale } }) {
     blog: t("home:nav_items.blog"),
     courses: t("home:nav_items.courses"),
     vip: t("home:nav_items.vip"),
+    podcast: t("home:nav_items.podcast"),
     contact: t("home:nav_items.contact"),
   }
 

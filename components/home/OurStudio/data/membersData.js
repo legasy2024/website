@@ -5,9 +5,7 @@ import nathalia from '../assets/nathaliaPerez.png';
 import paolaImg from '../assets/paolaMarin.png'
 import angelImg from '../assets/angel.png';
 import mapacheImg from '../assets/mapache.png';
-import manuelImg from '../assets/manuel.png';
 import jeffImg from '../assets/jeff.png';
-import kenjiImg from '../assets/kenji.png';
 
 
 export const membersDataEs = [
@@ -40,15 +38,6 @@ export const membersDataEs = [
     },
     {
         id: crypto.randomUUID(),
-        name: "Kenji",
-        art: "Realismo",
-        position: "Tatuador",
-        img: kenjiImg,
-        alt:"Kenji",
-        lang: "es",
-    },
-    {
-        id: crypto.randomUUID(),
         name: "Ángel",
         art: "Realismo Sombra",
         position: "Tatuador",
@@ -56,15 +45,6 @@ export const membersDataEs = [
         alt: "Ángel",
         lang: "es",
 
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Manuel",
-        art: "Realismo Sombra y Color",
-        position: "Tatuador",
-        img: manuelImg,
-        alt: "Manuel",
-        lang: "es",
     },
     {
         id: crypto.randomUUID(),
@@ -130,24 +110,6 @@ export const membersDataEn = [
         position: "Tattoo Artist",
         img: angelImg,
         alt:"Ángel",
-        lang: "en",
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Kenji",
-        art: "Realism",
-        position: "Tattoo Artist",
-        img: kenjiImg,
-        alt:"Kenji",
-        lang: "en",
-    },
-    {
-        id: crypto.randomUUID(),
-        name: "Manuel",
-        art: "Shadow and Color Realism",
-        position: "Tattoo Artist",
-        img: manuelImg,
-        alt:"Manuel",
         lang: "en",
     },
     {
