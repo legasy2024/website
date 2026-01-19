@@ -7,5 +7,10 @@
         "cta": "Escuchar Ahora",
         "cta_link": "#"
     },
+    "buttons": {
+        "watch": "VER",
+        "instagram": "INSTAGRAM",
+        "facebook": "FACEBOOK"
+    },
     "episodes": []
 }

@@ -28,7 +28,8 @@ export default function AdminPodcastPage() {
     description: '',
     image: '',
     watchLink: '',
-    listenLink: '',
+    instagramLink: 'https://instagram.com/legassystudio',
+    facebookLink: 'https://facebook.com/profile.php?id=61563418932715',
     readMore: '',
     readMoreText: 'READ MORE'
   });
@@ -158,7 +159,8 @@ export default function AdminPodcastPage() {
         description: '',
         image: '',
         watchLink: '',
-        listenLink: '',
+        instagramLink: 'https://instagram.com/legassystudio',
+        facebookLink: 'https://facebook.com/profile.php?id=61563418932715',
         readMore: '',
         readMoreText: 'READ MORE'
       });
@@ -185,7 +187,8 @@ export default function AdminPodcastPage() {
       description: episode.description || '',
       image: episode.image || '',
       watchLink: episode.watchLink || '',
-      listenLink: episode.listenLink || '',
+      instagramLink: episode.instagramLink || 'https://instagram.com/legassystudio',
+      facebookLink: episode.facebookLink || 'https://facebook.com/profile.php?id=61563418932715',
       readMore: episode.readMore || '',
       readMoreText: episode.readMoreText || 'READ MORE'
     });
@@ -225,7 +228,8 @@ export default function AdminPodcastPage() {
       description: '',
       image: '',
       watchLink: '',
-      listenLink: '',
+      instagramLink: 'https://instagram.com/legassystudio',
+      facebookLink: 'https://facebook.com/profile.php?id=61563418932715',
       readMore: '',
       readMoreText: 'READ MORE'
     });
@@ -384,23 +388,36 @@ export default function AdminPodcastPage() {
                   </div>
                 </div>
 
+                <div>
+                  <label className="block text-sm font-medium mb-1">Watch Link (optional)</label>
+                  <input
+                    type="url"
+                    value={formData.watchLink}
+                    onChange={(e) => setFormData({ ...formData, watchLink: e.target.value })}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A14E05] mb-4"
+                    placeholder="https://youtube.com/..."
+                  />
+                </div>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium mb-1">Watch Link (optional)</label>
+                    <label className="block text-sm font-medium mb-1">Instagram Link</label>
                     <input
                       type="url"
-                      value={formData.watchLink}
-                      onChange={(e) => setFormData({ ...formData, watchLink: e.target.value })}
+                      value={formData.instagramLink}
+                      onChange={(e) => setFormData({ ...formData, instagramLink: e.target.value })}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A14E05]"
+                      placeholder="https://instagram.com/legassystudio"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-1">Listen Link (optional)</label>
+                    <label className="block text-sm font-medium mb-1">Facebook Link</label>
                     <input
                       type="url"
-                      value={formData.listenLink}
-                      onChange={(e) => setFormData({ ...formData, listenLink: e.target.value })}
+                      value={formData.facebookLink}
+                      onChange={(e) => setFormData({ ...formData, facebookLink: e.target.value })}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A14E05]"
+                      placeholder="https://facebook.com/profile.php?id=..."
                     />
                   </div>
                 </div>

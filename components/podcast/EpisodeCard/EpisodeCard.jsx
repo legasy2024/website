@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaPlay, FaHeadphones, FaExternalLinkAlt, FaCalendarAlt, FaHashtag } from 'react-icons/fa';
+import { FaPlay, FaInstagram, FaFacebook, FaExternalLinkAlt, FaCalendarAlt, FaHashtag } from 'react-icons/fa';
 
-const EpisodeCard = ({ episode, index = 0 }) => {
+const EpisodeCard = ({ episode, index = 0, translations }) => {
   return (
     <motion.div 
       className="flex flex-col md:flex-row bg-white w-full border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 mb-4"
@@ -39,7 +39,7 @@ const EpisodeCard = ({ episode, index = 0 }) => {
                 <p className="text-xs md:text-sm text-gray-500 font-semibold">EP - {episode.number}</p>
               </div>
             </div>
-            <h3 className="text-lg md:text-2xl font-boldmb-2 md:mb-3 leading-tight text-[#A14E05] transition-colors">
+            <h3 className="text-lg md:text-2xl  mb-2 md:mb-3 leading-tight text-[#A14E05] transition-colors">
               {episode.title}
             </h3>
             {episode.description && (
@@ -66,27 +66,17 @@ const EpisodeCard = ({ episode, index = 0 }) => {
               href={episode.watchLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-[#FF0000] text-white px-4 md:px-5 py-2.5 rounded-md font-medium hover:bg-[#CC0000] transition-colors w-full md:w-auto"
+              className="flex items-center justify-center gap-2 bg-[#FF0000] text-white px-4 md:px-5 py-2.5 rounded-full font-medium hover:bg-[#CC0000] transition-colors shadow-lg hover:shadow-xl w-full md:w-auto"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <FaPlay className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="text-xs md:text-sm">WATCH</span>
+              <div className="bg-white/20 rounded-full p-1.5">
+                <FaPlay className="w-3 h-3 md:w-4 md:h-4 ml-0.5" />
+              </div>
+              <span className="text-xs md:text-sm font-semibold">{translations?.watch || 'WATCH'}</span>
             </motion.a>
           )}
-          {episode.listenLink && (
-            <motion.a
-              href={episode.listenLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-gray-800 text-white px-4 md:px-5 py-2.5 rounded-md font-medium hover:bg-gray-900 transition-colors w-full md:w-auto"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <FaHeadphones className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="text-xs md:text-sm">LISTEN</span>
-            </motion.a>
-          )}
+        
         </div>
       </div>
     </motion.div>

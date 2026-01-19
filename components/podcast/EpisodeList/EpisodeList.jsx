@@ -14,7 +14,7 @@ const container = {
   }
 };
 
-const EpisodeList = ({ episodes }) => {
+const EpisodeList = ({ episodes, translations }) => {
   if (!episodes || episodes.length === 0) {
     return (
       <div className="w-full max-w-6xl mx-auto px-4 py-8">
@@ -38,7 +38,7 @@ const EpisodeList = ({ episodes }) => {
       animate="visible"
     >
       {episodes.map((episode, index) => (
-        <EpisodeCard key={episode.id || episode.number} episode={episode} index={index} />
+        <EpisodeCard key={episode.id || episode.number} episode={episode} index={index} translations={translations} />
       ))}
     </motion.div>
   );

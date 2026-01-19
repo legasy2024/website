@@ -4,10 +4,12 @@ import { useState, useEffect } from 'react';
 import { collection, getDocs, query, orderBy } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import EpisodeList from './EpisodeList/EpisodeList';
+import { useTranslation } from 'react-i18next';
 
 export default function FirestoreEpisodes() {
   const [episodes, setEpisodes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { t } = useTranslation('podcast');
 
   useEffect(() => {
     const loadEpisodes = async () => {
@@ -36,6 +38,12 @@ export default function FirestoreEpisodes() {
     loadEpisodes();
   }, []);
 
+  const translations = {
+    watch: t('buttons.watch'),
+    instagram: t('buttons.instagram'),
+    facebook: t('buttons.facebook')
+  };
+
   if (loading) {
     return (
       <div className="w-full max-w-6xl mx-auto px-4 py-8 bg-white">
@@ -44,5 +52,5 @@ export default function FirestoreEpisodes() {
     );
   }
 
-  return <EpisodeList episodes={episodes} />;
+  return <EpisodeList episodes={episodes} translations={translations} />;
 }
