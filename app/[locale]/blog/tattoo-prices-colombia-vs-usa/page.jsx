@@ -26,10 +26,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/tattoo-prices-colombia-vs-usa",
+    canonical: "https://www.legassystudio.com/es/blog/precios-de-tatuajes-en-colombia-vs-eeuu",
     languages: {
-      'es': '/es/tattoo-prices-colombia-vs-usa',
-      'en': '/en/tattoo-prices-colombia-vs-usa'
+      en: "/en/blog/tattoo-prices-colombia-vs-usa",
+      es: "/es/blog/precios-de-tatuajes-en-colombia-vs-eeuu",
+      "x-default": "/en/blog/tattoo-prices-colombia-vs-usa",
     }
   }
 };
@@ -46,10 +47,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/tattoo-prices-colombia-vs-usa",
+    canonical: "https://www.legassystudio.com/en/blog/tattoo-prices-colombia-vs-usa",
     languages: {
-      'es': '/es/tattoo-prices-colombia-vs-usa',
-      'en': '/en/tattoo-prices-colombia-vs-usa'
+      en: "/en/blog/tattoo-prices-colombia-vs-usa",
+      es: "/es/blog/precios-de-tatuajes-en-colombia-vs-eeuu",
+      "x-default": "/en/blog/tattoo-prices-colombia-vs-usa",
     }
   }
 };

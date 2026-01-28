@@ -27,7 +27,7 @@ const item = {
   }
 };
 
-const BlogList = ({ posts }) => {
+const BlogList = ({ posts, locale }) => {
   return (
     <motion.div 
       className="flex flex-col w-full max-w-[1200px] m-auto pb-24 items-center gap-y-8 p-4"
@@ -46,7 +46,7 @@ const BlogList = ({ posts }) => {
             transition: { duration: 0.2 }
           }}
         >
-          <BlogCard post={post} />
+          <BlogCard post={post} locale={locale} />
         </motion.div>
       ))}
     </motion.div>

@@ -6,6 +6,7 @@ import { BiCaretDown, BiCaretUp } from "react-icons/bi";
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { mapBlogUrl } from "@/lib/blogSlugMapping";
 
 export default function LanguageChanger({ isScrolled }) {
   const { i18n } = useTranslation();
@@ -26,13 +27,23 @@ export default function LanguageChanger({ isScrolled }) {
     setIsOpen(false);
     document.cookie = `NEXT_LOCALE=${lang};path=/;max-age=${30 * 24 * 60 * 60}`;
 
-    const newPath =
-      currentLocale === i18nConfig.defaultLocale && !i18nConfig.prefixDefault
-        ? `/${lang}${currentPathname}`
-        : currentPathname.replace(`/${currentLocale}`, `/${lang}`);
+    // Si es una URL de blog, usar el mapeo de slugs
+    let newPath;
+    if (currentPathname.includes('/blog/')) {
+      newPath = mapBlogUrl(currentPathname, lang);
+      console.log('Blog URL mapping:', { currentPathname, lang, newPath });
+    } else {
+      // Para otras rutas, solo cambiar el locale
+      newPath =
+        currentLocale === i18nConfig.defaultLocale && !i18nConfig.prefixDefault
+          ? `/${lang}${currentPathname}`
+          : currentPathname.replace(`/${currentLocale}`, `/${lang}`);
+    }
 
-    router.push(newPath);
-    window.location.reload(true);
+    // Usar window.location.href para una navegación completa
+    // Esto asegura que los rewrites de next.config.mjs se apliquen
+    console.log('Navigating to:', newPath);
+    window.location.href = newPath;
   };
 
   useEffect(() => {

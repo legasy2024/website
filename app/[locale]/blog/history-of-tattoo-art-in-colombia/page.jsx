@@ -26,10 +26,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/history-of-tattoo-art-in-colombia",
+    canonical: "https://www.legassystudio.com/es/blog/historia-del-arte-del-tatuaje-en-colombia",
     languages: {
-      'es': '/es/history-of-tattoo-art-in-colombia',
-      'en': '/en/history-of-tattoo-art-in-colombia'
+      en: "/en/blog/history-of-tattoo-art-in-colombia",
+      es: "/es/blog/historia-del-arte-del-tatuaje-en-colombia",
+      "x-default": "/en/blog/history-of-tattoo-art-in-colombia",
     }
   }
 };
@@ -46,10 +47,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/history-of-tattoo-art-in-colombia",
+    canonical: "https://www.legassystudio.com/en/blog/history-of-tattoo-art-in-colombia",
     languages: {
-      'es': '/es/history-of-tattoo-art-in-colombia',
-      'en': '/en/history-of-tattoo-art-in-colombia'
+      en: "/en/blog/history-of-tattoo-art-in-colombia",
+      es: "/es/blog/historia-del-arte-del-tatuaje-en-colombia",
+      "x-default": "/en/blog/history-of-tattoo-art-in-colombia",
     }
   }
 };

@@ -24,15 +24,17 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-      canonical: "https://www.legassystudio.com/contacto",
+      canonical: "https://www.legassystudio.com/es/contact",
       languages: {
-          'es': '/contacto'
+          en: "/en/contact",
+          es: "/es/contact",
+          "x-default": "/en/contact",
       }
   },
   openGraph: {
       type: "website",
       locale: "es_CO",
-      url: "https://www.legassystudio.com/contacto",
+      url: "https://www.legassystudio.com/es/contact",
       title: "Contacto - Legassy Studio",
       description: "Contáctanos en Legassy Studio, tu estudio de tatuajes en Cali. Estamos listos para escuchar tu idea y convertirla en arte corporal único.",
       siteName: "Legassy Studio"
@@ -50,16 +52,17 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-      canonical: "https://www.legassystudio.com/contact",
+      canonical: "https://www.legassystudio.com/en/contact",
       languages: {
-          'en': '/contact',
-          'es': '/es/contacto'
+          en: "/en/contact",
+          es: "/es/contact",
+          "x-default": "/en/contact",
       }
   },
   openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://www.legassystudio.com/contact",
+      url: "https://www.legassystudio.com/en/contact",
       title: "Contact - Legassy Studio",
       description: "Contact Legassy Studio, your tattoo studio in Cali. We're ready to listen to your idea and transform it into unique body art.",
       siteName: "Legassy Studio"

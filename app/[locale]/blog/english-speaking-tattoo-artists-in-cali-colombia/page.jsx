@@ -25,10 +25,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/english-speaking-tattoo-artists-in-cali-colombia",
+    canonical: "https://www.legassystudio.com/es/blog/artistas-de-tatuajes-que-hablan-ingles-en-cali",
     languages: {
-      'es': '/es/english-speaking-tattoo-artists-in-cali-colombia',
-      'en': '/en/english-speaking-tattoo-artists-in-cali-colombia'
+      en: "/en/blog/english-speaking-tattoo-artists-in-cali-colombia",
+      es: "/es/blog/artistas-de-tatuajes-que-hablan-ingles-en-cali",
+      "x-default": "/en/blog/english-speaking-tattoo-artists-in-cali-colombia",
     }
   }
 };
@@ -45,10 +46,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/english-speaking-tattoo-artists-in-cali-colombia",
+    canonical: "https://www.legassystudio.com/en/blog/english-speaking-tattoo-artists-in-cali-colombia",
     languages: {
-      'es': '/es/english-speaking-tattoo-artists-in-cali-colombia',
-      'en': '/en/english-speaking-tattoo-artists-in-cali-colombia'
+      en: "/en/blog/english-speaking-tattoo-artists-in-cali-colombia",
+      es: "/es/blog/artistas-de-tatuajes-que-hablan-ingles-en-cali",
+      "x-default": "/en/blog/english-speaking-tattoo-artists-in-cali-colombia",
     }
   }
 };

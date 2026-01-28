@@ -22,16 +22,17 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-      canonical: "https://legassystudio.com/es/portafolio",
+      canonical: "https://www.legassystudio.com/es/portfolio",
       languages: {
-          'en': '/portfolio',
-          'es': '/es/portafolio'
+          en: "/en/portfolio",
+          es: "/es/portfolio",
+          "x-default": "/en/portfolio",
       }
   },
   openGraph: {
       type: "website",
       locale: "es_CO",
-      url: "https://legassystudio.com/es/portafolio",
+      url: "https://www.legassystudio.com/es/portfolio",
       title: "Portafolio - Legassy Studio",
       description: "Explora el viaje artístico de Legassy Studio a través de nuestro diverso portafolio de tatuajes únicos.",
       siteName: "Legassy Studio"
@@ -49,16 +50,17 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-      canonical: "https://legassystudio.com/portfolio",
+      canonical: "https://www.legassystudio.com/en/portfolio",
       languages: {
-          'en': '/portfolio',
-          'es': '/es/portafolio'
+          en: "/en/portfolio",
+          es: "/es/portfolio",
+          "x-default": "/en/portfolio",
       }
   },
   openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://legassystudio.com/portfolio",
+      url: "https://www.legassystudio.com/en/portfolio",
       title: "Portfolio - Legassy Studio",
       description: "Explore the artistic journey of Legassy Studio through our diverse portfolio of unique tattoos.",
       siteName: "Legassy Studio"

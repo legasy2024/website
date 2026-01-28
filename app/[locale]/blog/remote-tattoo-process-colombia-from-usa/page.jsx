@@ -26,10 +26,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/remote-tattoo-process-colombia-from-usa",
+    canonical: "https://www.legassystudio.com/es/blog/proceso-de-trabajo-con-artistas-colombianos-a-distancia",
     languages: {
-      'es': '/es/remote-tattoo-process-colombia-from-usa',
-      'en': '/en/remote-tattoo-process-colombia-from-usa'
+      en: "/en/blog/remote-tattoo-process-colombia-from-usa",
+      es: "/es/blog/proceso-de-trabajo-con-artistas-colombianos-a-distancia",
+      "x-default": "/en/blog/remote-tattoo-process-colombia-from-usa",
     }
   }
 };
@@ -46,10 +47,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/remote-tattoo-process-colombia-from-usa",
+    canonical: "https://www.legassystudio.com/en/blog/remote-tattoo-process-colombia-from-usa",
     languages: {
-      'es': '/es/remote-tattoo-process-colombia-from-usa',
-      'en': '/en/remote-tattoo-process-colombia-from-usa'
+      en: "/en/blog/remote-tattoo-process-colombia-from-usa",
+      es: "/es/blog/proceso-de-trabajo-con-artistas-colombianos-a-distancia",
+      "x-default": "/en/blog/remote-tattoo-process-colombia-from-usa",
     }
   }
 };

@@ -26,10 +26,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/cali-tattoo-scene-for-foreigners",
+    canonical: "https://www.legassystudio.com/es/blog/cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
     languages: {
-      'es': '/es/cali-tattoo-scene-for-foreigners',
-      'en': '/en/cali-tattoo-scene-for-foreigners'
+      en: "/en/blog/cali-tattoo-scene-for-foreigners",
+      es: "/es/blog/cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
+      "x-default": "/en/blog/cali-tattoo-scene-for-foreigners",
     }
   }
 };
@@ -46,10 +47,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/cali-tattoo-scene-for-foreigners",
+    canonical: "https://www.legassystudio.com/en/blog/cali-tattoo-scene-for-foreigners",
     languages: {
-      'es': '/es/cali-tattoo-scene-for-foreigners',
-      'en': '/en/cali-tattoo-scene-for-foreigners'
+      en: "/en/blog/cali-tattoo-scene-for-foreigners",
+      es: "/es/blog/cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
+      "x-default": "/en/blog/cali-tattoo-scene-for-foreigners",
     }
   }
 };

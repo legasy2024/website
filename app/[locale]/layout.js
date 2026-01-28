@@ -31,6 +31,10 @@ const FooterLazyLoading = dynamic(() => import("@/components/common/Footer/Foote
 // Namespaces for i18n
 const i18nNameSpaces = ["home"];
 
+export const metadata = {
+  metadataBase: new URL("https://www.legassystudio.com"),
+};
+
 export default async function Layout({ children, params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
@@ -53,6 +57,11 @@ export default async function Layout({ children, params: { locale } }) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        {/* Google Search Console Verification */}
+        <meta
+          name="google-site-verification"
+          content="RNDByCq_dRSCpaS4l0BF6Bp01K7RPK5rmkwCOI8jbAw"
+        />
         {/* Ahrefs Site Verification */}
         <meta 
           name="ahrefs-site-verification" 

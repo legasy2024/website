@@ -22,16 +22,17 @@ const metadata = {
     author: "Legassy Studio",
     publisher: "Legassy Studio",
     alternates: {
-      canonical: "https://www.legassystudio.com/es/cursos",
+      canonical: "https://www.legassystudio.com/es/curses",
       languages: {
-        'en': '/courses',
-        'es': '/es/cursos'
+        en: "/en/curses",
+        es: "/es/curses",
+        "x-default": "/en/curses",
       }
     },
     openGraph: {
       type: "website",
       locale: "es_CO",
-      url: "https://www.legassystudio.com/es/cursos",
+      url: "https://www.legassystudio.com/es/curses",
       title: "Cursos de Tatuaje - Legassy Studio",
       description: "Descubre nuestros cursos de tatuaje impartidos por artistas expertos. Aprende técnicas, higiene y estilos únicos en un ambiente profesional y creativo.",
       siteName: "Legassy Studio"
@@ -49,16 +50,17 @@ const metadata = {
     author: "Legassy Studio",
     publisher: "Legassy Studio",
     alternates: {
-      canonical: "https://www.legassystudio.com/en/courses",
+      canonical: "https://www.legassystudio.com/en/curses",
       languages: {
-        'en': '/courses',
-        'es': '/es/cursos'
+        en: "/en/curses",
+        es: "/es/curses",
+        "x-default": "/en/curses",
       }
     },
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://www.legassystudio.com/en/courses",
+      url: "https://www.legassystudio.com/en/curses",
       title: "Tattoo Courses - Legassy Studio",
       description: "Discover our tattoo courses taught by expert artists. Learn techniques, hygiene, and unique styles in a professional and creative environment.",
       siteName: "Legassy Studio"

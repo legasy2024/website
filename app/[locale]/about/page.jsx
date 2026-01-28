@@ -27,16 +27,17 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-      canonical: "https://www.legassystudio.com/es/nosotros",
+      canonical: "https://www.legassystudio.com/es/about",
       languages: {
-          'en': '/about',
-          'es': '/es/nosotros'
+          en: "/en/about",
+          es: "/es/about",
+          "x-default": "/en/about",
       }
   },
   openGraph: {
       type: "website",
       locale: "es_CO",
-      url: "https://www.legassystudio.com/es/nosotros",
+      url: "https://www.legassystudio.com/es/about",
       title: "Nosotros - Legassy Studio",
       description: "Descubre la historia detrás de Legassy Studio, un colectivo de tatuadores apasionados dedicados a transformar narrativas personales en arte corporal excepcional.",
       siteName: "Legassy Studio"
@@ -54,16 +55,17 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-      canonical: "https://www.legassytattoo.com/about",
+      canonical: "https://www.legassystudio.com/en/about",
       languages: {
-          'en': '/about',
-          'es': '/es/nosotros'
+          en: "/en/about",
+          es: "/es/about",
+          "x-default": "/en/about",
       }
   },
   openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://www.legassytattoo.com/about",
+      url: "https://www.legassystudio.com/en/about",
       title: "About Us - Legassy Studio",
       description: "Discover the story behind Legassy Studio, a passionate tattoo collective dedicated to transforming personal narratives into exceptional body art.",
       siteName: "Legassy Studio"

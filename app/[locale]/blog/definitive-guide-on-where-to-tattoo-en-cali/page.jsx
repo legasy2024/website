@@ -28,10 +28,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/guia-definitiva-donde-tatuarse-en-cali",
+    canonical: "https://www.legassystudio.com/es/blog/guia-definitiva-donde-tatuarse-en-cali",
     languages: {
-      'es': '/es/guia-definitiva-donde-tatuarse-en-cali',
-      'en': '/en/guia-definitiva-donde-tatuarse-en-cali'
+      en: "/en/blog/definitive-guide-on-where-to-tattoo-en-cali",
+      es: "/es/blog/guia-definitiva-donde-tatuarse-en-cali",
+      "x-default": "/en/blog/definitive-guide-on-where-to-tattoo-en-cali",
     }
   }
 };
@@ -48,10 +49,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/guia-definitiva-donde-tatuarse-en-cali",
+    canonical: "https://www.legassystudio.com/en/blog/definitive-guide-on-where-to-tattoo-en-cali",
     languages: {
-      'es': '/es/guia-definitiva-donde-tatuarse-en-cali',
-      'en': '/en/guia-definitiva-donde-tatuarse-en-cali'
+      en: "/en/blog/definitive-guide-on-where-to-tattoo-en-cali",
+      es: "/es/blog/guia-definitiva-donde-tatuarse-en-cali",
+      "x-default": "/en/blog/definitive-guide-on-where-to-tattoo-en-cali",
     }
   }
 };

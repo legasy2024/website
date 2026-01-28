@@ -4,10 +4,12 @@ import Button from "@/components/common/Button/Button";
 import Image from "next/image";
 import Link from "next/link";
 
-const BlogCard = ({ post }) => {
+const BlogCard = ({ post, locale }) => {
+  // Usar el slug según el idioma (en español usamos el slug en español)
+  // Los rewrites en next.config.mjs mapearán estos slugs a las carpetas correctas
   return (
     <Link key={post.title}
-    href={`/blog/${post.slug}`}
+    href={`/${locale}/blog/${post.slug}`}
     className="flex flex-col sm:flex-row bg-white w-80 sm:w-full h-auto border border-[#827B71] rounded-lg overflow-hidden shadow-md transition-transform duration-300"
     style={{
       background: `linear-gradient(to bottom, #7777774D 60%, #8383834D 60%)`,

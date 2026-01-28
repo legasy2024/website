@@ -28,29 +28,33 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/blog",
+    canonical: "https://www.legassystudio.com/es/blog",
     languages: {
-      'es': '/es/blog'
-    }
+      en: "/en/blog",
+      es: "/es/blog",
+      "x-default": "/en/blog",
+    },
   }
 };
 
 const metadata_en = {
-    title: "Blog de Legassy Studio - Historias, consejos y arte del tatuaje",
-    description: "Explora el blog de Legassy Studio: historias detrás del tatuaje, consejos para cuidar tu piel, tendencias, procesos creativos y más. Una mirada íntima al arte de grabar legado en la piel.",
-    keywords: "blog de tatuajes, consejos de tatuaje, cuidado del tatuaje, historias de tatuajes, artistas del tatuaje, tendencias tattoo, inspiración tatuajes, blog tattoo, cultura del tatuaje, diseño de tatuajes",
-    language: "es",
-    subject: "Legassy Studio Blog - Una mirada íntima al arte del tatuaje.",
-    coverage: "Global",
-    robots: "index, follow",
-    author: "Legassy Studio",
-    publisher: "Legassy Studio",
-    alternates: {
-      canonical: "https://www.legassystudio.com/blog",
-      languages: {
-        'es': '/es/blog'
-      }
-    }
+  title: "Legassy Studio Blog - Stories, tips and tattoo art",
+  description: "Explore the Legassy Studio blog: stories behind tattoos, aftercare tips, trends, creative processes and more. An intimate look into the art of engraving legacy on skin.",
+  keywords: "tattoo blog, tattoo tips, tattoo aftercare, tattoo stories, tattoo artists, tattoo trends, tattoo inspiration, tattoo culture, tattoo design",
+  language: "en",
+  subject: "Legassy Studio Blog - An intimate look into tattoo art.",
+  coverage: "Global",
+  robots: "index, follow",
+  author: "Legassy Studio",
+  publisher: "Legassy Studio",
+  alternates: {
+    canonical: "https://www.legassystudio.com/en/blog",
+    languages: {
+      en: "/en/blog",
+      es: "/es/blog",
+      "x-default": "/en/blog",
+    },
+  },
   };
 
 export async function generateMetadata({ params: { locale } }) {
@@ -79,7 +83,7 @@ export default async function Portfolio({ params: { locale } }) {
         namespaces={i18nNameSpaces}
       >
         <Header translations={headerTranslations} />
-        <BlogList posts={posts} />
+        <BlogList posts={posts} locale={locale} />
       </TranslationsProvider>
     </div>
   );

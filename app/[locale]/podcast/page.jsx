@@ -32,10 +32,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://legassystudio.com/es/podcast",
+    canonical: "https://www.legassystudio.com/es/podcast",
     languages: {
-      en: "/podcast",
+      en: "/en/podcast",
       es: "/es/podcast",
+      "x-default": "/en/podcast",
     },
   },
   openGraph: {
@@ -62,10 +63,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://legassystudio.com/podcast",
+    canonical: "https://www.legassystudio.com/en/podcast",
     languages: {
-      en: "/podcast",
+      en: "/en/podcast",
       es: "/es/podcast",
+      "x-default": "/en/podcast",
     },
   },
   openGraph: {

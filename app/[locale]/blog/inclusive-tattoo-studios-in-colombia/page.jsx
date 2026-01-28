@@ -26,10 +26,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/inclusive-tattoo-studios-in-colombia",
+    canonical: "https://www.legassystudio.com/es/blog/estudios-de-tatuajes-inclusivos-en-colombia",
     languages: {
-      'es': '/es/inclusive-tattoo-studios-in-colombia',
-      'en': '/en/inclusive-tattoo-studios-in-colombia'
+      en: "/en/blog/inclusive-tattoo-studios-in-colombia",
+      es: "/es/blog/estudios-de-tatuajes-inclusivos-en-colombia",
+      "x-default": "/en/blog/inclusive-tattoo-studios-in-colombia",
     }
   }
 };
@@ -46,10 +47,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/inclusive-tattoo-studios-in-colombia",
+    canonical: "https://www.legassystudio.com/en/blog/inclusive-tattoo-studios-in-colombia",
     languages: {
-      'es': '/es/inclusive-tattoo-studios-in-colombia',
-      'en': '/en/inclusive-tattoo-studios-in-colombia'
+      en: "/en/blog/inclusive-tattoo-studios-in-colombia",
+      es: "/es/blog/estudios-de-tatuajes-inclusivos-en-colombia",
+      "x-default": "/en/blog/inclusive-tattoo-studios-in-colombia",
     }
   }
 };

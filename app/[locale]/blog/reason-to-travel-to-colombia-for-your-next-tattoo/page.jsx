@@ -31,10 +31,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/reason-to-travel-to-colombia-for-your-next-tatto",
+    canonical: "https://www.legassystudio.com/es/blog/razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
     languages: {
-      'es': '/es/reason-to-travel-to-colombia-for-your-next-tatto',
-      'en': '/en/reason-to-travel-to-colombia-for-your-next-tatto'
+      en: "/en/blog/reason-to-travel-to-colombia-for-your-next-tattoo",
+      es: "/es/blog/razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
+      "x-default": "/en/blog/reason-to-travel-to-colombia-for-your-next-tattoo",
     }
   }
 };
@@ -51,10 +52,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/reason-to-travel-to-colombia-for-your-next-tatto",
+    canonical: "https://www.legassystudio.com/en/blog/reason-to-travel-to-colombia-for-your-next-tattoo",
     languages: {
-      'es': '/es/reason-to-travel-to-colombia-for-your-next-tatto',
-      'en': '/en/reason-to-travel-to-colombia-for-your-next-tatto'
+      en: "/en/blog/reason-to-travel-to-colombia-for-your-next-tattoo",
+      es: "/es/blog/razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
+      "x-default": "/en/blog/reason-to-travel-to-colombia-for-your-next-tattoo",
     }
   }
 };

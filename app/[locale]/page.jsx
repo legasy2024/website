@@ -32,9 +32,10 @@ const metadata = {
   alternates: {
     canonical: "https://www.legassystudio.com/es",
     languages: {
-      'es': '/es',
-      'en': '/en'
-    }
+      en: "/en",
+      es: "/es",
+      "x-default": "/en",
+    },
   }
 };
 
@@ -51,9 +52,10 @@ const metadata_en = {
   alternates: {
     canonical: "https://www.legassystudio.com/en",
     languages: {
-      'es': '/es',
-      'en': '/en'
-    }
+      en: "/en",
+      es: "/es",
+      "x-default": "/en",
+    },
   }
 };
 

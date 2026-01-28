@@ -32,10 +32,11 @@ const metadata = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://legassystudio.com/es/vip",
+    canonical: "https://www.legassystudio.com/es/vip",
     languages: {
-      en: "/vip",
+      en: "/en/vip",
       es: "/es/vip",
+      "x-default": "/en/vip",
     },
   },
   openGraph: {
@@ -62,10 +63,11 @@ const metadata_en = {
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
-    canonical: "https://legassystudio.com/vip",
+    canonical: "https://www.legassystudio.com/en/vip",
     languages: {
-      en: "/vip",
+      en: "/en/vip",
       es: "/es/vip",
+      "x-default": "/en/vip",
     },
   },
   openGraph: {
