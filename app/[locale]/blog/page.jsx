@@ -6,12 +6,9 @@ import Header from "@/components/blog/Header";
 import initTranslations from "@/i18n";
 import dynamic from "next/dynamic";
 
-import postsEs from "@/locales/es/posts.json"
-import postsEn from "@/locales/en/posts.json"
-
-
-//Components
-
+// Datos legacy generados automáticamente desde el registry
+import postsEs from "@/locales/es/posts.json";
+import postsEn from "@/locales/en/posts.json";
 
 //Diferent namespaces
 const i18nNameSpaces = ["home", "blog", "posts", "about", "navbar", "experience", "help", "projects"];
@@ -66,6 +63,7 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function Portfolio({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
+  // Usar posts.json legacy (generado automáticamente desde el registry)
   const posts = locale === "en" ? postsEn.posts : postsEs.posts;
 
   const headerTranslations = {

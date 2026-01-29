@@ -8,12 +8,25 @@ import logoImg from './assets/logo.svg'
 import Image from 'next/image'
 import LanguageChanger from './LanguageChanger'
 import { usePathname } from 'next/navigation'
+import i18nConfig from '@/i18nConfig'
 
 function Navbar({ translations }) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
   const pathname = usePathname()
+
+  // Resolver locale actual desde la URL para que el logo lleve al home correcto (/{locale})
+  const pathLocale = pathname?.split('/')?.[1]
+  const currentLocale = i18nConfig?.locales?.includes(pathLocale)
+    ? pathLocale
+    : i18nConfig?.defaultLocale || 'en'
+
+  const homeHref = i18nConfig?.prefixDefault
+    ? `/${currentLocale}`
+    : currentLocale === (i18nConfig?.defaultLocale || 'en')
+      ? '/'
+      : `/${currentLocale}`
 
   useEffect(() => {
     const handleScroll = () => {
@@ -97,7 +110,7 @@ function Navbar({ translations }) {
             >
               <div className="max-w-7xl mx-auto">
                 <div className="flex flex-row items-center justify-between px-6 py-4 md:px-8">
-                  <Link href="/" className="flex items-center">
+                  <Link href={homeHref} className="flex items-center">
                     <Image src={logoImg} width={140} height={40} alt='logo-img' className='hidden sm:hidden md:block' />
                     <Image src={logoImg} width={140} height={40} alt='logo-img' className='block sm:hidden md:hidden' />
                   </Link>

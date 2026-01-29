@@ -1,3 +1,52 @@
+import { blogPostsRegistry } from './content/blog/posts-registry.js';
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+/**
+ * Genera rewrites dinámicamente desde el registry de posts
+ * Mapea slugs en español a sus equivalentes en inglés (carpetas físicas)
+ */
+function generateBlogRewrites() {
+  const rewrites = [];
+  
+  // Solo generar rewrites para posts publicados
+  const publishedPosts = blogPostsRegistry.filter(post => post.published);
+
+  // Root del proyecto (para resolver rutas a /content)
+  const projectRoot = path.dirname(fileURLToPath(import.meta.url));
+
+  /**
+   * Consideramos "migrado" si existen ambos JSONs del nuevo sistema (es/en)
+   * En ese caso, NO debemos reescribir el slug ES -> EN porque la ruta dinámica
+   * soporta el slug ES directamente.
+   */
+  function isMigratedPost(postId) {
+    const esPath = path.join(projectRoot, "content", "blog", "posts", `${postId}.es.json`);
+    const enPath = path.join(projectRoot, "content", "blog", "posts", `${postId}.en.json`);
+    return fs.existsSync(esPath) && fs.existsSync(enPath);
+  }
+  
+  for (const post of publishedPosts) {
+    const slugEs = post.slugs.es;
+    const slugEn = post.slugs.en;
+
+    // Si el post YA está migrado al nuevo sistema, no generamos rewrite.
+    // Esto evita que /es/blog/<slug-es> termine llegando a la ruta dinámica con slug EN.
+    if (isMigratedPost(post.id)) continue;
+    
+    // Solo crear rewrite si los slugs son diferentes y ambos existen
+    if (slugEs && slugEn && slugEs !== slugEn) {
+      rewrites.push({
+        source: `/es/blog/${slugEs}`,
+        destination: `/es/blog/${slugEn}`
+      });
+    }
+  }
+  
+  return rewrites;
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
@@ -5,40 +54,11 @@ const nextConfig = {
         formats: ['image/avif',  'image/webp']
     },
     async rewrites() {
+        // Generar rewrites dinámicamente desde el registry
+        const blogRewrites = generateBlogRewrites();
+        
         return [
-            // Mapeo de slugs en español a carpetas en inglés
-            {
-                source: '/es/blog/guia-definitiva-donde-tatuarse-en-cali',
-                destination: '/es/blog/definitive-guide-on-where-to-tattoo-en-cali'
-            },
-            {
-                source: '/es/blog/razones-para-viajar-a-colombia-por-tu-proximo-tatuaje',
-                destination: '/es/blog/reason-to-travel-to-colombia-for-your-next-tattoo'
-            },
-            {
-                source: '/es/blog/artistas-de-tatuajes-que-hablan-ingles-en-cali',
-                destination: '/es/blog/english-speaking-tattoo-artists-in-cali-colombia'
-            },
-            {
-                source: '/es/blog/cali-el-auge-de-una-ciudad-creativa-para-extranjeros',
-                destination: '/es/blog/cali-tattoo-scene-for-foreigners'
-            },
-            {
-                source: '/es/blog/precios-de-tatuajes-en-colombia-vs-eeuu',
-                destination: '/es/blog/tattoo-prices-colombia-vs-usa'
-            },
-            {
-                source: '/es/blog/estudios-de-tatuajes-inclusivos-en-colombia',
-                destination: '/es/blog/inclusive-tattoo-studios-in-colombia'
-            },
-            {
-                source: '/es/blog/proceso-de-trabajo-con-artistas-colombianos-a-distancia',
-                destination: '/es/blog/remote-tattoo-process-colombia-from-usa'
-            },
-            {
-                source: '/es/blog/historia-del-arte-del-tatuaje-en-colombia',
-                destination: '/es/blog/history-of-tattoo-art-in-colombia'
-            }
+            ...blogRewrites
         ];
     }
 };

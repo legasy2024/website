@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:posts": "node scripts/generate-posts-json.js",
+    "validate:blog": "node scripts/validate-blog-system.js",
+    "create:post": "node scripts/create-blog-post.js"
   },
   "dependencies": {
     "@next/font": "^14.2.15",
