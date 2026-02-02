@@ -5,13 +5,24 @@
   "_note": "Este archivo se genera automáticamente desde el registry centralizado. Para modificar posts, edita content/blog/posts-registry.js y ejecuta: npm run generate:posts",
   "posts": [
     {
+      "label": "Cuidado",
+      "slug": "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
+      "slugEn": "7-mistakes-that-ruin-your-tattoo-healing",
+      "title": "7 Errores que arruinan la curación de tu tatuaje (y cómo evitarlos)",
+      "description": "Descubre los 7 errores más comunes que pueden arruinar la curación de tu tatuaje y cómo evitarlos para asegurar que tu nueva pieza luzca perfecta y sana.",
+      "image": "/img/blog/post2.png",
+      "date": "31 de enero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "7-errores-que-arruinan-la-curacion-de-tu-tatuaje"
+    },
+    {
       "label": "Línea fina",
       "slug": "tatuajes-de-linea-fina-en-cali-durabilidad-del-trazo",
       "slugEn": "fine-line-tattoos-in-cali-durability",
       "title": "Tatuajes de Línea Fina en Cali: Factores que aseguran la durabilidad del trazo",
       "description": "Conoce los factores que realmente influyen en que un tatuaje de línea fina se mantenga nítido y definido con los años: técnica del artista, tipo de piel, ubicación del diseño, materiales utilizados y cuidados posteriores.",
       "image": "/img/blog/post1.png",
-      "date": "05 de mayo de 2025",
+      "date": "31 de enero de 2026",
       "cta": "Leer más",
       "ctaUrl": "tatuajes-de-linea-fina-en-cali-durabilidad-del-trazo"
     },

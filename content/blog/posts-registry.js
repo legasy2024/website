@@ -164,8 +164,8 @@ export const blogPostsRegistry = [
     },
     image: "/img/blog/post1.png",
     date: {
-      es: "05 de mayo de 2025",
-      en: "May 05, 2025"
+      es: "31 de enero de 2026",
+      en: "January 31, 2026"
     },
     label: {
       es: "Línea fina",
@@ -173,6 +173,24 @@ export const blogPostsRegistry = [
     },
     published: true,
     order: 9
+  },
+  {
+    id: "tattoo-healing-mistakes",
+    slugs: {
+      es: "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
+      en: "7-mistakes-that-ruin-your-tattoo-healing"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "31 de enero de 2026",
+      en: "January 31, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 10
   }
 ];
 
