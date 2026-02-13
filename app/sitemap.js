@@ -1,5 +1,4 @@
-import postsEs from "@/locales/es/posts.json";
-import postsEn from "@/locales/en/posts.json";
+import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 
 const BASE_URL = "https://www.legassystudio.com";
 
@@ -62,30 +61,26 @@ export default async function sitemap() {
     return entries;
   };
 
-  // Blogs: usamos el JSON en ES (que tiene slug español + slugEn) como fuente principal
-  const buildBlogEntries = () => {
+  // Blogs: usamos el contenido del registry + JSONs por idioma como fuente única
+  const buildBlogEntries = async () => {
     const entries = [];
 
-    postsEs.posts.forEach((postEs) => {
-      const esSlug = postEs.slug;
-      const enSlug = postEs.slugEn;
+    const postsEs = await getAllBlogPostsWithContent("es");
+    const postsEn = await getAllBlogPostsWithContent("en");
 
-      if (!enSlug) {
-        // Si por alguna razón falta slugEn, intentamos encontrarlo por título en postsEn
-        const matchEn = postsEn.posts.find(
-          (p) => p.title === postEs.title || p.label === postEs.label
-        );
-        // Si no encontramos correspondencia, saltamos este post
-        if (!matchEn) return;
+    // Construir mapa id -> slug en cada idioma
+    const mapEs = new Map(postsEs.map((p) => [p.id, p.slug]));
+    const mapEn = new Map(postsEn.map((p) => [p.id, p.slug]));
+
+    postsEs.forEach((postEs) => {
+      const esSlug = mapEs.get(postEs.id);
+      const enSlug = mapEn.get(postEs.id);
+
+      if (!esSlug || !enSlug) {
+        return;
       }
 
-      const finalEnSlug = enSlug || postsEn.posts.find(
-        (p) => p.title === postEs.title || p.label === postEs.label
-      )?.slug;
-
-      if (!finalEnSlug) return;
-
-      const enUrl = `${BASE_URL}/en/blog/${finalEnSlug}`;
+      const enUrl = `${BASE_URL}/en/blog/${enSlug}`;
       const esUrl = `${BASE_URL}/es/blog/${esSlug}`;
 
       // Entrada EN
@@ -120,9 +115,11 @@ export default async function sitemap() {
     return entries;
   };
 
+  const blogEntries = await buildBlogEntries();
+
   return [
     ...buildStaticEntries(),
-    ...buildBlogEntries(),
+    ...blogEntries,
   ];
 }
 

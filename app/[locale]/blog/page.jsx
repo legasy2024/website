@@ -6,9 +6,7 @@ import Header from "@/components/blog/Header";
 import initTranslations from "@/i18n";
 import dynamic from "next/dynamic";
 
-// Datos legacy generados automáticamente desde el registry
-import postsEs from "@/locales/es/posts.json";
-import postsEn from "@/locales/en/posts.json";
+import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 
 //Diferent namespaces
 const i18nNameSpaces = ["home", "blog", "posts", "about", "navbar", "experience", "help", "projects"];
@@ -63,8 +61,10 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function Portfolio({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
-  // Usar posts.json legacy (generado automáticamente desde el registry)
-  const posts = locale === "en" ? postsEn.posts : postsEs.posts;
+  // Obtener todos los posts con contenido (título, excerpt, etc.) directamente desde el registry
+  // y ordenarlos de más reciente (orden mayor) a más antiguo
+  const allPosts = await getAllBlogPostsWithContent(locale);
+  const posts = [...allPosts].reverse();
 
   const headerTranslations = {
     section_title: t("blog:header.section_title"),

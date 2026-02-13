@@ -6,6 +6,94 @@
   "posts": [
     {
       "label": "Cuidado",
+      "slug": "se-puede-hacer-ejercicio-despues-de-tatuarse",
+      "slugEn": "can-you-exercise-after-getting-tattoo",
+      "title": "¿Se puede hacer ejercicio después de tatuarse?",
+      "description": "Descubre si puedes hacer ejercicio después de tatuarte y cómo hacerlo de forma segura. Guía completa sobre ejercicio y actividad física durante la cicatrización del tatuaje.",
+      "image": "/img/blog/post4.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "se-puede-hacer-ejercicio-despues-de-tatuarse"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo",
+      "slugEn": "how-to-sleep-after-getting-tattoo-without-damaging-it",
+      "title": "Cómo dormir después de hacerte un tatuaje sin dañarlo",
+      "description": "Aprende cómo dormir cómodamente después de hacerte un tatuaje sin dañarlo. Guía completa con consejos prácticos para proteger tu tatuaje mientras duermes.",
+      "image": "/img/blog/post3.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion",
+      "slugEn": "what-to-do-if-tattoo-loses-color-during-healing",
+      "title": "Qué hacer si tu tatuaje pierde color durante la cicatrización",
+      "description": "Aprende qué hacer si tu tatuaje pierde color durante la cicatrización. Guía completa sobre causas, prevención y soluciones para la pérdida de color en tatuajes.",
+      "image": "/img/blog/post2.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "como-proteger-un-tatuaje-del-sol-sin-danar-la-tinta",
+      "slugEn": "how-to-protect-tattoo-from-sun-without-damaging-ink",
+      "title": "Cómo proteger un tatuaje del sol sin dañar la tinta",
+      "description": "Aprende cómo proteger tu tatuaje del sol de manera efectiva sin dañar la tinta. Guía completa sobre protección solar para tatuajes en Cali y cómo mantenerlos brillantes.",
+      "image": "/img/blog/post1.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "como-proteger-un-tatuaje-del-sol-sin-danar-la-tinta"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho",
+      "slugEn": "recommended-products-for-new-tattoo-care",
+      "title": "Productos recomendados para cuidar un tatuaje recién hecho",
+      "description": "Descubre los mejores productos para cuidar tu tatuaje recién hecho. Guía completa sobre cremas, jabones y productos esenciales para una cicatrización perfecta.",
+      "image": "/img/blog/post8.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion",
+      "slugEn": "normal-signs-and-warning-signs-during-tattoo-healing",
+      "title": "Señales normales y señales de alerta durante la cicatrización de un tatuaje",
+      "description": "Aprende a distinguir entre las señales normales de cicatrización y las señales de alerta que requieren atención médica. Guía completa para identificar cuándo tu tatuaje está sanando correctamente.",
+      "image": "/img/blog/post7.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "cuidados-del-tatuaje-paso-a-paso-guia-completa",
+      "slugEn": "tattoo-care-step-by-step-complete-guide",
+      "title": "Cuidados del tatuaje paso a paso: guía completa desde el día uno hasta la cicatrización total",
+      "description": "Guía completa y detallada sobre cómo cuidar tu tatuaje desde el primer día hasta que cicatrice completamente. Aprende los pasos esenciales para asegurar que tu nueva pieza luzca perfecta.",
+      "image": "/img/blog/post6.png",
+      "date": "13 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "cuidados-del-tatuaje-paso-a-paso-guia-completa"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona",
+      "slugEn": "how-long-does-a-tattoo-take-to-heal-size-and-placement",
+      "title": "¿Cuánto tarda en cicatrizar un tatuaje según tamaño y zona?",
+      "description": "Descubre cuánto tarda en cicatrizar un tatuaje según su tamaño y la zona del cuerpo donde te lo hagas, y qué puedes hacer para que sane lo mejor posible.",
+      "image": "/img/blog/post3.png",
+      "date": "12 de febrero de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona"
+    },
+    {
+      "label": "Cuidado",
       "slug": "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
       "slugEn": "7-mistakes-that-ruin-your-tattoo-healing",
       "title": "7 Errores que arruinan la curación de tu tatuaje (y cómo evitarlos)",

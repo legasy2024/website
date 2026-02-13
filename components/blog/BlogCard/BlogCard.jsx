@@ -8,7 +8,8 @@ const BlogCard = ({ post, locale }) => {
   // Usar el slug según el idioma (en español usamos el slug en español)
   // Los rewrites en next.config.mjs mapearán estos slugs a las carpetas correctas
   return (
-    <Link key={post.title}
+    <Link
+    key={post.id || post.slug}
     href={`/${locale}/blog/${post.slug}`}
     className="flex flex-col sm:flex-row bg-white w-80 sm:w-full h-auto border border-[#827B71] rounded-lg overflow-hidden shadow-md transition-transform duration-300"
     style={{
@@ -25,10 +26,14 @@ const BlogCard = ({ post, locale }) => {
     <div className="flex flex-col gap-y-4 p-4 w-full sm:w-[60%]">
       <label className="border border-[#C4C4C4] text-TextSecondary-100 pt-1 px-3 rounded-full w-fit">{post.label}</label>
       <h3 className="text-xl font-bold text-white">{post.title}</h3>
-      <p className="text-base text-TextSecondary-100 mt-2">{post.description}</p>
+      <p className="text-base text-TextSecondary-100 mt-2">{post.description || post.excerpt}</p>
       <span className="flex flex-row items-end justify-between">
         <Button color="dark" rightIcon={"arrowR"}>
-          {post.cta}
+          {typeof post.cta === "string"
+            ? post.cta
+            : locale === "es"
+            ? "Leer más"
+            : "Read more"}
         </Button>
         <p className="text-xs text-[#828282]">{post.date}</p>
       </span>

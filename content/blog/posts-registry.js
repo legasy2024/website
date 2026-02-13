@@ -191,6 +191,150 @@ export const blogPostsRegistry = [
     },
     published: true,
     order: 10
+  },
+  {
+    id: "tattoo-healing-time",
+    slugs: {
+      es: "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona",
+      en: "how-long-does-a-tattoo-take-to-heal-size-and-placement"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "12 de febrero de 2026",
+      en: "February 12, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 11
+  },
+  {
+    id: "tattoo-care-step-by-step",
+    slugs: {
+      es: "cuidados-del-tatuaje-paso-a-paso-guia-completa",
+      en: "tattoo-care-step-by-step-complete-guide"
+    },
+    image: "/img/blog/post6.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 12
+  },
+  {
+    id: "tattoo-healing-signs",
+    slugs: {
+      es: "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion",
+      en: "normal-signs-and-warning-signs-during-tattoo-healing"
+    },
+    image: "/img/blog/post7.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 13
+  },
+  {
+    id: "tattoo-aftercare-products",
+    slugs: {
+      es: "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho",
+      en: "recommended-products-for-new-tattoo-care"
+    },
+    image: "/img/blog/post8.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 14
+  },
+  {
+    id: "tattoo-sun-protection",
+    slugs: {
+      es: "como-proteger-un-tatuaje-del-sol-sin-danar-la-tinta",
+      en: "how-to-protect-tattoo-from-sun-without-damaging-ink"
+    },
+    image: "/img/blog/post1.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 15
+  },
+  {
+    id: "tattoo-color-loss",
+    slugs: {
+      es: "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion",
+      en: "what-to-do-if-tattoo-loses-color-during-healing"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 16
+  },
+  {
+    id: "tattoo-sleeping-guide",
+    slugs: {
+      es: "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo",
+      en: "how-to-sleep-after-getting-tattoo-without-damaging-it"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 17
+  },
+  {
+    id: "tattoo-exercise-guide",
+    slugs: {
+      es: "se-puede-hacer-ejercicio-despues-de-tatuarse",
+      en: "can-you-exercise-after-getting-tattoo"
+    },
+    image: "/img/blog/post4.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 18
   }
 ];
 

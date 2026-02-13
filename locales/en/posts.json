@@ -6,6 +6,94 @@
   "posts": [
     {
       "label": "Aftercare",
+      "slug": "can-you-exercise-after-getting-tattoo",
+      "slugEn": "can-you-exercise-after-getting-tattoo",
+      "title": "Can You Exercise After Getting a Tattoo?",
+      "description": "Find out if you can exercise after getting a tattoo and how to do it safely. Complete guide on exercise and physical activity during tattoo healing.",
+      "image": "/img/blog/post4.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "can-you-exercise-after-getting-tattoo"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "how-to-sleep-after-getting-tattoo-without-damaging-it",
+      "slugEn": "how-to-sleep-after-getting-tattoo-without-damaging-it",
+      "title": "How to Sleep After Getting a Tattoo Without Damaging It",
+      "description": "Learn how to sleep comfortably after getting a tattoo without damaging it. Complete guide with practical tips to protect your tattoo while you sleep.",
+      "image": "/img/blog/post3.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "how-to-sleep-after-getting-tattoo-without-damaging-it"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "what-to-do-if-tattoo-loses-color-during-healing",
+      "slugEn": "what-to-do-if-tattoo-loses-color-during-healing",
+      "title": "What to Do If Your Tattoo Loses Color During Healing",
+      "description": "Learn what to do if your tattoo loses color during healing. Complete guide on causes, prevention and solutions for color loss in tattoos.",
+      "image": "/img/blog/post2.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "what-to-do-if-tattoo-loses-color-during-healing"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "how-to-protect-tattoo-from-sun-without-damaging-ink",
+      "slugEn": "how-to-protect-tattoo-from-sun-without-damaging-ink",
+      "title": "How to Protect a Tattoo from the Sun Without Damaging the Ink",
+      "description": "Learn how to effectively protect your tattoo from the sun without damaging the ink. Complete guide on sun protection for tattoos in Cali and how to keep them vibrant.",
+      "image": "/img/blog/post1.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "how-to-protect-tattoo-from-sun-without-damaging-ink"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "recommended-products-for-new-tattoo-care",
+      "slugEn": "recommended-products-for-new-tattoo-care",
+      "title": "Recommended Products for New Tattoo Care",
+      "description": "Discover the best products to care for your new tattoo. Complete guide on creams, soaps and essential products for perfect healing.",
+      "image": "/img/blog/post8.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "recommended-products-for-new-tattoo-care"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "normal-signs-and-warning-signs-during-tattoo-healing",
+      "slugEn": "normal-signs-and-warning-signs-during-tattoo-healing",
+      "title": "Normal Signs and Warning Signs During Tattoo Healing",
+      "description": "Learn to distinguish between normal healing signs and warning signs that require medical attention. Complete guide to identify when your tattoo is healing correctly.",
+      "image": "/img/blog/post7.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "normal-signs-and-warning-signs-during-tattoo-healing"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "tattoo-care-step-by-step-complete-guide",
+      "slugEn": "tattoo-care-step-by-step-complete-guide",
+      "title": "Tattoo Care Step by Step: Complete Guide from Day One to Full Healing",
+      "description": "Complete and detailed guide on how to care for your tattoo from the first day until it heals completely. Learn the essential steps to ensure your new piece looks perfect.",
+      "image": "/img/blog/post6.png",
+      "date": "February 13, 2026",
+      "cta": "Read more",
+      "ctaUrl": "tattoo-care-step-by-step-complete-guide"
+    },
+    {
+      "label": "Aftercare",
+      "slug": "how-long-does-a-tattoo-take-to-heal-size-and-placement",
+      "slugEn": "how-long-does-a-tattoo-take-to-heal-size-and-placement",
+      "title": "How Long Does a Tattoo Take to Heal Depending on Size and Placement?",
+      "description": "Learn how long a tattoo usually takes to heal depending on its size and placement on the body, and what you can do to help your skin recover in the best possible way.",
+      "image": "/img/blog/post3.png",
+      "date": "February 12, 2026",
+      "cta": "Read more",
+      "ctaUrl": "how-long-does-a-tattoo-take-to-heal-size-and-placement"
+    },
+    {
+      "label": "Aftercare",
       "slug": "7-mistakes-that-ruin-your-tattoo-healing",
       "slugEn": "7-mistakes-that-ruin-your-tattoo-healing",
       "title": "7 Mistakes That Ruin Your Tattoo Healing (and How to Avoid Them)",
