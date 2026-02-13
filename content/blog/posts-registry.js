@@ -335,6 +335,258 @@ export const blogPostsRegistry = [
     },
     published: true,
     order: 18
+  },
+  {
+    id: "first-tattoo-guide",
+    slugs: {
+      es: "todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje-por-primera-vez",
+      en: "everything-you-should-know-before-getting-your-first-tattoo"
+    },
+    image: "/img/blog/post7.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 19
+  },
+  {
+    id: "choosing-tattoo-artist",
+    slugs: {
+      es: "como-elegir-un-buen-tatuador-sin-dejarte-llevar-solo-por-el-precio",
+      en: "how-to-choose-good-tattoo-artist-without-price-only"
+    },
+    image: "/img/blog/post8.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 20
+  },
+  {
+    id: "first-tattoo-session",
+    slugs: {
+      es: "que-esperar-durante-tu-primera-sesion-de-tatuaje",
+      en: "what-to-expect-during-your-first-tattoo-session"
+    },
+    image: "/img/blog/post1.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 21
+  },
+  {
+    id: "questions-before-tattoo",
+    slugs: {
+      es: "preguntas-que-deberias-hacer-antes-de-tatuarte",
+      en: "questions-you-should-ask-before-getting-tattoo"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 22
+  },
+  {
+    id: "tattoo-longevity",
+    slugs: {
+      es: "cuanto-dura-realmente-un-tatuaje-con-los-anos",
+      en: "how-long-does-tattoo-really-last-over-years"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 23
+  },
+  {
+    id: "professional-vs-amateur-studio",
+    slugs: {
+      es: "diferencias-entre-un-estudio-profesional-de-tatuajes-y-uno-amateur",
+      en: "differences-between-professional-and-amateur-tattoo-studio"
+    },
+    image: "/img/blog/post4.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 24
+  },
+  {
+    id: "tattoo-session-duration",
+    slugs: {
+      es: "cuanto-tiempo-dura-una-sesion-de-tatuaje-segun-el-diseno",
+      en: "how-long-does-tattoo-session-last-depending-on-design"
+    },
+    image: "/img/blog/post6.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 25
+  },
+  {
+    id: "tattoo-pain-guide",
+    slugs: {
+      es: "duele-hacerse-un-tatuaje-guia-realista-sobre-dolor-zonas-y-sensaciones",
+      en: "does-getting-tattoo-hurt-realistic-guide-pain-zones-sensations"
+    },
+    image: "/img/blog/post7.png",
+    date: {
+      es: "12 de febrero de 2026",
+      en: "February 12, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 26
+  },
+  {
+    id: "most-painful-tattoo-zones",
+    slugs: {
+      es: "zonas-del-cuerpo-donde-mas-duele-tatuarse-ranking-real",
+      en: "most-painful-body-zones-for-tattoos-real-ranking"
+    },
+    image: "/img/blog/post1.png",
+    date: {
+      es: "13 de febrero de 2026",
+      en: "February 13, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 27
+  },
+  {
+    id: "managing-pain-long-tattoo-session",
+    slugs: {
+      es: "como-manejar-el-dolor-durante-una-sesion-de-tatuajes-larga",
+      en: "how-to-manage-pain-during-long-tattoo-session"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "14 de febrero de 2026",
+      en: "February 14, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 28
+  },
+  {
+    id: "tattoo-pain-by-skin-type",
+    slugs: {
+      es: "cuanto-duele-tatuarse-segun-el-tipo-de-piel",
+      en: "how-much-does-tattooing-hurt-by-skin-type"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "15 de febrero de 2026",
+      en: "February 15, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 29
+  },
+  {
+    id: "relaxation-techniques-during-tattoo",
+    slugs: {
+      es: "tecnicas-para-relajarte-mientras-te-estan-tatuando",
+      en: "relaxation-techniques-while-getting-tattooed"
+    },
+    image: "/img/blog/post4.png",
+    date: {
+      es: "16 de febrero de 2026",
+      en: "February 16, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 30
+  },
+  {
+    id: "tattoo-pain-duration-after",
+    slugs: {
+      es: "cuanto-dura-el-dolor-despues-de-tatuarse",
+      en: "how-long-does-tattoo-pain-last-after"
+    },
+    image: "/img/blog/post8.png",
+    date: {
+      es: "17 de febrero de 2026",
+      en: "February 17, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 31
+  },
+  {
+    id: "tattoo-anesthesia-guide",
+    slugs: {
+      es: "anestesia-para-tatuajes-funciona-realmente",
+      en: "tattoo-anesthesia-does-it-really-work"
+    },
+    image: "/img/blog/post6.png",
+    date: {
+      es: "18 de febrero de 2026",
+      en: "February 18, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 32
   }
 ];
 
