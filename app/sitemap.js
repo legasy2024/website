@@ -1,6 +1,15 @@
 import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
+import { getPostById } from "@/content/blog/posts-registry";
 
 const BASE_URL = "https://www.legassystudio.com";
+
+/** Parsea la fecha del post (en formato EN del registry) a ISO para lastModified */
+function parsePostDateToISO(postId) {
+  const meta = getPostById(postId);
+  if (!meta?.date?.en) return new Date().toISOString();
+  const d = new Date(meta.date.en);
+  return Number.isNaN(d.getTime()) ? new Date().toISOString() : d.toISOString();
+}
 
 /**
  * Sitemap dinámico para Next.js (App Router)
@@ -82,11 +91,12 @@ export default async function sitemap() {
 
       const enUrl = `${BASE_URL}/en/blog/${enSlug}`;
       const esUrl = `${BASE_URL}/es/blog/${esSlug}`;
+      const lastModified = parsePostDateToISO(postEs.id);
 
       // Entrada EN
       entries.push({
         url: enUrl,
-        lastModified: new Date().toISOString(),
+        lastModified,
         changeFrequency: "weekly",
         priority: 0.9,
         alternates: {
@@ -100,7 +110,7 @@ export default async function sitemap() {
       // Entrada ES
       entries.push({
         url: esUrl,
-        lastModified: new Date().toISOString(),
+        lastModified,
         changeFrequency: "weekly",
         priority: 0.9,
         alternates: {

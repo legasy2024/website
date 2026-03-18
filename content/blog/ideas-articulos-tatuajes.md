@@ -1,7 +1,7 @@
 ## Relacionados a salud del tatuaje
 
 0. Cuidados del tatuaje paso a paso: guía completa desde el día uno hasta la cicatrización total  
-1. Señales normales y señales de alerta durante la cicatrización de un tatuaje  
+1. git statu
 2. Productos recomendados para cuidar un tatuaje recién hecho  
 3. Cómo proteger un tatuaje del sol sin dañar la tinta  
 4. Qué hacer si tu tatuaje pierde color durante la cicatrización  

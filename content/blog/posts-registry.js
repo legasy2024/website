@@ -587,6 +587,402 @@ export const blogPostsRegistry = [
     },
     published: true,
     order: 32
+  },
+  {
+    id: "tattoo-design-aging-well",
+    slugs: {
+      es: "como-saber-si-un-diseno-de-tatuaje-envejecera-bien",
+      en: "how-to-know-if-a-tattoo-design-will-age-well"
+    },
+    image: "/img/blog/post5.png",
+    date: {
+      es: "01 de marzo de 2026",
+      en: "March 01, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 33
+  },
+  {
+    id: "tattoos-on-dark-skin-myths",
+    slugs: {
+      es: "tatuajes-en-pieles-morenas-mitos-sobre-el-color-y-la-saturacion",
+      en: "tattoos-on-brown-and-dark-skin-myths-color-and-saturation"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "02 de marzo de 2026",
+      en: "March 02, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 34
+  },
+  {
+    id: "micro-tattoos-vs-small-tattoos",
+    slugs: {
+      es: "micro-tatuajes-vs-tatuajes-pequenos-por-que-el-detalle-extremo-tiene-riesgos",
+      en: "micro-tattoos-vs-small-tattoos-why-extreme-detail-is-risky"
+    },
+    image: "/img/blog/post8.png",
+    date: {
+      es: "03 de marzo de 2026",
+      en: "March 03, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 35
+  },
+  {
+    id: "choose-tattoo-style-personality-anatomy",
+    slugs: {
+      es: "como-elegir-el-estilo-de-tatuaje-ideal-segun-tu-personalidad-y-anatomia",
+      en: "how-to-choose-the-right-tattoo-style-for-your-personality-and-anatomy"
+    },
+    image: "/img/blog/post7.png",
+    date: {
+      es: "04 de marzo de 2026",
+      en: "March 04, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 36
+  },
+  {
+    id: "blackwork-vs-realism-technical-guide",
+    slugs: {
+      es: "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas",
+      en: "blackwork-vs-realism-a-clear-guide-to-technical-differences"
+    },
+    image: "/img/blog/post1.png",
+    date: {
+      es: "05 de marzo de 2026",
+      en: "March 05, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 37
+  },
+  {
+    id: "tattoo-over-stretch-marks-scars-science",
+    slugs: {
+      es: "se-pueden-tapar-las-estrias-o-cicatrices-con-un-tatuaje-lo-que-dice-la-ciencia",
+      en: "can-you-cover-stretch-marks-or-scars-with-a-tattoo-what-science-says"
+    },
+    image: "/img/blog/post6.png",
+    date: {
+      es: "06 de marzo de 2026",
+      en: "March 06, 2026"
+    },
+    label: {
+      es: "Ciencia",
+      en: "Science"
+    },
+    published: true,
+    order: 38
+  },
+  {
+    id: "tattoo-raised-years-later",
+    slugs: {
+      es: "por-que-algunos-tatuajes-se-sienten-en-relieve-despues-de-anos",
+      en: "why-some-tattoos-feel-raised-years-later"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "07 de marzo de 2026",
+      en: "March 07, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 39
+  },
+  {
+    id: "tattoo-allergy-symptoms-causes",
+    slugs: {
+      es: "alergia-a-la-tinta-de-tatuaje-sintomas-causas-y-que-hacer-si-sucede",
+      en: "tattoo-ink-allergy-symptoms-causes-and-what-to-do"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "08 de marzo de 2026",
+      en: "March 08, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 40
+  },
+  {
+    id: "tattoo-over-moles-why-avoid",
+    slugs: {
+      es: "tatuarse-sobre-lunares-por-que-los-profesionales-siempre-los-evitan",
+      en: "tattooing-over-moles-why-professionals-avoid-it"
+    },
+    image: "/img/blog/post4.png",
+    date: {
+      es: "09 de marzo de 2026",
+      en: "March 09, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 41
+  },
+  {
+    id: "tattoo-ink-lymphatic-system",
+    slugs: {
+      es: "que-pasa-con-la-tinta-de-los-tatuajes-en-el-sistema-linfatico-realidad-vs-ficcion",
+      en: "what-happens-to-tattoo-ink-in-the-lymphatic-system-reality-vs-fiction"
+    },
+    image: "/img/blog/post5.png",
+    date: {
+      es: "10 de marzo de 2026",
+      en: "March 10, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 42
+  },
+  {
+    id: "tattoo-alcohol-caffeine-effects",
+    slugs: {
+      es: "el-efecto-del-alcohol-y-la-cafeina-en-la-sangre-durante-una-sesion-de-tatuaje",
+      en: "the-effect-of-alcohol-and-caffeine-on-your-blood-during-a-tattoo-session"
+    },
+    image: "/img/blog/post6.png",
+    date: {
+      es: "11 de marzo de 2026",
+      en: "March 11, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 43
+  },
+  {
+    id: "tattoo-dermatitis-psoriasis-safety",
+    slugs: {
+      es: "es-seguro-tatuarse-si-tienes-dermatitis-o-psoriasis",
+      en: "is-it-safe-to-get-tattooed-if-you-have-dermatitis-or-psoriasis"
+    },
+    image: "/img/blog/post7.png",
+    date: {
+      es: "12 de marzo de 2026",
+      en: "March 12, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 44
+  },
+  {
+    id: "tattoo-laser-hair-removal-same-area",
+    slugs: {
+      es: "tatuajes-y-depilacion-laser-por-que-nunca-deben-mezclarse-en-la-misma-zona",
+      en: "tattoos-and-laser-hair-removal-why-they-shouldnt-mix-in-the-same-area"
+    },
+    image: "/img/blog/post1.png",
+    date: {
+      es: "13 de marzo de 2026",
+      en: "March 13, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 45
+  },
+  {
+    id: "pool-chlorine-effect-healed-tattoo",
+    slugs: {
+      es: "como-afecta-el-cloro-de-la-piscina-a-un-tatuaje-ya-cicatrizado",
+      en: "how-pool-chlorine-affects-a-fully-healed-tattoo"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "13 de marzo de 2026",
+      en: "March 13, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 46
+  },
+  {
+    id: "flying-after-tattoo-travel-guide",
+    slugs: {
+      es: "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme",
+      en: "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo"
+    },
+    image: "/img/blog/post3.png",
+    date: {
+      es: "13 de marzo de 2026",
+      en: "March 13, 2026"
+    },
+    label: {
+      es: "Viajes",
+      en: "Travel"
+    },
+    published: true,
+    order: 47
+  },
+  {
+    id: "blood-donation-after-tattoo-wait-time",
+    slugs: {
+      es: "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente",
+      en: "blood-donation-after-a-tattoo-how-long-should-you-really-wait"
+    },
+    image: "/img/blog/post4.png",
+    date: {
+      es: "14 de marzo de 2026",
+      en: "March 14, 2026"
+    },
+    label: {
+      es: "Salud",
+      en: "Health"
+    },
+    published: true,
+    order: 48
+  },
+  {
+    id: "gym-training-with-new-tattoo",
+    slugs: {
+      es: "como-entrenar-en-el-gimnasio-sin-estirar-la-piel-de-un-tatuaje-nuevo",
+      en: "how-to-train-at-the-gym-without-stretching-a-new-tattoo"
+    },
+    image: "/img/blog/post5.png",
+    date: {
+      es: "14 de marzo de 2026",
+      en: "March 14, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 49
+  },
+  {
+    id: "tattoo-white-ink-yellowing",
+    slugs: {
+      es: "por-que-los-tatuajes-blancos-suelen-volverse-amarillos-o-desaparecer",
+      en: "why-white-tattoos-often-turn-yellow-or-disappear"
+    },
+    image: "/img/blog/post6.png",
+    date: {
+      es: "15 de marzo de 2026",
+      en: "March 15, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 50
+  },
+  {
+    id: "tattoo-aftercare-creams-truth",
+    slugs: {
+      es: "la-verdad-sobre-las-cremas-para-tatuajes-son-mejores-las-marcas-especializadas-o-la-vaselina",
+      en: "the-truth-about-tattoo-creams-are-specialized-brands-better-than-petroleum-jelly"
+    },
+    image: "/img/blog/post7.png",
+    date: {
+      es: "15 de marzo de 2026",
+      en: "March 15, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 51
+  },
+  {
+    id: "tattoo-blowout-ink-spread",
+    slugs: {
+      es: "que-es-el-blowout-en-un-tatuaje-y-por-que-se-expande-la-tinta-bajo-la-piel",
+      en: "what-is-blowout-in-a-tattoo-and-why-ink-spreads-under-the-skin"
+    },
+    image: "/img/blog/post8.png",
+    date: {
+      es: "15 de marzo de 2026",
+      en: "March 15, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 52
+  },
+  {
+    id: "reading-artist-portfolio-how-to",
+    slugs: {
+      es: "como-leer-el-portafolio-de-un-artista-en-que-fijarse-mas-alla-de-los-seguidores",
+      en: "how-to-read-a-tattoo-artist-portfolio-what-to-look-at-beyond-followers"
+    },
+    image: "/img/blog/post1.png",
+    date: {
+      es: "16 de marzo de 2026",
+      en: "March 16, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 53
+  },
+  {
+    id: "handpoke-vs-machine-tattoos",
+    slugs: {
+      es: "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
+      en: "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics"
+    },
+    image: "/img/blog/post2.png",
+    date: {
+      es: "16 de marzo de 2026",
+      en: "March 16, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 54
   }
 ];
 
