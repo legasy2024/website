@@ -18,7 +18,7 @@ export const blogPostsRegistry = [
       es: "guia-definitiva-donde-tatuarse-en-cali",
       en: "definitive-guide-on-where-to-tattoo-en-cali"
     },
-    image: "/img/blog/post1.png",
+    image: "/img/6.png",
     date: {
       es: "08 de abril de 2025",
       en: "April 08, 2025"
@@ -72,7 +72,7 @@ export const blogPostsRegistry = [
       es: "cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
       en: "cali-tattoo-scene-for-foreigners"
     },
-    image: "/img/blog/post4.png",
+    image: "/img/3.png",
     date: {
       es: "25 de abril de 2025",
       en: "April 25, 2025"
@@ -144,7 +144,7 @@ export const blogPostsRegistry = [
       es: "historia-del-arte-del-tatuaje-en-colombia",
       en: "history-of-tattoo-art-in-colombia"
     },
-    image: "/img/blog/post8.png",
+    image: "/img/14.png",
     date: {
       es: "30 de abril de 2025",
       en: "April 30, 2025"
@@ -342,7 +342,7 @@ export const blogPostsRegistry = [
       es: "todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje-por-primera-vez",
       en: "everything-you-should-know-before-getting-your-first-tattoo"
     },
-    image: "/img/blog/post7.png",
+    image: "/img/9.png",
     date: {
       es: "13 de febrero de 2026",
       en: "February 13, 2026"
@@ -360,7 +360,7 @@ export const blogPostsRegistry = [
       es: "como-elegir-un-buen-tatuador-sin-dejarte-llevar-solo-por-el-precio",
       en: "how-to-choose-good-tattoo-artist-without-price-only"
     },
-    image: "/img/blog/post8.png",
+    image: "/img/5.png",
     date: {
       es: "13 de febrero de 2026",
       en: "February 13, 2026"
@@ -378,7 +378,7 @@ export const blogPostsRegistry = [
       es: "que-esperar-durante-tu-primera-sesion-de-tatuaje",
       en: "what-to-expect-during-your-first-tattoo-session"
     },
-    image: "/img/blog/post1.png",
+    image: "/img/10.png",
     date: {
       es: "13 de febrero de 2026",
       en: "February 13, 2026"
@@ -648,7 +648,7 @@ export const blogPostsRegistry = [
       es: "como-elegir-el-estilo-de-tatuaje-ideal-segun-tu-personalidad-y-anatomia",
       en: "how-to-choose-the-right-tattoo-style-for-your-personality-and-anatomy"
     },
-    image: "/img/blog/post7.png",
+    image: "/img/4.png",
     date: {
       es: "04 de marzo de 2026",
       en: "March 04, 2026"
@@ -666,7 +666,7 @@ export const blogPostsRegistry = [
       es: "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas",
       en: "blackwork-vs-realism-a-clear-guide-to-technical-differences"
     },
-    image: "/img/blog/post1.png",
+    image: "/img/1.png",
     date: {
       es: "05 de marzo de 2026",
       en: "March 05, 2026"
@@ -846,7 +846,7 @@ export const blogPostsRegistry = [
       es: "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme",
       en: "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo"
     },
-    image: "/img/blog/post3.png",
+    image: "/img/11.png",
     date: {
       es: "13 de marzo de 2026",
       en: "March 13, 2026"
@@ -864,7 +864,7 @@ export const blogPostsRegistry = [
       es: "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente",
       en: "blood-donation-after-a-tattoo-how-long-should-you-really-wait"
     },
-    image: "/img/blog/post4.png",
+    image: "/img/2.png",
     date: {
       es: "14 de marzo de 2026",
       en: "March 14, 2026"
@@ -882,7 +882,7 @@ export const blogPostsRegistry = [
       es: "como-entrenar-en-el-gimnasio-sin-estirar-la-piel-de-un-tatuaje-nuevo",
       en: "how-to-train-at-the-gym-without-stretching-a-new-tattoo"
     },
-    image: "/img/blog/post5.png",
+    image: "/img/12.png",
     date: {
       es: "14 de marzo de 2026",
       en: "March 14, 2026"
@@ -972,7 +972,7 @@ export const blogPostsRegistry = [
       es: "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
       en: "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics"
     },
-    image: "/img/blog/post2.png",
+    image: "/img/13.png",
     date: {
       es: "16 de marzo de 2026",
       en: "March 16, 2026"

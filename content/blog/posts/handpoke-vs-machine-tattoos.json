@@ -1,12 +1,12 @@
 {
   "id": "handpoke-vs-machine-tattoos",
-  "image": "/img/blog/post2.png",
+  "image": "/img/13.png",
   "translations": {
     "es": {
       "slug": "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
       "title": "Tatuajes \"Handpoke\" vs. Máquina: diferencias en dolor, duración y estética",
       "date": "16 de marzo de 2026",
-      "image": "/img/blog/post2.png",
+      "image": "/img/13.png",
       "excerpt": "El handpoke no es \"menos profesional\" por ser manual, pero tampoco es mágico. Comparamos handpoke y máquina en dolor, curación, duración y estilo para ayudarte a elegir.",
       "seo": {
         "title": "Handpoke vs máquina: diferencias reales en tatuajes - Legassy Studio",
@@ -41,7 +41,7 @@
       "slug": "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics",
       "title": "Handpoke vs Machine Tattoos: Differences in Pain, Longevity and Aesthetics",
       "date": "March 16, 2026",
-      "image": "/img/blog/post2.png",
+      "image": "/img/13.png",
       "excerpt": "Handpoke isn’t “less professional” just because it’s manual, and machines aren’t automatically better. We compare handpoke and machine work in pain, healing, longevity and style.",
       "seo": {
         "title": "Handpoke vs Machine: Real Differences in Tattoos - Legassy Studio",
@@ -74,4 +74,3 @@
     }
   }
 }
-

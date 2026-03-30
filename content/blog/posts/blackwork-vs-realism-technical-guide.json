@@ -1,12 +1,12 @@
 {
   "id": "blackwork-vs-realism-technical-guide",
-  "image": "/img/blog/post1.png",
+  "image": "/img/1.png",
   "translations": {
     "es": {
       "slug": "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas",
       "title": "Blackwork vs. realismo: guía (muy clara) para entender las diferencias técnicas",
       "date": "05 de marzo de 2026",
-      "image": "/img/blog/post1.png",
+      "image": "/img/1.png",
       "excerpt": "Blackwork y realismo pueden verse “negros” a simple vista, pero técnicamente son mundos distintos. Aprende diferencias de línea, sombras, saturación, curación y longevidad para elegir mejor.",
       "seo": {
         "title": "Blackwork vs realismo: diferencias técnicas y cómo elegir - Legassy Studio",
@@ -42,7 +42,7 @@
       "slug": "blackwork-vs-realism-a-clear-guide-to-technical-differences",
       "title": "Blackwork vs Realism: A Clear Guide to the Technical Differences",
       "date": "March 05, 2026",
-      "image": "/img/blog/post1.png",
+      "image": "/img/1.png",
       "excerpt": "Blackwork and realism can both look “dark,” but technically they’re very different. Learn the differences in structure, values, healing, and aging to choose the right style for your idea and placement.",
       "seo": {
         "title": "Blackwork vs Realism: Technical Differences & How to Choose - Legassy Studio",
@@ -76,4 +76,3 @@
     }
   }
 }
-

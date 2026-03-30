@@ -1,12 +1,12 @@
 {
   "id": "flying-after-tattoo-travel-guide",
-  "image": "/img/blog/post3.png",
+  "image": "/img/11.png",
   "translations": {
     "es": {
       "slug": "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme",
       "title": "Guía para viajeros: ¿puedo volar en avión inmediatamente después de tatuarme?",
       "date": "13 de marzo de 2026",
-      "image": "/img/blog/post3.png",
+      "image": "/img/11.png",
       "excerpt": "Volar con un tatuaje recién hecho es posible, pero no siempre es buena idea hacerlo \"inmediatamente\". Te contamos qué riesgos reales hay y cómo planear tu viaje para cuidar la curación.",
       "seo": {
         "title": "¿Puedo volar después de tatuarme? Guía para viajeros - Legassy Studio",
@@ -41,7 +41,7 @@
       "slug": "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo",
       "title": "Traveler’s Guide: Can You Fly Immediately After Getting a Tattoo?",
       "date": "March 13, 2026",
-      "image": "/img/blog/post3.png",
+      "image": "/img/11.png",
       "excerpt": "Flying with a fresh tattoo is possible, but not always a smart idea \"immediately\". Learn the real risks and how to plan travel so your tattoo heals well.",
       "seo": {
         "title": "Can You Fly After Getting a Tattoo? A Traveler’s Guide - Legassy Studio",
@@ -74,4 +74,3 @@
     }
   }
 }
-

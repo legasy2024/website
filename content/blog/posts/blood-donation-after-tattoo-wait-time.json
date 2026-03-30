@@ -1,12 +1,12 @@
 {
   "id": "blood-donation-after-tattoo-wait-time",
-  "image": "/img/blog/post4.png",
+  "image": "/img/2.png",
   "translations": {
     "es": {
       "slug": "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente",
       "title": "Donar sangre después de un tatuaje: ¿cuánto tiempo hay que esperar realmente?",
       "date": "14 de marzo de 2026",
-      "image": "/img/blog/post4.png",
+      "image": "/img/2.png",
       "excerpt": "Tras un tatuaje, los bancos de sangre suelen exigir un periodo de espera. Te explicamos la lógica detrás, qué factores cambian el tiempo y cómo verificar la norma vigente en tu país.",
       "seo": {
         "title": "Donar sangre después de tatuarse: cuánto esperar realmente - Legassy Studio",
@@ -41,7 +41,7 @@
       "slug": "blood-donation-after-a-tattoo-how-long-should-you-really-wait",
       "title": "Donating Blood After a Tattoo: How Long Should You Really Wait?",
       "date": "March 14, 2026",
-      "image": "/img/blog/post4.png",
+      "image": "/img/2.png",
       "excerpt": "After a tattoo, blood banks typically require a waiting period. Here’s the rationale, what factors change the timeline, and how to verify the current rule where you live.",
       "seo": {
         "title": "Donating Blood After Getting Tattooed: How Long to Wait - Legassy Studio",
@@ -74,4 +74,3 @@
     }
   }
 }
-
