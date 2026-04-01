@@ -1,12 +1,12 @@
 {
   "id": "reading-artist-portfolio-how-to",
-  "image": "/img/blog/post1.png",
+  "image": "/img/blog/como-leer-portafolio.jpg",
   "translations": {
     "es": {
       "slug": "como-leer-el-portafolio-de-un-artista-en-que-fijarse-mas-alla-de-los-seguidores",
       "title": "Cómo leer el portafolio de un artista: en qué fijarse más allá de los seguidores",
       "date": "16 de marzo de 2026",
-      "image": "/img/blog/post1.png",
+      "image": "/img/blog/como-leer-portafolio.jpg",
       "excerpt": "Un buen portafolio dice mucho más que el número de seguidores. Te mostramos en qué detalles fijarte para elegir artista con criterio técnico y no solo por fama.",
       "seo": {
         "title": "Cómo leer el portafolio de un tatuador más allá de los seguidores - Legassy Studio",
@@ -41,7 +41,7 @@
       "slug": "how-to-read-a-tattoo-artist-portfolio-what-to-look-at-beyond-followers",
       "title": "How to Read a Tattoo Artist’s Portfolio: What to Focus on Beyond Followers",
       "date": "March 16, 2026",
-      "image": "/img/blog/post1.png",
+      "image": "/img/blog/como-leer-portafolio.jpg",
       "excerpt": "A strong portfolio says much more than a follower count. Learn which details to look for to choose an artist based on technical quality—not just social media popularity.",
       "seo": {
         "title": "How to Read a Tattoo Portfolio Beyond Follower Count - Legassy Studio",
@@ -74,4 +74,3 @@
     }
   }
 }
-

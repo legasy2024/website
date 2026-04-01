@@ -1,12 +1,12 @@
 {
   "id": "tattoo-white-ink-yellowing",
-  "image": "/img/blog/post6.png",
+  "image": "/img/blog/post4.png",
   "translations": {
     "es": {
       "slug": "por-que-los-tatuajes-blancos-suelen-volverse-amarillos-o-desaparecer",
       "title": "¿Por qué los tatuajes blancos suelen volverse amarillos o desaparecer?",
       "date": "15 de marzo de 2026",
-      "image": "/img/blog/post6.png",
+      "image": "/img/blog/post4.png",
       "excerpt": "Los tatuajes blancos rara vez se ven como en Pinterest a largo plazo. Te explicamos qué pasa con el pigmento, la piel y el sol, y cuándo tiene sentido usarlos.",
       "seo": {
         "title": "Tatuajes blancos: por qué se vuelven amarillos o desaparecen - Legassy Studio",
@@ -74,4 +74,3 @@
     }
   }
 }
-

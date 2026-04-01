@@ -1,12 +1,12 @@
 {
   "id": "tattoo-blowout-ink-spread",
-  "image": "/img/blog/post8.png",
+  "image": "/img/blog/blowout.jpg",
   "translations": {
     "es": {
       "slug": "que-es-el-blowout-en-un-tatuaje-y-por-que-se-expande-la-tinta-bajo-la-piel",
       "title": "¿Qué es el \"Blowout\" en un tatuaje y por qué se expande la tinta bajo la piel?",
       "date": "15 de marzo de 2026",
-      "image": "/img/blog/post8.png",
+      "image": "/img/blog/blowout.jpg",
       "excerpt": "Las líneas que se ven \"borrosas\" o como si se hubieran corrido bajo la piel suelen ser blowout. Te explicamos qué es, por qué ocurre y cuándo tiene arreglo.",
       "seo": {
         "title": "Blowout en tatuajes: por qué se expande la tinta bajo la piel - Legassy Studio",
@@ -41,7 +41,7 @@
       "slug": "what-is-blowout-in-a-tattoo-and-why-ink-spreads-under-the-skin",
       "title": "What Is \"Blowout\" in a Tattoo and Why Does Ink Spread Under the Skin?",
       "date": "March 15, 2026",
-      "image": "/img/blog/post8.png",
+      "image": "/img/blog/blowout.jpg",
       "excerpt": "Blurry lines and hazy shadows beyond the original design are often blowout. Here’s what it is, why it happens, and when it can be fixed or camouflaged.",
       "seo": {
         "title": "Tattoo Blowout: Why Ink Spreads Under the Skin - Legassy Studio",
@@ -74,4 +74,3 @@
     }
   }
 }
-
