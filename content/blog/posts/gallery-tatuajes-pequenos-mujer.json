@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-pequenos-mujer",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-pequenos-para-mujer-galeria",
+      "title": "Tatuajes pequeños para mujer: delicados y discretos",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los tatuajes pequeños para mujer suelen ir en línea fina: escorpiones, tortugas, colibríes, palabras en muñeca o microretratos de mascotas. Son ideales para una primera pieza o para zonas que quieras cubrir con ropa cuando haga falta. La selección muestra distintas escalas y…",
+      "seo": {
+        "title": "Tatuajes pequeños para mujer: delicados y discretos - Legassy Studio",
+        "description": "Los tatuajes pequeños para mujer suelen ir en línea fina: escorpiones, tortugas, colibríes, palabras en muñeca o microretratos de mascotas. Son ideales para una primera pieza o para zonas que quieras cubrir con ropa cuando haga falta. La selección muestra distintas escalas y ubicaciones (cadera…",
+        "keywords": [
+          "tatuajes pequeños para mujer",
+          "mini tatuajes mujer",
+          "tatuajes discretos mujer"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-pequenos-para-mujer-galeria"
+      },
+      "contentHtml": "<p>Los <strong>tatuajes pequeños para mujer</strong> suelen ir en línea fina: escorpiones, tortugas, colibríes, palabras en muñeca o microretratos de mascotas. Son ideales para una primera pieza o para zonas que quieras cubrir con ropa cuando haga falta.</p><p>La selección muestra distintas escalas y ubicaciones (cadera, brazo, muñeca, costillas); elige con tu artista el tamaño mínimo viable para que el detalle no se pierda.</p>",
+      "gallery": {
+        "title": "Mini tatuajes femeninos",
+        "description": "Animales, frases y retratos en tamaño reducido.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+            "alt": "Escorpión pequeño",
+            "title": "Escorpión",
+            "description": "Escorpión fino con corazón en cadera."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/02.jpg",
+            "alt": "Tortuga mini",
+            "title": "Tortuga",
+            "description": "Tortuga pequeña en brazo superior."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/03.jpg",
+            "alt": "Colibrí mini brazo",
+            "title": "Colibrí",
+            "description": "Colibrí pequeño en posterior del brazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/04.jpg",
+            "alt": "Micro perro",
+            "title": "Toby perro",
+            "description": "Retrato pequeño de perro con nombre Toby."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/05.jpg",
+            "alt": "Muñeca mini",
+            "title": "now",
+            "description": "Palabra fina en muñeca."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/06.jpg",
+            "alt": "Frase costilla",
+            "title": "no matter where",
+            "description": "Frase fina en costillas."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20peque%C3%B1os%20mujer%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "small-tattoos-for-women-gallery",
+      "title": "Small tattoos for women: delicate and discreet",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Small women's tattoos are often fine line—scorpions, turtles, hummingbirds, wrist words or pet micro-portraits. Great for a first tattoo or areas you can cover when needed. The set shows different scales and placements—pick a minimum size with your artist so detail holds.",
+      "seo": {
+        "title": "Small tattoos for women: delicate and discreet - Legassy Studio",
+        "description": "Small women's tattoos are often fine line—scorpions, turtles, hummingbirds, wrist words or pet micro-portraits. Great for a first tattoo or areas you can cover when needed. The set shows different scales and placements—pick a minimum size with your artist so detail holds.",
+        "keywords": [
+          "small tattoos for women",
+          "tiny tattoos women",
+          "delicate womens tattoos"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/small-tattoos-for-women-gallery"
+      },
+      "contentHtml": "<p><strong>Small women's tattoos</strong> are often fine line—scorpions, turtles, hummingbirds, wrist words or pet micro-portraits. Great for a first tattoo or areas you can cover when needed.</p><p>The set shows different scales and placements—pick a minimum size with your artist so detail holds.</p>",
+      "gallery": {
+        "title": "Small feminine tattoos",
+        "description": "Animals, phrases and portraits at small size.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+            "alt": "Small scorpion",
+            "title": "Scorpion",
+            "description": "Fine scorpion with heart on hip."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/02.jpg",
+            "alt": "Mini turtle",
+            "title": "Turtle",
+            "description": "Small turtle upper arm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/03.jpg",
+            "alt": "Mini hummingbird arm",
+            "title": "Hummingbird",
+            "description": "Small hummingbird on back of upper arm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/04.jpg",
+            "alt": "Micro dog portrait",
+            "title": "Toby dog",
+            "description": "Small dog portrait with name."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/05.jpg",
+            "alt": "Tiny wrist",
+            "title": "now",
+            "description": "Fine word on wrist."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/06.jpg",
+            "alt": "Rib phrase",
+            "title": "no matter where",
+            "description": "Fine phrase on ribs."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20peque%C3%B1os%20mujer%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

@@ -11,23 +11,32 @@ const BlogCard = ({ post, locale }) => {
     <Link
     key={post.id || post.slug}
     href={`/${locale}/blog/${post.slug}`}
-    className="flex flex-col sm:flex-row bg-white w-80 sm:w-full h-auto border border-[#827B71] rounded-lg overflow-hidden shadow-md transition-transform duration-300"
+    className="relative flex w-80 flex-col bg-white sm:w-full border border-[#827B71] rounded-lg overflow-hidden shadow-md transition-transform duration-300"
     style={{
       background: `linear-gradient(to bottom, #7777774D 60%, #8383834D 60%)`,
     }}
-  >
-    <Image
-      src={post.image}
-      alt={post.title}
-      width={300}
-      height={100}
-      className="w-full sm:w-[40%] h-[200px] sm:h-auto object-cover p-3"
-    />
-    <div className="flex flex-col gap-y-4 p-4 w-full sm:w-[60%]">
+    >
+    {/*
+      Móvil: imagen en flujo, 200px.
+      sm+: imagen position absolute top/bottom 0 (altura = la del bloque de texto); el texto define la altura de la tarjeta.
+      Así no dependemos de height:100% en flex, que a menudo no resuelve.
+    */}
+    <div className="relative h-[200px] w-full shrink-0 sm:absolute sm:inset-y-0 sm:left-0 sm:z-0 sm:h-auto sm:w-[40%]">
+      <div className="absolute inset-3 overflow-hidden rounded-md bg-[#2a2a2a]">
+        <Image
+          src={post.image}
+          alt={post.title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 640px) 100vw, 40vw"
+        />
+      </div>
+    </div>
+    <div className="relative z-10 flex min-w-0 flex-col gap-y-4 p-4 sm:box-border sm:ml-[40%] sm:w-[60%]">
       <label className="border border-[#C4C4C4] text-TextSecondary-100 pt-1 px-3 rounded-full w-fit">{post.label}</label>
       <h3 className="text-xl font-bold text-white">{post.title}</h3>
       <p className="text-base text-TextSecondary-100 mt-2">{post.description || post.excerpt}</p>
-      <span className="flex flex-row items-end justify-between">
+      <span className="mt-auto flex flex-row items-end justify-between pt-2">
         <Button color="dark" rightIcon={"arrowR"}>
           {typeof post.cta === "string"
             ? post.cta

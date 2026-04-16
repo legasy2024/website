@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-mano",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-en-la-mano-galeria",
+      "title": "Tatuajes en la mano: lettering y símbolos",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "La mano y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo. Incluimos también…",
+      "seo": {
+        "title": "Tatuajes en la mano: lettering y símbolos - Legassy Studio",
+        "description": "La mano y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo. Incluimos también antebrazo y muñeca…",
+        "keywords": [
+          "tatuajes en la mano",
+          "ideas tatuaje mano",
+          "galeria mano"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-en-la-mano-galeria"
+      },
+      "contentHtml": "<p>La <strong>mano</strong> y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo.</p><p>Incluimos también antebrazo y muñeca cuando el diseño forma parte de la misma lectura visual que la mano.</p>",
+      "gallery": {
+        "title": "Mano y zonas contiguas",
+        "description": "Manos, muñeca y antebrazo en algunas referencias.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+            "alt": "Tatuaje mano gracias",
+            "title": "Gracias",
+            "description": "Script \"Gracias\" con corazón en base del pulgar."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/02.jpg",
+            "alt": "Tatuaje mano WHY NOT",
+            "title": "WHY NOT",
+            "description": "Texto entre pulgar e índice en ambas manos."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/03.jpg",
+            "alt": "Tatuaje promesa brazo",
+            "title": "Promesa en antebrazo",
+            "description": "Manos de promesa: diseño en antebrazo (pareja)."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/04.jpg",
+            "alt": "Tatuaje muñeca",
+            "title": "Muñeca now",
+            "description": "Script en muñeca interna (continuación mano-muñeca)."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/05.jpg",
+            "alt": "Tatuaje antebrazo perro",
+            "title": "Perro Estrella",
+            "description": "Antebrazo con retrato; mano visible al borde."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/06.jpg",
+            "alt": "Tatuaje antebrazo frase",
+            "title": "Perseverancia",
+            "description": "Script vertical en antebrazo interno masculino."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20en%20la%20mano%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "hand-tattoos-gallery-inspiration",
+      "title": "Hand tattoos: lettering and symbols",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "The hand and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups. We also include forearm or wrist when the design reads together with…",
+      "seo": {
+        "title": "Hand tattoos: lettering and symbols - Legassy Studio",
+        "description": "The hand and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups. We also include forearm or wrist when the design reads together with the hand.",
+        "keywords": [
+          "hand tattoos",
+          "hand tattoo ideas",
+          "hand tattoo gallery"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/hand-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p>The <strong>hand</strong> and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups.</p><p>We also include forearm or wrist when the design reads together with the hand.</p>",
+      "gallery": {
+        "title": "Hands and adjacent areas",
+        "description": "Hands, wrist and forearm in some references.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+            "alt": "Hand thanks tattoo",
+            "title": "Thanks",
+            "description": "Thanks with heart on thumb base."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/02.jpg",
+            "alt": "WHY NOT hand tattoo",
+            "title": "WHY NOT",
+            "description": "Text on thenar eminence."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/03.jpg",
+            "alt": "Pinky promise tattoo",
+            "title": "Pinky promise",
+            "description": "Pinky promise design on forearms."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/04.jpg",
+            "alt": "Inner wrist tattoo",
+            "title": "Wrist now",
+            "description": "Inner wrist script near hand."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/05.jpg",
+            "alt": "Dog forearm",
+            "title": "Dog Estrella",
+            "description": "Forearm dog portrait."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/06.jpg",
+            "alt": "Forearm script tattoo",
+            "title": "Perseverance",
+            "description": "Vertical script inner forearm."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20en%20la%20mano%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

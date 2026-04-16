@@ -50,7 +50,7 @@ function generateBlogRewrites() {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com'],
+        domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com', 'images.unsplash.com'],
         formats: ['image/avif',  'image/webp']
     },
     async rewrites() {
@@ -58,6 +58,10 @@ const nextConfig = {
         const blogRewrites = generateBlogRewrites();
         
         return [
+            {
+                source: '/es/blog/tatuajes-en-el-brazo-galeria-de-ideas-y-recomendaciones',
+                destination: '/es/blog/tatuajes-en-el-brazo-para-hombres'
+            },
             ...blogRewrites
         ];
     }

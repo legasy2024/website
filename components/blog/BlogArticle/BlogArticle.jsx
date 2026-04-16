@@ -19,6 +19,8 @@ export default function BlogArticle({ content, locale }) {
     date,
     image,
     contentHtml,
+    gallery,
+    hideHeroImage,
     cta,
     contactInfo
   } = content;
@@ -44,7 +46,7 @@ export default function BlogArticle({ content, locale }) {
         </p>
 
         {/* Imagen principal */}
-        {image && (
+        {image && !hideHeroImage && (
           <div className="relative w-full h-[200px] md:h-[420px] mb-10">
             <Image
               src={image}
@@ -62,6 +64,47 @@ export default function BlogArticle({ content, locale }) {
           className={`${styles.blogContent} flex flex-col gap-y-8 text-base leading-7 text-[#e0e0e0]`}
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+
+        {/* Galería */}
+        {gallery?.items?.length > 0 && (
+          <section className="mt-12">
+            {gallery.title && (
+              <h2 className="text-2xl md:text-3xl font-bold mb-3 text-white">
+                {gallery.title}
+              </h2>
+            )}
+            {gallery.description && (
+              <p className="text-[#cfcfcf] mb-8">{gallery.description}</p>
+            )}
+
+            <div className={styles.galleryGrid}>
+              {gallery.items.map((item, index) => (
+                <article key={`${item.image}-${index}`} className={styles.galleryCard}>
+                  <div className={styles.galleryImageWrap}>
+                    <Image
+                      src={item.image}
+                      alt={item.alt || item.title || `Referencia de tatuaje ${index + 1}`}
+                      loading="lazy"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className={styles.galleryBody}>
+                    {item.title && (
+                      <h3 className="text-lg font-semibold text-white mb-2">
+                        {item.title}
+                      </h3>
+                    )}
+                    {item.description && (
+                      <p className="text-sm leading-6 text-[#d5d5d5]">{item.description}</p>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* CTAs */}
         {cta && (

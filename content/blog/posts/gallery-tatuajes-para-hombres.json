@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-para-hombres",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-para-hombres-galeria",
+      "title": "Tatuajes para hombres: realismo, manga y piezas marcadas",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los tatuajes para hombres suelen ir hacia el realismo en negro y gris, mangas completas o piezas de gran formato con mucho contraste. Puedes plantearte retratos mitológicos o religiosos, animales, escenas de anime o composiciones con geometría y relojes, según la zona y el…",
+      "seo": {
+        "title": "Tatuajes para hombres: realismo, manga y piezas marcadas - Legassy Studio",
+        "description": "Los tatuajes para hombres suelen ir hacia el realismo en negro y gris, mangas completas o piezas de gran formato con mucho contraste. Puedes plantearte retratos mitológicos o religiosos, animales, escenas de anime o composiciones con geometría y relojes, según la zona y el tiempo de sesión que…",
+        "keywords": [
+          "tatuajes para hombres",
+          "ideas tatuajes hombre",
+          "galeria tatuajes masculinos"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-para-hombres-galeria"
+      },
+      "contentHtml": "<p>Los <strong>tatuajes para hombres</strong> suelen ir hacia el realismo en negro y gris, mangas completas o piezas de gran formato con mucho contraste. Puedes plantearte retratos mitológicos o religiosos, animales, escenas de anime o composiciones con geometría y relojes, según la zona y el tiempo de sesión que quieras invertir.</p><p>Abajo tienes referencias reales del estudio: cada foto muestra el tatuaje terminado y la parte del cuerpo donde está, para que compares estilos antes de definir tu idea con un artista.</p>",
+      "gallery": {
+        "title": "Ideas para tatuajes masculinos",
+        "description": "Cada tarjeta describe el tatuaje y la zona visible en la foto.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+            "alt": "Tatuaje realista dios griego antebrazo",
+            "title": "Dios griego en antebrazo",
+            "description": "Retrato masculino estilo escultura clásica en antebrazo interno; ojos sin pupila y barba con volumen."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/02.jpg",
+            "alt": "Tatuaje casco espartano y león",
+            "title": "Casco espartano y león",
+            "description": "Casco corintio, cruces y león en negro y gris; pieza vertical de alto contraste."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/03.jpg",
+            "alt": "Tatuaje arcángel antebrazo",
+            "title": "Arcángel y dragón",
+            "description": "Figura alada con espada sobre criatura; narrativa religiosa en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/04.jpg",
+            "alt": "Manga tatuaje realismo hombre",
+            "title": "Manga guerrera",
+            "description": "Espartano en hombro y rostro con tocado de felino en la parte inferior; manga completa."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/05.jpg",
+            "alt": "Tatuaje manga león y reloj",
+            "title": "León oriental y reloj",
+            "description": "León tipo foo dog, geometría y reloj de bolsillo en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/06.jpg",
+            "alt": "Tatuaje anime Shenron brazo",
+            "title": "Shenron y esfera",
+            "description": "Dragon Ball: dragón Shenron con ojos rojos y esfera del dragón a color."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20para%20hombres%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "mens-tattoos-gallery-inspiration",
+      "title": "Men's tattoos: realism, sleeves and bold work",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Men's tattoos often mean black-and-grey realism, full sleeves or large-scale pieces with strong contrast. Think myth or religious portraits, animals, anime scenes, or geometry and clockwork—depending on placement and how many sessions you want. Below is real studio work: every…",
+      "seo": {
+        "title": "Men's tattoos: realism, sleeves and bold work - Legassy Studio",
+        "description": "Men's tattoos often mean black-and-grey realism, full sleeves or large-scale pieces with strong contrast. Think myth or religious portraits, animals, anime scenes, or geometry and clockwork—depending on placement and how many sessions you want. Below is real studio work: every photo shows the…",
+        "keywords": [
+          "mens tattoos",
+          "tattoo ideas for men",
+          "male tattoo gallery"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/mens-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Men's tattoos</strong> often mean black-and-grey realism, full sleeves or large-scale pieces with strong contrast. Think myth or religious portraits, animals, anime scenes, or geometry and clockwork—depending on placement and how many sessions you want.</p><p>Below is real studio work: every photo shows the finished tattoo and the body area, so you can compare styles before you lock a design.</p>",
+      "gallery": {
+        "title": "Men's tattoo ideas",
+        "description": "Each card describes the tattoo and the visible placement.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+            "alt": "Realistic Greek god inner forearm tattoo",
+            "title": "Greek god forearm",
+            "description": "Classical male bust on inner forearm; sculpted eyes and full beard shading."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/02.jpg",
+            "alt": "Spartan helmet and lion tattoo",
+            "title": "Spartan helmet and lion",
+            "description": "Corinthian helmet, crosses and lion in black and grey."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/03.jpg",
+            "alt": "Archangel forearm tattoo",
+            "title": "Archangel and dragon",
+            "description": "Winged figure with sword over a beast; religious narrative on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/04.jpg",
+            "alt": "Male realism full sleeve",
+            "title": "Warrior sleeve",
+            "description": "Spartan on shoulder, feline headdress portrait below; full sleeve."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/05.jpg",
+            "alt": "Sleeve with lion and clock",
+            "title": "Oriental lion and clock",
+            "description": "Foo dog, sacred geometry and pocket watch on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/06.jpg",
+            "alt": "Anime Shenron upper arm tattoo",
+            "title": "Shenron and Dragon Ball",
+            "description": "Shenron with red eyes and glowing Dragon Ball."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20para%20hombres%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

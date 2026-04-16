@@ -984,6 +984,384 @@ export const blogPostsRegistry = [
     published: true,
     order: 54,
   },
+  {
+    id: "arm-tattoo-gallery",
+    slugs: {
+      es: "tatuajes-en-el-brazo-para-hombres",
+      en: "arm-tattoos-gallery-ideas-and-recommendations",
+    },
+    image: "/img/portfolio-blog/realismo-1.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 55,
+  },
+  {
+    id: "gallery-tatuajes-para-hombres",
+    slugs: {
+      es: "tatuajes-para-hombres-galeria",
+      en: "mens-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 56,
+  },
+  {
+    id: "gallery-tatuajes-para-mujeres",
+    slugs: {
+      es: "tatuajes-para-mujeres-galeria",
+      en: "womens-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-para-mujeres/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 57,
+  },
+  {
+    id: "gallery-tatuajes-cuello",
+    slugs: {
+      es: "tatuajes-en-el-cuello-galeria",
+      en: "neck-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-cuello/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 58,
+  },
+  {
+    id: "gallery-tatuajes-antebrazo",
+    slugs: {
+      es: "tatuajes-en-el-antebrazo-galeria",
+      en: "forearm-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-antebrazo/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 59,
+  },
+  {
+    id: "gallery-tatuajes-espalda",
+    slugs: {
+      es: "tatuajes-en-la-espalda-galeria",
+      en: "back-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-espalda/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 60,
+  },
+  {
+    id: "gallery-tatuajes-pareja",
+    slugs: {
+      es: "tatuajes-en-pareja-galeria",
+      en: "couple-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 61,
+  },
+  {
+    id: "gallery-tatuajes-mujer-brazo",
+    slugs: {
+      es: "tatuajes-para-mujer-en-el-brazo-galeria",
+      en: "womens-arm-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-brazo/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 62,
+  },
+  {
+    id: "gallery-tatuajes-mano",
+    slugs: {
+      es: "tatuajes-en-la-mano-galeria",
+      en: "hand-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 63,
+  },
+  {
+    id: "gallery-tatuajes-pequenos-hombres",
+    slugs: {
+      es: "tatuajes-pequenos-para-hombres-galeria",
+      en: "small-tattoos-for-men-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 64,
+  },
+  {
+    id: "gallery-tatuajes-pequenos-mujer",
+    slugs: {
+      es: "tatuajes-pequenos-para-mujer-galeria",
+      en: "small-tattoos-for-women-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 65,
+  },
+  {
+    id: "gallery-tatuajes-pierna",
+    slugs: {
+      es: "tatuajes-en-la-pierna-galeria",
+      en: "leg-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pierna/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 66,
+  },
+  {
+    id: "gallery-tatuajes-espalda-mujer",
+    slugs: {
+      es: "tatuajes-en-la-espalda-para-mujer-galeria",
+      en: "back-tattoos-for-women-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 67,
+  },
+  {
+    id: "gallery-tatuajes-minimalistas",
+    slugs: {
+      es: "tatuajes-minimalistas-galeria",
+      en: "minimalist-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 68,
+  },
+  {
+    id: "gallery-tatuajes-cuello-hombres",
+    slugs: {
+      es: "tatuajes-en-el-cuello-para-hombres-galeria",
+      en: "neck-tattoos-for-men-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-hombres/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 69,
+  },
+  {
+    id: "gallery-tatuajes-hombres-pierna",
+    slugs: {
+      es: "tatuajes-para-hombres-en-la-pierna-galeria",
+      en: "mens-leg-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 70,
+  },
+  {
+    id: "gallery-tatuajes-elegantes-mujeres",
+    slugs: {
+      es: "tatuajes-elegantes-para-mujeres-galeria",
+      en: "elegant-tattoos-for-women-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 71,
+  },
+  {
+    id: "gallery-tatuajes-bonitos-mujer",
+    slugs: {
+      es: "tatuajes-bonitos-para-mujer-galeria",
+      en: "pretty-tattoos-for-women-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 72,
+  },
+  {
+    id: "gallery-tatuajes-mujer-muneca",
+    slugs: {
+      es: "tatuajes-para-mujer-en-la-muneca-galeria",
+      en: "womens-wrist-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-muneca/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 73,
+  },
+  {
+    id: "gallery-tatuajes-pequenos-amigas",
+    slugs: {
+      es: "tatuajes-pequenos-para-amigas-galeria",
+      en: "small-friendship-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-amigas/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 74,
+  },
+  {
+    id: "gallery-tatuajes-cuello-mujer",
+    slugs: {
+      es: "tatuajes-en-el-cuello-para-mujer-galeria",
+      en: "neck-tattoos-for-women-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
+    date: {
+      es: "15 de abril de 2026",
+      en: "April 15, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 75,
+  },
 ];
 
 /**

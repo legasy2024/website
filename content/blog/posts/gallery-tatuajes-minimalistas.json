@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-minimalistas",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-minimalistas-galeria",
+      "title": "Tatuajes minimalistas: línea fina y pocos trazos",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los tatuajes minimalistas se basan en trazos finos, siluetas sencillas, tipografía delicada o iconos pequeños con poco relleno. Funcionan en mano, muñeca, bíceps interno, costillas o antebrazo cuando buscas algo ligero visualmente pero bien definido en el dibujo. Esta selección…",
+      "seo": {
+        "title": "Tatuajes minimalistas: línea fina y pocos trazos - Legassy Studio",
+        "description": "Los tatuajes minimalistas se basan en trazos finos, siluetas sencillas, tipografía delicada o iconos pequeños con poco relleno. Funcionan en mano, muñeca, bíceps interno, costillas o antebrazo cuando buscas algo ligero visualmente pero bien definido en el dibujo. Esta selección muestra lettering…",
+        "keywords": [
+          "tatuajes minimalistas",
+          "minimal tattoo",
+          "tatuajes linea fina"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-minimalistas-galeria"
+      },
+      "contentHtml": "<p>Los <strong>tatuajes minimalistas</strong> se basan en trazos finos, siluetas sencillas, tipografía delicada o iconos pequeños con poco relleno. Funcionan en mano, muñeca, bíceps interno, costillas o antebrazo cuando buscas algo ligero visualmente pero bien definido en el dibujo.</p><p>Esta selección muestra lettering, símbolos y animales reducidos; el estilo exige precisión en la piel y buen cuidado para que el trazo no se difumine.</p>",
+      "gallery": {
+        "title": "Minimal y línea fina",
+        "description": "Letras, iconos y frases con trazo reducido.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+            "alt": "Minimal mano",
+            "title": "Gracias",
+            "description": "Script en mano."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/02.jpg",
+            "alt": "Minimal muñeca",
+            "title": "now",
+            "description": "Palabra en muñeca."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/03.jpg",
+            "alt": "Minimal bicep",
+            "title": "Cerebro-corazón",
+            "description": "Icono en bicep."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/04.jpg",
+            "alt": "Minimal tortuga",
+            "title": "Tortuga",
+            "description": "Tortuga pequeña con olas."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/05.jpg",
+            "alt": "Minimal costillas",
+            "title": "Frase costilla",
+            "description": "Script \"no matter where\"."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/06.jpg",
+            "alt": "Minimal frase",
+            "title": "Perseverancia",
+            "description": "Script vertical antebrazo."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20minimalistas%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "minimalist-tattoos-gallery-inspiration",
+      "title": "Minimalist tattoos: fine line and simple marks",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Minimalist tattoos rely on thin lines, simple silhouettes, delicate lettering or small icons with little fill. They work on hands, wrists, inner biceps, ribs or forearms when you want a light look with crisp drawing. This set shows lettering, symbols and tiny…",
+      "seo": {
+        "title": "Minimalist tattoos: fine line and simple marks - Legassy Studio",
+        "description": "Minimalist tattoos rely on thin lines, simple silhouettes, delicate lettering or small icons with little fill. They work on hands, wrists, inner biceps, ribs or forearms when you want a light look with crisp drawing. This set shows lettering, symbols and tiny creatures—precision and aftercare…",
+        "keywords": [
+          "minimalist tattoos",
+          "fine line tattoos",
+          "minimal tattoo gallery"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/minimalist-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Minimalist tattoos</strong> rely on thin lines, simple silhouettes, delicate lettering or small icons with little fill. They work on hands, wrists, inner biceps, ribs or forearms when you want a light look with crisp drawing.</p><p>This set shows lettering, symbols and tiny creatures—precision and aftercare matter so lines stay sharp.</p>",
+      "gallery": {
+        "title": "Minimal and fine line",
+        "description": "Letters, icons and phrases with minimal ink.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+            "alt": "Minimal hand",
+            "title": "Thanks",
+            "description": "Hand script."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/02.jpg",
+            "alt": "Minimal wrist",
+            "title": "now",
+            "description": "Wrist word."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/03.jpg",
+            "alt": "Minimal bicep",
+            "title": "Brain heart",
+            "description": "Inner bicep icon."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/04.jpg",
+            "alt": "Minimal turtle",
+            "title": "Turtle",
+            "description": "Small turtle upper arm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/05.jpg",
+            "alt": "Minimal ribs",
+            "title": "Rib phrase",
+            "description": "Side script."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/06.jpg",
+            "alt": "Minimal phrase",
+            "title": "Perseverance",
+            "description": "Vertical forearm script."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20minimalistas%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

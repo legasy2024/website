@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-hombres-pierna",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-para-hombres-en-la-pierna-galeria",
+      "title": "Tatuajes para hombres en la pierna: gran formato",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "En la pierna masculina encajan temáticas mitológicas, retratos realistas de gran tamaño, animales surrealistas, mascotas con acuarela o anime en muslo y espinilla. La pierna aguanta sesiones largas y permite sombras profundas sin el mismo roce que el antebrazo en el día a día…",
+      "seo": {
+        "title": "Tatuajes para hombres en la pierna: gran formato - Legassy Studio",
+        "description": "En la pierna masculina encajan temáticas mitológicas, retratos realistas de gran tamaño, animales surrealistas, mascotas con acuarela o anime en muslo y espinilla. La pierna aguanta sesiones largas y permite sombras profundas sin el mismo roce que el antebrazo en el día a día. Las referencias…",
+        "keywords": [
+          "tatuajes para hombres en la pierna",
+          "tatuajes pierna hombre",
+          "galeria pierna masculina"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-para-hombres-en-la-pierna-galeria"
+      },
+      "contentHtml": "<p>En la <strong>pierna masculina</strong> encajan temáticas mitológicas, retratos realistas de gran tamaño, animales surrealistas, mascotas con acuarela o anime en muslo y espinilla. La pierna aguanta sesiones largas y permite sombras profundas sin el mismo roce que el antebrazo en el día a día.</p><p>Las referencias cubren pierna inferior, muslo y piezas que ocupan varias regiones; revisa cada descripción para ver la extensión real.</p>",
+      "gallery": {
+        "title": "Pierna masculina: realismo y color",
+        "description": "Muslo, espinilla y pierna completa según la foto.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+            "alt": "Pierna Anubis",
+            "title": "Anubis",
+            "description": "Egipto en pierna inferior."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/02.jpg",
+            "alt": "Espinilla perro",
+            "title": "Pitbull",
+            "description": "Retrato grande en espinilla."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/03.jpg",
+            "alt": "Muslo polilla",
+            "title": "Polilla",
+            "description": "Polilla y cráneo en muslo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/04.jpg",
+            "alt": "Pierna retratos",
+            "title": "Tres retratos",
+            "description": "Tres rostros en costado de pierna."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/05.jpg",
+            "alt": "Pierna mascota",
+            "title": "Monti chihuahua",
+            "description": "Chihuahua con moño y acuarela en pierna."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/06.jpg",
+            "alt": "Anime pierna",
+            "title": "Zoro",
+            "description": "Busto Zoro en pierna o antebrazo."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20hombres%20pierna%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "mens-leg-tattoos-gallery-inspiration",
+      "title": "Men's leg tattoos: large-scale work",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Men's legs suit mythology, large realism, surreal animals, watercolor pets or anime on thigh and shin. Legs tolerate long sessions and deep shading with less daily abrasion than the forearm. References span lower leg, thigh and multi-region pieces—check each description for…",
+      "seo": {
+        "title": "Men's leg tattoos: large-scale work - Legassy Studio",
+        "description": "Men's legs suit mythology, large realism, surreal animals, watercolor pets or anime on thigh and shin. Legs tolerate long sessions and deep shading with less daily abrasion than the forearm. References span lower leg, thigh and multi-region pieces—check each description for coverage.",
+        "keywords": [
+          "mens leg tattoos",
+          "leg tattoos for men",
+          "male leg tattoo gallery"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/mens-leg-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Men's legs</strong> suit mythology, large realism, surreal animals, watercolor pets or anime on thigh and shin. Legs tolerate long sessions and deep shading with less daily abrasion than the forearm.</p><p>References span lower leg, thigh and multi-region pieces—check each description for coverage.</p>",
+      "gallery": {
+        "title": "Men's legs: realism and color",
+        "description": "Thigh, shin or full leg per photo.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+            "alt": "Anubis leg",
+            "title": "Anubis",
+            "description": "Anubis on lower leg."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/02.jpg",
+            "alt": "Dog shin tattoo",
+            "title": "Pitbull",
+            "description": "Large pitbull on shin."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/03.jpg",
+            "alt": "Thigh moth",
+            "title": "Moth",
+            "description": "Moth skull thigh."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/04.jpg",
+            "alt": "Leg portraits",
+            "title": "Three portraits",
+            "description": "Three stacked portraits on leg side."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/05.jpg",
+            "alt": "Pet leg tattoo",
+            "title": "Monti",
+            "description": "Chihuahua with bow on leg."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/06.jpg",
+            "alt": "Anime leg piece",
+            "title": "Zoro",
+            "description": "Zoro bust on leg/forearm."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20hombres%20pierna%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

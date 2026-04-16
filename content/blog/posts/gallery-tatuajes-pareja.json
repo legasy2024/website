@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-pareja",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-en-pareja-galeria",
+      "title": "Tatuajes en pareja: matching y promesas",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los tatuajes en pareja pueden ser dos piezas idénticas, dos mitades que encajan, fechas o nombres, promesas de meñique o símbolos que solo cobran sentido juntos. Lo habitual es ubicarlos en manos, antebrazos o piernas para que ambos los vean a la misma altura al juntarse. Abajo…",
+      "seo": {
+        "title": "Tatuajes en pareja: matching y promesas - Legassy Studio",
+        "description": "Los tatuajes en pareja pueden ser dos piezas idénticas, dos mitades que encajan, fechas o nombres, promesas de meñique o símbolos que solo cobran sentido juntos. Lo habitual es ubicarlos en manos, antebrazos o piernas para que ambos los vean a la misma altura al juntarse. Abajo hay ejemplos reales…",
+        "keywords": [
+          "tatuajes en pareja",
+          "tatuajes matching pareja",
+          "galeria pareja"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-en-pareja-galeria"
+      },
+      "contentHtml": "<p>Los <strong>tatuajes en pareja</strong> pueden ser dos piezas idénticas, dos mitades que encajan, fechas o nombres, promesas de meñique o símbolos que solo cobran sentido juntos. Lo habitual es ubicarlos en manos, antebrazos o piernas para que ambos los vean a la misma altura al juntarse.</p><p>Abajo hay ejemplos reales de lettering compartido, acuarela y diseños gemelos; piensa en tamaño mínimo legible y en cómo envejecerá el trazo en cada uno.</p>",
+      "gallery": {
+        "title": "Matching y diseños compartidos",
+        "description": "Letras gemelas, promesas y piezas que se complementan.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+            "alt": "Tatuajes manos pareja",
+            "title": "WHY NOT",
+            "description": "Dos manos con mismo texto \"WHY NOT\" entre pulgar e índice."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/02.jpg",
+            "alt": "Tatuajes pareja antebrazo",
+            "title": "Meñique prometido",
+            "description": "Dos antebrazos con promesa de meñique y hilo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/03.jpg",
+            "alt": "Tatuajes pareja pierna",
+            "title": "Brújulas en gemelo",
+            "description": "Dos piernas con brújula y montañas idénticas en pantorrilla."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/04.jpg",
+            "alt": "Tatuajes pareja familia",
+            "title": "Madre e hijo",
+            "description": "Dos antebrazos con silueta madre-hijo y acuarela."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/05.jpg",
+            "alt": "Tatuaje nombres familia",
+            "title": "Nombres y corazón",
+            "description": "Antebrazo con nombres Diego, Camilo, Steeven y corazón garabato."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/06.jpg",
+            "alt": "Tatuaje frase costillas",
+            "title": "Frase costilla",
+            "description": "Script \"no matter where\" en costado; a veces piezas de pareja complementarias."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20en%20pareja%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "couple-tattoos-gallery-inspiration",
+      "title": "Couple tattoos: matching art and promises",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Couple tattoos can be identical pieces, two halves, dates or names, pinky promises, or symbols that only make sense together. Hands, forearms or legs are common so they align when you join up. Below are real examples—think minimum readable size and how line work will age on…",
+      "seo": {
+        "title": "Couple tattoos: matching art and promises - Legassy Studio",
+        "description": "Couple tattoos can be identical pieces, two halves, dates or names, pinky promises, or symbols that only make sense together. Hands, forearms or legs are common so they align when you join up. Below are real examples—think minimum readable size and how line work will age on both of you.",
+        "keywords": [
+          "couple tattoos",
+          "matching tattoos",
+          "couple tattoo gallery"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/couple-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Couple tattoos</strong> can be identical pieces, two halves, dates or names, pinky promises, or symbols that only make sense together. Hands, forearms or legs are common so they align when you join up.</p><p>Below are real examples—think minimum readable size and how line work will age on both of you.</p>",
+      "gallery": {
+        "title": "Matching and shared designs",
+        "description": "Twin lettering, promises and complementary pieces.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+            "alt": "Matching hand tattoos",
+            "title": "WHY NOT",
+            "description": "Two hands matching WHY NOT on thenar area."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/02.jpg",
+            "alt": "Couple forearm tattoos",
+            "title": "Pinky promise",
+            "description": "Two inner forearms with pinky promise and thread."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/03.jpg",
+            "alt": "Matching leg tattoos",
+            "title": "Compass calves",
+            "description": "Matching compass and mountains on calves."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/04.jpg",
+            "alt": "Matching family forearms",
+            "title": "Mother and child",
+            "description": "Matching watercolor mother-child silhouettes on forearms."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/05.jpg",
+            "alt": "Family names forearm tattoo",
+            "title": "Names and heart",
+            "description": "Inner forearm with names in circle around sketched heart."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/06.jpg",
+            "alt": "Rib phrase tattoo",
+            "title": "Rib phrase",
+            "description": "Side script; sometimes paired phrases."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20en%20pareja%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

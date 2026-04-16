@@ -5,12 +5,243 @@
   "_note": "Este archivo se genera automáticamente desde el registry centralizado. Para modificar posts, edita content/blog/posts-registry.js y ejecuta: npm run generate:posts",
   "posts": [
     {
+      "label": "Galería",
+      "slug": "tatuajes-en-el-cuello-para-mujer-galeria",
+      "slugEn": "neck-tattoos-for-women-gallery",
+      "title": "Tatuajes en el cuello para mujer: línea fina y torso alto",
+      "description": "El cuello femenino combina bien con motivos celestes, florales mini o frases muy finas que suben desde el esternón o el hombro. Por visibilidad, muchas personas empiezan con algo equivalente en muñeca o torso alto antes de subir el diseño. Las fotos incluyen esternón, brazo y…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-el-cuello-para-mujer-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-pequenos-para-amigas-galeria",
+      "slugEn": "small-friendship-tattoos-gallery-inspiration",
+      "title": "Tatuajes pequeños para amigas: matching y recuerdos",
+      "description": "Los tatuajes para amigas suelen ser piezas gemelas en antebrazo, manos con la misma frase, brújulas en la pierna o siluetas que representen la historia compartida. Lo importante es que el tamaño sea sostenible para ambas y que el significado siga claro años después. Estas…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-amigas/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-pequenos-para-amigas-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-para-mujer-en-la-muneca-galeria",
+      "slugEn": "womens-wrist-tattoos-gallery-inspiration",
+      "title": "Tatuajes para mujer en la muñeca: palabras y símbolos",
+      "description": "La muñeca es ideal para una palabra corta, una fecha, un latido con corazón, acuarela ligera o un símbolo mínimo que veas cada día. Al ser zona estrecha, el diseño debe ser legible en pocos centímetros y el trazo fino requiere cuidado al curar para no perder detalle. Incluimos…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-muneca/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-para-mujer-en-la-muneca-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-bonitos-para-mujer-galeria",
+      "slugEn": "pretty-tattoos-for-women-gallery",
+      "title": "Tatuajes bonitos para mujer: animales y flores",
+      "description": "Los tatuajes bonitos para mujer suelen incluir animalitos, flores con color suave o acuarela, colibríes en línea fina y retratos de mascotas con nombre. Son piezas que transmiten cariño y suelen funcionar en brazo, antebrazo o zona baja del brazo cerca de la muñeca. Aquí hay…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-bonitos-para-mujer-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-elegantes-para-mujeres-galeria",
+      "slugEn": "elegant-tattoos-for-women-gallery",
+      "title": "Tatuajes elegantes para mujeres: línea fina y ornamentación",
+      "description": "Un tatuaje elegante para mujer suele combinar línea fina, simetría, detalle en florales o puntillismo suave y microrealismo en pequeño formato. El esternón, el interior del brazo y el antebrazo son zonas donde el diseño se ve refinado y proporcionado. Estas piezas del…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-elegantes-para-mujeres-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-para-hombres-en-la-pierna-galeria",
+      "slugEn": "mens-leg-tattoos-gallery-inspiration",
+      "title": "Tatuajes para hombres en la pierna: gran formato",
+      "description": "En la pierna masculina encajan temáticas mitológicas, retratos realistas de gran tamaño, animales surrealistas, mascotas con acuarela o anime en muslo y espinilla. La pierna aguanta sesiones largas y permite sombras profundas sin el mismo roce que el antebrazo en el día a día…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-para-hombres-en-la-pierna-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-el-cuello-para-hombres-galeria",
+      "slugEn": "neck-tattoos-for-men-gallery",
+      "title": "Tatuajes en el cuello para hombres: estilos y referencias",
+      "description": "En el cuello masculino suele apostarse por frases cortas, ornamentación o piezas que conecten con barba y mandíbula; también se ve mucho el salto desde el antebrazo cuando el diseño sube hacia el hombro. La piel del cuello es sensible y el sol la castiga, así que el…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-hombres/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-el-cuello-para-hombres-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-minimalistas-galeria",
+      "slugEn": "minimalist-tattoos-gallery-inspiration",
+      "title": "Tatuajes minimalistas: línea fina y pocos trazos",
+      "description": "Los tatuajes minimalistas se basan en trazos finos, siluetas sencillas, tipografía delicada o iconos pequeños con poco relleno. Funcionan en mano, muñeca, bíceps interno, costillas o antebrazo cuando buscas algo ligero visualmente pero bien definido en el dibujo. Esta selección…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-minimalistas-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-la-espalda-para-mujer-galeria",
+      "slugEn": "back-tattoos-for-women-gallery",
+      "title": "Tatuajes en la espalda para mujer: retratos y florales",
+      "description": "La espalda femenina se presta a retratos de mascotas con flores, ornamentación en línea fina en la línea media o piezas que combinan simbolismo y delicadeza. También es habitual integrar el esternón o el brazo cuando quieres un conjunto más amplio. Las imágenes incluyen espalda…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-la-espalda-para-mujer-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-la-pierna-galeria",
+      "slugEn": "leg-tattoos-gallery-inspiration",
+      "title": "Tatuajes en la pierna: muslo, espinilla y tobillo",
+      "description": "La pierna ofrece muslo para composiciones amplias (orientales, retratos apilados, animales surrealistas), espinilla para piezas altas en vertical y zona del tobillo para diseños más acotados con curvas que siguen el hueso. El dolor y el tiempo de sesión cambian mucho entre…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pierna/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-la-pierna-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-pequenos-para-mujer-galeria",
+      "slugEn": "small-tattoos-for-women-gallery",
+      "title": "Tatuajes pequeños para mujer: delicados y discretos",
+      "description": "Los tatuajes pequeños para mujer suelen ir en línea fina: escorpiones, tortugas, colibríes, palabras en muñeca o microretratos de mascotas. Son ideales para una primera pieza o para zonas que quieras cubrir con ropa cuando haga falta. La selección muestra distintas escalas y…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-pequenos-para-mujer-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-pequenos-para-hombres-galeria",
+      "slugEn": "small-tattoos-for-men-gallery",
+      "title": "Tatuajes pequeños para hombres: frases y símbolos",
+      "description": "Los tatuajes pequeños para hombres funcionan muy bien como una palabra con significado, un animal en tamaño reducido, un retrato mini o un personaje de anime en vertical. Antebrazo interno y bíceps son zonas habituales porque el diseño se lee bien sin ocupar media manga. Las…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-pequenos-para-hombres-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-la-mano-galeria",
+      "slugEn": "hand-tattoos-gallery-inspiration",
+      "title": "Tatuajes en la mano: lettering y símbolos",
+      "description": "La mano y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo. Incluimos también…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-la-mano-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-para-mujer-en-el-brazo-galeria",
+      "slugEn": "womens-arm-tattoos-gallery-inspiration",
+      "title": "Tatuajes para mujer en el brazo: línea fina y color",
+      "description": "En el brazo puedes llevar desde retratos y mitología en microrealismo hasta mariposas, flores en puntillismo o motivos celestes en línea fina. El brazo superior da espacio para composiciones redondas; el antebrazo favorece piezas alargadas y detalle cerca de la muñeca. Estas…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-brazo/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-para-mujer-en-el-brazo-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-pareja-galeria",
+      "slugEn": "couple-tattoos-gallery-inspiration",
+      "title": "Tatuajes en pareja: matching y promesas",
+      "description": "Los tatuajes en pareja pueden ser dos piezas idénticas, dos mitades que encajan, fechas o nombres, promesas de meñique o símbolos que solo cobran sentido juntos. Lo habitual es ubicarlos en manos, antebrazos o piernas para que ambos los vean a la misma altura al juntarse. Abajo…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-pareja-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-la-espalda-galeria",
+      "slugEn": "back-tattoos-gallery-inspiration",
+      "title": "Tatuajes en la espalda: piezas grandes y zona alta",
+      "description": "La espalda permite retratos amplios, animales, escenas completas o piezas centradas en la zona alta cerca de los hombros. También se combina a menudo con mangas que bajan por el brazo para unificar la composición. La piel aquí aguanta bien el sombreado y los diseños con fondo…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-la-espalda-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-el-antebrazo-galeria",
+      "slugEn": "forearm-tattoos-gallery-inspiration",
+      "title": "Tatuajes en el antebrazo: realismo, anime y vertical",
+      "description": "El antebrazo es uno de los lugares más versátiles: da buen espacio para retratos alargados, escenas religiosas, animales con textura, anime a color o piezas surrealistas con relojes y ojos. El flujo del músculo ayuda a componer en vertical y el área suele cicatrizar con lectura…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-antebrazo/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-el-antebrazo-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-el-cuello-galeria",
+      "slugEn": "neck-tattoos-gallery-inspiration",
+      "title": "Tatuajes en el cuello: línea fina y piezas pequeñas",
+      "description": "El cuello es una zona visible y que suele pedir trazos finos, poca tinta o motivos muy claros (símbolos, letras pequeñas, ornamentación). En muchos casos los mismos recursos de línea fina que ves en muñeca, esternón o detrás de la oreja se pueden adaptar al cuello con otro…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-el-cuello-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-para-mujeres-galeria",
+      "slugEn": "womens-tattoos-gallery-inspiration",
+      "title": "Tatuajes para mujeres: florales, línea fina y retratos",
+      "description": "Los tatuajes para mujeres abren un abanico muy amplio: flores y naturaleza en acuarela o ilustrativo, línea fina con animales pequeños, retratos con microrealismo o piezas con puntillismo y sombras suaves. La elección depende de si buscas algo delicado y discreto o una…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-mujeres/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-para-mujeres-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-para-hombres-galeria",
+      "slugEn": "mens-tattoos-gallery-inspiration",
+      "title": "Tatuajes para hombres: realismo, manga y piezas marcadas",
+      "description": "Los tatuajes para hombres suelen ir hacia el realismo en negro y gris, mangas completas o piezas de gran formato con mucho contraste. Puedes plantearte retratos mitológicos o religiosos, animales, escenas de anime o composiciones con geometría y relojes, según la zona y el…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-para-hombres-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-en-el-brazo-para-hombres",
+      "slugEn": "arm-tattoos-gallery-ideas-and-recommendations",
+      "title": "Tatuajes en el brazo para hombres",
+      "description": "Referencias reales de tatuajes en el brazo para hombres: realismo, surrealismo y anime. Un repaso por estilos, tamaños y zonas del brazo para que compares ideas antes de pedir tu diseño con un artista.",
+      "image": "/img/portfolio-blog/realismo-1.jpg",
+      "date": "15 de abril de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-el-brazo-para-hombres"
+    },
+    {
       "label": "Técnica",
       "slug": "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
       "slugEn": "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics",
       "title": "Tatuajes \"Handpoke\" vs. Máquina: diferencias en dolor, duración y estética",
       "description": "El handpoke no es \"menos profesional\" por ser manual, pero tampoco es mágico. Comparamos handpoke y máquina en dolor, curación, duración y estilo para ayudarte a elegir.",
-      "image": "/img/blog/post2.png",
+      "image": "/img/13.png",
       "date": "16 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica"
@@ -21,7 +252,7 @@
       "slugEn": "how-to-read-a-tattoo-artist-portfolio-what-to-look-at-beyond-followers",
       "title": "Cómo leer el portafolio de un artista: en qué fijarse más allá de los seguidores",
       "description": "Un buen portafolio dice mucho más que el número de seguidores. Te mostramos en qué detalles fijarte para elegir artista con criterio técnico y no solo por fama.",
-      "image": "/img/blog/post1.png",
+      "image": "/img/blog/como-leer-portafolio-artista.jpg",
       "date": "16 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "como-leer-el-portafolio-de-un-artista-en-que-fijarse-mas-alla-de-los-seguidores"
@@ -32,7 +263,7 @@
       "slugEn": "what-is-blowout-in-a-tattoo-and-why-ink-spreads-under-the-skin",
       "title": "¿Qué es el \"Blowout\" en un tatuaje y por qué se expande la tinta bajo la piel?",
       "description": "Las líneas que se ven \"borrosas\" o como si se hubieran corrido bajo la piel suelen ser blowout. Te explicamos qué es, por qué ocurre y cuándo tiene arreglo.",
-      "image": "/img/blog/post8.png",
+      "image": "/img/blog/blowout.jpg",
       "date": "15 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "que-es-el-blowout-en-un-tatuaje-y-por-que-se-expande-la-tinta-bajo-la-piel"
@@ -43,7 +274,7 @@
       "slugEn": "the-truth-about-tattoo-creams-are-specialized-brands-better-than-petroleum-jelly",
       "title": "La verdad sobre las cremas para tatuajes: ¿son mejores las marcas especializadas o la vaselina?",
       "description": "Cada estudio recomienda productos distintos: cremas de marca, vaselina, pomadas médicas… Te explicamos qué importa de verdad en una crema para tatuajes y cómo elegir sin caer en marketing vacío.",
-      "image": "/img/blog/post7.png",
+      "image": "/img/blog/crema-tatuajes.jpg",
       "date": "15 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "la-verdad-sobre-las-cremas-para-tatuajes-son-mejores-las-marcas-especializadas-o-la-vaselina"
@@ -54,7 +285,7 @@
       "slugEn": "why-white-tattoos-often-turn-yellow-or-disappear",
       "title": "¿Por qué los tatuajes blancos suelen volverse amarillos o desaparecer?",
       "description": "Los tatuajes blancos rara vez se ven como en Pinterest a largo plazo. Te explicamos qué pasa con el pigmento, la piel y el sol, y cuándo tiene sentido usarlos.",
-      "image": "/img/blog/post6.png",
+      "image": "/img/blog/tatuaje-blanco.jpg",
       "date": "15 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "por-que-los-tatuajes-blancos-suelen-volverse-amarillos-o-desaparecer"
@@ -65,7 +296,7 @@
       "slugEn": "how-to-train-at-the-gym-without-stretching-a-new-tattoo",
       "title": "Cómo entrenar en el gimnasio sin estirar la piel de un tatuaje nuevo",
       "description": "Volver al gym con un tatuaje reciente requiere estrategia: fricción, sudor y estiramiento pueden arruinar la curación. Te damos una guía práctica para entrenar sin sabotear tu tatuaje.",
-      "image": "/img/blog/post5.png",
+      "image": "/img/12.png",
       "date": "14 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "como-entrenar-en-el-gimnasio-sin-estirar-la-piel-de-un-tatuaje-nuevo"
@@ -76,7 +307,7 @@
       "slugEn": "blood-donation-after-a-tattoo-how-long-should-you-really-wait",
       "title": "Donar sangre después de un tatuaje: ¿cuánto tiempo hay que esperar realmente?",
       "description": "Tras un tatuaje, los bancos de sangre suelen exigir un periodo de espera. Te explicamos la lógica detrás, qué factores cambian el tiempo y cómo verificar la norma vigente en tu país.",
-      "image": "/img/blog/post4.png",
+      "image": "/img/2.png",
       "date": "14 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente"
@@ -87,7 +318,7 @@
       "slugEn": "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo",
       "title": "Guía para viajeros: ¿puedo volar en avión inmediatamente después de tatuarme?",
       "description": "Volar con un tatuaje recién hecho es posible, pero no siempre es buena idea hacerlo \"inmediatamente\". Te contamos qué riesgos reales hay y cómo planear tu viaje para cuidar la curación.",
-      "image": "/img/blog/post3.png",
+      "image": "/img/11.png",
       "date": "13 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme"
@@ -197,7 +428,7 @@
       "slugEn": "blackwork-vs-realism-a-clear-guide-to-technical-differences",
       "title": "Blackwork vs. realismo: guía (muy clara) para entender las diferencias técnicas",
       "description": "Blackwork y realismo pueden verse “negros” a simple vista, pero técnicamente son mundos distintos. Aprende diferencias de línea, sombras, saturación, curación y longevidad para elegir mejor.",
-      "image": "/img/blog/post1.png",
+      "image": "/img/1.png",
       "date": "05 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas"
@@ -208,7 +439,7 @@
       "slugEn": "how-to-choose-the-right-tattoo-style-for-your-personality-and-anatomy",
       "title": "Cómo elegir el estilo de tatuaje ideal según tu personalidad y anatomía",
       "description": "Elegir estilo no es solo “qué te gusta”: también importa tu anatomía, la zona, el movimiento y la longevidad. Guía para encontrar un estilo que te represente y se vea bien en tu cuerpo.",
-      "image": "/img/blog/post7.png",
+      "image": "/img/4.png",
       "date": "04 de marzo de 2026",
       "cta": "Leer más",
       "ctaUrl": "como-elegir-el-estilo-de-tatuaje-ideal-segun-tu-personalidad-y-anatomia"
@@ -373,7 +604,7 @@
       "slugEn": "what-to-expect-during-your-first-tattoo-session",
       "title": "Qué esperar durante tu primera sesión de tatuaje",
       "description": "Descubre qué esperar durante tu primera sesión de tatuaje. Guía completa sobre el proceso, desde la llegada al estudio hasta el final de la sesión.",
-      "image": "/img/blog/post1.png",
+      "image": "/img/10.png",
       "date": "13 de febrero de 2026",
       "cta": "Leer más",
       "ctaUrl": "que-esperar-durante-tu-primera-sesion-de-tatuaje"
@@ -384,7 +615,7 @@
       "slugEn": "how-to-choose-good-tattoo-artist-without-price-only",
       "title": "Cómo elegir un buen tatuador sin dejarte llevar solo por el precio",
       "description": "Aprende cómo elegir un buen tatuador basándote en calidad, experiencia y profesionalismo, no solo en el precio. Guía completa para tomar la mejor decisión.",
-      "image": "/img/blog/post8.png",
+      "image": "/img/5.png",
       "date": "13 de febrero de 2026",
       "cta": "Leer más",
       "ctaUrl": "como-elegir-un-buen-tatuador-sin-dejarte-llevar-solo-por-el-precio"
@@ -395,7 +626,7 @@
       "slugEn": "everything-you-should-know-before-getting-your-first-tattoo",
       "title": "Todo lo que debes saber antes de hacerte un tatuaje por primera vez",
       "description": "Guía completa para principiantes sobre todo lo que necesitas saber antes de hacerte tu primer tatuaje. Desde elegir el diseño hasta prepararte para la sesión.",
-      "image": "/img/blog/post7.png",
+      "image": "/img/9.png",
       "date": "13 de febrero de 2026",
       "cta": "Leer más",
       "ctaUrl": "todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje-por-primera-vez"
@@ -516,7 +747,7 @@
       "slugEn": "history-of-tattoo-art-in-colombia",
       "title": "Tatuajes en Colombia: Fusión de Historia y Modernidad",
       "description": "Explora el fascinante recorrido del arte del tatuaje en Colombia, desde las prácticas ancestrales indígenas hasta las innovadoras técnicas contemporáneas. Descubre cómo este legado cultural milenario continúa evolucionando.",
-      "image": "/img/blog/post8.png",
+      "image": "/img/14.png",
       "date": "30 de abril de 2025",
       "cta": "Leer más",
       "ctaUrl": "historia-del-arte-del-tatuaje-en-colombia"
@@ -560,7 +791,7 @@
       "slugEn": "cali-tattoo-scene-for-foreigners",
       "title": "Tatuajes en Colombia: Cali, El Auge de una Ciudad Creativa para Extranjeros",
       "description": "Explora cómo Cali se ha convertido en el nuevo epicentro del tatuaje en Colombia, combinando talento emergente, influencia internacional y una identidad visual vibrante. Legassy Studio: donde el arte se convierte en legado.",
-      "image": "/img/blog/post4.png",
+      "image": "/img/3.png",
       "date": "25 de abril de 2025",
       "cta": "Leer más",
       "ctaUrl": "cali-el-auge-de-una-ciudad-creativa-para-extranjeros"
@@ -593,7 +824,7 @@
       "slugEn": "definitive-guide-on-where-to-tattoo-en-cali",
       "title": "Guía Definitiva: Dónde Tatuarse en Cali, Colombia — Top 5 Estudios",
       "description": "Descubre los mejores lugares para tatuarte en Cali. Comparativa de estudios, estilos y calidad. Legassy Studio: donde el arte se convierte en legado.",
-      "image": "/img/blog/post1.png",
+      "image": "/img/6.png",
       "date": "08 de abril de 2025",
       "cta": "Leer más",
       "ctaUrl": "guia-definitiva-donde-tatuarse-en-cali"

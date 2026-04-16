@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-espalda-mujer",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-en-la-espalda-para-mujer-galeria",
+      "title": "Tatuajes en la espalda para mujer: retratos y florales",
+      "date": "15 de abril de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "La espalda femenina se presta a retratos de mascotas con flores, ornamentación en línea fina en la línea media o piezas que combinan simbolismo y delicadeza. También es habitual integrar el esternón o el brazo cuando quieres un conjunto más amplio. Las imágenes incluyen espalda…",
+      "seo": {
+        "title": "Tatuajes en la espalda para mujer: retratos y florales - Legassy Studio",
+        "description": "La espalda femenina se presta a retratos de mascotas con flores, ornamentación en línea fina en la línea media o piezas que combinan simbolismo y delicadeza. También es habitual integrar el esternón o el brazo cuando quieres un conjunto más amplio. Las imágenes incluyen espalda alta y otras zonas…",
+        "keywords": [
+          "tatuajes en la espalda para mujer",
+          "tatuajes espalda mujer",
+          "galeria espalda femenina"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-en-la-espalda-para-mujer-galeria"
+      },
+      "contentHtml": "<p>La <strong>espalda femenina</strong> se presta a retratos de mascotas con flores, ornamentación en línea fina en la línea media o piezas que combinan simbolismo y delicadeza. También es habitual integrar el esternón o el brazo cuando quieres un conjunto más amplio.</p><p>Las imágenes incluyen espalda alta y otras zonas de referencia; lee la descripción de cada una para ubicar bien el diseño.</p>",
+      "gallery": {
+        "title": "Espalda y torso alto (mujer)",
+        "description": "Espalda alta, esternón y brazo en distintas referencias.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+            "alt": "Espalda husky mujer",
+            "title": "Husky y lirios",
+            "description": "Husky con ojos azules y lirios en espalda alta; tatuaje árbol Family."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/02.jpg",
+            "alt": "Tatuaje esternón mujer",
+            "title": "Leo ornamental",
+            "description": "Símbolo Leo con ornamentación en esternón."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/03.jpg",
+            "alt": "Tatuaje torso alto",
+            "title": "Estrella y luna",
+            "description": "Motivos celestes en esternón (zona frontal alta)."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/04.jpg",
+            "alt": "Tatuaje brazo mujer",
+            "title": "Mariposa en brazo",
+            "description": "Retrato con mariposa para composición femenina (brazo)."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/05.jpg",
+            "alt": "Tatuaje muslo mujer",
+            "title": "Mano y flor",
+            "description": "Ilustración en muslo femenino."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/06.jpg",
+            "alt": "Tatuaje brazo linea fina",
+            "title": "Self hug",
+            "description": "Torso abrazándose con flores en el cuello y frase \"we'll be alright.\" en bicep interno."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20espalda%20mujer%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "back-tattoos-for-women-gallery",
+      "title": "Back tattoos for women: portraits and florals",
+      "date": "April 15, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "The female back suits pet portraits with florals, fine-line center-line ornament, or symbolic delicate work. Sternum or arm can tie in when you want a bigger set. Images include upper back and related areas—read each caption for placement.",
+      "seo": {
+        "title": "Back tattoos for women: portraits and florals - Legassy Studio",
+        "description": "The female back suits pet portraits with florals, fine-line center-line ornament, or symbolic delicate work. Sternum or arm can tie in when you want a bigger set. Images include upper back and related areas—read each caption for placement.",
+        "keywords": [
+          "back tattoos for women",
+          "womens back tattoos",
+          "female back tattoo ideas"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/back-tattoos-for-women-gallery"
+      },
+      "contentHtml": "<p>The <strong>female back</strong> suits pet portraits with florals, fine-line center-line ornament, or symbolic delicate work. Sternum or arm can tie in when you want a bigger set.</p><p>Images include upper back and related areas—read each caption for placement.</p>",
+      "gallery": {
+        "title": "Back and upper torso (women)",
+        "description": "Upper back, sternum and arm in different references.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+            "alt": "Woman upper back husky",
+            "title": "Husky back",
+            "description": "Husky with lilies on upper back near Family tree."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/02.jpg",
+            "alt": "Woman sternum tattoo",
+            "title": "Leo sternum",
+            "description": "Zodiac Leo ornamental on sternum."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/03.jpg",
+            "alt": "Upper torso tattoo",
+            "title": "Star moon",
+            "description": "Celestial sternum piece."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/04.jpg",
+            "alt": "Woman arm tattoo",
+            "title": "Butterfly arm",
+            "description": "Female portrait with butterfly on arm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/05.jpg",
+            "alt": "Woman thigh tattoo",
+            "title": "Hand flower",
+            "description": "Illustrative thigh piece."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/06.jpg",
+            "alt": "Fine line upper arm",
+            "title": "Self hug",
+            "description": "Self-hugging torso with neck florals and \"we'll be alright.\" script on inner bicep."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20espalda%20mujer%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}
