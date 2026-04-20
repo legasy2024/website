@@ -21,6 +21,7 @@ const dm_sans = DM_Sans({
 
 // Components
 const Navbar = dynamic(() => import("@/components/common/Navbar/Main"));
+import WhatsAppFloatingButton from "@/components/common/WhatsAppFloatingButton";
 
 // Lazy load Footer component
 const FooterLazyLoading = dynamic(() => import("@/components/common/Footer/Footer"), {
@@ -107,6 +108,7 @@ export default async function Layout({ children, params: { locale } }) {
           <Navbar translations={navbarTranslations} />
           {children}
           <FooterLazyLoading translations={footerTranslations} />
+          <WhatsAppFloatingButton />
           <Analytics />
         </TranslationsProvider>
       </body>
