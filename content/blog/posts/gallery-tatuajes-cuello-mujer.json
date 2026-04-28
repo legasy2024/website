@@ -4,14 +4,14 @@
   "translations": {
     "es": {
       "slug": "tatuajes-en-el-cuello-para-mujer-galeria",
-      "title": "Tatuajes en el cuello para mujer: línea fina y torso alto",
+      "title": "Tatuajes en el cuello para mujer: línea fina y zona alta",
       "date": "15 de abril de 2026",
       "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
       "hideHeroImage": true,
-      "excerpt": "El cuello femenino combina bien con motivos celestes, florales mini o frases muy finas que suben desde el esternón o el hombro. Por visibilidad, muchas personas empiezan con algo equivalente en muñeca o torso alto antes de subir el diseño. Las fotos incluyen esternón, brazo y…",
+      "excerpt": "El cuello femenino combina bien con motivos celestes, florales mini o frases muy finas cerca de clavícula, hombro o nuca. Por visibilidad, muchas personas arrancan en la zona alta para validar escala y estilo. Esta galería reúne referencias de cuello y áreas cercanas con…",
       "seo": {
-        "title": "Tatuajes en el cuello para mujer: línea fina y torso alto - Legassy Studio",
-        "description": "El cuello femenino combina bien con motivos celestes, florales mini o frases muy finas que suben desde el esternón o el hombro. Por visibilidad, muchas personas empiezan con algo equivalente en muñeca o torso alto antes de subir el diseño. Las fotos incluyen esternón, brazo y mano como referencia…",
+        "title": "Tatuajes en el cuello para mujer: línea fina y zona alta - Legassy Studio",
+        "description": "El cuello femenino combina bien con motivos celestes, florales mini o frases muy finas cerca de clavícula, hombro o nuca. Por visibilidad, muchas personas arrancan en la zona alta para validar escala y estilo. Esta galería reúne referencias de cuello y áreas cercanas con enfoque femenino.",
         "keywords": [
           "tatuajes en el cuello para mujer",
           "tatuajes cuello mujer",
@@ -19,46 +19,46 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-en-el-cuello-para-mujer-galeria"
       },
-      "contentHtml": "<p>El <strong>cuello femenino</strong> combina bien con motivos celestes, florales mini o frases muy finas que suben desde el esternón o el hombro. Por visibilidad, muchas personas empiezan con algo equivalente en muñeca o torso alto antes de subir el diseño.</p><p>Las fotos incluyen esternón, brazo y mano como referencia de estilo; la leyenda indica la zona real del tatuaje en cada caso.</p>",
+      "contentHtml": "<p>El <strong>cuello femenino</strong> combina bien con motivos celestes, florales mini o frases muy finas cerca de clavícula, hombro o nuca. Por visibilidad, muchas personas arrancan en la zona alta para validar escala y estilo.</p><p>En esta galería priorizamos tomas de <strong>cuello y zonas altas cercanas</strong>; cada leyenda indica la ubicación real del tatuaje para evitar confusiones.</p>",
       "gallery": {
-        "title": "Cuello y torso alto (mujer)",
-        "description": "Esternón, brazo y muñeca según la imagen.",
+        "title": "Cuello y zona alta (mujer)",
+        "description": "Referencias de cuello, hombro y espalda alta.",
         "items": [
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
-            "alt": "Tatuaje esternón mujer",
-            "title": "Estrella torso",
-            "description": "Estrella y luna en esternón (zona alta)."
+            "alt": "Tatuaje femenino en zona alta del cuello y esternón",
+            "title": "Celestial en línea media",
+            "description": "Composición fina en línea media frontal, cercana al cuello."
           },
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/02.jpg",
-            "alt": "Brazo celestial",
-            "title": "Celestial brazo",
-            "description": "Sol y luna en brazo superior."
-          },
-          {
-            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/03.jpg",
-            "alt": "Muñeca fina",
-            "title": "now",
-            "description": "Script en muñeca."
-          },
-          {
-            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/04.jpg",
-            "alt": "Mano lettering",
-            "title": "Gracias en mano",
-            "description": "Script en mano."
+            "alt": "Tatuaje femenino en hombro alto",
+            "title": "Solar en hombro alto",
+            "description": "Diseño ornamental en hombro superior, zona cercana al cuello."
           },
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/05.jpg",
-            "alt": "Leo mujer",
-            "title": "Leo",
-            "description": "Ornamento Leo en esternón."
+            "alt": "Tatuaje ornamental femenino en esternón alto",
+            "title": "Ornamental Leo",
+            "description": "Ornamento vertical en esternón alto, próximo a clavícula."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+            "alt": "Tatuaje femenino en espalda alta",
+            "title": "Espalda alta",
+            "description": "Pieza ubicada en espalda alta, referencia de zona posterior cercana a nuca."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-brazo/02.jpg",
+            "alt": "Tatuaje femenino en hombro y brazo superior",
+            "title": "Composición floral superior",
+            "description": "Composición amplia en hombro y brazo alto, continuidad visual hacia cuello."
           },
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/06.jpg",
-            "alt": "Tortuga mujer",
-            "title": "Tortuga",
-            "description": "Tortuga en brazo superior."
+            "alt": "Tatuaje femenino en brazo alto",
+            "title": "Mini en brazo alto",
+            "description": "Diseño pequeño en brazo superior como referencia de escala para zona alta."
           }
         ]
       },
@@ -80,14 +80,14 @@
     },
     "en": {
       "slug": "neck-tattoos-for-women-gallery",
-      "title": "Neck tattoos for women: fine line and upper torso",
+      "title": "Neck tattoos for women: fine line and upper area",
       "date": "April 15, 2026",
       "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
       "hideHeroImage": true,
-      "excerpt": "The women's neck pairs well with celestial motifs, tiny florals or very fine script rising from sternum or shoulder. For visibility, many people test a similar idea on wrist or upper torso first. Photos include sternum, arm and hand as style references—captions show actual…",
+      "excerpt": "Women's neck work pairs well with celestial motifs, tiny florals or very fine script near collarbone, shoulder or nape. Because of visibility, many clients start in upper areas to validate scale and style. This gallery prioritizes neck and nearby upper-body references with…",
       "seo": {
-        "title": "Neck tattoos for women: fine line and upper torso - Legassy Studio",
-        "description": "The women's neck pairs well with celestial motifs, tiny florals or very fine script rising from sternum or shoulder. For visibility, many people test a similar idea on wrist or upper torso first. Photos include sternum, arm and hand as style references—captions show actual placement.",
+        "title": "Neck tattoos for women: fine line and upper area - Legassy Studio",
+        "description": "Women's neck work pairs well with celestial motifs, tiny florals or very fine script near collarbone, shoulder or nape. Because of visibility, many clients start in upper areas to validate scale and style. This gallery prioritizes neck and nearby upper-body references.",
         "keywords": [
           "neck tattoos for women",
           "womens neck tattoos",
@@ -95,46 +95,46 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/neck-tattoos-for-women-gallery"
       },
-      "contentHtml": "<p>The <strong>women's neck</strong> pairs well with celestial motifs, tiny florals or very fine script rising from sternum or shoulder. For visibility, many people test a similar idea on wrist or upper torso first.</p><p>Photos include sternum, arm and hand as style references—captions show actual placement.</p>",
+      "contentHtml": "<p><strong>Women's neck</strong> work pairs well with celestial motifs, tiny florals or very fine script near collarbone, shoulder or nape. Because of visibility, many clients start in upper areas to validate scale and style.</p><p>This gallery prioritizes <strong>neck and nearby upper areas</strong>; each caption states the actual tattoo placement.</p>",
       "gallery": {
-        "title": "Neck and upper torso (women)",
-        "description": "Sternum, arm or wrist per image.",
+        "title": "Neck and upper area (women)",
+        "description": "Neck, shoulder and upper-back references.",
         "items": [
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
-            "alt": "Woman sternum",
-            "title": "Star torso",
-            "description": "Star moon sternum."
+            "alt": "Female upper-neck and sternum area tattoo",
+            "title": "Centerline celestial",
+            "description": "Fine centerline composition close to the neck area."
           },
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/02.jpg",
-            "alt": "Celestial arm",
-            "title": "Celestial arm",
-            "description": "Sun moon upper arm."
-          },
-          {
-            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/03.jpg",
-            "alt": "Fine wrist",
-            "title": "now",
-            "description": "Wrist script."
-          },
-          {
-            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/04.jpg",
-            "alt": "Hand lettering",
-            "title": "Thanks hand",
-            "description": "Hand thanks."
+            "alt": "Female upper-shoulder tattoo",
+            "title": "Upper shoulder solar",
+            "description": "Ornamental design on upper shoulder, close to neck."
           },
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/05.jpg",
-            "alt": "Woman Leo",
-            "title": "Leo",
-            "description": "Leo sternum."
+            "alt": "Female high sternum ornamental tattoo",
+            "title": "Ornamental Leo",
+            "description": "Vertical ornament on high sternum near collarbone."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+            "alt": "Female upper-back tattoo",
+            "title": "Upper back",
+            "description": "Piece on upper back, useful for posterior placement near nape."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-brazo/02.jpg",
+            "alt": "Female shoulder and upper-arm tattoo",
+            "title": "Upper floral composition",
+            "description": "Large shoulder and upper-arm composition with neck-adjacent flow."
           },
           {
             "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/06.jpg",
-            "alt": "Woman turtle",
-            "title": "Turtle",
-            "description": "Turtle upper arm."
+            "alt": "Female upper-arm mini tattoo",
+            "title": "Upper-arm mini",
+            "description": "Small upper-arm piece as a scale reference for upper-area work."
           }
         ]
       },
