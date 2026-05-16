@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-minis",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-minis-galeria",
+      "title": "Tatuajes minis: piezas pequeñas con intención",
+      "date": "16 de mayo de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los tatuajes minis concentran significado en pocos centímetros: una palabra, un símbolo, un animal reducido o un microretrato. Funcionan en muñeca, mano, bíceps interno, detrás de la oreja o antebrazo cuando buscas algo discreto pero bien dibujado. El trazo fino y el tamaño…",
+      "seo": {
+        "title": "Tatuajes minis: piezas pequeñas con intención - Legassy Studio",
+        "description": "Los tatuajes minis concentran significado en pocos centímetros: una palabra, un símbolo, un animal reducido o un microretrato. Funcionan en muñeca, mano, bíceps interno, detrás de la oreja o antebrazo cuando buscas algo discreto pero bien dibujado. El trazo fino y el tamaño mínimo viable son…",
+        "keywords": [
+          "tatuajes minis",
+          "mini tatuajes",
+          "tatuajes pequeños"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-minis-galeria"
+      },
+      "contentHtml": "<p>Los <strong>tatuajes minis</strong> concentran significado en pocos centímetros: una palabra, un símbolo, un animal reducido o un microretrato. Funcionan en muñeca, mano, bíceps interno, detrás de la oreja o antebrazo cuando buscas algo discreto pero bien dibujado.</p><p>El trazo fino y el tamaño mínimo viable son clave: estas referencias del portafolio muestran cómo se ve un mini bien ejecutado en distintas zonas.</p>",
+      "gallery": {
+        "title": "Minis del portafolio",
+        "description": "Letras, iconos y retratos en formato mini.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+            "alt": "Mini tatuaje muñeca",
+            "title": "now",
+            "description": "Script fina \"now\" en muñeca interna."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/02.jpg",
+            "alt": "Mini símbolo brazo",
+            "title": "Cerebro-corazón",
+            "description": "Símbolo minimal en bíceps interno."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/03.jpg",
+            "alt": "Mini retrato perro",
+            "title": "Bulldog",
+            "description": "Microretrato de bulldog en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/04.jpg",
+            "alt": "Mini mascota",
+            "title": "Toby",
+            "description": "Retrato pequeño de perro con nombre Toby."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/05.jpg",
+            "alt": "Mini tortuga",
+            "title": "Tortuga",
+            "description": "Tortuga minimal con olas en brazo superior."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/06.jpg",
+            "alt": "Mini tatuaje anime",
+            "title": "Zoro",
+            "description": "Busto anime Zoro en formato vertical compacto."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20minis%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "mini-tattoos-gallery-inspiration",
+      "title": "Mini tattoos: small pieces with purpose",
+      "date": "May 16, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Mini tattoos pack meaning into centimeters—a word, symbol, tiny animal or micro portrait. They work on wrists, hands, inner biceps, behind the ear or forearm when you want something discreet but well drawn. Fine line and minimum viable size matter—these portfolio shots show…",
+      "seo": {
+        "title": "Mini tattoos: small pieces with purpose - Legassy Studio",
+        "description": "Mini tattoos pack meaning into centimeters—a word, symbol, tiny animal or micro portrait. They work on wrists, hands, inner biceps, behind the ear or forearm when you want something discreet but well drawn. Fine line and minimum viable size matter—these portfolio shots show well-executed minis in…",
+        "keywords": [
+          "mini tattoos",
+          "tiny tattoos",
+          "small tattoo ideas"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/mini-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Mini tattoos</strong> pack meaning into centimeters—a word, symbol, tiny animal or micro portrait. They work on wrists, hands, inner biceps, behind the ear or forearm when you want something discreet but well drawn.</p><p>Fine line and minimum viable size matter—these portfolio shots show well-executed minis in different placements.</p>",
+      "gallery": {
+        "title": "Portfolio minis",
+        "description": "Lettering, icons and portraits at mini scale.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+            "alt": "Mini wrist tattoo",
+            "title": "now",
+            "description": "Fine \"now\" script on inner wrist."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/02.jpg",
+            "alt": "Mini arm symbol",
+            "title": "Brain-heart",
+            "description": "Minimal symbol on inner bicep."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/03.jpg",
+            "alt": "Mini dog portrait",
+            "title": "Bulldog",
+            "description": "Micro bulldog portrait on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/04.jpg",
+            "alt": "Mini pet tattoo",
+            "title": "Toby",
+            "description": "Small dog portrait with name Toby."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/05.jpg",
+            "alt": "Mini turtle tattoo",
+            "title": "Turtle",
+            "description": "Minimal turtle with waves on upper arm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/06.jpg",
+            "alt": "Mini anime tattoo",
+            "title": "Zoro",
+            "description": "Compact vertical Zoro anime bust."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20minis%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

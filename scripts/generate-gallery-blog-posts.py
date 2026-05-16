@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import shutil
@@ -27,6 +28,8 @@ POSTS_DIR = ROOT / "content/blog/posts"
 
 DATE_ES = "15 de abril de 2026"
 DATE_EN = "April 15, 2026"
+DATE_ES_NEW = "16 de mayo de 2026"
+DATE_EN_NEW = "May 16, 2026"
 
 WA = "https://wa.me/573128717100?text="
 IG = "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
@@ -702,8 +705,311 @@ DATA.extend(
     ]
 )
 
+STYLE_GALLERY_POSTS: list[tuple] = [
+    (
+        "gallery-manga-completa",
+        "tatuaje-manga-completa-galeria",
+        "full-sleeve-tattoo-gallery-inspiration",
+        "Tatuaje manga completa: mangas y brazos enteros",
+        "Full sleeve tattoos: complete arm work",
+        ["tatuaje manga completa", "manga tatuaje brazo", "manga completa hombre"],
+        ["full sleeve tattoo", "complete arm sleeve", "sleeve tattoo gallery"],
+        '<p>Una <strong>manga completa</strong> cubre el brazo (o gran parte) con una sola narrativa visual: religiosos, mitología, animales, geometría o escenas que conectan hombro, bíceps y antebrazo. Suele planificarse en varias sesiones y exige buen flujo entre piezas para que el conjunto se lea unificado al curar.</p><p>Estas fotos son mangas reales del estudio: fíjate en contraste, transiciones entre zonas y cómo el diseño aprovecha la forma del brazo.</p>',
+        "<p>A <strong>full sleeve</strong> covers the arm (or most of it) with one visual story—religious work, mythology, animals, geometry or scenes linking shoulder, bicep and forearm. It's usually planned over multiple sessions with strong flow so the set reads as one piece when healed.</p><p>These are real studio sleeves—look at contrast, transitions between areas and how each design follows arm anatomy.</p>",
+        "Mangas completas del portafolio",
+        "Full sleeves from the portfolio",
+        "Cada tarjeta indica el tema y la zona del brazo en la foto.",
+        "Each card notes the theme and arm area in the photo.",
+        "Hola! Vengo del blog, tatuaje manga completa, quiero asesoría",
+        [
+            ("realismo/realismo22.JPEG", "01.jpg", "Manga guerrera", "Espartano en hombro y retrato con tocado felino; manga completa en negro y gris.", "Warrior sleeve", "Spartan on shoulder, feline headdress portrait below; full black and grey sleeve.",
+             "Manga completa realismo", "Full realism sleeve"),
+            ("realismo/realismo25.jpg", "02.jpg", "Manga religiosa", "Ángel, cruz y figura en manga vista de perfil; alto contraste.", "Religious sleeve", "Angel, cross and figure in profile full sleeve.",
+             "Manga religiosa brazo", "Religious arm sleeve"),
+            ("realismo/realismo18.jpg", "03.jpg", "Ángel y Jesús", "Ángel en brazo superior y Jesús en antebrazo; pieza extensa unificada.", "Angel and Jesus", "Angel on upper arm and Jesus on forearm; unified large piece.",
+             "Manga ángel antebrazo", "Angel Jesus sleeve"),
+            ("surrealismo/surrealismo5.JPEG", "04.jpg", "Ángel y brújula", "Ángel, guerrero, reloj y brújula en manga narrativa completa.", "Angel compass sleeve", "Angel, warrior, clock and compass full narrative sleeve.",
+             "Manga surrealista hombre", "Surreal male sleeve"),
+            ("realismo/realismo12.JPEG", "05.jpg", "Oso y águila", "Manga con oso rugiendo y águila en antebrazo; animales con textura.", "Bear and eagle", "Sleeve with roaring bear and eagle on forearm.",
+             "Manga animales brazo", "Animal full sleeve"),
+            ("realismo/realismo20.jpg", "06.jpg", "Arcángel y dragón", "Figura alada con espada sobre criatura; narrativa en antebrazo y brazo.", "Archangel dragon", "Winged figure with sword over beast; arm narrative.",
+             "Manga arcángel dragón", "Archangel dragon sleeve"),
+        ],
+    ),
+    (
+        "gallery-tatuajes-minis",
+        "tatuajes-minis-galeria",
+        "mini-tattoos-gallery-inspiration",
+        "Tatuajes minis: piezas pequeñas con intención",
+        "Mini tattoos: small pieces with purpose",
+        ["tatuajes minis", "mini tatuajes", "tatuajes pequeños"],
+        ["mini tattoos", "tiny tattoos", "small tattoo ideas"],
+        '<p>Los <strong>tatuajes minis</strong> concentran significado en pocos centímetros: una palabra, un símbolo, un animal reducido o un microretrato. Funcionan en muñeca, mano, bíceps interno, detrás de la oreja o antebrazo cuando buscas algo discreto pero bien dibujado.</p><p>El trazo fino y el tamaño mínimo viable son clave: estas referencias del portafolio muestran cómo se ve un mini bien ejecutado en distintas zonas.</p>',
+        "<p><strong>Mini tattoos</strong> pack meaning into centimeters—a word, symbol, tiny animal or micro portrait. They work on wrists, hands, inner biceps, behind the ear or forearm when you want something discreet but well drawn.</p><p>Fine line and minimum viable size matter—these portfolio shots show well-executed minis in different placements.</p>",
+        "Minis del portafolio",
+        "Portfolio minis",
+        "Letras, iconos y retratos en formato mini.",
+        "Lettering, icons and portraits at mini scale.",
+        "Hola! Vengo del blog, tatuajes minis, quiero asesoría",
+        [
+            ("linea-fina/lineaFina17.jpg", "01.jpg", "now", "Script fina \"now\" en muñeca interna.", "now", "Fine \"now\" script on inner wrist.",
+             "Mini tatuaje muñeca", "Mini wrist tattoo"),
+            ("linea-fina/lineaFina19.jpg", "02.jpg", "Cerebro-corazón", "Símbolo minimal en bíceps interno.", "Brain-heart", "Minimal symbol on inner bicep.",
+             "Mini símbolo brazo", "Mini arm symbol"),
+            ("microrealismo/micro1.JPG", "03.jpg", "Bulldog", "Microretrato de bulldog en antebrazo.", "Bulldog", "Micro bulldog portrait on forearm.",
+             "Mini retrato perro", "Mini dog portrait"),
+            ("microrealismo/micro3.jpg", "04.jpg", "Toby", "Retrato pequeño de perro con nombre Toby.", "Toby", "Small dog portrait with name Toby.",
+             "Mini mascota", "Mini pet tattoo"),
+            ("linea-fina/lineaFina11.jpg", "05.jpg", "Tortuga", "Tortuga minimal con olas en brazo superior.", "Turtle", "Minimal turtle with waves on upper arm.",
+             "Mini tortuga", "Mini turtle tattoo"),
+            ("anime/anime2.JPG", "06.jpg", "Zoro", "Busto anime Zoro en formato vertical compacto.", "Zoro", "Compact vertical Zoro anime bust.",
+             "Mini tatuaje anime", "Mini anime tattoo"),
+        ],
+    ),
+    (
+        "gallery-tatuajes-tribal",
+        "tatuajes-estilo-tribal-galeria",
+        "tribal-style-tattoos-gallery",
+        "Tatuajes estilo tribal: ornamentación y formas marcadas",
+        "Tribal-style tattoos: ornament and bold shapes",
+        ["tatuajes estilo tribal", "tatuajes tribal", "tatuajes ornamentales"],
+        ["tribal style tattoos", "tribal tattoo ideas", "ornamental tattoos"],
+        '<p>El <strong>estilo tribal</strong> en tatuaje suele asociarse a formas negras fluidas, patrones repetitivos, marcos geométricos y símbolos con lectura gráfica fuerte. Hoy muchas piezas mezclan esa estética con realismo, puntillismo o motivos culturales sin copiar diseños tradicionales al pie de la letra.</p><p>Estas referencias del portafolio muestran ornamentación, bordes marcados y composiciones con mucho negro; úsalas para imaginar escala y contraste antes de cerrar boceto.</p>',
+        "<p><strong>Tribal-style</strong> tattooing often means flowing black shapes, repeating patterns, geometric frames and symbols with strong graphic read. Today many pieces blend that look with realism, dotwork or cultural motifs without copying traditional designs literally.</p><p>These portfolio references show ornament, bold borders and black-heavy layouts—use them to gauge scale and contrast before you finalize a sketch.</p>",
+        "Ornamento y formas tribales",
+        "Tribal and ornamental references",
+        "Geometría, marcos y negro dominante según la pieza.",
+        "Geometry, frames and heavy black per piece.",
+        "Hola! Vengo del blog, tatuajes estilo tribal, quiero asesoría",
+        [
+            ("realismo/realismo7.JPEG", "01.jpg", "Espartano con marco", "Guerrero espartano con borde de grecas en antebrazo; marco ornamental.", "Spartan frame", "Spartan warrior with Greek key border on forearm.",
+             "Tatuaje tribal marco griego", "Greek key framed tattoo"),
+            ("surrealismo/surrealismo6.JPG", "02.jpg", "León y geometría", "León tipo foo dog con geometría sagrada y reloj; formas negras marcadas.", "Lion geometry", "Foo dog lion with sacred geometry and clock.",
+             "Tatuaje geométrico león", "Geometric lion tattoo"),
+            ("linea-fina/lineaFina12.jpg", "03.jpg", "Leo ornamental", "Símbolo Leo con ornamentación simétrica en esternón.", "Leo ornamental", "Leo zodiac with symmetrical ornament on sternum.",
+             "Tatuaje ornamental Leo", "Ornamental Leo tattoo"),
+            ("surrealismo/surrealismo1.jpg", "04.jpg", "Anubis", "Anubis con pirámides en pierna; iconografía egipcia gráfica.", "Anubis", "Anubis with pyramids on leg; graphic Egyptian iconography.",
+             "Tatuaje tribal Anubis", "Anubis leg tattoo"),
+            ("linea-fina/lineaFina13.jpg", "05.jpg", "Sol y luna", "Sol, luna y puntillismo en composición vertical en brazo.", "Sun moon", "Vertical sun, moon and stippling on upper arm.",
+             "Tatuaje celestial tribal", "Celestial arm tattoo"),
+            ("realismo/realismo17.jpg", "06.jpg", "Casco espartano", "Casco corintio con cruces y león; alto contraste negro y gris.", "Spartan helmet", "Corinthian helmet, crosses and lion in black and grey.",
+             "Tatuaje casco tribal", "Helmet contrast tattoo"),
+        ],
+    ),
+    (
+        "gallery-neo-tradicional",
+        "tatuajes-neo-tradicional-galeria",
+        "neo-traditional-tattoos-gallery",
+        "Tatuajes neo tradicional: color, contorno y volumen",
+        "Neo-traditional tattoos: color, outline and volume",
+        ["tatuajes neo tradicional", "neo tradicional tatuaje", "tatuaje neotradicional"],
+        ["neo traditional tattoos", "neo trad tattoo", "neotraditional tattoo gallery"],
+        '<p>El <strong>neo tradicional</strong> mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados.</p><p>En el portafolio verás piezas ilustrativas y con color que se acercan a esa estética; cada foto indica zona y nivel de saturación para que compares antes de tu sesión.</p>',
+        "<p><strong>Neo-traditional</strong> blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits.</p><p>These portfolio pieces lean illustrative and color-forward; each photo notes placement and saturation so you can compare before your session.</p>",
+        "Neo trad: color e ilustración",
+        "Neo trad: color and illustration",
+        "Contornos claros, relleno y acentos de color.",
+        "Clear outlines, fill and color accents.",
+        "Hola! Vengo del blog, tatuajes neo tradicional, quiero asesoría",
+        [
+            ("puntillismo/punt5.jpg", "01.jpg", "Mano y corazón", "Mano victoriana, corazón recortado y flor a color en muslo.", "Hand and heart", "Victorian hand, heart cutout and colored flower on thigh.",
+             "Neo trad muslo color", "Color thigh neo trad"),
+            ("puntillismo/punt8.jpg", "02.jpg", "Mariposa floral", "Mariposa y flores con puntillismo y color en antebrazo.", "Butterfly floral", "Butterfly and flowers with dotwork and color on forearm.",
+             "Neo trad mariposa", "Neo trad butterfly"),
+            ("libre/libre3.JPEG", "03.jpg", "Mariposa 3D", "Mariposa monarca con sombra; volumen y contorno en antebrazo.", "3D butterfly", "Monarch with shadow; volume and outline on inner forearm.",
+             "Neo trad mariposa 3D", "3D butterfly neo trad"),
+            ("libre/libre1.JPEG", "04.jpg", "Flores acuarela", "Girasoles, orquídea y abejas con color en antebrazo.", "Watercolor flowers", "Sunflowers, orchid and bees with color on forearm.",
+             "Neo trad flores color", "Color floral forearm"),
+            ("puntillismo/punt2.JPG", "05.jpg", "Gyutaro", "Personaje anime a color con contorno fuerte en antebrazo.", "Gyutaro", "Color anime character with bold outline on forearm.",
+             "Neo trad anime color", "Color anime neo trad"),
+            ("surrealismo/surrealismo4.JPEG", "06.jpg", "Rostro y mariposa", "Perfil con mariposa monarca y rosas; paleta ilustrativa.", "Portrait butterfly", "Profile with monarch butterfly and roses; illustrative palette.",
+             "Neo trad retrato color", "Color portrait neo trad"),
+        ],
+    ),
+    (
+        "gallery-realismo",
+        "tatuajes-realismo-galeria",
+        "realism-tattoos-gallery-inspiration",
+        "Tatuajes realismo: retratos y figuras con detalle",
+        "Realism tattoos: portraits and detailed figures",
+        ["tatuajes realismo", "tatuaje realista", "realismo tatuajes cali"],
+        ["realism tattoos", "realistic tattoo", "portrait realism tattoo"],
+        '<p>El <strong>realismo</strong> busca que el tatuaje se lea como una imagen fotográfica o pictórica en piel: retratos, animales, escenas religiosas o mitológicas con proporción, volumen y transiciones suaves entre luces y sombras.</p><p>Estas piezas del portafolio muestran distintos formatos—antebrazo, pierna, manga—para que compares nivel de detalle y escala antes de planear sesiones.</p>',
+        "<p><strong>Realism</strong> aims for a photographic or painterly read on skin—portraits, animals, religious or myth scenes with proportion, volume and smooth light-to-shadow transitions.</p><p>These portfolio pieces span forearm, leg and full sleeve formats so you can compare detail level and scale before planning sessions.</p>",
+        "Realismo del portafolio",
+        "Portfolio realism",
+        "Retratos, animales y narrativas en negro y gris o color.",
+        "Portraits, animals and narratives in black and grey or color.",
+        "Hola! Vengo del blog, tatuajes realismo, quiero asesoría",
+        [
+            ("realismo/realismo5.JPG", "01.jpg", "Dios griego", "Busto clásico masculino en antebrazo interno; ojos y barba con volumen.", "Greek god", "Classical male bust on inner forearm; sculpted eyes and beard.",
+             "Realismo antebrazo dios", "Realistic Greek god forearm"),
+            ("realismo/realismo19.jpg", "02.jpg", "Jesús y cruz", "Retrato vertical religioso con escena de cruz.", "Jesus cross", "Vertical religious portrait with crucifixion scene.",
+             "Realismo religioso", "Religious realism tattoo"),
+            ("realismo/realismo2.JPG", "03.jpg", "Pitbull", "Retrato de pitbull con arcos góticos en espinilla.", "Pitbull", "Pitbull portrait with gothic arches on shin.",
+             "Realismo perro pierna", "Realistic dog leg tattoo"),
+            ("realismo/realismo13.JPG", "04.jpg", "Guerrera vikinga", "Retrato con casco y runa en antebrazo interno.", "Viking warrior", "Helmeted portrait and Norse rune on inner forearm.",
+             "Realismo guerrera", "Warrior realism forearm"),
+            ("realismo/realismo3.JPG", "05.jpg", "León bajo piel", "León con efecto piel rasgada en antebrazo.", "Lion under skin", "Lion with ripped-skin effect on forearm.",
+             "Realismo león", "Realistic lion forearm"),
+            ("realismo/realismo11.JPEG", "06.jpg", "Tres retratos", "Tres rostros apilados en costado de pierna.", "Three portraits", "Three stacked portraits on side of leg.",
+             "Realismo retratos pierna", "Leg portrait realism"),
+        ],
+    ),
+    (
+        "gallery-sombras-black-grey",
+        "tatuajes-sombras-negro-gris-galeria",
+        "black-grey-shading-tattoos-gallery",
+        "Tatuajes en sombras: negro, gris y contraste",
+        "Black and grey shading tattoos: contrast and depth",
+        ["tatuajes sombras", "negro y gris tatuaje", "tatuajes black and grey"],
+        ["black and grey tattoos", "shading tattoo", "grey wash tattoo"],
+        '<p>Los tatuajes en <strong>sombras</strong> (negro y gris) se apoyan en degradados, luces reservadas y negros profundos para crear volumen sin depender del color. Funcionan muy bien en retratos, religiosos, animales y piezas narrativas grandes.</p><p>La selección muestra cómo se construye el contraste en piel real: fíjate en transiciones, fondos oscuros y lectura del diseño a distancia.</p>',
+        "<p><strong>Black and grey</strong> tattoos rely on smooth gradients, reserved highlights and deep blacks for volume without color. They excel for portraits, religious work, animals and large narrative pieces.</p><p>This set shows how contrast is built on real skin—watch transitions, dark backgrounds and how the design reads from a distance.</p>",
+        "Negro, gris y degradados",
+        "Black, grey and smooth shading",
+        "Contraste y profundidad en piezas curadas.",
+        "Contrast and depth in healed work.",
+        "Hola! Vengo del blog, tatuajes sombras negro gris, quiero asesoría",
+        [
+            ("realismo/realismo17.jpg", "01.jpg", "Casco y león", "Casco corintio, cruces y león con sombreado profundo.", "Helmet lion", "Corinthian helmet, crosses and lion with deep shading.",
+             "Sombras casco león", "Shaded helmet lion tattoo"),
+            ("realismo/realismo20.jpg", "02.jpg", "Arcángel", "Figura alada con espada; luces y sombras dramáticas.", "Archangel", "Winged figure with sword; dramatic light and shadow.",
+             "Sombras arcángel", "Shaded archangel tattoo"),
+            ("realismo/realismo16.JPEG", "03.jpg", "Retrato dramático", "Rostro con transiciones suaves en negro y gris.", "Dramatic portrait", "Face with smooth black and grey transitions.",
+             "Retrato sombras", "Shaded portrait tattoo"),
+            ("realismo/realismo8.JPG", "04.jpg", "Animal texturizado", "Fauna con pelo y volumen en escala de grises.", "Textured animal", "Animal with fur texture in greyscale.",
+             "Sombras animal realista", "Shaded animal realism"),
+            ("realismo/realismo24.JPG", "05.jpg", "Composición oscura", "Pieza con fondo negro y luces reservadas.", "Dark composition", "Piece with black background and reserved highlights.",
+             "Black and grey manga", "Black grey large piece"),
+            ("realismo/realismo6.JPEG", "06.jpg", "Detalle sombreado", "Zona con degradado fino y contraste alto.", "Shading detail", "Area with fine gradient and high contrast.",
+             "Degradado negro gris", "Black grey gradient tattoo"),
+        ],
+    ),
+    (
+        "gallery-tatuajes-retratos",
+        "tatuajes-con-retratos-galeria",
+        "portrait-tattoos-gallery-inspiration",
+        "Tatuajes con retratos: personas, mascotas y personajes",
+        "Portrait tattoos: people, pets and characters",
+        ["tatuajes con retratos", "tatuajes retrato", "retrato tatuaje"],
+        ["portrait tattoos", "tattoo portrait", "pet portrait tattoo"],
+        '<p>Los <strong>tatuajes con retratos</strong> exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato.</p><p>Aquí hay retratos humanos, animales y híbridos del portafolio; cada leyenda indica el tipo de retrato y la zona donde está tatuado.</p>',
+        "<p><strong>Portrait tattoos</strong> need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale.</p><p>You'll find human, animal and hybrid portraits below—each caption notes portrait type and placement.</p>",
+        "Retratos del portafolio",
+        "Portfolio portraits",
+        "Humanos, mascotas y personajes según la imagen.",
+        "People, pets and characters per image.",
+        "Hola! Vengo del blog, tatuajes con retratos, quiero asesoría",
+        [
+            ("realismo/realismo5.JPG", "01.jpg", "Dios griego", "Busto masculino clásico en antebrazo.", "Greek god bust", "Classical male bust on forearm.",
+             "Retrato clásico antebrazo", "Classical portrait forearm"),
+            ("realismo/realismo19.jpg", "02.jpg", "Jesús", "Retrato religioso vertical con cruz.", "Jesus portrait", "Vertical religious portrait with cross.",
+             "Retrato Jesús tatuaje", "Jesus portrait tattoo"),
+            ("microrealismo/micro5.jpg", "03.jpg", "Estrella perro", "Perro con flores y nombre Estrella.", "Estrella dog", "Dog with flowers and name Estrella.",
+             "Retrato mascota perro", "Pet dog portrait"),
+            ("microrealismo/micro2.jpg", "04.jpg", "Peluzita gato", "Gato con nombre Peluzita en microrealismo.", "Peluzita cat", "Cat portrait Peluzita in micro realism.",
+             "Retrato gato mini", "Mini cat portrait"),
+            ("realismo/realismo11.JPEG", "05.jpg", "Tres rostros", "Tres retratos apilados en pierna.", "Three faces", "Three stacked portraits on leg.",
+             "Retratos pierna", "Leg portrait stack"),
+            ("surrealismo/surrealismo4.JPEG", "06.jpg", "Perfil y mariposa", "Perfil femenino con mariposa sobre los ojos.", "Profile butterfly", "Female profile with butterfly over eyes.",
+             "Retrato mujer mariposa", "Woman portrait butterfly"),
+        ],
+    ),
+    (
+        "gallery-tatuajes-color",
+        "tatuajes-a-color-galeria",
+        "color-tattoos-gallery-inspiration",
+        "Tatuajes a color: saturación y acentos vivos",
+        "Color tattoos: saturation and vivid accents",
+        ["tatuajes color", "tatuajes a color", "tatuaje colorido"],
+        ["color tattoos", "colored tattoo", "vivid tattoo color"],
+        '<p>Los <strong>tatuajes a color</strong> pueden ser piezas completas saturadas o diseños en negro con acentos puntuales (ojos, flores, llamas, esferas). La piel y el cuidado solar influyen mucho en cómo se mantiene el tono con los años.</p><p>Estas referencias muestran anime, ilustración, acuarela y neo-trad con color real del estudio; compara paleta y zona antes de elegir tamaño.</p>',
+        "<p><strong>Color tattoos</strong> can be fully saturated pieces or black designs with accent hits—eyes, florals, flames, spheres. Skin type and sun care strongly affect how tone holds over time.</p><p>These references show anime, illustrative, watercolor and neo-trad color from the studio—compare palette and placement before choosing size.</p>",
+        "Color del portafolio",
+        "Portfolio color work",
+        "Anime, flores, personajes y acentos saturados.",
+        "Anime, florals, characters and saturated accents.",
+        "Hola! Vengo del blog, tatuajes color, quiero asesoría",
+        [
+            ("anime/anime6.JPEG", "01.jpg", "Shenron", "Shenron con ojos rojos y esfera del dragón a color.", "Shenron", "Shenron with red eyes and glowing Dragon Ball.",
+             "Tatuaje color Shenron", "Color Shenron tattoo"),
+            ("puntillismo/punt1.jpg", "02.jpg", "Naruto hermanos", "Itachi y Sasuke a color en antebrazo.", "Naruto brothers", "Itachi and Sasuke in color on forearm.",
+             "Anime color antebrazo", "Color anime forearm"),
+            ("puntillismo/punt4.jpg", "03.jpg", "Douma", "Personaje Demon Slayer con paleta fría y rosa.", "Douma", "Demon Slayer character with cool and pink palette.",
+             "Tatuaje anime color", "Color anime character"),
+            ("libre/libre1.JPEG", "04.jpg", "Flores acuarela", "Girasoles, orquídea y abejas con manchas de color.", "Watercolor florals", "Sunflowers, orchid and bees with color washes.",
+             "Flores color antebrazo", "Color floral forearm"),
+            ("microrealismo/micro6.JPG", "05.jpg", "Fénix", "Fénix con acentos amarillo-naranja y script Renacer.", "Phoenix", "Phoenix with orange-yellow accents and Renacer script.",
+             "Tatuaje color fénix", "Color phoenix tattoo"),
+            ("anime/anime4.JPG", "06.jpg", "Dragón kitsune", "Dragón japonés, máscara kitsune y luna en muslo.", "Dragon kitsune", "Japanese dragon, fox mask and moon on thigh.",
+             "Muslo tatuaje color", "Color thigh tattoo"),
+        ],
+    ),
+    (
+        "gallery-estilo-puntillismo",
+        "tatuajes-puntillismo-galeria",
+        "dotwork-tattoos-gallery-inspiration",
+        "Tatuajes puntillismo: puntos, textura y sombras suaves",
+        "Dotwork tattoos: stippling, texture and soft shade",
+        ["tatuajes puntillismo", "tatuaje puntillismo", "dotwork tatuaje"],
+        ["dotwork tattoos", "stippling tattoo", "pointillism tattoo"],
+        '<p>El <strong>puntillismo</strong> (dotwork) construye sombras y texturas con puntos en lugar de degradados tradicionales. Da un aspecto granulado, editorial o ilustrativo; combina bien con línea fina, geometría y piezas con color selectivo.</p><p>Estas piezas del portafolio muestran mariposas, manos victorianas, personajes y florales en puntillismo; fíjate en densidad de puntos y zona del cuerpo.</p>',
+        "<p><strong>Dotwork</strong> builds shade and texture with dots instead of conventional gradients. It reads grainy, editorial or illustrative—pairs well with fine line, geometry and selective color.</p><p>These portfolio pieces show butterflies, Victorian hands, characters and florals in dotwork—note dot density and body placement.</p>",
+        "Puntillismo del estudio",
+        "Studio dotwork",
+        "Textura por puntos en distintas escalas.",
+        "Stippled texture at different scales.",
+        "Hola! Vengo del blog, tatuajes puntillismo, quiero asesoría",
+        [
+            ("puntillismo/punt8.jpg", "01.jpg", "Mariposa floral", "Mariposa y flores en puntillismo en antebrazo.", "Butterfly flowers", "Butterfly and flowers in dotwork on forearm.",
+             "Puntillismo mariposa", "Dotwork butterfly"),
+            ("puntillismo/punt5.jpg", "02.jpg", "Mano victoriana", "Mano con manga, corazón y flor en muslo.", "Victorian hand", "Hand with sleeve, heart and flower on thigh.",
+             "Puntillismo mano", "Dotwork hand tattoo"),
+            ("puntillismo/punt3.jpg", "03.jpg", "Composición puntos", "Ilustración con sombras hechas a puntos.", "Dot composition", "Illustration with stippled shadows.",
+             "Dotwork ilustrativo", "Illustrative dotwork"),
+            ("puntillismo/punt9.JPG", "04.jpg", "Detalle puntillismo", "Zona con densidad de puntos para volumen.", "Dot detail", "Area with dot density for volume.",
+             "Puntillismo detalle", "Dotwork detail"),
+            ("puntillismo/punt10.jpg", "05.jpg", "Pieza puntos", "Motivo con transición suave en puntillismo.", "Stipple piece", "Motif with smooth stipple transition.",
+             "Tatuaje puntos sombra", "Stipple shading tattoo"),
+            ("linea-fina/lineaFina13.jpg", "06.jpg", "Celestial puntos", "Sol y luna con puntillismo en brazo.", "Celestial dots", "Sun and moon with stippling on arm.",
+             "Puntillismo celestial", "Celestial dotwork arm"),
+        ],
+    ),
+    (
+        "gallery-tatuajes-anime",
+        "tatuajes-de-anime-galeria",
+        "anime-tattoos-gallery-inspiration",
+        "Tatuajes de anime: personajes y escenas a color",
+        "Anime tattoos: characters and color scenes",
+        ["tatuajes de anime", "tatuaje anime", "anime tattoo cali"],
+        ["anime tattoos", "anime tattoo", "manga character tattoo"],
+        '<p>Los <strong>tatuajes de anime</strong> llevan personajes, escenas o símbolos de series y manga a la piel—a menudo con contorno definido y color saturado en ojos, cabello o fondos. Funcionan en antebrazo, brazo, muslo o pierna según el tamaño del personaje.</p><p>Esta galería reúne piezas reales del portafolio anime: compara estilo, paleta y escala antes de traer tu referencia favorita.</p>',
+        "<p><strong>Anime tattoos</strong> bring characters, scenes or symbols from series and manga to skin—often with defined outlines and saturated color in eyes, hair or backgrounds. They fit forearm, arm, thigh or leg depending on character scale.</p><p>This gallery gathers real anime portfolio work—compare style, palette and scale before bringing your favorite reference.</p>",
+        "Anime del portafolio",
+        "Portfolio anime",
+        "Personajes y escenas con color y línea clara.",
+        "Characters and scenes with color and clear line.",
+        "Hola! Vengo del blog, tatuajes de anime, quiero asesoría",
+        [
+            ("anime/anime1.JPG", "01.jpg", "Personaje anime", "Personaje con contorno y color en brazo.", "Anime character", "Character with outline and color on arm.",
+             "Tatuaje anime brazo", "Anime arm tattoo"),
+            ("anime/anime2.JPG", "02.jpg", "Zoro", "Busto de Zoro en formato vertical.", "Zoro bust", "Vertical Zoro bust.",
+             "Tatuaje Zoro anime", "Zoro anime tattoo"),
+            ("anime/anime3.JPG", "03.jpg", "Escena anime", "Composición con personaje y fondo.", "Anime scene", "Composition with character and background.",
+             "Anime escena color", "Color anime scene"),
+            ("anime/anime4.JPG", "04.jpg", "Dragón kitsune", "Dragón japonés, máscara kitsune y luna.", "Dragon kitsune", "Japanese dragon, fox mask and moon.",
+             "Anime muslo dragón", "Anime thigh dragon"),
+            ("anime/anime5.JPG", "05.jpg", "Personaje color", "Figura anime con paleta viva.", "Color character", "Anime figure with vivid palette.",
+             "Tatuaje anime color", "Color anime tattoo"),
+            ("anime/anime6.JPEG", "06.jpg", "Shenron", "Shenron con esfera del dragón.", "Shenron", "Shenron with Dragon Ball.",
+             "Shenron tatuaje", "Shenron tattoo"),
+        ],
+    ),
+]
 
-def build_json(post: tuple) -> dict:
+
+def build_json(post: tuple, *, date_es: str = DATE_ES, date_en: str = DATE_EN) -> dict:
     (
         pid,
         slug_es,
@@ -758,7 +1064,7 @@ def build_json(post: tuple) -> dict:
             "es": {
                 "slug": slug_es,
                 "title": title_es,
-                "date": DATE_ES,
+                "date": date_es,
                 "image": thumb,
                 "hideHeroImage": True,
                 "excerpt": truncate_plain(plain_es, 280),
@@ -780,7 +1086,7 @@ def build_json(post: tuple) -> dict:
             "en": {
                 "slug": slug_en,
                 "title": title_en,
-                "date": DATE_EN,
+                "date": date_en,
                 "image": thumb,
                 "hideHeroImage": True,
                 "excerpt": truncate_plain(plain_en, 280),
@@ -809,21 +1115,39 @@ def build_json(post: tuple) -> dict:
     }
 
 
+def write_post(post: tuple, *, date_es: str = DATE_ES, date_en: str = DATE_EN) -> None:
+    pid = post[0]
+    items = post[-1]
+    out_dir = PUB / pid
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for it in items:
+        src_rel, fn = it[0], it[1]
+        src = ROOT / "components/portfolio/assets" / src_rel
+        shutil.copy2(src, out_dir / fn)
+    data = build_json(post, date_es=date_es, date_en=date_en)
+    out_json = POSTS_DIR / f"{pid}.json"
+    with open(out_json, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print("Wrote", out_json)
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--style-only",
+        action="store_true",
+        help="Generate only style-keyword gallery posts (May 2026 batch)",
+    )
+    args = parser.parse_args()
+
+    if args.style_only:
+        for post in STYLE_GALLERY_POSTS:
+            write_post(post, date_es=DATE_ES_NEW, date_en=DATE_EN_NEW)
+        print("Done", len(STYLE_GALLERY_POSTS), "style gallery posts")
+        return
+
     for post in DATA:
-        pid = post[0]
-        items = post[-1]
-        out_dir = PUB / pid
-        out_dir.mkdir(parents=True, exist_ok=True)
-        for it in items:
-            src_rel, fn = it[0], it[1]
-            src = ROOT / "components/portfolio/assets" / src_rel
-            shutil.copy2(src, out_dir / fn)
-        data = build_json(post)
-        out_json = POSTS_DIR / f"{pid}.json"
-        with open(out_json, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print("Wrote", out_json)
+        write_post(post)
     print("Done", len(DATA), "posts")
 
 

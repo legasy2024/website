@@ -1,0 +1,158 @@
+{
+  "id": "gallery-neo-tradicional",
+  "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-neo-tradicional-galeria",
+      "title": "Tatuajes neo tradicional: color, contorno y volumen",
+      "date": "16 de mayo de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "El neo tradicional mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados. En el portafolio verás piezas ilustrativas y con…",
+      "seo": {
+        "title": "Tatuajes neo tradicional: color, contorno y volumen - Legassy Studio",
+        "description": "El neo tradicional mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados. En el portafolio verás piezas ilustrativas y con color que se acercan a…",
+        "keywords": [
+          "tatuajes neo tradicional",
+          "neo tradicional tatuaje",
+          "tatuaje neotradicional"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-neo-tradicional-galeria"
+      },
+      "contentHtml": "<p>El <strong>neo tradicional</strong> mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados.</p><p>En el portafolio verás piezas ilustrativas y con color que se acercan a esa estética; cada foto indica zona y nivel de saturación para que compares antes de tu sesión.</p>",
+      "gallery": {
+        "title": "Neo trad: color e ilustración",
+        "description": "Contornos claros, relleno y acentos de color.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+            "alt": "Neo trad muslo color",
+            "title": "Mano y corazón",
+            "description": "Mano victoriana, corazón recortado y flor a color en muslo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/02.jpg",
+            "alt": "Neo trad mariposa",
+            "title": "Mariposa floral",
+            "description": "Mariposa y flores con puntillismo y color en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/03.jpg",
+            "alt": "Neo trad mariposa 3D",
+            "title": "Mariposa 3D",
+            "description": "Mariposa monarca con sombra; volumen y contorno en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/04.jpg",
+            "alt": "Neo trad flores color",
+            "title": "Flores acuarela",
+            "description": "Girasoles, orquídea y abejas con color en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/05.jpg",
+            "alt": "Neo trad anime color",
+            "title": "Gyutaro",
+            "description": "Personaje anime a color con contorno fuerte en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/06.jpg",
+            "alt": "Neo trad retrato color",
+            "title": "Rostro y mariposa",
+            "description": "Perfil con mariposa monarca y rosas; paleta ilustrativa."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20neo%20tradicional%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "neo-traditional-tattoos-gallery",
+      "title": "Neo-traditional tattoos: color, outline and volume",
+      "date": "May 16, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Neo-traditional blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits. These portfolio pieces lean illustrative and color-forward; each photo…",
+      "seo": {
+        "title": "Neo-traditional tattoos: color, outline and volume - Legassy Studio",
+        "description": "Neo-traditional blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits. These portfolio pieces lean illustrative and color-forward; each photo notes placement and…",
+        "keywords": [
+          "neo traditional tattoos",
+          "neo trad tattoo",
+          "neotraditional tattoo gallery"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/neo-traditional-tattoos-gallery"
+      },
+      "contentHtml": "<p><strong>Neo-traditional</strong> blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits.</p><p>These portfolio pieces lean illustrative and color-forward; each photo notes placement and saturation so you can compare before your session.</p>",
+      "gallery": {
+        "title": "Neo trad: color and illustration",
+        "description": "Clear outlines, fill and color accents.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+            "alt": "Color thigh neo trad",
+            "title": "Hand and heart",
+            "description": "Victorian hand, heart cutout and colored flower on thigh."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/02.jpg",
+            "alt": "Neo trad butterfly",
+            "title": "Butterfly floral",
+            "description": "Butterfly and flowers with dotwork and color on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/03.jpg",
+            "alt": "3D butterfly neo trad",
+            "title": "3D butterfly",
+            "description": "Monarch with shadow; volume and outline on inner forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/04.jpg",
+            "alt": "Color floral forearm",
+            "title": "Watercolor flowers",
+            "description": "Sunflowers, orchid and bees with color on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/05.jpg",
+            "alt": "Color anime neo trad",
+            "title": "Gyutaro",
+            "description": "Color anime character with bold outline on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/06.jpg",
+            "alt": "Color portrait neo trad",
+            "title": "Portrait butterfly",
+            "description": "Profile with monarch butterfly and roses; illustrative palette."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20neo%20tradicional%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

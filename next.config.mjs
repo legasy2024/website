@@ -22,6 +22,21 @@ function generateBlogRewrites() {
    * soporta el slug ES directamente.
    */
   function isMigratedPost(postId) {
+    const unifiedPath = path.join(
+      projectRoot,
+      "content",
+      "blog",
+      "posts",
+      `${postId}.json`,
+    );
+    if (fs.existsSync(unifiedPath)) {
+      try {
+        const data = JSON.parse(fs.readFileSync(unifiedPath, "utf8"));
+        if (data.translations?.es && data.translations?.en) return true;
+      } catch {
+        /* fallback a comprobación legacy */
+      }
+    }
     const esPath = path.join(projectRoot, "content", "blog", "posts", `${postId}.es.json`);
     const enPath = path.join(projectRoot, "content", "blog", "posts", `${postId}.en.json`);
     return fs.existsSync(esPath) && fs.existsSync(enPath);

@@ -6,6 +6,116 @@
   "posts": [
     {
       "label": "Gallery",
+      "slug": "anime-tattoos-gallery-inspiration",
+      "slugEn": "anime-tattoos-gallery-inspiration",
+      "title": "Anime tattoos: characters and color scenes",
+      "description": "Anime tattoos bring characters, scenes or symbols from series and manga to skin—often with defined outlines and saturated color in eyes, hair or backgrounds. They fit forearm, arm, thigh or leg depending on character scale. This gallery gathers real anime portfolio work—compare…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-anime/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "anime-tattoos-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
+      "slug": "dotwork-tattoos-gallery-inspiration",
+      "slugEn": "dotwork-tattoos-gallery-inspiration",
+      "title": "Dotwork tattoos: stippling, texture and soft shade",
+      "description": "Dotwork builds shade and texture with dots instead of conventional gradients. It reads grainy, editorial or illustrative—pairs well with fine line, geometry and selective color. These portfolio pieces show butterflies, Victorian hands, characters and florals in dotwork—note dot…",
+      "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "dotwork-tattoos-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
+      "slug": "color-tattoos-gallery-inspiration",
+      "slugEn": "color-tattoos-gallery-inspiration",
+      "title": "Color tattoos: saturation and vivid accents",
+      "description": "Color tattoos can be fully saturated pieces or black designs with accent hits—eyes, florals, flames, spheres. Skin type and sun care strongly affect how tone holds over time. These references show anime, illustrative, watercolor and neo-trad color from the studio—compare…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-color/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "color-tattoos-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
+      "slug": "portrait-tattoos-gallery-inspiration",
+      "slugEn": "portrait-tattoos-gallery-inspiration",
+      "title": "Portrait tattoos: people, pets and characters",
+      "description": "Portrait tattoos need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale. You'll find human, animal and hybrid portraits below—each caption…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "portrait-tattoos-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
+      "slug": "black-grey-shading-tattoos-gallery",
+      "slugEn": "black-grey-shading-tattoos-gallery",
+      "title": "Black and grey shading tattoos: contrast and depth",
+      "description": "Black and grey tattoos rely on smooth gradients, reserved highlights and deep blacks for volume without color. They excel for portraits, religious work, animals and large narrative pieces. This set shows how contrast is built on real skin—watch transitions, dark backgrounds and…",
+      "image": "/img/portfolio-blog/galleries/gallery-sombras-black-grey/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "black-grey-shading-tattoos-gallery"
+    },
+    {
+      "label": "Gallery",
+      "slug": "realism-tattoos-gallery-inspiration",
+      "slugEn": "realism-tattoos-gallery-inspiration",
+      "title": "Realism tattoos: portraits and detailed figures",
+      "description": "Realism aims for a photographic or painterly read on skin—portraits, animals, religious or myth scenes with proportion, volume and smooth light-to-shadow transitions. These portfolio pieces span forearm, leg and full sleeve formats so you can compare detail level and scale…",
+      "image": "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "realism-tattoos-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
+      "slug": "neo-traditional-tattoos-gallery",
+      "slugEn": "neo-traditional-tattoos-gallery",
+      "title": "Neo-traditional tattoos: color, outline and volume",
+      "description": "Neo-traditional blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits. These portfolio pieces lean illustrative and color-forward; each photo…",
+      "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "neo-traditional-tattoos-gallery"
+    },
+    {
+      "label": "Gallery",
+      "slug": "tribal-style-tattoos-gallery",
+      "slugEn": "tribal-style-tattoos-gallery",
+      "title": "Tribal-style tattoos: ornament and bold shapes",
+      "description": "Tribal-style tattooing often means flowing black shapes, repeating patterns, geometric frames and symbols with strong graphic read. Today many pieces blend that look with realism, dotwork or cultural motifs without copying traditional designs literally. These portfolio…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "tribal-style-tattoos-gallery"
+    },
+    {
+      "label": "Gallery",
+      "slug": "mini-tattoos-gallery-inspiration",
+      "slugEn": "mini-tattoos-gallery-inspiration",
+      "title": "Mini tattoos: small pieces with purpose",
+      "description": "Mini tattoos pack meaning into centimeters—a word, symbol, tiny animal or micro portrait. They work on wrists, hands, inner biceps, behind the ear or forearm when you want something discreet but well drawn. Fine line and minimum viable size matter—these portfolio shots show…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "mini-tattoos-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
+      "slug": "full-sleeve-tattoo-gallery-inspiration",
+      "slugEn": "full-sleeve-tattoo-gallery-inspiration",
+      "title": "Full sleeve tattoos: complete arm work",
+      "description": "A full sleeve covers the arm (or most of it) with one visual story—religious work, mythology, animals, geometry or scenes linking shoulder, bicep and forearm. It's usually planned over multiple sessions with strong flow so the set reads as one piece when healed. These are real…",
+      "image": "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+      "date": "May 16, 2026",
+      "cta": "Read more",
+      "ctaUrl": "full-sleeve-tattoo-gallery-inspiration"
+    },
+    {
+      "label": "Gallery",
       "slug": "neck-tattoos-for-women-gallery",
       "slugEn": "neck-tattoos-for-women-gallery",
       "title": "Neck tattoos for women: fine line and upper area",

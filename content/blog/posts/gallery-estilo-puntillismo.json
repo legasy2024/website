@@ -1,0 +1,158 @@
+{
+  "id": "gallery-estilo-puntillismo",
+  "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-puntillismo-galeria",
+      "title": "Tatuajes puntillismo: puntos, textura y sombras suaves",
+      "date": "16 de mayo de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "El puntillismo (dotwork) construye sombras y texturas con puntos en lugar de degradados tradicionales. Da un aspecto granulado, editorial o ilustrativo; combina bien con línea fina, geometría y piezas con color selectivo. Estas piezas del portafolio muestran mariposas, manos…",
+      "seo": {
+        "title": "Tatuajes puntillismo: puntos, textura y sombras suaves - Legassy Studio",
+        "description": "El puntillismo (dotwork) construye sombras y texturas con puntos en lugar de degradados tradicionales. Da un aspecto granulado, editorial o ilustrativo; combina bien con línea fina, geometría y piezas con color selectivo. Estas piezas del portafolio muestran mariposas, manos victorianas…",
+        "keywords": [
+          "tatuajes puntillismo",
+          "tatuaje puntillismo",
+          "dotwork tatuaje"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-puntillismo-galeria"
+      },
+      "contentHtml": "<p>El <strong>puntillismo</strong> (dotwork) construye sombras y texturas con puntos en lugar de degradados tradicionales. Da un aspecto granulado, editorial o ilustrativo; combina bien con línea fina, geometría y piezas con color selectivo.</p><p>Estas piezas del portafolio muestran mariposas, manos victorianas, personajes y florales en puntillismo; fíjate en densidad de puntos y zona del cuerpo.</p>",
+      "gallery": {
+        "title": "Puntillismo del estudio",
+        "description": "Textura por puntos en distintas escalas.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+            "alt": "Puntillismo mariposa",
+            "title": "Mariposa floral",
+            "description": "Mariposa y flores en puntillismo en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/02.jpg",
+            "alt": "Puntillismo mano",
+            "title": "Mano victoriana",
+            "description": "Mano con manga, corazón y flor en muslo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/03.jpg",
+            "alt": "Dotwork ilustrativo",
+            "title": "Composición puntos",
+            "description": "Ilustración con sombras hechas a puntos."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/04.jpg",
+            "alt": "Puntillismo detalle",
+            "title": "Detalle puntillismo",
+            "description": "Zona con densidad de puntos para volumen."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/05.jpg",
+            "alt": "Tatuaje puntos sombra",
+            "title": "Pieza puntos",
+            "description": "Motivo con transición suave en puntillismo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/06.jpg",
+            "alt": "Puntillismo celestial",
+            "title": "Celestial puntos",
+            "description": "Sol y luna con puntillismo en brazo."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20puntillismo%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "dotwork-tattoos-gallery-inspiration",
+      "title": "Dotwork tattoos: stippling, texture and soft shade",
+      "date": "May 16, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Dotwork builds shade and texture with dots instead of conventional gradients. It reads grainy, editorial or illustrative—pairs well with fine line, geometry and selective color. These portfolio pieces show butterflies, Victorian hands, characters and florals in dotwork—note dot…",
+      "seo": {
+        "title": "Dotwork tattoos: stippling, texture and soft shade - Legassy Studio",
+        "description": "Dotwork builds shade and texture with dots instead of conventional gradients. It reads grainy, editorial or illustrative—pairs well with fine line, geometry and selective color. These portfolio pieces show butterflies, Victorian hands, characters and florals in dotwork—note dot density and body…",
+        "keywords": [
+          "dotwork tattoos",
+          "stippling tattoo",
+          "pointillism tattoo"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/dotwork-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Dotwork</strong> builds shade and texture with dots instead of conventional gradients. It reads grainy, editorial or illustrative—pairs well with fine line, geometry and selective color.</p><p>These portfolio pieces show butterflies, Victorian hands, characters and florals in dotwork—note dot density and body placement.</p>",
+      "gallery": {
+        "title": "Studio dotwork",
+        "description": "Stippled texture at different scales.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+            "alt": "Dotwork butterfly",
+            "title": "Butterfly flowers",
+            "description": "Butterfly and flowers in dotwork on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/02.jpg",
+            "alt": "Dotwork hand tattoo",
+            "title": "Victorian hand",
+            "description": "Hand with sleeve, heart and flower on thigh."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/03.jpg",
+            "alt": "Illustrative dotwork",
+            "title": "Dot composition",
+            "description": "Illustration with stippled shadows."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/04.jpg",
+            "alt": "Dotwork detail",
+            "title": "Dot detail",
+            "description": "Area with dot density for volume."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/05.jpg",
+            "alt": "Stipple shading tattoo",
+            "title": "Stipple piece",
+            "description": "Motif with smooth stipple transition."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/06.jpg",
+            "alt": "Celestial dotwork arm",
+            "title": "Celestial dots",
+            "description": "Sun and moon with stippling on arm."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20puntillismo%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

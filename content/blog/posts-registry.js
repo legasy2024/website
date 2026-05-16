@@ -1362,6 +1362,186 @@ export const blogPostsRegistry = [
     published: true,
     order: 75,
   },
+  {
+    id: "gallery-manga-completa",
+    slugs: {
+      es: "tatuaje-manga-completa-galeria",
+      en: "full-sleeve-tattoo-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 200,
+  },
+  {
+    id: "gallery-tatuajes-minis",
+    slugs: {
+      es: "tatuajes-minis-galeria",
+      en: "mini-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 201,
+  },
+  {
+    id: "gallery-tatuajes-tribal",
+    slugs: {
+      es: "tatuajes-estilo-tribal-galeria",
+      en: "tribal-style-tattoos-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 202,
+  },
+  {
+    id: "gallery-neo-tradicional",
+    slugs: {
+      es: "tatuajes-neo-tradicional-galeria",
+      en: "neo-traditional-tattoos-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 203,
+  },
+  {
+    id: "gallery-realismo",
+    slugs: {
+      es: "tatuajes-realismo-galeria",
+      en: "realism-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 204,
+  },
+  {
+    id: "gallery-sombras-black-grey",
+    slugs: {
+      es: "tatuajes-sombras-negro-gris-galeria",
+      en: "black-grey-shading-tattoos-gallery",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-sombras-black-grey/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 205,
+  },
+  {
+    id: "gallery-tatuajes-retratos",
+    slugs: {
+      es: "tatuajes-con-retratos-galeria",
+      en: "portrait-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 206,
+  },
+  {
+    id: "gallery-tatuajes-color",
+    slugs: {
+      es: "tatuajes-a-color-galeria",
+      en: "color-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-color/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 207,
+  },
+  {
+    id: "gallery-estilo-puntillismo",
+    slugs: {
+      es: "tatuajes-puntillismo-galeria",
+      en: "dotwork-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 208,
+  },
+  {
+    id: "gallery-tatuajes-anime",
+    slugs: {
+      es: "tatuajes-de-anime-galeria",
+      en: "anime-tattoos-gallery-inspiration",
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-anime/01.jpg",
+    date: {
+      es: "16 de mayo de 2026",
+      en: "May 16, 2026",
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery",
+    },
+    published: true,
+    order: 209,
+  },
 ];
 
 /**
@@ -1390,7 +1570,8 @@ export function getPostBySlug(slug, locale) {
 export function getAllPublishedPosts() {
   return blogPostsRegistry
     .filter((post) => post.published)
-    .sort((a, b) => a.order - b.order);
+    // Mayor order = más reciente (aparece primero en el blog)
+    .sort((a, b) => (b.order || 0) - (a.order || 0));
 }
 
 /**

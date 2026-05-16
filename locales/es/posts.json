@@ -6,6 +6,116 @@
   "posts": [
     {
       "label": "Galería",
+      "slug": "tatuajes-de-anime-galeria",
+      "slugEn": "anime-tattoos-gallery-inspiration",
+      "title": "Tatuajes de anime: personajes y escenas a color",
+      "description": "Los tatuajes de anime llevan personajes, escenas o símbolos de series y manga a la piel—a menudo con contorno definido y color saturado en ojos, cabello o fondos. Funcionan en antebrazo, brazo, muslo o pierna según el tamaño del personaje. Esta galería reúne piezas reales del…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-anime/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-de-anime-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-puntillismo-galeria",
+      "slugEn": "dotwork-tattoos-gallery-inspiration",
+      "title": "Tatuajes puntillismo: puntos, textura y sombras suaves",
+      "description": "El puntillismo (dotwork) construye sombras y texturas con puntos en lugar de degradados tradicionales. Da un aspecto granulado, editorial o ilustrativo; combina bien con línea fina, geometría y piezas con color selectivo. Estas piezas del portafolio muestran mariposas, manos…",
+      "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-puntillismo-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-a-color-galeria",
+      "slugEn": "color-tattoos-gallery-inspiration",
+      "title": "Tatuajes a color: saturación y acentos vivos",
+      "description": "Los tatuajes a color pueden ser piezas completas saturadas o diseños en negro con acentos puntuales (ojos, flores, llamas, esferas). La piel y el cuidado solar influyen mucho en cómo se mantiene el tono con los años. Estas referencias muestran anime, ilustración, acuarela y…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-color/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-a-color-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-con-retratos-galeria",
+      "slugEn": "portrait-tattoos-gallery-inspiration",
+      "title": "Tatuajes con retratos: personas, mascotas y personajes",
+      "description": "Los tatuajes con retratos exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato. Aquí hay retratos humanos, animales y…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-con-retratos-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-sombras-negro-gris-galeria",
+      "slugEn": "black-grey-shading-tattoos-gallery",
+      "title": "Tatuajes en sombras: negro, gris y contraste",
+      "description": "Los tatuajes en sombras (negro y gris) se apoyan en degradados, luces reservadas y negros profundos para crear volumen sin depender del color. Funcionan muy bien en retratos, religiosos, animales y piezas narrativas grandes. La selección muestra cómo se construye el contraste…",
+      "image": "/img/portfolio-blog/galleries/gallery-sombras-black-grey/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-sombras-negro-gris-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-realismo-galeria",
+      "slugEn": "realism-tattoos-gallery-inspiration",
+      "title": "Tatuajes realismo: retratos y figuras con detalle",
+      "description": "El realismo busca que el tatuaje se lea como una imagen fotográfica o pictórica en piel: retratos, animales, escenas religiosas o mitológicas con proporción, volumen y transiciones suaves entre luces y sombras. Estas piezas del portafolio muestran distintos formatos—antebrazo…",
+      "image": "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-realismo-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-neo-tradicional-galeria",
+      "slugEn": "neo-traditional-tattoos-gallery",
+      "title": "Tatuajes neo tradicional: color, contorno y volumen",
+      "description": "El neo tradicional mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados. En el portafolio verás piezas ilustrativas y con…",
+      "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-neo-tradicional-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-estilo-tribal-galeria",
+      "slugEn": "tribal-style-tattoos-gallery",
+      "title": "Tatuajes estilo tribal: ornamentación y formas marcadas",
+      "description": "El estilo tribal en tatuaje suele asociarse a formas negras fluidas, patrones repetitivos, marcos geométricos y símbolos con lectura gráfica fuerte. Hoy muchas piezas mezclan esa estética con realismo, puntillismo o motivos culturales sin copiar diseños tradicionales al pie de…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-estilo-tribal-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuajes-minis-galeria",
+      "slugEn": "mini-tattoos-gallery-inspiration",
+      "title": "Tatuajes minis: piezas pequeñas con intención",
+      "description": "Los tatuajes minis concentran significado en pocos centímetros: una palabra, un símbolo, un animal reducido o un microretrato. Funcionan en muñeca, mano, bíceps interno, detrás de la oreja o antebrazo cuando buscas algo discreto pero bien dibujado. El trazo fino y el tamaño…",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-minis-galeria"
+    },
+    {
+      "label": "Galería",
+      "slug": "tatuaje-manga-completa-galeria",
+      "slugEn": "full-sleeve-tattoo-gallery-inspiration",
+      "title": "Tatuaje manga completa: mangas y brazos enteros",
+      "description": "Una manga completa cubre el brazo (o gran parte) con una sola narrativa visual: religiosos, mitología, animales, geometría o escenas que conectan hombro, bíceps y antebrazo. Suele planificarse en varias sesiones y exige buen flujo entre piezas para que el conjunto se lea…",
+      "image": "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+      "date": "16 de mayo de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuaje-manga-completa-galeria"
+    },
+    {
+      "label": "Galería",
       "slug": "tatuajes-en-el-cuello-para-mujer-galeria",
       "slugEn": "neck-tattoos-for-women-gallery",
       "title": "Tatuajes en el cuello para mujer: línea fina y zona alta",

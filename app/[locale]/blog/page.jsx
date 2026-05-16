@@ -61,10 +61,8 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function Portfolio({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
-  // Obtener todos los posts con contenido (título, excerpt, etc.) directamente desde el registry
-  // y ordenarlos de más reciente (orden mayor) a más antiguo
-  const allPosts = await getAllBlogPostsWithContent(locale);
-  const posts = [...allPosts].reverse();
+  // Posts ya vienen ordenados: order más alto = más reciente (ver getAllPublishedPosts)
+  const posts = await getAllBlogPostsWithContent(locale);
 
   const headerTranslations = {
     section_title: t("blog:header.section_title"),

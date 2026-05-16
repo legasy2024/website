@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-tribal",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-estilo-tribal-galeria",
+      "title": "Tatuajes estilo tribal: ornamentación y formas marcadas",
+      "date": "16 de mayo de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "El estilo tribal en tatuaje suele asociarse a formas negras fluidas, patrones repetitivos, marcos geométricos y símbolos con lectura gráfica fuerte. Hoy muchas piezas mezclan esa estética con realismo, puntillismo o motivos culturales sin copiar diseños tradicionales al pie de…",
+      "seo": {
+        "title": "Tatuajes estilo tribal: ornamentación y formas marcadas - Legassy Studio",
+        "description": "El estilo tribal en tatuaje suele asociarse a formas negras fluidas, patrones repetitivos, marcos geométricos y símbolos con lectura gráfica fuerte. Hoy muchas piezas mezclan esa estética con realismo, puntillismo o motivos culturales sin copiar diseños tradicionales al pie de la letra. Estas…",
+        "keywords": [
+          "tatuajes estilo tribal",
+          "tatuajes tribal",
+          "tatuajes ornamentales"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-estilo-tribal-galeria"
+      },
+      "contentHtml": "<p>El <strong>estilo tribal</strong> en tatuaje suele asociarse a formas negras fluidas, patrones repetitivos, marcos geométricos y símbolos con lectura gráfica fuerte. Hoy muchas piezas mezclan esa estética con realismo, puntillismo o motivos culturales sin copiar diseños tradicionales al pie de la letra.</p><p>Estas referencias del portafolio muestran ornamentación, bordes marcados y composiciones con mucho negro; úsalas para imaginar escala y contraste antes de cerrar boceto.</p>",
+      "gallery": {
+        "title": "Ornamento y formas tribales",
+        "description": "Geometría, marcos y negro dominante según la pieza.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+            "alt": "Tatuaje tribal marco griego",
+            "title": "Espartano con marco",
+            "description": "Guerrero espartano con borde de grecas en antebrazo; marco ornamental."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/02.jpg",
+            "alt": "Tatuaje geométrico león",
+            "title": "León y geometría",
+            "description": "León tipo foo dog con geometría sagrada y reloj; formas negras marcadas."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/03.jpg",
+            "alt": "Tatuaje ornamental Leo",
+            "title": "Leo ornamental",
+            "description": "Símbolo Leo con ornamentación simétrica en esternón."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/04.jpg",
+            "alt": "Tatuaje tribal Anubis",
+            "title": "Anubis",
+            "description": "Anubis con pirámides en pierna; iconografía egipcia gráfica."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/05.jpg",
+            "alt": "Tatuaje celestial tribal",
+            "title": "Sol y luna",
+            "description": "Sol, luna y puntillismo en composición vertical en brazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/06.jpg",
+            "alt": "Tatuaje casco tribal",
+            "title": "Casco espartano",
+            "description": "Casco corintio con cruces y león; alto contraste negro y gris."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20estilo%20tribal%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "tribal-style-tattoos-gallery",
+      "title": "Tribal-style tattoos: ornament and bold shapes",
+      "date": "May 16, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Tribal-style tattooing often means flowing black shapes, repeating patterns, geometric frames and symbols with strong graphic read. Today many pieces blend that look with realism, dotwork or cultural motifs without copying traditional designs literally. These portfolio…",
+      "seo": {
+        "title": "Tribal-style tattoos: ornament and bold shapes - Legassy Studio",
+        "description": "Tribal-style tattooing often means flowing black shapes, repeating patterns, geometric frames and symbols with strong graphic read. Today many pieces blend that look with realism, dotwork or cultural motifs without copying traditional designs literally. These portfolio references show ornament…",
+        "keywords": [
+          "tribal style tattoos",
+          "tribal tattoo ideas",
+          "ornamental tattoos"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/tribal-style-tattoos-gallery"
+      },
+      "contentHtml": "<p><strong>Tribal-style</strong> tattooing often means flowing black shapes, repeating patterns, geometric frames and symbols with strong graphic read. Today many pieces blend that look with realism, dotwork or cultural motifs without copying traditional designs literally.</p><p>These portfolio references show ornament, bold borders and black-heavy layouts—use them to gauge scale and contrast before you finalize a sketch.</p>",
+      "gallery": {
+        "title": "Tribal and ornamental references",
+        "description": "Geometry, frames and heavy black per piece.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+            "alt": "Greek key framed tattoo",
+            "title": "Spartan frame",
+            "description": "Spartan warrior with Greek key border on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/02.jpg",
+            "alt": "Geometric lion tattoo",
+            "title": "Lion geometry",
+            "description": "Foo dog lion with sacred geometry and clock."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/03.jpg",
+            "alt": "Ornamental Leo tattoo",
+            "title": "Leo ornamental",
+            "description": "Leo zodiac with symmetrical ornament on sternum."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/04.jpg",
+            "alt": "Anubis leg tattoo",
+            "title": "Anubis",
+            "description": "Anubis with pyramids on leg; graphic Egyptian iconography."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/05.jpg",
+            "alt": "Celestial arm tattoo",
+            "title": "Sun moon",
+            "description": "Vertical sun, moon and stippling on upper arm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/06.jpg",
+            "alt": "Helmet contrast tattoo",
+            "title": "Spartan helmet",
+            "description": "Corinthian helmet, crosses and lion in black and grey."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20estilo%20tribal%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

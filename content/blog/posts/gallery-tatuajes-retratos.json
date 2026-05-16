@@ -1,0 +1,158 @@
+{
+  "id": "gallery-tatuajes-retratos",
+  "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-con-retratos-galeria",
+      "title": "Tatuajes con retratos: personas, mascotas y personajes",
+      "date": "16 de mayo de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los tatuajes con retratos exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato. Aquí hay retratos humanos, animales y…",
+      "seo": {
+        "title": "Tatuajes con retratos: personas, mascotas y personajes - Legassy Studio",
+        "description": "Los tatuajes con retratos exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato. Aquí hay retratos humanos, animales y híbridos del…",
+        "keywords": [
+          "tatuajes con retratos",
+          "tatuajes retrato",
+          "retrato tatuaje"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-con-retratos-galeria"
+      },
+      "contentHtml": "<p>Los <strong>tatuajes con retratos</strong> exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato.</p><p>Aquí hay retratos humanos, animales y híbridos del portafolio; cada leyenda indica el tipo de retrato y la zona donde está tatuado.</p>",
+      "gallery": {
+        "title": "Retratos del portafolio",
+        "description": "Humanos, mascotas y personajes según la imagen.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+            "alt": "Retrato clásico antebrazo",
+            "title": "Dios griego",
+            "description": "Busto masculino clásico en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/02.jpg",
+            "alt": "Retrato Jesús tatuaje",
+            "title": "Jesús",
+            "description": "Retrato religioso vertical con cruz."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/03.jpg",
+            "alt": "Retrato mascota perro",
+            "title": "Estrella perro",
+            "description": "Perro con flores y nombre Estrella."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/04.jpg",
+            "alt": "Retrato gato mini",
+            "title": "Peluzita gato",
+            "description": "Gato con nombre Peluzita en microrealismo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/05.jpg",
+            "alt": "Retratos pierna",
+            "title": "Tres rostros",
+            "description": "Tres retratos apilados en pierna."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/06.jpg",
+            "alt": "Retrato mujer mariposa",
+            "title": "Perfil y mariposa",
+            "description": "Perfil femenino con mariposa sobre los ojos."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Pedir asesoría para mi tatuaje",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vengo%20del%20blog%2C%20tatuajes%20con%20retratos%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "Ver portafolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "portrait-tattoos-gallery-inspiration",
+      "title": "Portrait tattoos: people, pets and characters",
+      "date": "May 16, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Portrait tattoos need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale. You'll find human, animal and hybrid portraits below—each caption…",
+      "seo": {
+        "title": "Portrait tattoos: people, pets and characters - Legassy Studio",
+        "description": "Portrait tattoos need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale. You'll find human, animal and hybrid portraits below—each caption notes portrait type and…",
+        "keywords": [
+          "portrait tattoos",
+          "tattoo portrait",
+          "pet portrait tattoo"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/portrait-tattoos-gallery-inspiration"
+      },
+      "contentHtml": "<p><strong>Portrait tattoos</strong> need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale.</p><p>You'll find human, animal and hybrid portraits below—each caption notes portrait type and placement.</p>",
+      "gallery": {
+        "title": "Portfolio portraits",
+        "description": "People, pets and characters per image.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+            "alt": "Classical portrait forearm",
+            "title": "Greek god bust",
+            "description": "Classical male bust on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/02.jpg",
+            "alt": "Jesus portrait tattoo",
+            "title": "Jesus portrait",
+            "description": "Vertical religious portrait with cross."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/03.jpg",
+            "alt": "Pet dog portrait",
+            "title": "Estrella dog",
+            "description": "Dog with flowers and name Estrella."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/04.jpg",
+            "alt": "Mini cat portrait",
+            "title": "Peluzita cat",
+            "description": "Cat portrait Peluzita in micro realism."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/05.jpg",
+            "alt": "Leg portrait stack",
+            "title": "Three faces",
+            "description": "Three stacked portraits on leg."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/06.jpg",
+            "alt": "Woman portrait butterfly",
+            "title": "Profile butterfly",
+            "description": "Female profile with butterfly over eyes."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Book a tattoo consultation",
+          "url": "https://wa.me/573128717100?text=Hi%21%20Vengo%20del%20blog%2C%20tatuajes%20con%20retratos%2C%20quiero%20asesor%C3%ADa"
+        },
+        "instagram": {
+          "text": "View portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}
