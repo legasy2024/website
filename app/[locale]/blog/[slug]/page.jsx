@@ -79,7 +79,7 @@ export async function generateMetadata({ params: { locale, slug } }) {
         languages: {
           [locale]: `/${locale}/blog/${slug}`,
           ...(otherSlug && { [otherLocale]: `/${otherLocale}/blog/${otherSlug}` }),
-          "x-default": locale === 'en' ? `/${locale}/blog/${slug}` : `/${otherLocale}/blog/${otherSlug || slug}`
+          "x-default": locale === 'es' ? `/${locale}/blog/${slug}` : `/${otherLocale}/blog/${otherSlug || slug}`
         }
       }
     };

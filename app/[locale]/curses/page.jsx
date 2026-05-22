@@ -26,7 +26,7 @@ const metadata = {
       languages: {
         en: "/en/curses",
         es: "/es/curses",
-        "x-default": "/en/curses",
+        "x-default": "/es/curses",
       }
     },
     openGraph: {
@@ -54,7 +54,7 @@ const metadata = {
       languages: {
         en: "/en/curses",
         es: "/es/curses",
-        "x-default": "/en/curses",
+        "x-default": "/es/curses",
       }
     },
     openGraph: {

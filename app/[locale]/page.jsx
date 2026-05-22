@@ -34,7 +34,7 @@ const metadata = {
     languages: {
       en: "/en",
       es: "/es",
-      "x-default": "/en",
+      "x-default": "/es",
     },
   }
 };
@@ -54,7 +54,7 @@ const metadata_en = {
     languages: {
       en: "/en",
       es: "/es",
-      "x-default": "/en",
+      "x-default": "/es",
     },
   }
 };

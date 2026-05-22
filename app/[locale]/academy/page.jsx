@@ -65,7 +65,7 @@ const metadataEs = {
     languages: {
       en: "/en/academy",
       es: "/es/academy",
-      "x-default": "/en/academy",
+      "x-default": "/es/academy",
     },
   },
 };
@@ -79,7 +79,7 @@ const metadataEn = {
     languages: {
       en: "/en/academy",
       es: "/es/academy",
-      "x-default": "/en/academy",
+      "x-default": "/es/academy",
     },
   },
 };

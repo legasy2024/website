@@ -28,7 +28,7 @@ const metadata = {
       languages: {
           en: "/en/contact",
           es: "/es/contact",
-          "x-default": "/en/contact",
+          "x-default": "/es/contact",
       }
   },
   openGraph: {
@@ -56,7 +56,7 @@ const metadata_en = {
       languages: {
           en: "/en/contact",
           es: "/es/contact",
-          "x-default": "/en/contact",
+          "x-default": "/es/contact",
       }
   },
   openGraph: {
