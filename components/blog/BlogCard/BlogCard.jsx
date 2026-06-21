@@ -23,13 +23,19 @@ const BlogCard = ({ post, locale }) => {
     */}
     <div className="relative h-[200px] w-full shrink-0 sm:absolute sm:inset-y-0 sm:left-0 sm:z-0 sm:h-auto sm:w-[40%]">
       <div className="absolute inset-3 overflow-hidden rounded-md bg-[#2a2a2a]">
-        <Image
-          src={post.image}
-          alt={post.title}
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 100vw, 40vw"
-        />
+        {post.image ? (
+          <Image
+            src={post.image}
+            alt={post.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, 40vw"
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-[#1a1a1a]">
+            <Image src="/img/logo.svg" alt={post.title} width={100} height={100} className="opacity-30" />
+          </div>
+        )}
       </div>
     </div>
     <div className="relative z-10 flex min-w-0 flex-col gap-y-4 p-4 sm:box-border sm:ml-[40%] sm:w-[60%]">

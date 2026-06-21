@@ -200,9 +200,9 @@ async function validateStaticParams() {
       continue;
     }
 
-    const filePath = path.join(__dirname, `../content/blog/posts/${post.id}.${param.locale}.json`);
+    const filePath = path.join(__dirname, `../content/blog/posts/${post.id}.json`);
     if (!fileExists(filePath)) {
-      errors.push(`❌ Ruta "${param.locale}/blog/${param.slug}": No existe archivo JSON (${post.id}.${param.locale}.json)`);
+      errors.push(`❌ Ruta "${param.locale}/blog/${param.slug}": No existe archivo JSON (${post.id}.json)`);
       invalidRoutes++;
     } else {
       validRoutes++;

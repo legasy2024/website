@@ -11,7 +11,7 @@
  * Los slugs pueden cambiar si es necesario, pero el ID permanece igual.
  */
 
-export const blogPostsRegistry = [
+const blogPostsRegistry = [
   {
     id: "definitive-guide",
     slugs: {
@@ -1542,6 +1542,186 @@ export const blogPostsRegistry = [
     published: true,
     order: 209,
   },
+  {
+    id: "hidden-tattoos-work",
+    slugs: {
+      es: "tatuajes-ocultos-mejores-zonas-cuerpo-trabajo",
+      en: "hidden-tattoos-best-body-areas-for-work"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+    date: {
+      es: "01 de junio de 2026",
+      en: "June 01, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 300
+  },
+  {
+    id: "first-large-tattoo-prep",
+    slugs: {
+      es: "como-prepararte-noche-anterior-primer-tatuaje-grande",
+      en: "how-to-prepare-night-before-first-large-tattoo"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+    date: {
+      es: "02 de junio de 2026",
+      en: "June 02, 2026"
+    },
+    label: {
+      es: "Experiencia",
+      en: "Experience"
+    },
+    published: true,
+    order: 301
+  },
+  {
+    id: "cover-c-section-scar-botanical",
+    slugs: {
+      es: "tapar-cicatriz-cesarea-apendicitis-tatuaje-botanico",
+      en: "cover-c-section-appendicitis-scar-botanical-tattoo"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/03.jpg",
+    date: {
+      es: "03 de junio de 2026",
+      en: "June 03, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 302
+  },
+  {
+    id: "micro-tattoos-couples-cali",
+    slugs: {
+      es: "microtatuajes-parejas-cali-disenos-discretos",
+      en: "micro-tattoos-couples-cali-discreet-designs"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+    date: {
+      es: "04 de junio de 2026",
+      en: "June 04, 2026"
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery"
+    },
+    published: true,
+    order: 303
+  },
+  {
+    id: "tattoos-couples-friends-valentines",
+    slugs: {
+      es: "tatuajes-novios-amigos-san-valentin-amor-amistad",
+      en: "tattoos-couples-friends-valentines-day"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/02.jpg",
+    date: {
+      es: "05 de junio de 2026",
+      en: "June 05, 2026"
+    },
+    label: {
+      es: "Galería",
+      en: "Gallery"
+    },
+    published: true,
+    order: 304
+  },
+  {
+    id: "executive-tattoos-office",
+    slugs: {
+      es: "tatuajes-ejecutivos-estilos-zonas-ropa-oficina",
+      en: "executive-tattoos-styles-areas-office-clothes"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
+    date: {
+      es: "06 de junio de 2026",
+      en: "June 06, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 305
+  },
+  {
+    id: "small-tattoos-hidden-watch-shirt",
+    slugs: {
+      es: "ideas-tatuajes-pequenos-zonas-escondidas",
+      en: "small-tattoo-ideas-hidden-watch-shirt"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
+    date: {
+      es: "07 de junio de 2026",
+      en: "June 07, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 306
+  },
+  {
+    id: "invisible-elegant-tattoos",
+    slugs: {
+      es: "tatuajes-invisibles-elegantes-discretos",
+      en: "invisible-elegant-tattoos-discreet-placements"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/01.jpg",
+    date: {
+      es: "08 de junio de 2026",
+      en: "June 08, 2026"
+    },
+    label: {
+      es: "Guía",
+      en: "Guide"
+    },
+    published: true,
+    order: 307
+  },
+  {
+    id: "tattoo-prep-24-hours-checklist",
+    slugs: {
+      es: "checklist-24-horas-previas-preparar-sesion-tatuaje",
+      en: "24-hour-prep-checklist-for-long-tattoo-session"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
+    date: {
+      es: "09 de junio de 2026",
+      en: "June 09, 2026"
+    },
+    label: {
+      es: "Cuidado",
+      en: "Aftercare"
+    },
+    published: true,
+    order: 308
+  },
+  {
+    id: "transform-abdominoplasty-scar-botanical",
+    slugs: {
+      es: "transforma-cicatriz-abdominoplastia-tatuaje-botanico",
+      en: "transform-abdominoplasty-scar-into-botanical-art"
+    },
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/04.jpg",
+    date: {
+      es: "10 de junio de 2026",
+      en: "June 10, 2026"
+    },
+    label: {
+      es: "Técnica",
+      en: "Technique"
+    },
+    published: true,
+    order: 309
+  }
 ];
 
 /**
@@ -1549,7 +1729,7 @@ export const blogPostsRegistry = [
  * @param {string} id - ID del post
  * @returns {Object|null} - Post o null si no existe
  */
-export function getPostById(id) {
+function getPostById(id) {
   return blogPostsRegistry.find((post) => post.id === id) || null;
 }
 
@@ -1559,7 +1739,7 @@ export function getPostById(id) {
  * @param {string} locale - Idioma ('es' o 'en')
  * @returns {Object|null} - Post o null si no existe
  */
-export function getPostBySlug(slug, locale) {
+function getPostBySlug(slug, locale) {
   return blogPostsRegistry.find((post) => post.slugs[locale] === slug) || null;
 }
 
@@ -1567,7 +1747,7 @@ export function getPostBySlug(slug, locale) {
  * Obtiene todos los posts publicados ordenados
  * @returns {Array} - Array de posts ordenados por `order`
  */
-export function getAllPublishedPosts() {
+function getAllPublishedPosts() {
   return blogPostsRegistry
     .filter((post) => post.published)
     // Mayor order = más reciente (aparece primero en el blog)
@@ -1579,7 +1759,7 @@ export function getAllPublishedPosts() {
  * @param {string} slug - Slug en cualquier idioma
  * @returns {string|null} - Slug en inglés o null si no se encuentra
  */
-export function getEnglishSlug(slug) {
+function getEnglishSlug(slug) {
   const post = blogPostsRegistry.find(
     (p) => p.slugs.es === slug || p.slugs.en === slug,
   );
@@ -1592,9 +1772,18 @@ export function getEnglishSlug(slug) {
  * @param {string} targetLocale - Idioma de destino ('es' o 'en')
  * @returns {string|null} - Slug en el idioma de destino o null
  */
-export function getSlugForLocale(currentSlug, targetLocale) {
+function getSlugForLocale(currentSlug, targetLocale) {
   const post = blogPostsRegistry.find(
     (p) => p.slugs.es === currentSlug || p.slugs.en === currentSlug,
   );
   return post ? post.slugs[targetLocale] : null;
 }
+
+module.exports = {
+  blogPostsRegistry,
+  getPostById,
+  getPostBySlug,
+  getAllPublishedPosts,
+  getEnglishSlug,
+  getSlugForLocale
+};
