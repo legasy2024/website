@@ -1550,8 +1550,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
     date: {
-      es: "01 de junio de 2026",
-      en: "June 01, 2026"
+      es: "22 de julio de 2026",
+      en: "July 22, 2026"
     },
     label: {
       es: "Guía",
@@ -1568,8 +1568,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
     date: {
-      es: "02 de junio de 2026",
-      en: "June 02, 2026"
+      es: "23 de julio de 2026",
+      en: "July 23, 2026"
     },
     label: {
       es: "Experiencia",
@@ -1586,8 +1586,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/03.jpg",
     date: {
-      es: "03 de junio de 2026",
-      en: "June 03, 2026"
+      es: "24 de julio de 2026",
+      en: "July 24, 2026"
     },
     label: {
       es: "Técnica",
@@ -1604,8 +1604,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
     date: {
-      es: "04 de junio de 2026",
-      en: "June 04, 2026"
+      es: "25 de julio de 2026",
+      en: "July 25, 2026"
     },
     label: {
       es: "Galería",
@@ -1622,8 +1622,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/02.jpg",
     date: {
-      es: "05 de junio de 2026",
-      en: "June 05, 2026"
+      es: "26 de julio de 2026",
+      en: "July 26, 2026"
     },
     label: {
       es: "Galería",
@@ -1640,8 +1640,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
     date: {
-      es: "06 de junio de 2026",
-      en: "June 06, 2026"
+      es: "27 de julio de 2026",
+      en: "July 27, 2026"
     },
     label: {
       es: "Guía",
@@ -1658,8 +1658,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
     date: {
-      es: "07 de junio de 2026",
-      en: "June 07, 2026"
+      es: "28 de julio de 2026",
+      en: "July 28, 2026"
     },
     label: {
       es: "Guía",
@@ -1674,10 +1674,10 @@ const blogPostsRegistry = [
       es: "tatuajes-invisibles-elegantes-discretos",
       en: "invisible-elegant-tattoos-discreet-placements"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/01.jpg",
+    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
     date: {
-      es: "08 de junio de 2026",
-      en: "June 08, 2026"
+      es: "29 de julio de 2026",
+      en: "July 29, 2026"
     },
     label: {
       es: "Guía",
@@ -1694,8 +1694,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
     date: {
-      es: "09 de junio de 2026",
-      en: "June 09, 2026"
+      es: "30 de julio de 2026",
+      en: "July 30, 2026"
     },
     label: {
       es: "Cuidado",
@@ -1712,8 +1712,8 @@ const blogPostsRegistry = [
     },
     image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/04.jpg",
     date: {
-      es: "10 de junio de 2026",
-      en: "June 10, 2026"
+      es: "31 de julio de 2026",
+      en: "July 31, 2026"
     },
     label: {
       es: "Técnica",
