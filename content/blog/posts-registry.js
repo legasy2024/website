@@ -13,1714 +13,2128 @@
 
 const blogPostsRegistry = [
   {
-    id: "definitive-guide",
-    slugs: {
-      es: "guia-definitiva-donde-tatuarse-en-cali",
-      en: "definitive-guide-on-where-to-tattoo-en-cali",
+    "id": "definitive-guide",
+    "slugs": {
+      "es": "guia-definitiva-donde-tatuarse-en-cali",
+      "en": "definitive-guide-on-where-to-tattoo-en-cali"
     },
-    image: "/img/6.png",
-    date: {
-      es: "08 de abril de 2025",
-      en: "April 08, 2025",
+    "image": "/img/6.png",
+    "date": {
+      "es": "08 de abril de 2025",
+      "en": "April 08, 2025"
     },
-    label: {
-      es: "Guía Local",
-      en: "Local Guide",
+    "label": {
+      "es": "Guía Local",
+      "en": "Local Guide"
     },
-    published: true,
-    order: 1,
+    "published": true,
+    "order": 1
   },
   {
-    id: "travel-reasons",
-    slugs: {
-      es: "razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
-      en: "reason-to-travel-to-colombia-for-your-next-tattoo",
+    "id": "travel-reasons",
+    "slugs": {
+      "es": "razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
+      "en": "reason-to-travel-to-colombia-for-your-next-tattoo"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "14 de abril de 2025",
-      en: "April 14, 2025",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "14 de abril de 2025",
+      "en": "April 14, 2025"
     },
-    label: {
-      es: "Viajes",
-      en: "Travel",
+    "label": {
+      "es": "Viajes",
+      "en": "Travel"
     },
-    published: true,
-    order: 2,
+    "published": true,
+    "order": 2
   },
   {
-    id: "english-speaking",
-    slugs: {
-      es: "artistas-de-tatuajes-que-hablan-ingles-en-cali",
-      en: "english-speaking-tattoo-artists-in-cali-colombia",
+    "id": "english-speaking",
+    "slugs": {
+      "es": "artistas-de-tatuajes-que-hablan-ingles-en-cali",
+      "en": "english-speaking-tattoo-artists-in-cali-colombia"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "17 de abril de 2025",
-      en: "April 17, 2025",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "17 de abril de 2025",
+      "en": "April 17, 2025"
     },
-    label: {
-      es: "Internacional",
-      en: "International",
+    "label": {
+      "es": "Internacional",
+      "en": "International"
     },
-    published: true,
-    order: 3,
+    "published": true,
+    "order": 3
   },
   {
-    id: "cali-creative-city",
-    slugs: {
-      es: "cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
-      en: "cali-tattoo-scene-for-foreigners",
+    "id": "cali-creative-city",
+    "slugs": {
+      "es": "cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
+      "en": "cali-tattoo-scene-for-foreigners"
     },
-    image: "/img/3.png",
-    date: {
-      es: "25 de abril de 2025",
-      en: "April 25, 2025",
+    "image": "/img/3.png",
+    "date": {
+      "es": "25 de abril de 2025",
+      "en": "April 25, 2025"
     },
-    label: {
-      es: "Turismo",
-      en: "Tourism",
+    "label": {
+      "es": "Turismo",
+      "en": "Tourism"
     },
-    published: true,
-    order: 4,
+    "published": true,
+    "order": 4
   },
   {
-    id: "prices-comparison",
-    slugs: {
-      es: "precios-de-tatuajes-en-colombia-vs-eeuu",
-      en: "tattoo-prices-colombia-vs-usa",
+    "id": "prices-comparison",
+    "slugs": {
+      "es": "precios-de-tatuajes-en-colombia-vs-eeuu",
+      "en": "tattoo-prices-colombia-vs-usa"
     },
-    image: "/img/blog/post5.png",
-    date: {
-      es: "25 de abril de 2025",
-      en: "April 25, 2025",
+    "image": "/img/blog/post5.png",
+    "date": {
+      "es": "25 de abril de 2025",
+      "en": "April 25, 2025"
     },
-    label: {
-      es: "Precios",
-      en: "Prices",
+    "label": {
+      "es": "Precios",
+      "en": "Prices"
     },
-    published: true,
-    order: 5,
+    "published": true,
+    "order": 5
   },
   {
-    id: "inclusive-studios",
-    slugs: {
-      es: "estudios-de-tatuajes-inclusivos-en-colombia",
-      en: "inclusive-tattoo-studios-in-colombia",
+    "id": "inclusive-studios",
+    "slugs": {
+      "es": "estudios-de-tatuajes-inclusivos-en-colombia",
+      "en": "inclusive-tattoo-studios-in-colombia"
     },
-    image: "/img/blog/post6.png",
-    date: {
-      es: "25 de abril de 2025",
-      en: "April 25, 2025",
+    "image": "/img/blog/post6.png",
+    "date": {
+      "es": "25 de abril de 2025",
+      "en": "April 25, 2025"
     },
-    label: {
-      es: "Inclusión",
-      en: "Inclusion",
+    "label": {
+      "es": "Inclusión",
+      "en": "Inclusion"
     },
-    published: true,
-    order: 6,
+    "published": true,
+    "order": 6
   },
   {
-    id: "remote-process",
-    slugs: {
-      es: "proceso-de-trabajo-con-artistas-colombianos-a-distancia",
-      en: "remote-tattoo-process-colombia-from-usa",
+    "id": "remote-process",
+    "slugs": {
+      "es": "proceso-de-trabajo-con-artistas-colombianos-a-distancia",
+      "en": "remote-tattoo-process-colombia-from-usa"
     },
-    image: "/img/blog/post7.png",
-    date: {
-      es: "29 de abril de 2025",
-      en: "April 29, 2025",
+    "image": "/img/blog/post7.png",
+    "date": {
+      "es": "29 de abril de 2025",
+      "en": "April 29, 2025"
     },
-    label: {
-      es: "Proceso",
-      en: "Process",
+    "label": {
+      "es": "Proceso",
+      "en": "Process"
     },
-    published: true,
-    order: 7,
+    "published": true,
+    "order": 7
   },
   {
-    id: "history",
-    slugs: {
-      es: "historia-del-arte-del-tatuaje-en-colombia",
-      en: "history-of-tattoo-art-in-colombia",
+    "id": "history",
+    "slugs": {
+      "es": "historia-del-arte-del-tatuaje-en-colombia",
+      "en": "history-of-tattoo-art-in-colombia"
     },
-    image: "/img/14.png",
-    date: {
-      es: "30 de abril de 2025",
-      en: "April 30, 2025",
+    "image": "/img/14.png",
+    "date": {
+      "es": "30 de abril de 2025",
+      "en": "April 30, 2025"
     },
-    label: {
-      es: "Historia",
-      en: "History",
+    "label": {
+      "es": "Historia",
+      "en": "History"
     },
-    published: true,
-    order: 8,
+    "published": true,
+    "order": 8
   },
   {
-    id: "fine-line-durability",
-    slugs: {
-      es: "tatuajes-de-linea-fina-en-cali-durabilidad-del-trazo",
-      en: "fine-line-tattoos-in-cali-durability",
+    "id": "fine-line-durability",
+    "slugs": {
+      "es": "tatuajes-de-linea-fina-en-cali-durabilidad-del-trazo",
+      "en": "fine-line-tattoos-in-cali-durability"
     },
-    image: "/img/blog/post1.png",
-    date: {
-      es: "31 de enero de 2026",
-      en: "January 31, 2026",
+    "image": "/img/blog/post1.png",
+    "date": {
+      "es": "31 de enero de 2026",
+      "en": "January 31, 2026"
     },
-    label: {
-      es: "Línea fina",
-      en: "Fine line",
+    "label": {
+      "es": "Línea fina",
+      "en": "Fine line"
     },
-    published: true,
-    order: 9,
+    "published": true,
+    "order": 9
   },
   {
-    id: "tattoo-healing-mistakes",
-    slugs: {
-      es: "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
-      en: "7-mistakes-that-ruin-your-tattoo-healing",
+    "id": "tattoo-healing-mistakes",
+    "slugs": {
+      "es": "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
+      "en": "7-mistakes-that-ruin-your-tattoo-healing"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "31 de enero de 2026",
-      en: "January 31, 2026",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "31 de enero de 2026",
+      "en": "January 31, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 10,
+    "published": true,
+    "order": 10
   },
   {
-    id: "tattoo-healing-time",
-    slugs: {
-      es: "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona",
-      en: "how-long-does-a-tattoo-take-to-heal-size-and-placement",
+    "id": "tattoo-healing-time",
+    "slugs": {
+      "es": "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona",
+      "en": "how-long-does-a-tattoo-take-to-heal-size-and-placement"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "12 de febrero de 2026",
-      en: "February 12, 2026",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "12 de febrero de 2026",
+      "en": "February 12, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 11,
+    "published": true,
+    "order": 11
   },
   {
-    id: "tattoo-care-step-by-step",
-    slugs: {
-      es: "cuidados-del-tatuaje-paso-a-paso-guia-completa",
-      en: "tattoo-care-step-by-step-complete-guide",
+    "id": "tattoo-care-step-by-step",
+    "slugs": {
+      "es": "cuidados-del-tatuaje-paso-a-paso-guia-completa",
+      "en": "tattoo-care-step-by-step-complete-guide"
     },
-    image: "/img/blog/post6.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post6.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 12,
+    "published": true,
+    "order": 12
   },
   {
-    id: "tattoo-healing-signs",
-    slugs: {
-      es: "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion",
-      en: "normal-signs-and-warning-signs-during-tattoo-healing",
+    "id": "tattoo-healing-signs",
+    "slugs": {
+      "es": "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion",
+      "en": "normal-signs-and-warning-signs-during-tattoo-healing"
     },
-    image: "/img/blog/post7.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post7.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 13,
+    "published": true,
+    "order": 13
   },
   {
-    id: "tattoo-aftercare-products",
-    slugs: {
-      es: "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho",
-      en: "recommended-products-for-new-tattoo-care",
+    "id": "tattoo-aftercare-products",
+    "slugs": {
+      "es": "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho",
+      "en": "recommended-products-for-new-tattoo-care"
     },
-    image: "/img/blog/post8.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post8.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 14,
+    "published": true,
+    "order": 14
   },
   {
-    id: "tattoo-sun-protection",
-    slugs: {
-      es: "como-proteger-un-tatuaje-del-sol-sin-danar-la-tinta",
-      en: "how-to-protect-tattoo-from-sun-without-damaging-ink",
+    "id": "tattoo-sun-protection",
+    "slugs": {
+      "es": "como-proteger-un-tatuaje-del-sol-sin-danar-la-tinta",
+      "en": "how-to-protect-tattoo-from-sun-without-damaging-ink"
     },
-    image: "/img/blog/post1.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post1.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 15,
+    "published": true,
+    "order": 15
   },
   {
-    id: "tattoo-color-loss",
-    slugs: {
-      es: "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion",
-      en: "what-to-do-if-tattoo-loses-color-during-healing",
+    "id": "tattoo-color-loss",
+    "slugs": {
+      "es": "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion",
+      "en": "what-to-do-if-tattoo-loses-color-during-healing"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 16,
+    "published": true,
+    "order": 16
   },
   {
-    id: "tattoo-sleeping-guide",
-    slugs: {
-      es: "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo",
-      en: "how-to-sleep-after-getting-tattoo-without-damaging-it",
+    "id": "tattoo-sleeping-guide",
+    "slugs": {
+      "es": "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo",
+      "en": "how-to-sleep-after-getting-tattoo-without-damaging-it"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 17,
+    "published": true,
+    "order": 17
   },
   {
-    id: "tattoo-exercise-guide",
-    slugs: {
-      es: "se-puede-hacer-ejercicio-despues-de-tatuarse",
-      en: "can-you-exercise-after-getting-tattoo",
+    "id": "tattoo-exercise-guide",
+    "slugs": {
+      "es": "se-puede-hacer-ejercicio-despues-de-tatuarse",
+      "en": "can-you-exercise-after-getting-tattoo"
     },
-    image: "/img/blog/post4.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post4.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 18,
+    "published": true,
+    "order": 18
   },
   {
-    id: "first-tattoo-guide",
-    slugs: {
-      es: "todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje-por-primera-vez",
-      en: "everything-you-should-know-before-getting-your-first-tattoo",
+    "id": "first-tattoo-guide",
+    "slugs": {
+      "es": "todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje-por-primera-vez",
+      "en": "everything-you-should-know-before-getting-your-first-tattoo"
     },
-    image: "/img/9.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/9.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 19,
+    "published": true,
+    "order": 19
   },
   {
-    id: "choosing-tattoo-artist",
-    slugs: {
-      es: "como-elegir-un-buen-tatuador-sin-dejarte-llevar-solo-por-el-precio",
-      en: "how-to-choose-good-tattoo-artist-without-price-only",
+    "id": "choosing-tattoo-artist",
+    "slugs": {
+      "es": "como-elegir-un-buen-tatuador-sin-dejarte-llevar-solo-por-el-precio",
+      "en": "how-to-choose-good-tattoo-artist-without-price-only"
     },
-    image: "/img/5.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/5.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 20,
+    "published": true,
+    "order": 20
   },
   {
-    id: "first-tattoo-session",
-    slugs: {
-      es: "que-esperar-durante-tu-primera-sesion-de-tatuaje",
-      en: "what-to-expect-during-your-first-tattoo-session",
+    "id": "first-tattoo-session",
+    "slugs": {
+      "es": "que-esperar-durante-tu-primera-sesion-de-tatuaje",
+      "en": "what-to-expect-during-your-first-tattoo-session"
     },
-    image: "/img/10.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/10.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 21,
+    "published": true,
+    "order": 21
   },
   {
-    id: "questions-before-tattoo",
-    slugs: {
-      es: "preguntas-que-deberias-hacer-antes-de-tatuarte",
-      en: "questions-you-should-ask-before-getting-tattoo",
+    "id": "questions-before-tattoo",
+    "slugs": {
+      "es": "preguntas-que-deberias-hacer-antes-de-tatuarte",
+      "en": "questions-you-should-ask-before-getting-tattoo"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 22,
+    "published": true,
+    "order": 22
   },
   {
-    id: "tattoo-longevity",
-    slugs: {
-      es: "cuanto-dura-realmente-un-tatuaje-con-los-anos",
-      en: "how-long-does-tattoo-really-last-over-years",
+    "id": "tattoo-longevity",
+    "slugs": {
+      "es": "cuanto-dura-realmente-un-tatuaje-con-los-anos",
+      "en": "how-long-does-tattoo-really-last-over-years"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 23,
+    "published": true,
+    "order": 23
   },
   {
-    id: "professional-vs-amateur-studio",
-    slugs: {
-      es: "diferencias-entre-un-estudio-profesional-de-tatuajes-y-uno-amateur",
-      en: "differences-between-professional-and-amateur-tattoo-studio",
+    "id": "professional-vs-amateur-studio",
+    "slugs": {
+      "es": "diferencias-entre-un-estudio-profesional-de-tatuajes-y-uno-amateur",
+      "en": "differences-between-professional-and-amateur-tattoo-studio"
     },
-    image: "/img/blog/post4.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post4.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 24,
+    "published": true,
+    "order": 24
   },
   {
-    id: "tattoo-session-duration",
-    slugs: {
-      es: "cuanto-tiempo-dura-una-sesion-de-tatuaje-segun-el-diseno",
-      en: "how-long-does-tattoo-session-last-depending-on-design",
+    "id": "tattoo-session-duration",
+    "slugs": {
+      "es": "cuanto-tiempo-dura-una-sesion-de-tatuaje-segun-el-diseno",
+      "en": "how-long-does-tattoo-session-last-depending-on-design"
     },
-    image: "/img/blog/post6.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post6.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 25,
+    "published": true,
+    "order": 25
   },
   {
-    id: "tattoo-pain-guide",
-    slugs: {
-      es: "duele-hacerse-un-tatuaje-guia-realista-sobre-dolor-zonas-y-sensaciones",
-      en: "does-getting-tattoo-hurt-realistic-guide-pain-zones-sensations",
+    "id": "tattoo-pain-guide",
+    "slugs": {
+      "es": "duele-hacerse-un-tatuaje-guia-realista-sobre-dolor-zonas-y-sensaciones",
+      "en": "does-getting-tattoo-hurt-realistic-guide-pain-zones-sensations"
     },
-    image: "/img/blog/post7.png",
-    date: {
-      es: "12 de febrero de 2026",
-      en: "February 12, 2026",
+    "image": "/img/blog/post7.png",
+    "date": {
+      "es": "12 de febrero de 2026",
+      "en": "February 12, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 26,
+    "published": true,
+    "order": 26
   },
   {
-    id: "most-painful-tattoo-zones",
-    slugs: {
-      es: "zonas-del-cuerpo-donde-mas-duele-tatuarse-ranking-real",
-      en: "most-painful-body-zones-for-tattoos-real-ranking",
+    "id": "most-painful-tattoo-zones",
+    "slugs": {
+      "es": "zonas-del-cuerpo-donde-mas-duele-tatuarse-ranking-real",
+      "en": "most-painful-body-zones-for-tattoos-real-ranking"
     },
-    image: "/img/blog/post1.png",
-    date: {
-      es: "13 de febrero de 2026",
-      en: "February 13, 2026",
+    "image": "/img/blog/post1.png",
+    "date": {
+      "es": "13 de febrero de 2026",
+      "en": "February 13, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 27,
+    "published": true,
+    "order": 27
   },
   {
-    id: "managing-pain-long-tattoo-session",
-    slugs: {
-      es: "como-manejar-el-dolor-durante-una-sesion-de-tatuajes-larga",
-      en: "how-to-manage-pain-during-long-tattoo-session",
+    "id": "managing-pain-long-tattoo-session",
+    "slugs": {
+      "es": "como-manejar-el-dolor-durante-una-sesion-de-tatuajes-larga",
+      "en": "how-to-manage-pain-during-long-tattoo-session"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "14 de febrero de 2026",
-      en: "February 14, 2026",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "14 de febrero de 2026",
+      "en": "February 14, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 28,
+    "published": true,
+    "order": 28
   },
   {
-    id: "tattoo-pain-by-skin-type",
-    slugs: {
-      es: "cuanto-duele-tatuarse-segun-el-tipo-de-piel",
-      en: "how-much-does-tattooing-hurt-by-skin-type",
+    "id": "tattoo-pain-by-skin-type",
+    "slugs": {
+      "es": "cuanto-duele-tatuarse-segun-el-tipo-de-piel",
+      "en": "how-much-does-tattooing-hurt-by-skin-type"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "15 de febrero de 2026",
-      en: "February 15, 2026",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "15 de febrero de 2026",
+      "en": "February 15, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 29,
+    "published": true,
+    "order": 29
   },
   {
-    id: "relaxation-techniques-during-tattoo",
-    slugs: {
-      es: "tecnicas-para-relajarte-mientras-te-estan-tatuando",
-      en: "relaxation-techniques-while-getting-tattooed",
+    "id": "relaxation-techniques-during-tattoo",
+    "slugs": {
+      "es": "tecnicas-para-relajarte-mientras-te-estan-tatuando",
+      "en": "relaxation-techniques-while-getting-tattooed"
     },
-    image: "/img/blog/post4.png",
-    date: {
-      es: "16 de febrero de 2026",
-      en: "February 16, 2026",
+    "image": "/img/blog/post4.png",
+    "date": {
+      "es": "16 de febrero de 2026",
+      "en": "February 16, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 30,
+    "published": true,
+    "order": 30
   },
   {
-    id: "tattoo-pain-duration-after",
-    slugs: {
-      es: "cuanto-dura-el-dolor-despues-de-tatuarse",
-      en: "how-long-does-tattoo-pain-last-after",
+    "id": "tattoo-pain-duration-after",
+    "slugs": {
+      "es": "cuanto-dura-el-dolor-despues-de-tatuarse",
+      "en": "how-long-does-tattoo-pain-last-after"
     },
-    image: "/img/blog/post8.png",
-    date: {
-      es: "17 de febrero de 2026",
-      en: "February 17, 2026",
+    "image": "/img/blog/post8.png",
+    "date": {
+      "es": "17 de febrero de 2026",
+      "en": "February 17, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 31,
+    "published": true,
+    "order": 31
   },
   {
-    id: "tattoo-anesthesia-guide",
-    slugs: {
-      es: "anestesia-para-tatuajes-funciona-realmente",
-      en: "tattoo-anesthesia-does-it-really-work",
+    "id": "tattoo-anesthesia-guide",
+    "slugs": {
+      "es": "anestesia-para-tatuajes-funciona-realmente",
+      "en": "tattoo-anesthesia-does-it-really-work"
     },
-    image: "/img/blog/post6.png",
-    date: {
-      es: "18 de febrero de 2026",
-      en: "February 18, 2026",
+    "image": "/img/blog/post6.png",
+    "date": {
+      "es": "18 de febrero de 2026",
+      "en": "February 18, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience",
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 32,
+    "published": true,
+    "order": 32
   },
   {
-    id: "tattoo-design-aging-well",
-    slugs: {
-      es: "como-saber-si-un-diseno-de-tatuaje-envejecera-bien",
-      en: "how-to-know-if-a-tattoo-design-will-age-well",
+    "id": "tattoo-design-aging-well",
+    "slugs": {
+      "es": "como-saber-si-un-diseno-de-tatuaje-envejecera-bien",
+      "en": "how-to-know-if-a-tattoo-design-will-age-well"
     },
-    image: "/img/blog/post5.png",
-    date: {
-      es: "01 de marzo de 2026",
-      en: "March 01, 2026",
+    "image": "/img/blog/post5.png",
+    "date": {
+      "es": "01 de marzo de 2026",
+      "en": "March 01, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 33,
+    "published": true,
+    "order": 33
   },
   {
-    id: "tattoos-on-dark-skin-myths",
-    slugs: {
-      es: "tatuajes-en-pieles-morenas-mitos-sobre-el-color-y-la-saturacion",
-      en: "tattoos-on-brown-and-dark-skin-myths-color-and-saturation",
+    "id": "tattoos-on-dark-skin-myths",
+    "slugs": {
+      "es": "tatuajes-en-pieles-morenas-mitos-sobre-el-color-y-la-saturacion",
+      "en": "tattoos-on-brown-and-dark-skin-myths-color-and-saturation"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "02 de marzo de 2026",
-      en: "March 02, 2026",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "02 de marzo de 2026",
+      "en": "March 02, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 34,
+    "published": true,
+    "order": 34
   },
   {
-    id: "micro-tattoos-vs-small-tattoos",
-    slugs: {
-      es: "micro-tatuajes-vs-tatuajes-pequenos-por-que-el-detalle-extremo-tiene-riesgos",
-      en: "micro-tattoos-vs-small-tattoos-why-extreme-detail-is-risky",
+    "id": "micro-tattoos-vs-small-tattoos",
+    "slugs": {
+      "es": "micro-tatuajes-vs-tatuajes-pequenos-por-que-el-detalle-extremo-tiene-riesgos",
+      "en": "micro-tattoos-vs-small-tattoos-why-extreme-detail-is-risky"
     },
-    image: "/img/blog/post8.png",
-    date: {
-      es: "03 de marzo de 2026",
-      en: "March 03, 2026",
+    "image": "/img/blog/post8.png",
+    "date": {
+      "es": "03 de marzo de 2026",
+      "en": "March 03, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique",
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 35,
+    "published": true,
+    "order": 35
   },
   {
-    id: "choose-tattoo-style-personality-anatomy",
-    slugs: {
-      es: "como-elegir-el-estilo-de-tatuaje-ideal-segun-tu-personalidad-y-anatomia",
-      en: "how-to-choose-the-right-tattoo-style-for-your-personality-and-anatomy",
+    "id": "choose-tattoo-style-personality-anatomy",
+    "slugs": {
+      "es": "como-elegir-el-estilo-de-tatuaje-ideal-segun-tu-personalidad-y-anatomia",
+      "en": "how-to-choose-the-right-tattoo-style-for-your-personality-and-anatomy"
     },
-    image: "/img/4.png",
-    date: {
-      es: "04 de marzo de 2026",
-      en: "March 04, 2026",
+    "image": "/img/4.png",
+    "date": {
+      "es": "04 de marzo de 2026",
+      "en": "March 04, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 36,
+    "published": true,
+    "order": 36
   },
   {
-    id: "blackwork-vs-realism-technical-guide",
-    slugs: {
-      es: "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas",
-      en: "blackwork-vs-realism-a-clear-guide-to-technical-differences",
+    "id": "blackwork-vs-realism-technical-guide",
+    "slugs": {
+      "es": "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas",
+      "en": "blackwork-vs-realism-a-clear-guide-to-technical-differences"
     },
-    image: "/img/1.png",
-    date: {
-      es: "05 de marzo de 2026",
-      en: "March 05, 2026",
+    "image": "/img/1.png",
+    "date": {
+      "es": "05 de marzo de 2026",
+      "en": "March 05, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique",
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 37,
+    "published": true,
+    "order": 37
   },
   {
-    id: "tattoo-over-stretch-marks-scars-science",
-    slugs: {
-      es: "se-pueden-tapar-las-estrias-o-cicatrices-con-un-tatuaje-lo-que-dice-la-ciencia",
-      en: "can-you-cover-stretch-marks-or-scars-with-a-tattoo-what-science-says",
+    "id": "tattoo-over-stretch-marks-scars-science",
+    "slugs": {
+      "es": "se-pueden-tapar-las-estrias-o-cicatrices-con-un-tatuaje-lo-que-dice-la-ciencia",
+      "en": "can-you-cover-stretch-marks-or-scars-with-a-tattoo-what-science-says"
     },
-    image: "/img/blog/post6.png",
-    date: {
-      es: "06 de marzo de 2026",
-      en: "March 06, 2026",
+    "image": "/img/blog/post6.png",
+    "date": {
+      "es": "06 de marzo de 2026",
+      "en": "March 06, 2026"
     },
-    label: {
-      es: "Ciencia",
-      en: "Science",
+    "label": {
+      "es": "Ciencia",
+      "en": "Science"
     },
-    published: true,
-    order: 38,
+    "published": true,
+    "order": 38
   },
   {
-    id: "tattoo-raised-years-later",
-    slugs: {
-      es: "por-que-algunos-tatuajes-se-sienten-en-relieve-despues-de-anos",
-      en: "why-some-tattoos-feel-raised-years-later",
+    "id": "tattoo-raised-years-later",
+    "slugs": {
+      "es": "por-que-algunos-tatuajes-se-sienten-en-relieve-despues-de-anos",
+      "en": "why-some-tattoos-feel-raised-years-later"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "07 de marzo de 2026",
-      en: "March 07, 2026",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "07 de marzo de 2026",
+      "en": "March 07, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 39,
+    "published": true,
+    "order": 39
   },
   {
-    id: "tattoo-allergy-symptoms-causes",
-    slugs: {
-      es: "alergia-a-la-tinta-de-tatuaje-sintomas-causas-y-que-hacer-si-sucede",
-      en: "tattoo-ink-allergy-symptoms-causes-and-what-to-do",
+    "id": "tattoo-allergy-symptoms-causes",
+    "slugs": {
+      "es": "alergia-a-la-tinta-de-tatuaje-sintomas-causas-y-que-hacer-si-sucede",
+      "en": "tattoo-ink-allergy-symptoms-causes-and-what-to-do"
     },
-    image: "/img/blog/post3.png",
-    date: {
-      es: "08 de marzo de 2026",
-      en: "March 08, 2026",
+    "image": "/img/blog/post3.png",
+    "date": {
+      "es": "08 de marzo de 2026",
+      "en": "March 08, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 40,
+    "published": true,
+    "order": 40
   },
   {
-    id: "tattoo-over-moles-why-avoid",
-    slugs: {
-      es: "tatuarse-sobre-lunares-por-que-los-profesionales-siempre-los-evitan",
-      en: "tattooing-over-moles-why-professionals-avoid-it",
+    "id": "tattoo-over-moles-why-avoid",
+    "slugs": {
+      "es": "tatuarse-sobre-lunares-por-que-los-profesionales-siempre-los-evitan",
+      "en": "tattooing-over-moles-why-professionals-avoid-it"
     },
-    image: "/img/blog/post4.png",
-    date: {
-      es: "09 de marzo de 2026",
-      en: "March 09, 2026",
+    "image": "/img/blog/post4.png",
+    "date": {
+      "es": "09 de marzo de 2026",
+      "en": "March 09, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 41,
+    "published": true,
+    "order": 41
   },
   {
-    id: "tattoo-ink-lymphatic-system",
-    slugs: {
-      es: "que-pasa-con-la-tinta-de-los-tatuajes-en-el-sistema-linfatico-realidad-vs-ficcion",
-      en: "what-happens-to-tattoo-ink-in-the-lymphatic-system-reality-vs-fiction",
+    "id": "tattoo-ink-lymphatic-system",
+    "slugs": {
+      "es": "que-pasa-con-la-tinta-de-los-tatuajes-en-el-sistema-linfatico-realidad-vs-ficcion",
+      "en": "what-happens-to-tattoo-ink-in-the-lymphatic-system-reality-vs-fiction"
     },
-    image: "/img/blog/post5.png",
-    date: {
-      es: "10 de marzo de 2026",
-      en: "March 10, 2026",
+    "image": "/img/blog/post5.png",
+    "date": {
+      "es": "10 de marzo de 2026",
+      "en": "March 10, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 42,
+    "published": true,
+    "order": 42
   },
   {
-    id: "tattoo-alcohol-caffeine-effects",
-    slugs: {
-      es: "el-efecto-del-alcohol-y-la-cafeina-en-la-sangre-durante-una-sesion-de-tatuaje",
-      en: "the-effect-of-alcohol-and-caffeine-on-your-blood-during-a-tattoo-session",
+    "id": "tattoo-alcohol-caffeine-effects",
+    "slugs": {
+      "es": "el-efecto-del-alcohol-y-la-cafeina-en-la-sangre-durante-una-sesion-de-tatuaje",
+      "en": "the-effect-of-alcohol-and-caffeine-on-your-blood-during-a-tattoo-session"
     },
-    image: "/img/blog/post6.png",
-    date: {
-      es: "11 de marzo de 2026",
-      en: "March 11, 2026",
+    "image": "/img/blog/post6.png",
+    "date": {
+      "es": "11 de marzo de 2026",
+      "en": "March 11, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 43,
+    "published": true,
+    "order": 43
   },
   {
-    id: "tattoo-dermatitis-psoriasis-safety",
-    slugs: {
-      es: "es-seguro-tatuarse-si-tienes-dermatitis-o-psoriasis",
-      en: "is-it-safe-to-get-tattooed-if-you-have-dermatitis-or-psoriasis",
+    "id": "tattoo-dermatitis-psoriasis-safety",
+    "slugs": {
+      "es": "es-seguro-tatuarse-si-tienes-dermatitis-o-psoriasis",
+      "en": "is-it-safe-to-get-tattooed-if-you-have-dermatitis-or-psoriasis"
     },
-    image: "/img/blog/post7.png",
-    date: {
-      es: "12 de marzo de 2026",
-      en: "March 12, 2026",
+    "image": "/img/blog/post7.png",
+    "date": {
+      "es": "12 de marzo de 2026",
+      "en": "March 12, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 44,
+    "published": true,
+    "order": 44
   },
   {
-    id: "tattoo-laser-hair-removal-same-area",
-    slugs: {
-      es: "tatuajes-y-depilacion-laser-por-que-nunca-deben-mezclarse-en-la-misma-zona",
-      en: "tattoos-and-laser-hair-removal-why-they-shouldnt-mix-in-the-same-area",
+    "id": "tattoo-laser-hair-removal-same-area",
+    "slugs": {
+      "es": "tatuajes-y-depilacion-laser-por-que-nunca-deben-mezclarse-en-la-misma-zona",
+      "en": "tattoos-and-laser-hair-removal-why-they-shouldnt-mix-in-the-same-area"
     },
-    image: "/img/blog/post1.png",
-    date: {
-      es: "13 de marzo de 2026",
-      en: "March 13, 2026",
+    "image": "/img/blog/post1.png",
+    "date": {
+      "es": "13 de marzo de 2026",
+      "en": "March 13, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 45,
+    "published": true,
+    "order": 45
   },
   {
-    id: "pool-chlorine-effect-healed-tattoo",
-    slugs: {
-      es: "como-afecta-el-cloro-de-la-piscina-a-un-tatuaje-ya-cicatrizado",
-      en: "how-pool-chlorine-affects-a-fully-healed-tattoo",
+    "id": "pool-chlorine-effect-healed-tattoo",
+    "slugs": {
+      "es": "como-afecta-el-cloro-de-la-piscina-a-un-tatuaje-ya-cicatrizado",
+      "en": "how-pool-chlorine-affects-a-fully-healed-tattoo"
     },
-    image: "/img/blog/post2.png",
-    date: {
-      es: "13 de marzo de 2026",
-      en: "March 13, 2026",
+    "image": "/img/blog/post2.png",
+    "date": {
+      "es": "13 de marzo de 2026",
+      "en": "March 13, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 46,
+    "published": true,
+    "order": 46
   },
   {
-    id: "flying-after-tattoo-travel-guide",
-    slugs: {
-      es: "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme",
-      en: "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo",
+    "id": "flying-after-tattoo-travel-guide",
+    "slugs": {
+      "es": "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme",
+      "en": "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo"
     },
-    image: "/img/11.png",
-    date: {
-      es: "13 de marzo de 2026",
-      en: "March 13, 2026",
+    "image": "/img/11.png",
+    "date": {
+      "es": "13 de marzo de 2026",
+      "en": "March 13, 2026"
     },
-    label: {
-      es: "Viajes",
-      en: "Travel",
+    "label": {
+      "es": "Viajes",
+      "en": "Travel"
     },
-    published: true,
-    order: 47,
+    "published": true,
+    "order": 47
   },
   {
-    id: "blood-donation-after-tattoo-wait-time",
-    slugs: {
-      es: "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente",
-      en: "blood-donation-after-a-tattoo-how-long-should-you-really-wait",
+    "id": "blood-donation-after-tattoo-wait-time",
+    "slugs": {
+      "es": "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente",
+      "en": "blood-donation-after-a-tattoo-how-long-should-you-really-wait"
     },
-    image: "/img/2.png",
-    date: {
-      es: "14 de marzo de 2026",
-      en: "March 14, 2026",
+    "image": "/img/2.png",
+    "date": {
+      "es": "14 de marzo de 2026",
+      "en": "March 14, 2026"
     },
-    label: {
-      es: "Salud",
-      en: "Health",
+    "label": {
+      "es": "Salud",
+      "en": "Health"
     },
-    published: true,
-    order: 48,
+    "published": true,
+    "order": 48
   },
   {
-    id: "gym-training-with-new-tattoo",
-    slugs: {
-      es: "como-entrenar-en-el-gimnasio-sin-estirar-la-piel-de-un-tatuaje-nuevo",
-      en: "how-to-train-at-the-gym-without-stretching-a-new-tattoo",
+    "id": "gym-training-with-new-tattoo",
+    "slugs": {
+      "es": "como-entrenar-en-el-gimnasio-sin-estirar-la-piel-de-un-tatuaje-nuevo",
+      "en": "how-to-train-at-the-gym-without-stretching-a-new-tattoo"
     },
-    image: "/img/12.png",
-    date: {
-      es: "14 de marzo de 2026",
-      en: "March 14, 2026",
+    "image": "/img/12.png",
+    "date": {
+      "es": "14 de marzo de 2026",
+      "en": "March 14, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 49,
+    "published": true,
+    "order": 49
   },
   {
-    id: "tattoo-white-ink-yellowing",
-    slugs: {
-      es: "por-que-los-tatuajes-blancos-suelen-volverse-amarillos-o-desaparecer",
-      en: "why-white-tattoos-often-turn-yellow-or-disappear",
+    "id": "tattoo-white-ink-yellowing",
+    "slugs": {
+      "es": "por-que-los-tatuajes-blancos-suelen-volverse-amarillos-o-desaparecer",
+      "en": "why-white-tattoos-often-turn-yellow-or-disappear"
     },
-    image: "/img/blog/tatuaje-blanco.jpg",
-    date: {
-      es: "15 de marzo de 2026",
-      en: "March 15, 2026",
+    "image": "/img/blog/tatuaje-blanco.jpg",
+    "date": {
+      "es": "15 de marzo de 2026",
+      "en": "March 15, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique",
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 50,
+    "published": true,
+    "order": 50
   },
   {
-    id: "tattoo-aftercare-creams-truth",
-    slugs: {
-      es: "la-verdad-sobre-las-cremas-para-tatuajes-son-mejores-las-marcas-especializadas-o-la-vaselina",
-      en: "the-truth-about-tattoo-creams-are-specialized-brands-better-than-petroleum-jelly",
+    "id": "tattoo-aftercare-creams-truth",
+    "slugs": {
+      "es": "la-verdad-sobre-las-cremas-para-tatuajes-son-mejores-las-marcas-especializadas-o-la-vaselina",
+      "en": "the-truth-about-tattoo-creams-are-specialized-brands-better-than-petroleum-jelly"
     },
-    image: "/img/blog/crema-tatuajes.jpg",
-    date: {
-      es: "15 de marzo de 2026",
-      en: "March 15, 2026",
+    "image": "/img/blog/crema-tatuajes.jpg",
+    "date": {
+      "es": "15 de marzo de 2026",
+      "en": "March 15, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare",
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 51,
+    "published": true,
+    "order": 51
   },
   {
-    id: "tattoo-blowout-ink-spread",
-    slugs: {
-      es: "que-es-el-blowout-en-un-tatuaje-y-por-que-se-expande-la-tinta-bajo-la-piel",
-      en: "what-is-blowout-in-a-tattoo-and-why-ink-spreads-under-the-skin",
+    "id": "tattoo-blowout-ink-spread",
+    "slugs": {
+      "es": "que-es-el-blowout-en-un-tatuaje-y-por-que-se-expande-la-tinta-bajo-la-piel",
+      "en": "what-is-blowout-in-a-tattoo-and-why-ink-spreads-under-the-skin"
     },
-    image: "/img/blog/blowout.jpg",
-    date: {
-      es: "15 de marzo de 2026",
-      en: "March 15, 2026",
+    "image": "/img/blog/blowout.jpg",
+    "date": {
+      "es": "15 de marzo de 2026",
+      "en": "March 15, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique",
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 52,
+    "published": true,
+    "order": 52
   },
   {
-    id: "reading-artist-portfolio-how-to",
-    slugs: {
-      es: "como-leer-el-portafolio-de-un-artista-en-que-fijarse-mas-alla-de-los-seguidores",
-      en: "how-to-read-a-tattoo-artist-portfolio-what-to-look-at-beyond-followers",
+    "id": "reading-artist-portfolio-how-to",
+    "slugs": {
+      "es": "como-leer-el-portafolio-de-un-artista-en-que-fijarse-mas-alla-de-los-seguidores",
+      "en": "how-to-read-a-tattoo-artist-portfolio-what-to-look-at-beyond-followers"
     },
-    image: "/img/blog/como-leer-portafolio-artista.jpg",
-    date: {
-      es: "16 de marzo de 2026",
-      en: "March 16, 2026",
+    "image": "/img/blog/como-leer-portafolio-artista.jpg",
+    "date": {
+      "es": "16 de marzo de 2026",
+      "en": "March 16, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide",
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 53,
+    "published": true,
+    "order": 53
   },
   {
-    id: "handpoke-vs-machine-tattoos",
-    slugs: {
-      es: "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
-      en: "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics",
+    "id": "handpoke-vs-machine-tattoos",
+    "slugs": {
+      "es": "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
+      "en": "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics"
     },
-    image: "/img/13.png",
-    date: {
-      es: "16 de marzo de 2026",
-      en: "March 16, 2026",
+    "image": "/img/13.png",
+    "date": {
+      "es": "16 de marzo de 2026",
+      "en": "March 16, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique",
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 54,
+    "published": true,
+    "order": 54
   },
   {
-    id: "arm-tattoo-gallery",
-    slugs: {
-      es: "tatuajes-en-el-brazo-para-hombres",
-      en: "arm-tattoos-gallery-ideas-and-recommendations",
+    "id": "arm-tattoo-gallery",
+    "slugs": {
+      "es": "tatuajes-en-el-brazo-para-hombres",
+      "en": "arm-tattoos-gallery-ideas-and-recommendations"
     },
-    image: "/img/portfolio-blog/realismo-1.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/realismo-1.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 55,
+    "published": true,
+    "order": 55
   },
   {
-    id: "gallery-tatuajes-para-hombres",
-    slugs: {
-      es: "tatuajes-para-hombres-galeria",
-      en: "mens-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-para-hombres",
+    "slugs": {
+      "es": "tatuajes-para-hombres-galeria",
+      "en": "mens-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-hombres/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 56,
+    "published": true,
+    "order": 56
   },
   {
-    id: "gallery-tatuajes-para-mujeres",
-    slugs: {
-      es: "tatuajes-para-mujeres-galeria",
-      en: "womens-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-para-mujeres",
+    "slugs": {
+      "es": "tatuajes-para-mujeres-galeria",
+      "en": "womens-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-para-mujeres/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-para-mujeres/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 57,
+    "published": true,
+    "order": 57
   },
   {
-    id: "gallery-tatuajes-cuello",
-    slugs: {
-      es: "tatuajes-en-el-cuello-galeria",
-      en: "neck-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-cuello",
+    "slugs": {
+      "es": "tatuajes-en-el-cuello-galeria",
+      "en": "neck-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-cuello/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 58,
+    "published": true,
+    "order": 58
   },
   {
-    id: "gallery-tatuajes-antebrazo",
-    slugs: {
-      es: "tatuajes-en-el-antebrazo-galeria",
-      en: "forearm-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-antebrazo",
+    "slugs": {
+      "es": "tatuajes-en-el-antebrazo-galeria",
+      "en": "forearm-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-antebrazo/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-antebrazo/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 59,
+    "published": true,
+    "order": 59
   },
   {
-    id: "gallery-tatuajes-espalda",
-    slugs: {
-      es: "tatuajes-en-la-espalda-galeria",
-      en: "back-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-espalda",
+    "slugs": {
+      "es": "tatuajes-en-la-espalda-galeria",
+      "en": "back-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-espalda/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 60,
+    "published": true,
+    "order": 60
   },
   {
-    id: "gallery-tatuajes-pareja",
-    slugs: {
-      es: "tatuajes-en-pareja-galeria",
-      en: "couple-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-pareja",
+    "slugs": {
+      "es": "tatuajes-en-pareja-galeria",
+      "en": "couple-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 61,
+    "published": true,
+    "order": 61
   },
   {
-    id: "gallery-tatuajes-mujer-brazo",
-    slugs: {
-      es: "tatuajes-para-mujer-en-el-brazo-galeria",
-      en: "womens-arm-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-mujer-brazo",
+    "slugs": {
+      "es": "tatuajes-para-mujer-en-el-brazo-galeria",
+      "en": "womens-arm-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-brazo/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-brazo/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 62,
+    "published": true,
+    "order": 62
   },
   {
-    id: "gallery-tatuajes-mano",
-    slugs: {
-      es: "tatuajes-en-la-mano-galeria",
-      en: "hand-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-mano",
+    "slugs": {
+      "es": "tatuajes-en-la-mano-galeria",
+      "en": "hand-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mano/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 63,
+    "published": true,
+    "order": 63
   },
   {
-    id: "gallery-tatuajes-pequenos-hombres",
-    slugs: {
-      es: "tatuajes-pequenos-para-hombres-galeria",
-      en: "small-tattoos-for-men-gallery",
+    "id": "gallery-tatuajes-pequenos-hombres",
+    "slugs": {
+      "es": "tatuajes-pequenos-para-hombres-galeria",
+      "en": "small-tattoos-for-men-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 64,
+    "published": true,
+    "order": 64
   },
   {
-    id: "gallery-tatuajes-pequenos-mujer",
-    slugs: {
-      es: "tatuajes-pequenos-para-mujer-galeria",
-      en: "small-tattoos-for-women-gallery",
+    "id": "gallery-tatuajes-pequenos-mujer",
+    "slugs": {
+      "es": "tatuajes-pequenos-para-mujer-galeria",
+      "en": "small-tattoos-for-women-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-mujer/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 65,
+    "published": true,
+    "order": 65
   },
   {
-    id: "gallery-tatuajes-pierna",
-    slugs: {
-      es: "tatuajes-en-la-pierna-galeria",
-      en: "leg-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-pierna",
+    "slugs": {
+      "es": "tatuajes-en-la-pierna-galeria",
+      "en": "leg-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pierna/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pierna/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 66,
+    "published": true,
+    "order": 66
   },
   {
-    id: "gallery-tatuajes-espalda-mujer",
-    slugs: {
-      es: "tatuajes-en-la-espalda-para-mujer-galeria",
-      en: "back-tattoos-for-women-gallery",
+    "id": "gallery-tatuajes-espalda-mujer",
+    "slugs": {
+      "es": "tatuajes-en-la-espalda-para-mujer-galeria",
+      "en": "back-tattoos-for-women-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-espalda-mujer/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 67,
+    "published": true,
+    "order": 67
   },
   {
-    id: "gallery-tatuajes-minimalistas",
-    slugs: {
-      es: "tatuajes-minimalistas-galeria",
-      en: "minimalist-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-minimalistas",
+    "slugs": {
+      "es": "tatuajes-minimalistas-galeria",
+      "en": "minimalist-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 68,
+    "published": true,
+    "order": 68
   },
   {
-    id: "gallery-tatuajes-cuello-hombres",
-    slugs: {
-      es: "tatuajes-en-el-cuello-para-hombres-galeria",
-      en: "neck-tattoos-for-men-gallery",
+    "id": "gallery-tatuajes-cuello-hombres",
+    "slugs": {
+      "es": "tatuajes-en-el-cuello-para-hombres-galeria",
+      "en": "neck-tattoos-for-men-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-hombres/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-hombres/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 69,
+    "published": true,
+    "order": 69
   },
   {
-    id: "gallery-tatuajes-hombres-pierna",
-    slugs: {
-      es: "tatuajes-para-hombres-en-la-pierna-galeria",
-      en: "mens-leg-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-hombres-pierna",
+    "slugs": {
+      "es": "tatuajes-para-hombres-en-la-pierna-galeria",
+      "en": "mens-leg-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-hombres-pierna/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 70,
+    "published": true,
+    "order": 70
   },
   {
-    id: "gallery-tatuajes-elegantes-mujeres",
-    slugs: {
-      es: "tatuajes-elegantes-para-mujeres-galeria",
-      en: "elegant-tattoos-for-women-gallery",
+    "id": "gallery-tatuajes-elegantes-mujeres",
+    "slugs": {
+      "es": "tatuajes-elegantes-para-mujeres-galeria",
+      "en": "elegant-tattoos-for-women-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 71,
+    "published": true,
+    "order": 71
   },
   {
-    id: "gallery-tatuajes-bonitos-mujer",
-    slugs: {
-      es: "tatuajes-bonitos-para-mujer-galeria",
-      en: "pretty-tattoos-for-women-gallery",
+    "id": "gallery-tatuajes-bonitos-mujer",
+    "slugs": {
+      "es": "tatuajes-bonitos-para-mujer-galeria",
+      "en": "pretty-tattoos-for-women-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 72,
+    "published": true,
+    "order": 72
   },
   {
-    id: "gallery-tatuajes-mujer-muneca",
-    slugs: {
-      es: "tatuajes-para-mujer-en-la-muneca-galeria",
-      en: "womens-wrist-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-mujer-muneca",
+    "slugs": {
+      "es": "tatuajes-para-mujer-en-la-muneca-galeria",
+      "en": "womens-wrist-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-muneca/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-mujer-muneca/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 73,
+    "published": true,
+    "order": 73
   },
   {
-    id: "gallery-tatuajes-pequenos-amigas",
-    slugs: {
-      es: "tatuajes-pequenos-para-amigas-galeria",
-      en: "small-friendship-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-pequenos-amigas",
+    "slugs": {
+      "es": "tatuajes-pequenos-para-amigas-galeria",
+      "en": "small-friendship-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-amigas/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-amigas/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 74,
+    "published": true,
+    "order": 74
   },
   {
-    id: "gallery-tatuajes-cuello-mujer",
-    slugs: {
-      es: "tatuajes-en-el-cuello-para-mujer-galeria",
-      en: "neck-tattoos-for-women-gallery",
+    "id": "gallery-tatuajes-cuello-mujer",
+    "slugs": {
+      "es": "tatuajes-en-el-cuello-para-mujer-galeria",
+      "en": "neck-tattoos-for-women-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
-    date: {
-      es: "15 de abril de 2026",
-      en: "April 15, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-cuello-mujer/01.jpg",
+    "date": {
+      "es": "15 de abril de 2026",
+      "en": "April 15, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 75,
+    "published": true,
+    "order": 75
   },
   {
-    id: "gallery-manga-completa",
-    slugs: {
-      es: "tatuaje-manga-completa-galeria",
-      en: "full-sleeve-tattoo-gallery-inspiration",
+    "id": "gallery-manga-completa",
+    "slugs": {
+      "es": "tatuaje-manga-completa-galeria",
+      "en": "full-sleeve-tattoo-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 200,
+    "published": true,
+    "order": 200
   },
   {
-    id: "gallery-tatuajes-minis",
-    slugs: {
-      es: "tatuajes-minis-galeria",
-      en: "mini-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-minis",
+    "slugs": {
+      "es": "tatuajes-minis-galeria",
+      "en": "mini-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 201,
+    "published": true,
+    "order": 201
   },
   {
-    id: "gallery-tatuajes-tribal",
-    slugs: {
-      es: "tatuajes-estilo-tribal-galeria",
-      en: "tribal-style-tattoos-gallery",
+    "id": "gallery-tatuajes-tribal",
+    "slugs": {
+      "es": "tatuajes-estilo-tribal-galeria",
+      "en": "tribal-style-tattoos-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-tribal/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 202,
+    "published": true,
+    "order": 202
   },
   {
-    id: "gallery-neo-tradicional",
-    slugs: {
-      es: "tatuajes-neo-tradicional-galeria",
-      en: "neo-traditional-tattoos-gallery",
+    "id": "gallery-neo-tradicional",
+    "slugs": {
+      "es": "tatuajes-neo-tradicional-galeria",
+      "en": "neo-traditional-tattoos-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-neo-tradicional/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 203,
+    "published": true,
+    "order": 203
   },
   {
-    id: "gallery-realismo",
-    slugs: {
-      es: "tatuajes-realismo-galeria",
-      en: "realism-tattoos-gallery-inspiration",
+    "id": "gallery-realismo",
+    "slugs": {
+      "es": "tatuajes-realismo-galeria",
+      "en": "realism-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 204,
+    "published": true,
+    "order": 204
   },
   {
-    id: "gallery-sombras-black-grey",
-    slugs: {
-      es: "tatuajes-sombras-negro-gris-galeria",
-      en: "black-grey-shading-tattoos-gallery",
+    "id": "gallery-sombras-black-grey",
+    "slugs": {
+      "es": "tatuajes-sombras-negro-gris-galeria",
+      "en": "black-grey-shading-tattoos-gallery"
     },
-    image: "/img/portfolio-blog/galleries/gallery-sombras-black-grey/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-sombras-black-grey/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 205,
+    "published": true,
+    "order": 205
   },
   {
-    id: "gallery-tatuajes-retratos",
-    slugs: {
-      es: "tatuajes-con-retratos-galeria",
-      en: "portrait-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-retratos",
+    "slugs": {
+      "es": "tatuajes-con-retratos-galeria",
+      "en": "portrait-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-retratos/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 206,
+    "published": true,
+    "order": 206
   },
   {
-    id: "gallery-tatuajes-color",
-    slugs: {
-      es: "tatuajes-a-color-galeria",
-      en: "color-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-color",
+    "slugs": {
+      "es": "tatuajes-a-color-galeria",
+      "en": "color-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-color/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-color/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 207,
+    "published": true,
+    "order": 207
   },
   {
-    id: "gallery-estilo-puntillismo",
-    slugs: {
-      es: "tatuajes-puntillismo-galeria",
-      en: "dotwork-tattoos-gallery-inspiration",
+    "id": "gallery-estilo-puntillismo",
+    "slugs": {
+      "es": "tatuajes-puntillismo-galeria",
+      "en": "dotwork-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-estilo-puntillismo/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 208,
+    "published": true,
+    "order": 208
   },
   {
-    id: "gallery-tatuajes-anime",
-    slugs: {
-      es: "tatuajes-de-anime-galeria",
-      en: "anime-tattoos-gallery-inspiration",
+    "id": "gallery-tatuajes-anime",
+    "slugs": {
+      "es": "tatuajes-de-anime-galeria",
+      "en": "anime-tattoos-gallery-inspiration"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-anime/01.jpg",
-    date: {
-      es: "16 de mayo de 2026",
-      en: "May 16, 2026",
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-anime/01.jpg",
+    "date": {
+      "es": "16 de mayo de 2026",
+      "en": "May 16, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery",
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 209,
+    "published": true,
+    "order": 209
   },
   {
-    id: "hidden-tattoos-work",
-    slugs: {
-      es: "tatuajes-ocultos-mejores-zonas-cuerpo-trabajo",
-      en: "hidden-tattoos-best-body-areas-for-work"
+    "id": "hidden-tattoos-work",
+    "slugs": {
+      "es": "tatuajes-ocultos-mejores-zonas-cuerpo-trabajo",
+      "en": "hidden-tattoos-best-body-areas-for-work"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
-    date: {
-      es: "22 de julio de 2026",
-      en: "July 22, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+    "date": {
+      "es": "22 de julio de 2026",
+      "en": "July 22, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide"
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 300
+    "published": true,
+    "order": 300
   },
   {
-    id: "first-large-tattoo-prep",
-    slugs: {
-      es: "como-prepararte-noche-anterior-primer-tatuaje-grande",
-      en: "how-to-prepare-night-before-first-large-tattoo"
+    "id": "first-large-tattoo-prep",
+    "slugs": {
+      "es": "como-prepararte-noche-anterior-primer-tatuaje-grande",
+      "en": "how-to-prepare-night-before-first-large-tattoo"
     },
-    image: "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
-    date: {
-      es: "23 de julio de 2026",
-      en: "July 23, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+    "date": {
+      "es": "23 de julio de 2026",
+      "en": "July 23, 2026"
     },
-    label: {
-      es: "Experiencia",
-      en: "Experience"
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
     },
-    published: true,
-    order: 301
+    "published": true,
+    "order": 301
   },
   {
-    id: "cover-c-section-scar-botanical",
-    slugs: {
-      es: "tapar-cicatriz-cesarea-apendicitis-tatuaje-botanico",
-      en: "cover-c-section-appendicitis-scar-botanical-tattoo"
+    "id": "cover-c-section-scar-botanical",
+    "slugs": {
+      "es": "tapar-cicatriz-cesarea-apendicitis-tatuaje-botanico",
+      "en": "cover-c-section-appendicitis-scar-botanical-tattoo"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/03.jpg",
-    date: {
-      es: "24 de julio de 2026",
-      en: "July 24, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-bonitos-mujer/03.jpg",
+    "date": {
+      "es": "24 de julio de 2026",
+      "en": "July 24, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique"
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 302
+    "published": true,
+    "order": 302
   },
   {
-    id: "micro-tattoos-couples-cali",
-    slugs: {
-      es: "microtatuajes-parejas-cali-disenos-discretos",
-      en: "micro-tattoos-couples-cali-discreet-designs"
+    "id": "micro-tattoos-couples-cali",
+    "slugs": {
+      "es": "microtatuajes-parejas-cali-disenos-discretos",
+      "en": "micro-tattoos-couples-cali-discreet-designs"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
-    date: {
-      es: "25 de julio de 2026",
-      en: "July 25, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/01.jpg",
+    "date": {
+      "es": "25 de julio de 2026",
+      "en": "July 25, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery"
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 303
+    "published": true,
+    "order": 303
   },
   {
-    id: "tattoos-couples-friends-valentines",
-    slugs: {
-      es: "tatuajes-novios-amigos-san-valentin-amor-amistad",
-      en: "tattoos-couples-friends-valentines-day"
+    "id": "tattoos-couples-friends-valentines",
+    "slugs": {
+      "es": "tatuajes-novios-amigos-san-valentin-amor-amistad",
+      "en": "tattoos-couples-friends-valentines-day"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/02.jpg",
-    date: {
-      es: "26 de julio de 2026",
-      en: "July 26, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pareja/02.jpg",
+    "date": {
+      "es": "26 de julio de 2026",
+      "en": "July 26, 2026"
     },
-    label: {
-      es: "Galería",
-      en: "Gallery"
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
     },
-    published: true,
-    order: 304
+    "published": true,
+    "order": 304
   },
   {
-    id: "executive-tattoos-office",
-    slugs: {
-      es: "tatuajes-ejecutivos-estilos-zonas-ropa-oficina",
-      en: "executive-tattoos-styles-areas-office-clothes"
+    "id": "executive-tattoos-office",
+    "slugs": {
+      "es": "tatuajes-ejecutivos-estilos-zonas-ropa-oficina",
+      "en": "executive-tattoos-styles-areas-office-clothes"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
-    date: {
-      es: "27 de julio de 2026",
-      en: "July 27, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/01.jpg",
+    "date": {
+      "es": "27 de julio de 2026",
+      "en": "July 27, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide"
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 305
+    "published": true,
+    "order": 305
   },
   {
-    id: "small-tattoos-hidden-watch-shirt",
-    slugs: {
-      es: "ideas-tatuajes-pequenos-zonas-escondidas",
-      en: "small-tattoo-ideas-hidden-watch-shirt"
+    "id": "small-tattoos-hidden-watch-shirt",
+    "slugs": {
+      "es": "ideas-tatuajes-pequenos-zonas-escondidas",
+      "en": "small-tattoo-ideas-hidden-watch-shirt"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
-    date: {
-      es: "28 de julio de 2026",
-      en: "July 28, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-pequenos-hombres/01.jpg",
+    "date": {
+      "es": "28 de julio de 2026",
+      "en": "July 28, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide"
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 306
+    "published": true,
+    "order": 306
   },
   {
-    id: "invisible-elegant-tattoos",
-    slugs: {
-      es: "tatuajes-invisibles-elegantes-discretos",
-      en: "invisible-elegant-tattoos-discreet-placements"
+    "id": "invisible-elegant-tattoos",
+    "slugs": {
+      "es": "tatuajes-invisibles-elegantes-discretos",
+      "en": "invisible-elegant-tattoos-discreet-placements"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
-    date: {
-      es: "29 de julio de 2026",
-      en: "July 29, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-minimalistas/01.jpg",
+    "date": {
+      "es": "29 de julio de 2026",
+      "en": "July 29, 2026"
     },
-    label: {
-      es: "Guía",
-      en: "Guide"
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
     },
-    published: true,
-    order: 307
+    "published": true,
+    "order": 307
   },
   {
-    id: "tattoo-prep-24-hours-checklist",
-    slugs: {
-      es: "checklist-24-horas-previas-preparar-sesion-tatuaje",
-      en: "24-hour-prep-checklist-for-long-tattoo-session"
+    "id": "tattoo-prep-24-hours-checklist",
+    "slugs": {
+      "es": "checklist-24-horas-previas-preparar-sesion-tatuaje",
+      "en": "24-hour-prep-checklist-for-long-tattoo-session"
     },
-    image: "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
-    date: {
-      es: "30 de julio de 2026",
-      en: "July 30, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-realismo/01.jpg",
+    "date": {
+      "es": "30 de julio de 2026",
+      "en": "July 30, 2026"
     },
-    label: {
-      es: "Cuidado",
-      en: "Aftercare"
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
     },
-    published: true,
-    order: 308
+    "published": true,
+    "order": 308
   },
   {
-    id: "transform-abdominoplasty-scar-botanical",
-    slugs: {
-      es: "transforma-cicatriz-abdominoplastia-tatuaje-botanico",
-      en: "transform-abdominoplasty-scar-into-botanical-art"
+    "id": "transform-abdominoplasty-scar-botanical",
+    "slugs": {
+      "es": "transforma-cicatriz-abdominoplastia-tatuaje-botanico",
+      "en": "transform-abdominoplasty-scar-into-botanical-art"
     },
-    image: "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/04.jpg",
-    date: {
-      es: "31 de julio de 2026",
-      en: "July 31, 2026"
+    "image": "/img/portfolio-blog/galleries/gallery-tatuajes-elegantes-mujeres/04.jpg",
+    "date": {
+      "es": "31 de julio de 2026",
+      "en": "July 31, 2026"
     },
-    label: {
-      es: "Técnica",
-      en: "Technique"
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
     },
-    published: true,
-    order: 309
+    "published": true,
+    "order": 309
+  },
+  {
+    "id": "gallery-realismo-black-grey",
+    "slugs": {
+      "es": "tatuajes-realismo-black-grey-galeria",
+      "en": "black-grey-realism-tattoos-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/00.jpg",
+    "date": {
+      "es": "1 de agosto de 2026",
+      "en": "August 1, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 310
+  },
+  {
+    "id": "gallery-tatuajes-lobo-black-grey",
+    "slugs": {
+      "es": "tatuajes-lobo-black-grey-galeria",
+      "en": "wolf-black-grey-tattoos-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/00.jpg",
+    "date": {
+      "es": "2 de agosto de 2026",
+      "en": "August 2, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 311
+  },
+  {
+    "id": "gallery-tatuajes-animales-salvajes",
+    "slugs": {
+      "es": "tatuajes-animales-salvajes-galeria",
+      "en": "wild-animal-tattoos-realism-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/07.jpg",
+    "date": {
+      "es": "3 de agosto de 2026",
+      "en": "August 3, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 312
+  },
+  {
+    "id": "gallery-tatuajes-gorila-black-grey",
+    "slugs": {
+      "es": "tatuajes-gorila-calavera-black-grey-galeria",
+      "en": "gorilla-skull-black-grey-tattoos-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/10.jpg",
+    "date": {
+      "es": "4 de agosto de 2026",
+      "en": "August 4, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 313
+  },
+  {
+    "id": "gallery-tatuajes-terror-cine",
+    "slugs": {
+      "es": "tatuajes-terror-cine-galeria-black-grey",
+      "en": "horror-movie-tattoos-black-grey-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/13.jpg",
+    "date": {
+      "es": "5 de agosto de 2026",
+      "en": "August 5, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 314
+  },
+  {
+    "id": "gallery-tatuajes-samurai",
+    "slugs": {
+      "es": "tatuajes-samurai-galeria-black-grey",
+      "en": "samurai-tattoos-black-grey-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/15.jpg",
+    "date": {
+      "es": "6 de agosto de 2026",
+      "en": "August 6, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 315
+  },
+  {
+    "id": "gallery-tatuajes-religiosos-black-grey",
+    "slugs": {
+      "es": "tatuajes-religiosos-black-grey-galeria",
+      "en": "religious-tattoos-black-grey-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/16.jpg",
+    "date": {
+      "es": "7 de agosto de 2026",
+      "en": "August 7, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 316
+  },
+  {
+    "id": "gallery-tatuajes-nativa-americana",
+    "slugs": {
+      "es": "tatuajes-mujer-nativa-americana-galeria",
+      "en": "native-american-woman-tattoos-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/18.jpg",
+    "date": {
+      "es": "8 de agosto de 2026",
+      "en": "August 8, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 317
+  },
+  {
+    "id": "gallery-tatuajes-zeus-fenix-sleeve",
+    "slugs": {
+      "es": "tatuajes-zeus-fenix-sleeve-galeria",
+      "en": "zeus-phoenix-sleeve-tattoo-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/19.jpg",
+    "date": {
+      "es": "9 de agosto de 2026",
+      "en": "August 9, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 318
+  },
+  {
+    "id": "gallery-tatuajes-mitologia-griega",
+    "slugs": {
+      "es": "tatuajes-mitologia-griega-galeria",
+      "en": "greek-mythology-tattoos-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/20.jpg",
+    "date": {
+      "es": "10 de agosto de 2026",
+      "en": "August 10, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 319
+  },
+  {
+    "id": "gallery-tatuajes-egipcios-black-grey",
+    "slugs": {
+      "es": "tatuajes-egipcios-black-grey-galeria",
+      "en": "egyptian-mythology-tattoos-black-grey-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/21.jpg",
+    "date": {
+      "es": "11 de agosto de 2026",
+      "en": "August 11, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 320
+  },
+  {
+    "id": "gallery-tatuajes-retratos-black-grey",
+    "slugs": {
+      "es": "tatuajes-retratos-black-grey-galeria",
+      "en": "portrait-tattoos-black-grey-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+    "date": {
+      "es": "12 de agosto de 2026",
+      "en": "August 12, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 321
+  },
+  {
+    "id": "gallery-tatuajes-sleeve-black-grey",
+    "slugs": {
+      "es": "tatuajes-sleeve-black-grey-galeria",
+      "en": "black-grey-sleeve-tattoos-gallery"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/15.jpg",
+    "date": {
+      "es": "13 de agosto de 2026",
+      "en": "August 13, 2026"
+    },
+    "label": {
+      "es": "Galería",
+      "en": "Gallery"
+    },
+    "published": true,
+    "order": 322
+  },
+  {
+    "id": "tattoo-tourism-what-is-it",
+    "slugs": {
+      "es": "turismo-de-tatuajes-que-es-y-para-quien",
+      "en": "tattoo-tourism-explained-what-it-is-and-who-its-for"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/19.jpg",
+    "date": {
+      "es": "15 de agosto de 2026",
+      "en": "August 15, 2026"
+    },
+    "label": {
+      "es": "Turismo",
+      "en": "Tourism"
+    },
+    "published": true,
+    "order": 323
+  },
+  {
+    "id": "tattoo-trip-real-cost-breakdown",
+    "slugs": {
+      "es": "cuanto-cuesta-viaje-de-tatuajes-vuelos-hotel-tinta",
+      "en": "real-cost-breakdown-tattoo-trip-flights-hotel-ink"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/20.jpg",
+    "date": {
+      "es": "16 de agosto de 2026",
+      "en": "August 16, 2026"
+    },
+    "label": {
+      "es": "Precios",
+      "en": "Prices"
+    },
+    "published": true,
+    "order": 324
+  },
+  {
+    "id": "tattoo-tourism-red-flags",
+    "slugs": {
+      "es": "senales-de-alerta-turismo-tatuajes-estudio-a-evitar",
+      "en": "tattoo-tourism-red-flags-studio-you-should-skip"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/15.jpg",
+    "date": {
+      "es": "18 de agosto de 2026",
+      "en": "August 18, 2026"
+    },
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
+    },
+    "published": true,
+    "order": 325
+  },
+  {
+    "id": "best-countries-tattoo-tourism-2026",
+    "slugs": {
+      "es": "mejores-paises-turismo-tatuajes-2026-donde-queda-colombia",
+      "en": "best-countries-tattoo-tourism-2026-where-colombia-ranks"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/18.jpg",
+    "date": {
+      "es": "19 de agosto de 2026",
+      "en": "August 19, 2026"
+    },
+    "label": {
+      "es": "Turismo",
+      "en": "Tourism"
+    },
+    "published": true,
+    "order": 326
+  },
+  {
+    "id": "tattoo-collecting-every-country",
+    "slugs": {
+      "es": "coleccionistas-tatuajes-tinta-en-cada-pais",
+      "en": "tattoo-collecting-why-people-get-ink-every-country-they-visit"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/21.jpg",
+    "date": {
+      "es": "21 de agosto de 2026",
+      "en": "August 21, 2026"
+    },
+    "label": {
+      "es": "Experiencia",
+      "en": "Experience"
+    },
+    "published": true,
+    "order": 327
+  },
+  {
+    "id": "first-time-tattoo-tourist-guide",
+    "slugs": {
+      "es": "guia-primer-turista-tatuaje-lee-antes-de-reservar",
+      "en": "first-time-tattoo-tourist-read-this-before-booking"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/16.jpg",
+    "date": {
+      "es": "22 de agosto de 2026",
+      "en": "August 22, 2026"
+    },
+    "label": {
+      "es": "Guía",
+      "en": "Guide"
+    },
+    "published": true,
+    "order": 328
+  },
+  {
+    "id": "tattoo-trip-duration-planning",
+    "slugs": {
+      "es": "cuanto-debe-durar-un-viaje-de-tatuajes-sesiones-vs-turismo",
+      "en": "how-long-should-a-tattoo-trip-be-sessions-vs-sightseeing"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/17.jpg",
+    "date": {
+      "es": "24 de agosto de 2026",
+      "en": "August 24, 2026"
+    },
+    "label": {
+      "es": "Planificación",
+      "en": "Planning"
+    },
+    "published": true,
+    "order": 329
+  },
+  {
+    "id": "tattoo-tourism-vs-local-studio",
+    "slugs": {
+      "es": "turismo-tatuaje-vs-estudio-local-comparacion-honesta",
+      "en": "tattoo-tourism-vs-local-studio-honest-comparison"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/07.jpg",
+    "date": {
+      "es": "25 de agosto de 2026",
+      "en": "August 25, 2026"
+    },
+    "label": {
+      "es": "Comparativa",
+      "en": "Comparison"
+    },
+    "published": true,
+    "order": 330
+  },
+  {
+    "id": "what-nobody-tells-you-tattoo-on-vacation",
+    "slugs": {
+      "es": "lo-que-nadie-te-dice-de-tatuarse-en-vacaciones",
+      "en": "what-nobody-tells-you-about-getting-tattooed-on-vacation"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+    "date": {
+      "es": "27 de agosto de 2026",
+      "en": "August 27, 2026"
+    },
+    "label": {
+      "es": "Consejos",
+      "en": "Advice"
+    },
+    "published": true,
+    "order": 331
+  },
+  {
+    "id": "colombia-tattoo-tourism-destination",
+    "slugs": {
+      "es": "turismo-de-tatuajes-que-es-y-porque-colombia-se-volvio-destino",
+      "en": "tattoo-tourism-why-colombia-became-a-top-destination"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/00.jpg",
+    "date": {
+      "es": "28 de agosto de 2026",
+      "en": "August 28, 2026"
+    },
+    "label": {
+      "es": "Turismo",
+      "en": "Tourism"
+    },
+    "published": true,
+    "order": 332
   }
 ];
 

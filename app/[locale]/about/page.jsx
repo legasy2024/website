@@ -31,7 +31,7 @@ const metadata = {
       languages: {
           en: "/en/about",
           es: "/es/about",
-          "x-default": "/es/about",
+          "x-default": "/en/about",
       }
   },
   openGraph: {
@@ -59,7 +59,7 @@ const metadata_en = {
       languages: {
           en: "/en/about",
           es: "/es/about",
-          "x-default": "/es/about",
+          "x-default": "/en/about",
       }
   },
   openGraph: {

@@ -61,7 +61,7 @@ export default function BlogArticle({ content, locale }) {
 
         {/* Contenido HTML */}
         <article
-          className={`${styles.blogContent} flex flex-col gap-y-8 text-base leading-7 text-[#e0e0e0]`}
+          className={`${styles.blogContent} text-base leading-relaxed text-[#e0e0e0]`}
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
 

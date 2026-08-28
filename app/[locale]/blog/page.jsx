@@ -27,7 +27,7 @@ const metadata = {
     languages: {
       en: "/en/blog",
       es: "/es/blog",
-      "x-default": "/es/blog",
+      "x-default": "/en/blog",
     },
   }
 };
@@ -47,7 +47,7 @@ const metadata_en = {
     languages: {
       en: "/en/blog",
       es: "/es/blog",
-      "x-default": "/es/blog",
+      "x-default": "/en/blog",
     },
   },
   };

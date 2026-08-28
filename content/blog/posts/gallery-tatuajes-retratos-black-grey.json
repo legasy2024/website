@@ -1,0 +1,160 @@
+{
+  "id": "gallery-tatuajes-retratos-black-grey",
+  "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+  "translations": {
+    "es": {
+      "slug": "tatuajes-retratos-black-grey-galeria",
+      "title": "Tatuajes de retratos en black & grey: la técnica más exigente del realismo",
+      "date": "12 de agosto de 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Los retratos son el mayor desafío técnico del realismo: capturar la identidad de un rostro —con sus sombras sutiles, la profundidad de los ojos y la textura de la piel— en tinta permanente requiere años de práctica y dominio absoluto de la escala de grises. Esta galería muestra retratos reales del portafolio.",
+      "seo": {
+        "title": "Tatuajes de retratos en realismo black & grey - Legassy Studio",
+        "description": "Galería de tatuajes de retratos en black & grey: rostros femeninos, figuras históricas y personajes en realismo fotográfico. Portafolio de Legassy Studio Cali.",
+        "keywords": [
+          "tatuajes retratos realismo",
+          "tatuaje retrato black grey cali",
+          "tatuaje retrato fotorrealista",
+          "portrait tattoo colombia"
+        ],
+        "canonical": "https://www.legassystudio.com/es/blog/tatuajes-retratos-black-grey-galeria"
+      },
+      "contentHtml": "<p>Los <strong>retratos</strong> son el mayor desafío técnico del realismo: capturar la identidad de un rostro —con sus sombras sutiles, la profundidad de los ojos y la textura de la piel— en tinta permanente requiere años de práctica y dominio absoluto de la escala de grises.</p><p>A diferencia de los tatuajes de animales, donde una pequeña imprecisión pasa desapercibida, en los retratos el ojo humano detecta inmediatamente cualquier desproporción o falta de detalle. Por eso los mejores artistas de realismo miden sus avances precisamente en la calidad de sus retratos. Esta galería muestra rostros reales del portafolio: compara detalle, expresión y fidelidad.</p>",
+      "gallery": {
+        "title": "Retratos black & grey del portafolio",
+        "description": "Rostros y personajes en realismo fotográfico black & grey.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+            "alt": "Tatuaje retrato mujer nativa americana pierna black grey realismo",
+            "title": "Mujer nativa americana",
+            "description": "Retrato femenino de mujer nativa americana con tocado en pierna, realismo black & grey."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/18.jpg",
+            "alt": "Tatuaje retrato mujer guerrera black grey hombro",
+            "title": "Guerrera con tótem",
+            "description": "Retrato de mujer guerrera con leon tótem en hombro, black & grey."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/16.jpg",
+            "alt": "Tatuaje retrato Virgen Maria black grey brazo realismo",
+            "title": "Retrato de la Virgen María",
+            "description": "Retrato de la Virgen María rezando en brazo, realismo black & grey impecable."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/21.jpg",
+            "alt": "Tatuaje retrato diosa egipcia antebrazo black grey",
+            "title": "Retrato de diosa egipcia",
+            "description": "Retrato de diosa egipcia con tocado de halcón en antebrazo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/20.jpg",
+            "alt": "Tatuaje retrato Zeus dios griego black grey",
+            "title": "Retrato de Zeus",
+            "description": "Retrato monumental de Zeus en sleeve de brazo completo."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/15.jpg",
+            "alt": "Tatuaje retrato samurai mascara black grey sleeve",
+            "title": "Máscara samurái",
+            "description": "Retrato de samurái con máscara oni en sleeve black & grey."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "Quiero un retrato en realismo black & grey",
+          "url": "https://wa.me/573128717100?text=Hola%21%20Vi%20la%20galer%C3%ADa%20de%20retratos%20y%20quiero%20asesor%C3%ADa%20para%20mi%20retrato"
+        },
+        "instagram": {
+          "text": "Ver portafolio completo",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Información de contacto:",
+        "location": "Ubicación: Cali, Colombia",
+        "phone": "Teléfono: +57 (310) 311-0611"
+      }
+    },
+    "en": {
+      "slug": "portrait-tattoos-black-grey-gallery",
+      "title": "Portrait tattoos in black & grey: the most demanding realism technique",
+      "date": "August 12, 2026",
+      "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+      "hideHeroImage": true,
+      "excerpt": "Portraits are the greatest technical challenge of realism: capturing the identity of a face—with its subtle shadows, the depth of the eyes and skin texture—in permanent ink requires years of practice and absolute mastery of the greyscale. This gallery shows real portrait pieces from the portfolio.",
+      "seo": {
+        "title": "Portrait tattoos in black & grey realism - Legassy Studio",
+        "description": "Gallery of portrait tattoos in black & grey: feminine faces, historical figures and characters in photographic realism. Portfolio from Legassy Studio Cali.",
+        "keywords": [
+          "portrait tattoos realism",
+          "black grey portrait tattoo cali",
+          "photorealistic portrait tattoo",
+          "portrait tattoo colombia"
+        ],
+        "canonical": "https://www.legassystudio.com/en/blog/portrait-tattoos-black-grey-gallery"
+      },
+      "contentHtml": "<p><strong>Portraits</strong> are the greatest technical challenge of realism: capturing the identity of a face—with its subtle shadows, the depth of the eyes and skin texture—in permanent ink requires years of practice and absolute mastery of the greyscale.</p><p>Unlike animal tattoos, where a small imprecision goes unnoticed, in portraits the human eye immediately detects any disproportion or lack of detail. That's why the best realism artists measure their progress precisely in the quality of their portraits. This gallery shows real faces from the portfolio—compare detail, expression and fidelity.</p>",
+      "gallery": {
+        "title": "Black & grey portrait portfolio",
+        "description": "Faces and characters in photographic black & grey realism.",
+        "items": [
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/14.jpg",
+            "alt": "Native American woman leg black grey realism portrait tattoo",
+            "title": "Native American woman",
+            "description": "Feminine portrait of native American woman with headdress on leg, black & grey realism."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/18.jpg",
+            "alt": "Warrior woman black grey shoulder portrait tattoo",
+            "title": "Warrior with totem",
+            "description": "Portrait of warrior woman with lion totem on shoulder, black & grey."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/16.jpg",
+            "alt": "Virgin Mary black grey arm realism portrait tattoo",
+            "title": "Virgin Mary portrait",
+            "description": "Portrait of Virgin Mary praying on arm, impeccable black & grey realism."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/21.jpg",
+            "alt": "Egyptian goddess forearm black grey portrait tattoo",
+            "title": "Egyptian goddess portrait",
+            "description": "Portrait of Egyptian goddess with falcon headdress on forearm."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/20.jpg",
+            "alt": "Zeus greek god black grey portrait tattoo",
+            "title": "Zeus portrait",
+            "description": "Monumental Zeus portrait in full arm sleeve."
+          },
+          {
+            "image": "/img/portfolio-blog/galleries/gallery-nuevos-tatuajes/15.jpg",
+            "alt": "Samurai mask black grey sleeve portrait tattoo",
+            "title": "Samurai mask",
+            "description": "Samurai portrait with oni mask in black & grey sleeve."
+          }
+        ]
+      },
+      "cta": {
+        "whatsapp": {
+          "text": "I want a portrait in black & grey realism",
+          "url": "https://wa.me/573128717100?text=Hi%21%20I%20saw%20the%20portrait%20gallery%20and%20want%20a%20consultation%20for%20my%20portrait"
+        },
+        "instagram": {
+          "text": "View full portfolio",
+          "url": "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact information:",
+        "location": "Location: Cali, Colombia",
+        "phone": "Phone: +57 (310) 311-0611"
+      }
+    }
+  }
+}

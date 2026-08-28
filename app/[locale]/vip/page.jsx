@@ -36,7 +36,7 @@ const metadata = {
     languages: {
       en: "/en/vip",
       es: "/es/vip",
-      "x-default": "/es/vip",
+      "x-default": "/en/vip",
     },
   },
   openGraph: {
@@ -67,7 +67,7 @@ const metadata_en = {
     languages: {
       en: "/en/vip",
       es: "/es/vip",
-      "x-default": "/es/vip",
+      "x-default": "/en/vip",
     },
   },
   openGraph: {

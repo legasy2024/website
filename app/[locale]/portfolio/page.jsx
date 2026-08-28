@@ -26,7 +26,7 @@ const metadata = {
       languages: {
           en: "/en/portfolio",
           es: "/es/portfolio",
-          "x-default": "/es/portfolio",
+          "x-default": "/en/portfolio",
       }
   },
   openGraph: {
@@ -54,7 +54,7 @@ const metadata_en = {
       languages: {
           en: "/en/portfolio",
           es: "/es/portfolio",
-          "x-default": "/es/portfolio",
+          "x-default": "/en/portfolio",
       }
   },
   openGraph: {

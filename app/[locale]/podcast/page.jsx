@@ -36,7 +36,7 @@ const metadata = {
     languages: {
       en: "/en/podcast",
       es: "/es/podcast",
-      "x-default": "/es/podcast",
+      "x-default": "/en/podcast",
     },
   },
   openGraph: {
@@ -67,7 +67,7 @@ const metadata_en = {
     languages: {
       en: "/en/podcast",
       es: "/es/podcast",
-      "x-default": "/es/podcast",
+      "x-default": "/en/podcast",
     },
   },
   openGraph: {
