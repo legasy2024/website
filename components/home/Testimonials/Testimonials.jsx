@@ -1,31 +1,29 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import { testimonialsDataEs, testimonialsDataEn } from "./data/testimonialsData";
+import { useState, useEffect } from "react";
+import { testimonialsDataEs, testimonialsDataEn, GOOGLE_REVIEWS_URL } from "./data/testimonialsData";
 import TestimonialCard from "./TestimonialCard/TestimonialCard";
 import "./Testimonials.css";
-import { motion, AnimatePresence, useInView } from "framer-motion";
-
-const DURATION = 5000; // 5 segundos por testimonio
+import { motion } from "framer-motion";
+import Image from "next/image";
+import emblem from "./assets/googleEmblem.png";
+import starSvg from "./assets/star.svg";
 
 function getCurrentLocale() {
   if (typeof window === "undefined") return "es"; // Default en SSR
-  
-  // Method 1: Check URL pathname
+
   const pathname = window.location.pathname;
   if (pathname.startsWith('/en')) return "en";
   if (pathname.startsWith('/es')) return "es";
-  
-  // Method 2: Check for NEXT_LOCALE cookie (Next.js default)
+
   const cookies = document.cookie.split(';');
-  const localeCookie = cookies.find(cookie => 
+  const localeCookie = cookies.find(cookie =>
     cookie.trim().startsWith('NEXT_LOCALE=')
   );
   if (localeCookie) {
     return localeCookie.split('=')[1].trim();
   }
-  
-  // Method 3: Check for other common locale cookies
+
   const commonCookies = ['locale', 'lang', 'language'];
   for (const cookieName of commonCookies) {
     const cookie = cookies.find(c => c.trim().startsWith(`${cookieName}=`));
@@ -34,151 +32,120 @@ function getCurrentLocale() {
       if (value === 'en' || value === 'es') return value;
     }
   }
-  
-  // Method 4: Check localStorage
+
   try {
     const storedLocale = localStorage.getItem('locale') || localStorage.getItem('language');
     if (storedLocale === 'en' || storedLocale === 'es') return storedLocale;
   } catch (e) {
     // localStorage might not be available
   }
-  
-  // Default fallback
+
   return "es";
 }
 
-function Testimonials() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [progress, setProgress] = useState(0);
-  const [currentLocale, setCurrentLocale] = useState("es");
-  const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { once: false, amount: 0.3 });
+const copy = {
+  es: {
+    eyebrow: "Reseñas verificadas",
+    heading: "Lo que dicen en Google",
+    subheading: "131 reseñas reales de clientes en Google, con una calificación promedio de 5.0",
+    verified: "Reseña verificada en Google",
+    cta: "Ver todas las reseñas en Google"
+  },
+  en: {
+    eyebrow: "Verified reviews",
+    heading: "What people say on Google",
+    subheading: "131 real customer reviews on Google, averaging a 5.0 rating",
+    verified: "Review verified on Google",
+    cta: "See all reviews on Google"
+  }
+};
 
-  // Detect locale on mount and when URL changes
+function Testimonials() {
+  const [currentLocale, setCurrentLocale] = useState("es");
+
   useEffect(() => {
-    const detectLocale = () => {
-      const locale = getCurrentLocale();
-      setCurrentLocale(locale);
-    };
-    
+    const detectLocale = () => setCurrentLocale(getCurrentLocale());
     detectLocale();
-    
-    // Listen for URL changes (for client-side navigation)
-    const handleLocationChange = () => {
-      detectLocale();
-    };
-    
-    // Listen for popstate events (back/forward navigation)
-    window.addEventListener('popstate', handleLocationChange);
-    
-    // Optional: Listen for custom locale change events
-    window.addEventListener('localeChange', handleLocationChange);
-    
+
+    window.addEventListener('popstate', detectLocale);
+    window.addEventListener('localeChange', detectLocale);
     return () => {
-      window.removeEventListener('popstate', handleLocationChange);
-      window.removeEventListener('localeChange', handleLocationChange);
+      window.removeEventListener('popstate', detectLocale);
+      window.removeEventListener('localeChange', detectLocale);
     };
   }, []);
 
-  // Reset currentIndex when locale changes
-  useEffect(() => {
-    setCurrentIndex(0);
-    setProgress(0);
-  }, [currentLocale]);
-
-  // Escoger los datos correctos según el idioma
   const testimonialsData = currentLocale === "en" ? testimonialsDataEn : testimonialsDataEs;
-
-  useEffect(() => {
-    if (!isInView) return;
-    
-    setProgress(0);
-    const progressInterval = setInterval(() => {
-      setProgress((prev) => prev + 100 / (DURATION / 50));
-    }, 50);
-
-    const testimonialInterval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === testimonialsData.length - 1 ? 0 : prevIndex + 1
-      );
-    }, DURATION);
-
-    return () => {
-      clearInterval(progressInterval);
-      clearInterval(testimonialInterval);
-    };
-  }, [currentIndex, testimonialsData.length, isInView]);
+  const t = copy[currentLocale] ?? copy.es;
 
   if (testimonialsData.length === 0) {
     return null;
   }
 
-  // Animation variants
-  const sectionVariants = {
-    hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1, 
-      transition: { 
-        duration: 0.8,
-        staggerChildren: 0.3
-      } 
-    }
+  const containerVariants = {
+    hidden: {},
+    visible: { transition: { staggerChildren: 0.12 } }
   };
 
   const cardVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { duration: 0.6 } },
-    exit: { y: -20, opacity: 0, transition: { duration: 0.3 } }
-  };
-
-  const progressVariants = {
-    hidden: { opacity: 0, scaleX: 0 },
-    visible: { opacity: 1, scaleX: 1, transition: { duration: 0.4, delay: 0.2 } }
+    hidden: { y: 24, opacity: 0 },
+    visible: { y: 0, opacity: 1, transition: { duration: 0.5 } }
   };
 
   return (
-    <motion.section 
-      ref={sectionRef}
-      className="testimonials_container flex flex-col items-center justify-center relative"
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
-      variants={sectionVariants}
-    >
-      <div className="absolute flex flex-col justify-center items-center inset-0 bg-black bg-opacity-85"></div>
-      <motion.div className="z-10 w-full flex flex-col justify-center items-center">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={`${testimonialsData[currentIndex].id}-${currentLocale}`}
-            variants={cardVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            className="flex flex-col "
-          >
-            <TestimonialCard
-              name={testimonialsData[currentIndex].name}
-              pfp={testimonialsData[currentIndex].pfp}
-              review={testimonialsData[currentIndex].review}
-              date={testimonialsData[currentIndex].date}
-            />
-          </motion.div>
-        </AnimatePresence>
-        {/* Barra de progreso */}
-        <motion.div 
-          className="h-1 w-full rounded-full bg-gray-300 mt-2"
-          variants={progressVariants}
+    <section className="testimonials_container relative w-full py-16 px-4 md:px-10">
+      <div className="absolute inset-0 bg-black bg-opacity-85"></div>
+      <div className="relative z-10 max-w-6xl mx-auto flex flex-col items-center">
+        <span className="text-BgOrange uppercase tracking-widest text-sm font-medium">{t.eyebrow}</span>
+        <h2 className="text-white text-3xl md:text-4xl font-semibold mt-2 text-center">{t.heading}</h2>
+
+        <div className="flex items-center gap-x-2 mt-4">
+          <Image src={emblem} width={24} height={24} alt="Google" />
+          <span className="text-white font-medium">5.0</span>
+          <span className="flex gap-x-0.5">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Image key={i} src={starSvg} width={16} height={16} alt="star-icon" />
+            ))}
+          </span>
+        </div>
+        <p className="text-TextSecondary-100/80 text-sm md:text-base mt-2 text-center max-w-xl">
+          {t.subheading}
+        </p>
+
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-full"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={containerVariants}
         >
-          <motion.div
-            className="h-full bg-BgOrange transition-all duration-100"
-            style={{ width: `${progress}%` }}
-            animate={{ 
-              width: `${progress}%`,
-            }}
-            transition={{ ease: "linear", duration: 0.05 }}
-          />
+          {testimonialsData.map((testimonial) => (
+            <motion.div key={testimonial.id} variants={cardVariants}>
+              <TestimonialCard
+                name={testimonial.name}
+                avatar={testimonial.avatar}
+                review={testimonial.review}
+                date={testimonial.date}
+                rating={testimonial.rating}
+                photos={testimonial.photos}
+                googleUrl={testimonial.googleUrl}
+                verifiedLabel={t.verified}
+              />
+            </motion.div>
+          ))}
         </motion.div>
-      </motion.div>
-    </motion.section>
+
+        <a
+          href={GOOGLE_REVIEWS_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-10 inline-flex items-center gap-x-2 text-white border border-[#827B71] rounded-full px-6 py-3 hover:border-BgOrange hover:text-BgOrange transition-colors"
+        >
+          <Image src={emblem} width={18} height={18} alt="" />
+          {t.cta}
+        </a>
+      </div>
+    </section>
   );
 }
 
