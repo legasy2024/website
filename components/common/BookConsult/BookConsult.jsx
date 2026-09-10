@@ -6,7 +6,7 @@ import localFont from "next/font/local";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { MdOutlineEmail } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaMapMarkerAlt, FaClock, FaPhoneAlt, FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 
 
 const eagleFont = localFont({
@@ -38,16 +38,26 @@ const staggerContainer = {
   }
 };
 
-function BookConsult({ translations }) {
+function BookConsult({ translations, locale = "es" }) {
 
   const [currentMethod, setCurrentMethod] = useState("whatsapp");
+
+  const mapsUrl = translations?.maps_url || "https://maps.app.goo.gl/p3jzZbkTe7SJs1By5";
+  const addressText = translations?.address_value || "Calle 7 # 56 - 55";
+  const cityText = translations?.city_value || "Cali, Colombia";
+  const hoursText = translations?.hours_value || "Lunes a sábados de 8am a 5pm";
+  const phoneText = translations?.phone_value || "+57 (310) 311 0611";
+  const emailText = translations?.email_value || "hola@legassystudio.com";
+
+  const mapEmbedLang = locale === "en" ? "en" : "es";
+  const mapEmbedSrc = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.946111!2d-76.5473362!3d3.4076593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a1e8dcdea0b1%3A0xd2a4746403b31719!2sLegassy%20Tattoo%20Studio!5e0!3m2!1s${mapEmbedLang}!2sco!4v1725960000000!5m2!1s${mapEmbedLang}!2sco`;
 
   return (
     <motion.section
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
-      className="px-4 flex flex-col item py-16 max-w-[1200px] "
+      className="px-4 flex flex-col item py-16 max-w-[1200px] w-full"
     >
       <motion.h2
         variants={fadeIn}
@@ -137,22 +147,127 @@ function BookConsult({ translations }) {
 
       </motion.div>
 
+      {/* NAP & Location Card with Embedded Google Map */}
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="flex flex-col gap-y-4 mt-24 place-self-start text-left md:place-self-end md:text-right"
+        className="mt-20 w-full rounded-3xl bg-white/80 backdrop-blur-sm border border-black/5 shadow-xl p-6 md:p-10 overflow-hidden"
       >
-        <motion.h3
-          variants={fadeInUp}
-          className="text-[#585858] text-2xl font-medium"
-        >
-          {translations.info_title}
-        </motion.h3>
-        <motion.p variants={fadeInUp} className="text-[#111111]">Cali, Colombia</motion.p>
-        <motion.p variants={fadeInUp} className="text-[#111111]">+57 (310) 311 0611</motion.p>
-        <motion.p variants={fadeInUp} className="text-[#111111]">hola@legassystudio.com</motion.p>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          {/* NAP Details */}
+          <div className="lg:col-span-5 flex flex-col gap-y-6">
+            <div>
+              <span className="text-xs uppercase tracking-widest text-BgOrange font-bold mb-1 block">
+                {translations?.studio_name || "Legassy Tattoo Studio"}
+              </span>
+              <motion.h3
+                variants={fadeInUp}
+                className="text-TextBlack text-2xl md:text-3xl font-bold"
+              >
+                {translations?.info_title || "Contáctanos y Visítanos"}
+              </motion.h3>
+            </div>
+
+            <div className="flex flex-col gap-y-4 text-sm md:text-base">
+              {/* Dirección Física */}
+              <div className="flex items-start gap-x-3.5">
+                <div className="w-10 h-10 rounded-full bg-BgOrange/10 text-BgOrange flex items-center justify-center shrink-0 mt-0.5">
+                  <FaMapMarkerAlt className="w-4 h-4" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xs text-gray-500 font-medium">
+                    {translations?.address_label || "Dirección:"}
+                  </span>
+                  <span className="text-TextBlack font-bold text-base">
+                    {addressText}
+                  </span>
+                  <span className="text-gray-600 text-xs">
+                    {cityText}
+                  </span>
+                </div>
+              </div>
+
+              {/* Horarios */}
+              <div className="flex items-start gap-x-3.5">
+                <div className="w-10 h-10 rounded-full bg-BgOrange/10 text-BgOrange flex items-center justify-center shrink-0 mt-0.5">
+                  <FaClock className="w-4 h-4" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xs text-gray-500 font-medium">
+                    {translations?.hours_label || "Horario de atención:"}
+                  </span>
+                  <span className="text-TextBlack font-semibold">
+                    {hoursText}
+                  </span>
+                </div>
+              </div>
+
+              {/* Teléfono */}
+              <div className="flex items-start gap-x-3.5">
+                <div className="w-10 h-10 rounded-full bg-BgOrange/10 text-BgOrange flex items-center justify-center shrink-0 mt-0.5">
+                  <FaPhoneAlt className="w-4 h-4" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xs text-gray-500 font-medium">WhatsApp / Tel:</span>
+                  <a
+                    href="https://wa.me/3103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-TextBlack font-semibold hover:text-BgOrange transition-colors"
+                  >
+                    {phoneText}
+                  </a>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="flex items-start gap-x-3.5">
+                <div className="w-10 h-10 rounded-full bg-BgOrange/10 text-BgOrange flex items-center justify-center shrink-0 mt-0.5">
+                  <FaEnvelope className="w-4 h-4" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xs text-gray-500 font-medium">Email:</span>
+                  <a
+                    href={`mailto:${emailText}`}
+                    className="text-TextBlack font-semibold hover:text-BgOrange transition-colors"
+                  >
+                    {emailText}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Google Maps Button */}
+            <div className="pt-2">
+              <a
+                href={mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-BgOrange hover:bg-[#c35e07] text-white font-semibold text-sm transition-all shadow-md hover:shadow-lg"
+              >
+                <span>{translations?.maps_cta || "Ver en Google Maps"}</span>
+                <FaExternalLinkAlt className="w-3.5 h-3.5" />
+              </a>
+            </div>
+          </div>
+
+          {/* Embedded Google Map */}
+          <div className="lg:col-span-7 h-[340px] md:h-[400px] w-full rounded-2xl overflow-hidden shadow-md border border-black/10 relative bg-gray-100">
+            <iframe
+              src={mapEmbedSrc}
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Ubicación Legassy Tattoo Studio Cali Google Maps"
+              className="w-full h-full"
+            />
+          </div>
+        </div>
       </motion.div>
 
     </motion.section>

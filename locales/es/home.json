@@ -32,38 +32,35 @@
         "paragraph_2": "La motivación siempre ha sido la misma: brindar a cada persona una experiencia que vaya más allá de la tinta en la piel. Creemos en el tatuaje como una expresión de identidad, un símbolo de lo que somos y de lo que queremos llevar con nosotros para siempre.",
         "cta": "Ver más de la historia"
     },
-    "our_stories":{
-        "section_title":"NUESTRAS HISTORIAS",
-        "title_start": "De",
-        "title_end": "a Legassy",
-        "stories": [
+    "shorts_gallery": {
+        "section_title": "NUESTRAS HISTORIAS EN VIDEO",
+        "title_start": "Historias que",
+        "title_decorator": "Trascienden Fronteras",
+        "title_end": "",
+        "description": "Clientes de todo el mundo viajan a Cali para inmortalizar sus momentos más significativos. Dale play y vive la experiencia Legassy.",
+        "cta": "Ver más en YouTube",
+        "watch_label": "Reproducir Short",
+        "videos": [
             {
-                "city_california": "California",
-                "paragraph_1_california": "Desde California hasta Cali, Rome emprendió un viaje para transformar su brazo en un lienzo de fuerza y tradición. Su manga en estilo maorí es más que un tatuaje, es un símbolo de identidad, cultura y conexión con sus raíces. Cada trazo, cada patrón, cuenta una historia que ahora lo acompaña para siempre.",
-                "paragraph_2_california": "Si quieres ver un poco más sobre la vida de Rome y su tatuaje después del tiempo, puedes verlo en su instagram: @romegoodwin."
+                "id": "qDQAN-RIJV8",
+                "tag": "Canadá → Cali",
+                "title": "2 Días de Tatuaje! De Canadá a Colombia",
+                "subtitle": "Sesión intensiva transformando ideas en arte corporal único."
             },
             {
-                "city_pensilvania": "Pensilvania",
-                "paragraph_1_pensilvania": "Maddie viajó hasta nuestro estudio con una idea clara: quería un tatuaje que representa su espíritu libre y su fuerza interior. Su hada con espada es la perfecta combinación entre delicadeza y poder, una obra llena de detalles y profundidad que refleja su esencia. Un diseño tan único como ella.",
-                "paragraph_2_pensilvania": "Si quieres ver un poco más sobre la vida de Maddie y su tatuaje después del tiempo, puedes verlo en su instagram: @m.deegs."
+                "id": "q8ri1Vmrmwo",
+                "tag": "Top Studio",
+                "title": "El mejor estudio de Cali según ChatGPT",
+                "subtitle": "¿Por qué la IA y nuestros clientes nos eligen como el referente #1?"
             },
             {
-                "city_luisiana": "Luisiana",
-                "paragraph_1_luisiana": "Emanuel decidió llevar su pasión al siguiente nivel tatuando el símbolo de su productora audiovisual. Una cinta entrelazada con una cámara de grabación antigua representa el inicio de su camino en la industria, un recordatorio de su visión y creatividad. Más que un tatuaje, es el emblema de su esfuerzo y sueños hechos realidad.",
-                "paragraph_2_luisiana": "Si quieres ver un poco más sobre la vida de Emanuel y su tatuaje después del tiempo, puedes verlo en su instagram: @legroom_productions."
-            },
-            {
-                "city_newyork": "New York",
-                "paragraph_1_newyork": "Nolan viajó desde New York con una idea clara: llevarse más que un tatuaje. El resultado fue una manga completa con concepto japonés, trabajada durante varias sesiones.",
-                "paragraph_2_newyork": " Cada trazo, cada sombreado, está pensado para hablar de fuerza, equilibrio y evolución personal. Una experiencia que conectó técnica y propósito en cada parte del proceso."
-            },
-            {
-                "paragraph_1_newyork_2": "Eddy también vino desde New York buscando algo que tuviera peso y presencia. Terminamos trabajando una manga completa: un guerrero y Poseidón en una composición intensa, cuidada al detalle.",
-                "paragraph_2_newyork_2": " Una pieza con carácter, marcada por la precisión y el respeto por la historia que representa. Una decisión que llevó tiempo, pero que se construyó con intención desde el primer día."
+                "id": "UVnVEv55UmA",
+                "tag": "New York → Cali",
+                "title": "Viajaron de NY a Cali para tatuarse con nosotros",
+                "subtitle": "Conexión, técnica y propósito en cada trazo desde la Gran Manzana."
             }
-        ],
-        "cta": "Ver más sobre el estudio"
-},
+        ]
+    },
     "do_you_want_to_be":{
         "title" : "¿Quieres hacer parte de nuestro",
         "title_decorator" : "Club VIP?",
@@ -88,14 +85,79 @@
         "cta": "Agenda tu Consulta Personalizada",
         "contact_text": "O nosotros te contactamos, ¿Qué prefieres?",
         "email_label": "Email",
-        "info_title": "Contáctanos",
+        "info_title": "Contáctanos y Visítanos",
+        "studio_name": "Legassy Tattoo Studio",
+        "address_label": "Dirección:",
+        "address_value": "Calle 7 # 56 - 55",
+        "city_value": "Cali, Colombia",
+        "hours_label": "Horario:",
+        "hours_value": "Lunes a sábados de 8am a 5pm",
+        "phone_value": "+57 (310) 311 0611",
+        "email_value": "hola@legassystudio.com",
+        "maps_cta": "Ver ubicación en Google Maps",
+        "maps_url": "https://maps.app.goo.gl/p3jzZbkTe7SJs1By5",
         "confirm_phone_form": "¡Gracias! Su número de teléfono se ha enviado correctamente.",
         "error_phone_form": "Se ha producido un error al enviar su número de teléfono. Vuelva a intentarlo.",
         "confirm_email_form": "¡Gracias! Tu correo electrónico se ha enviado correctamente.",
         "error_email_form": "Se produjo un error al enviar tu correo electrónico. Inténtalo de nuevo."
     },
+    "faq_section": {
+        "section_title": "PREGUNTAS FRECUENTES",
+        "title_start": "Resolvemos",
+        "title_decorator": "Tus Dudas",
+        "title_end": "Antes de Tatuarte",
+        "description": "Todo lo que necesitas saber sobre nuestro estudio en Cali, atención para clientes internacionales y el proceso para crear tu próximo tatuaje.",
+        "categories": {
+            "all": "Todas",
+            "cali": "Estudio en Cali",
+            "usa": "Turismo & Clientes USA",
+            "sessions": "Cuidados & Precios"
+        },
+        "items": [
+            {
+                "category": "cali",
+                "question": "¿Por qué Legassy Studio es considerado uno de los mejores estudios de tatuajes en Cali?",
+                "answer": "En Legassy Studio combinamos el talento de artistas especializados de alto nivel con un espacio privado, seguro y exclusivo en el sur de Cali (Pampa Linda). Trabajamos únicamente con insumos premium 100% desechables y esterilización de grado médico bajo estándares internacionales, garantizando piezas personalizadas con técnica impecable y sanación óptima."
+            },
+            {
+                "category": "usa",
+                "question": "¿Vale la pena viajar desde Estados Unidos o el extranjero a Cali para tatuarse?",
+                "answer": "Totalmente. Cali se ha posicionado como un destino líder en turismo de tatuajes gracias al nivel artístico de clase mundial y una ventaja económica inigualable. Los clientes de EE.UU., Canadá y Europa obtienen tatuajes de nivel de convención internacional ahorrando entre un 50% y 70% frente a las tarifas de sus países, disfrutando además de la gastronomía y cultura de la ciudad."
+            },
+            {
+                "category": "usa",
+                "question": "¿Cómo coordinan el diseño y la cita los clientes internacionales antes de viajar?",
+                "answer": "Coordinamos todo previamente de forma 100% remota. Realizamos una consulta inicial por WhatsApp o videollamada para analizar tu idea, referencias y dimensiones corporales, entregándote una cotización cerrada. Aseguramos tus fechas con el artista antes de que compres tus pasajes para que tu viaje esté perfectamente sincronizado con tus sesiones."
+            },
+            {
+                "category": "usa",
+                "question": "¿El equipo y los artistas del estudio hablan inglés?",
+                "answer": "Sí. Ofrecemos asistencia bilingüe completa (inglés y español) desde el primer contacto virtual, durante las sesiones de tatuaje en el estudio, hasta las recomendaciones de viaje y el acompañamiento pos-tatuaje."
+            },
+            {
+                "category": "cali",
+                "question": "¿Qué estilos de tatuaje realizan en el estudio?",
+                "answer": "Nuestros artistas dominan una amplia variedad de técnicas: microrealismo, realismo en sombras (black and grey), realismo a color, blackwork, fineline (línea fina delicada), anime/ilustrativo, lettering personalizado y proyectos de manga completa oriental/japonesa."
+            },
+            {
+                "category": "sessions",
+                "question": "¿Cómo debo cuidar mi tatuaje si tengo un vuelo de regreso a casa?",
+                "answer": "Al terminar la sesión sellamos el tatuaje con una membrana dérmica médica (segunda piel tipo Saniderm/Dermalize). Esta barrera estéril e impermeable protege tu piel del roce de la ropa, el ambiente de cabina del avión y bacterias externas. Te facilitamos además una guía detallada de cuidado paso a paso para el regreso."
+            },
+            {
+                "category": "sessions",
+                "question": "¿Cómo cotizar y qué métodos de pago aceptan?",
+                "answer": "Puedes cotizar gratis enviándonos tu idea por WhatsApp. Aceptamos efectivo (COP y USD), transferencias bancarias locales, y tarjetas de crédito o débito internacionales (Visa, Mastercard, Amex) para máxima comodidad de viajeros."
+            }
+        ],
+        "more_questions_text": "¿Tienes otra duda o quieres validar tu idea?",
+        "cta_whatsapp": "Consultar por WhatsApp"
+    },
     "footer":{
         "terms":"Términos y Condiciones",
-        "privacy":"Política de Privacidad"
+        "privacy":"Política de Privacidad",
+        "address": "Calle 7 # 56 - 55, Cali, Colombia",
+        "hours": "Lunes a sábados de 8am a 5pm",
+        "maps_url": "https://maps.app.goo.gl/p3jzZbkTe7SJs1By5"
     }
 }

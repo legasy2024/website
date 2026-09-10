@@ -53,6 +53,9 @@ export default async function Layout({ children, params: { locale } }) {
   const footerTranslations = {
     terms: t("home:footer.terms"),
     privacy: t("home:footer.privacy"),
+    address: t("home:footer.address"),
+    hours: t("home:footer.hours"),
+    maps_url: t("home:footer.maps_url"),
   }
 
   return (

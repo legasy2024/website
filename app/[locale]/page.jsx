@@ -10,10 +10,11 @@ import LandingSection from "@/components/home/LandingSection/Main"
 const PortfolioSection = dynamic(() => import("@/components/home/PortfolioSection/PortfolioSection"));
 const Testimonials = dynamic(() => import("@/components/home/Testimonials/Testimonials"));
 const OurStudio = dynamic(() => import("@/components/home/OurStudio/OurStudio"));
-const OurStories = dynamic(() => import("@/components/home/OurStories/OurStories"));
+const ShortsGallery = dynamic(() => import("@/components/home/ShortsGallery/ShortsGallery"));
 const DoYouWantToBe = dynamic(() => import("@/components/home/DoYouWantToBe/DoYouWantToBe"));
 const DoYouWantToWork = dynamic(() => import("@/components/common/DoYouWantToWork/DoYouWantToWork"));
 const BookConsult = dynamic(() => import("@/components/common/BookConsult/BookConsult"));
+const FaqSection = dynamic(() => import("@/components/home/FaqSection/FaqSection"));
 
 //Diferent namespaces
 const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
@@ -93,26 +94,35 @@ export default async function Home({ params: { locale } }) {
     cta: t("home:our_studio.cta"),
   }
 
-  const OurStoriesTranslations = {
-    section_title: t("home:our_stories.section_title"),
-    title_start: t("home:our_stories.title_start"),
-    title_end: t("home:our_stories.title_end"),
-    city_california: t("home:our_stories.stories.0.city_california"),
-    paragraph_1_california: t("home:our_stories.stories.0.paragraph_1_california"),
-    paragraph_2_california: t("home:our_stories.stories.0.paragraph_2_california"),
-    city_pensilvania: t("home:our_stories.stories.1.city_pensilvania"),
-    paragraph_1_pensilvania: t("home:our_stories.stories.1.paragraph_1_pensilvania"),
-    paragraph_2_pensilvania: t("home:our_stories.stories.1.paragraph_2_pensilvania"),
-    city_luisiana: t("home:our_stories.stories.2.city_luisiana"),
-    paragraph_1_luisiana: t("home:our_stories.stories.2.paragraph_1_luisiana"),
-    paragraph_2_luisiana: t("home:our_stories.stories.2.paragraph_2_luisiana"),
-    city_newyork: t("home:our_stories.stories.3.city_newyork"),
-    paragraph_1_newyork: t("home:our_stories.stories.3.paragraph_1_newyork"),
-    paragraph_2_newyork: t("home:our_stories.stories.3.paragraph_2_newyork"),
-    paragraph_1_newyork_2: t("home:our_stories.stories.4.paragraph_1_newyork_2"),
-    paragraph_2_newyork_2: t("home:our_stories.stories.4.paragraph_2_newyork_2"),
-    cta: t("home:our_stories.cta"),
-  }
+  const shortsGalleryTranslations = {
+    section_title: t("home:shorts_gallery.section_title"),
+    title_start: t("home:shorts_gallery.title_start"),
+    title_decorator: t("home:shorts_gallery.title_decorator"),
+    title_end: t("home:shorts_gallery.title_end"),
+    description: t("home:shorts_gallery.description"),
+    cta: t("home:shorts_gallery.cta"),
+    watch_label: t("home:shorts_gallery.watch_label"),
+    videos: [
+      {
+        id: "qDQAN-RIJV8",
+        tag: t("home:shorts_gallery.videos.0.tag"),
+        title: t("home:shorts_gallery.videos.0.title"),
+        subtitle: t("home:shorts_gallery.videos.0.subtitle"),
+      },
+      {
+        id: "q8ri1Vmrmwo",
+        tag: t("home:shorts_gallery.videos.1.tag"),
+        title: t("home:shorts_gallery.videos.1.title"),
+        subtitle: t("home:shorts_gallery.videos.1.subtitle"),
+      },
+      {
+        id: "UVnVEv55UmA",
+        tag: t("home:shorts_gallery.videos.2.tag"),
+        title: t("home:shorts_gallery.videos.2.title"),
+        subtitle: t("home:shorts_gallery.videos.2.subtitle"),
+      },
+    ],
+  };
 
   const DoYouWantToBeTranslations = {
     title: t("home:do_you_want_to_be.title"),
@@ -139,11 +149,74 @@ export default async function Home({ params: { locale } }) {
     contact_text: t("home:book_consultation.contact_text"),
     email_label: t("home:book_consultation.email_label"),
     info_title: t("home:book_consultation.info_title"),
+    studio_name: t("home:book_consultation.studio_name"),
+    address_label: t("home:book_consultation.address_label"),
+    address_value: t("home:book_consultation.address_value"),
+    city_value: t("home:book_consultation.city_value"),
+    hours_label: t("home:book_consultation.hours_label"),
+    hours_value: t("home:book_consultation.hours_value"),
+    phone_value: t("home:book_consultation.phone_value"),
+    email_value: t("home:book_consultation.email_value"),
+    maps_cta: t("home:book_consultation.maps_cta"),
+    maps_url: t("home:book_consultation.maps_url"),
     confirm_phone_form: t("home:book_consultation.confirm_phone_form"),
     error_phone_form: t("home:book_consultation.error_phone_form"),
     confirm_email_form: t("home:book_consultation.confirm_email_form"),
     error_email_form: t("home:book_consultation.error_email_form"),
   }
+
+  const faqTranslations = {
+    section_title: t("home:faq_section.section_title"),
+    title_start: t("home:faq_section.title_start"),
+    title_decorator: t("home:faq_section.title_decorator"),
+    title_end: t("home:faq_section.title_end"),
+    description: t("home:faq_section.description"),
+    more_questions_text: t("home:faq_section.more_questions_text"),
+    cta_whatsapp: t("home:faq_section.cta_whatsapp"),
+    categories: {
+      all: t("home:faq_section.categories.all"),
+      cali: t("home:faq_section.categories.cali"),
+      usa: t("home:faq_section.categories.usa"),
+      sessions: t("home:faq_section.categories.sessions"),
+    },
+    items: [
+      {
+        category: t("home:faq_section.items.0.category"),
+        question: t("home:faq_section.items.0.question"),
+        answer: t("home:faq_section.items.0.answer"),
+      },
+      {
+        category: t("home:faq_section.items.1.category"),
+        question: t("home:faq_section.items.1.question"),
+        answer: t("home:faq_section.items.1.answer"),
+      },
+      {
+        category: t("home:faq_section.items.2.category"),
+        question: t("home:faq_section.items.2.question"),
+        answer: t("home:faq_section.items.2.answer"),
+      },
+      {
+        category: t("home:faq_section.items.3.category"),
+        question: t("home:faq_section.items.3.question"),
+        answer: t("home:faq_section.items.3.answer"),
+      },
+      {
+        category: t("home:faq_section.items.4.category"),
+        question: t("home:faq_section.items.4.question"),
+        answer: t("home:faq_section.items.4.answer"),
+      },
+      {
+        category: t("home:faq_section.items.5.category"),
+        question: t("home:faq_section.items.5.question"),
+        answer: t("home:faq_section.items.5.answer"),
+      },
+      {
+        category: t("home:faq_section.items.6.category"),
+        question: t("home:faq_section.items.6.question"),
+        answer: t("home:faq_section.items.6.answer"),
+      },
+    ],
+  };
 
   return (
     <>
@@ -155,13 +228,14 @@ export default async function Home({ params: { locale } }) {
         <LandingSection translations={landingTranslations} />
         <PortfolioSection translations={portfolioTranslations} locale={locale} ></PortfolioSection>
         <Testimonials></Testimonials>
-         <OurStudio translations={ourStudioTranslations}></OurStudio> 
-        <OurStories translations={OurStoriesTranslations}></OurStories>
+        <OurStudio translations={ourStudioTranslations}></OurStudio> 
+        <ShortsGallery translations={shortsGalleryTranslations}></ShortsGallery>
         <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
         <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">
-          <BookConsult translations={BookConsultTranslations}></BookConsult>
+          <BookConsult translations={BookConsultTranslations} locale={locale}></BookConsult>
         </div>
+        <FaqSection translations={faqTranslations}></FaqSection>
       </TranslationsProvider>
     </>
   );

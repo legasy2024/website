@@ -65,7 +65,7 @@ function generateBlogRewrites() {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com', 'images.unsplash.com'],
+        domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com', 'images.unsplash.com', 'img.youtube.com', 'i.ytimg.com'],
         formats: ['image/avif',  'image/webp']
     },
     async rewrites() {

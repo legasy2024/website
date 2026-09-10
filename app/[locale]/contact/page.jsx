@@ -87,6 +87,16 @@ export default async function Contact({ params: { locale } }) {
     contact_text: t("home:book_consultation.contact_text"),
     email_label: t("home:book_consultation.email_label"),
     info_title: t("home:book_consultation.info_title"),
+    studio_name: t("home:book_consultation.studio_name"),
+    address_label: t("home:book_consultation.address_label"),
+    address_value: t("home:book_consultation.address_value"),
+    city_value: t("home:book_consultation.city_value"),
+    hours_label: t("home:book_consultation.hours_label"),
+    hours_value: t("home:book_consultation.hours_value"),
+    phone_value: t("home:book_consultation.phone_value"),
+    email_value: t("home:book_consultation.email_value"),
+    maps_cta: t("home:book_consultation.maps_cta"),
+    maps_url: t("home:book_consultation.maps_url"),
     confirm_phone_form: t("home:book_consultation.confirm_phone_form"),
     error_phone_form: t("home:book_consultation.error_phone_form"),
     confirm_email_form: t("home:book_consultation.confirm_email_form"),
@@ -104,7 +114,7 @@ export default async function Contact({ params: { locale } }) {
 
         </div>
         <section className="w-full flex flex-col items-center">
-          <BookConsult translations={BookConsultTranslations}></BookConsult>
+          <BookConsult translations={BookConsultTranslations} locale={locale}></BookConsult>
         </section>
       </TranslationsProvider>
     </div>
