@@ -4,7 +4,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import HeroContent from "./HeroContent/HeroContent";
 import "./landing.css";
-import HeroBgImages from "./HeroBgImages/HeroBgImages";
 
 function LandingSection({ translations }) {
   const containerVariants = {
@@ -44,14 +43,6 @@ function LandingSection({ translations }) {
             <div className="absolute top-0 bottom-0 right-0 w-6 sm:w-20 md:w-44 bg-gradient-to-l from-black/50 to-transparent z-10"></div>
           </div>
           <HeroContent translations = {translations} />
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            animate="visible"
-            className=""
-          >
-            <HeroBgImages />
-          </motion.div>
         </motion.div>
       </div>
     </motion.main>

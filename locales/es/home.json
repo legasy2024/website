@@ -151,7 +151,9 @@
             }
         ],
         "more_questions_text": "¿Tienes otra duda o quieres validar tu idea?",
-        "cta_whatsapp": "Consultar por WhatsApp"
+        "more_questions_subtext": "Estamos en línea para responder tus preguntas y darte asesoría sin compromiso.",
+        "cta_whatsapp": "Consultar por WhatsApp",
+        "whatsapp_url": "https://wa.me/3103110611?text=Hola!%20Tengo%20una%20pregunta%20sobre%20los%20tatuajes%20en%20Legassy%20Studio"
     },
     "footer":{
         "terms":"Términos y Condiciones",

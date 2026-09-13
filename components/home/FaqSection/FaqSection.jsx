@@ -217,12 +217,12 @@ export default function FaqSection({ translations }) {
               {translations?.more_questions_text || "¿Tienes otra duda o quieres validar tu idea?"}
             </h4>
             <p className="text-gray-500 text-xs md:text-sm">
-              Estamos en línea para responder tus preguntas y darte asesoría sin compromiso.
+              {translations?.more_questions_subtext || "Estamos en línea para responder tus preguntas y darte asesoría sin compromiso."}
             </p>
           </div>
 
           <a
-            href="https://wa.me/3103110611?text=Hola!%20Tengo%20una%20pregunta%20sobre%20los%20tatuajes%20en%20Legassy%20Studio"
+            href={translations?.whatsapp_url || "https://wa.me/3103110611?text=Hola!%20Tengo%20una%20pregunta%20sobre%20los%20tatuajes%20en%20Legassy%20Studio"}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-TextBlack hover:bg-black text-white font-semibold text-xs md:text-sm transition-all shadow-md hover:shadow-lg"

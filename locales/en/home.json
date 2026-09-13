@@ -150,8 +150,10 @@
                 "answer": "Pricing is based on design complexity, size, placement, and estimated session time. For maximum traveler convenience, we accept international credit and debit cards (Visa, Mastercard, Amex), international wires, local bank transfers, and cash (COP or USD)."
             }
         ],
-        "more_questions_text": "Have another question or want to discuss your concept?",
-        "cta_whatsapp": "Inquire via WhatsApp"
+        "more_questions_text": "Have another question or want to discuss your idea?",
+        "more_questions_subtext": "We're online to answer all your questions and provide free, personalized advice.",
+        "cta_whatsapp": "Chat on WhatsApp",
+        "whatsapp_url": "https://wa.me/3103110611?text=Hi!%20I%20have%20a%20question%20about%20getting%20a%20tattoo%20at%20Legassy%20Studio"
     },
     "footer":{
         "terms":"Terms & Conditions",

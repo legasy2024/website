@@ -2135,6 +2135,222 @@ const blogPostsRegistry = [
     },
     "published": true,
     "order": 332
+  },
+  {
+    "id": "tattoo-coverup-guide",
+    "slugs": {
+      "es": "como-tapar-un-tatuaje-viejo-guia-completa-cover-up",
+      "en": "tattoo-coverup-complete-guide-how-to-cover-old-tattoo"
+    },
+    "image": "/img/blog/coverup-guide.jpg",
+    "date": {
+      "es": "1 de septiembre de 2026",
+      "en": "September 1, 2026"
+    },
+    "label": {
+      "es": "Cover-up",
+      "en": "Cover-up"
+    },
+    "published": true,
+    "order": 333
+  },
+  {
+    "id": "tattoo-prices-cali-cop",
+    "slugs": {
+      "es": "cuanto-cuesta-un-tatuaje-en-cali-precios-2026",
+      "en": "how-much-does-a-tattoo-cost-in-cali-colombia-2026"
+    },
+    "image": "/img/blog/prices-cali.jpg",
+    "date": {
+      "es": "2 de septiembre de 2026",
+      "en": "September 2, 2026"
+    },
+    "label": {
+      "es": "Precios",
+      "en": "Pricing"
+    },
+    "published": true,
+    "order": 334
+  },
+  {
+    "id": "pet-portrait-tattoo-realism",
+    "slugs": {
+      "es": "tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato",
+      "en": "pet-portrait-tattoo-realism-how-to-immortalize-your-dog-or-cat"
+    },
+    "image": "/img/blog/pet-portrait.jpg",
+    "date": {
+      "es": "3 de septiembre de 2026",
+      "en": "September 3, 2026"
+    },
+    "label": {
+      "es": "Realismo",
+      "en": "Realism"
+    },
+    "published": true,
+    "order": 335
+  },
+  {
+    "id": "microrealism-tattoo-guide",
+    "slugs": {
+      "es": "microrealismo-tatuaje-que-es-como-funciona-cuanto-dura",
+      "en": "micro-realism-tattoo-guide-what-it-is-how-it-works"
+    },
+    "image": "/img/blog/microrealism.jpg",
+    "date": {
+      "es": "4 de septiembre de 2026",
+      "en": "September 4, 2026"
+    },
+    "label": {
+      "es": "Técnica",
+      "en": "Technique"
+    },
+    "published": true,
+    "order": 336
+  },
+  {
+    "id": "tattoo-touchup-when-needed",
+    "slugs": {
+      "es": "retoque-de-tatuaje-cuando-es-necesario-y-cuanto-cuesta",
+      "en": "tattoo-touch-up-when-needed-and-how-to-know"
+    },
+    "image": "/img/blog/touchup.jpg",
+    "date": {
+      "es": "5 de septiembre de 2026",
+      "en": "September 5, 2026"
+    },
+    "label": {
+      "es": "Cuidado",
+      "en": "Aftercare"
+    },
+    "published": true,
+    "order": 337
+  },
+  {
+    "id": "coverup-vs-laser-when-to-use",
+    "slugs": {
+      "es": "cover-up-vs-laser-cuando-conviene-aclarar-antes-de-tatuarse",
+      "en": "cover-up-vs-laser-when-to-clarify-before-tattooing-again"
+    },
+    "image": "/img/blog/coverup-laser.jpg",
+    "date": {
+      "es": "6 de septiembre de 2026",
+      "en": "September 6, 2026"
+    },
+    "label": {
+      "es": "Cover-up",
+      "en": "Cover-up"
+    },
+    "published": true,
+    "order": 338
+  },
+  {
+    "id": "tattoo-weight-change-gym",
+    "slugs": {
+      "es": "que-le-pasa-a-un-tatuaje-si-subes-o-bajas-de-peso-o-aumentas-musculo",
+      "en": "what-happens-to-tattoo-weight-change-muscle-gain"
+    },
+    "image": "/img/blog/weight-gym.jpg",
+    "date": {
+      "es": "7 de septiembre de 2026",
+      "en": "September 7, 2026"
+    },
+    "label": {
+      "es": "Curiosidades",
+      "en": "Curiosities"
+    },
+    "published": true,
+    "order": 339
+  },
+  {
+    "id": "tattoo-design-process-reference",
+    "slugs": {
+      "es": "como-pedir-un-tatuaje-original-referencias-pinterest-vs-diseno-propio",
+      "en": "pinterest-vs-original-tattoo-design-how-to-communicate-your-idea"
+    },
+    "image": "/img/blog/design-reference.jpg",
+    "date": {
+      "es": "8 de septiembre de 2026",
+      "en": "September 8, 2026"
+    },
+    "label": {
+      "es": "Proceso",
+      "en": "Process"
+    },
+    "published": true,
+    "order": 340
+  },
+  {
+    "id": "botanical-floral-tattoo-guide",
+    "slugs": {
+      "es": "tatuajes-botanicos-y-florales-guia-zonas-significado-estilos",
+      "en": "botanical-floral-tattoo-guide-styles-areas-meaning"
+    },
+    "image": "/img/blog/botanical-floral.jpg",
+    "date": {
+      "es": "9 de septiembre de 2026",
+      "en": "September 9, 2026"
+    },
+    "label": {
+      "es": "Floral",
+      "en": "Floral"
+    },
+    "published": true,
+    "order": 341
+  },
+  {
+    "id": "tattoo-fingers-hands-durability",
+    "slugs": {
+      "es": "tatuajes-en-dedos-y-manos-durabilidad-realidad-y-alternativas",
+      "en": "finger-hand-tattoos-durability-truth-and-alternatives"
+    },
+    "image": "/img/blog/finger-hand.jpg",
+    "date": {
+      "es": "10 de septiembre de 2026",
+      "en": "September 10, 2026"
+    },
+    "label": {
+      "es": "Durabilidad",
+      "en": "Durability"
+    },
+    "published": true,
+    "order": 342
+  },
+  {
+    "id": "tattoo-pregnancy-breastfeeding",
+    "slugs": {
+      "es": "tatuar-durante-embarazo-o-lactancia-que-dicen-los-expertos",
+      "en": "tattoo-during-pregnancy-breastfeeding-expert-advice"
+    },
+    "image": "/img/blog/pregnancy-tattoo.jpg",
+    "date": {
+      "es": "11 de septiembre de 2026",
+      "en": "September 11, 2026"
+    },
+    "label": {
+      "es": "Salud",
+      "en": "Health"
+    },
+    "published": true,
+    "order": 343
+  },
+  {
+    "id": "legassy-booking-process-guide",
+    "slugs": {
+      "es": "como-agendar-tu-tatuaje-en-legassy-studio-paso-a-paso",
+      "en": "how-to-book-your-tattoo-at-legassy-studio-step-by-step"
+    },
+    "image": "/img/blog/booking-process.jpg",
+    "date": {
+      "es": "12 de septiembre de 2026",
+      "en": "September 12, 2026"
+    },
+    "label": {
+      "es": "Proceso",
+      "en": "Process"
+    },
+    "published": true,
+    "order": 344
   }
 ];
 

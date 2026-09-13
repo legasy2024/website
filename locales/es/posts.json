@@ -5,6 +5,138 @@
   "_note": "Este archivo se genera automáticamente desde el registry centralizado. Para modificar posts, edita content/blog/posts-registry.js y ejecuta: npm run generate:posts",
   "posts": [
     {
+      "label": "Proceso",
+      "slug": "como-agendar-tu-tatuaje-en-legassy-studio-paso-a-paso",
+      "slugEn": "how-to-book-your-tattoo-at-legassy-studio-step-by-step",
+      "title": "Cómo agendar tu tatuaje en Legassy Studio: el proceso completo paso a paso",
+      "description": "¿Nunca has agendado un tatuaje en un estudio de nivel profesional y no sabes qué esperar? O quizás ya tienes experiencia pero quieres saber cómo es el proceso específico en Legassy Studio. En este artículo te explicamos exactamente qué pasa desde que escribes el primer mensaje hasta el día que sales del estudio con tu nueva pieza.",
+      "image": "/img/blog/booking-process.jpg",
+      "date": "12 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "como-agendar-tu-tatuaje-en-legassy-studio-paso-a-paso"
+    },
+    {
+      "label": "Salud",
+      "slug": "tatuar-durante-embarazo-o-lactancia-que-dicen-los-expertos",
+      "slugEn": "tattoo-during-pregnancy-breastfeeding-expert-advice",
+      "title": "¿Puedo tatuarme durante el embarazo o la lactancia? Esto es lo que dicen los expertos",
+      "description": "La pregunta de si es seguro tatuarse durante el embarazo o mientras se está dando el pecho es más frecuente de lo que imaginas. La respuesta corta es no, y en este artículo explicamos exactamente por qué, qué riesgos existen, cuándo es el mejor momento para tatuarse después, y cómo planificar tu proyecto de tatuaje alrededor de esta etapa de vida.",
+      "image": "/img/blog/pregnancy-tattoo.jpg",
+      "date": "11 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuar-durante-embarazo-o-lactancia-que-dicen-los-expertos"
+    },
+    {
+      "label": "Durabilidad",
+      "slug": "tatuajes-en-dedos-y-manos-durabilidad-realidad-y-alternativas",
+      "slugEn": "finger-hand-tattoos-durability-truth-and-alternatives",
+      "title": "Tatuajes en dedos y manos: la verdad sobre por qué se borran rápido y qué esperar realmente",
+      "description": "Los tatuajes en dedos y manos son de los más solicitados y también de los que más rápido se deterioran. Si quieres uno, necesitas saber la verdad antes de decidir: cuánto duran, por qué se borran y qué alternativas existen para conseguir el efecto que buscas con más durabilidad.",
+      "image": "/img/blog/finger-hand.jpg",
+      "date": "10 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-en-dedos-y-manos-durabilidad-realidad-y-alternativas"
+    },
+    {
+      "label": "Floral",
+      "slug": "tatuajes-botanicos-y-florales-guia-zonas-significado-estilos",
+      "slugEn": "botanical-floral-tattoo-guide-styles-areas-meaning",
+      "title": "Tatuajes botánicos y florales: guía de estilos, zonas ideales y significado de cada flor",
+      "description": "Los tatuajes botánicos y florales son una de las categorías más amplias y versátiles del arte del tatuaje. Desde una rosa solitaria en la muñeca hasta una composición floral que recorre todo el brazo, las posibilidades son infinitas. En esta guía te contamos qué estilos funcionan mejor, qué flores eligen más nuestras clientas y en qué zonas del cuerpo fluyen con mayor elegancia.",
+      "image": "/img/blog/botanical-floral.jpg",
+      "date": "9 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-botanicos-y-florales-guia-zonas-significado-estilos"
+    },
+    {
+      "label": "Proceso",
+      "slug": "como-pedir-un-tatuaje-original-referencias-pinterest-vs-diseno-propio",
+      "slugEn": "pinterest-vs-original-tattoo-design-how-to-communicate-your-idea",
+      "title": "Pinterest vs. Diseño Original: Cómo comunicar tu idea al tatuador y por qué no deberías copiar un tatuaje idéntico",
+      "description": "Llegar a tu cita con una referencia de Pinterest o Instagram no es malo. El problema es querer una copia exacta de algo que ya existe. En este artículo te explicamos cómo trabajar con tu artista para que el resultado sea mejor que cualquier cosa que encontraste en internet, y por qué eso también te conviene a ti.",
+      "image": "/img/blog/design-reference.jpg",
+      "date": "8 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "como-pedir-un-tatuaje-original-referencias-pinterest-vs-diseno-propio"
+    },
+    {
+      "label": "Curiosidades",
+      "slug": "que-le-pasa-a-un-tatuaje-si-subes-o-bajas-de-peso-o-aumentas-musculo",
+      "slugEn": "what-happens-to-tattoo-weight-change-muscle-gain",
+      "title": "¿Qué le pasa a tu tatuaje si subes o bajas de peso (o ganas masa muscular en el gym)?",
+      "description": "El miedo a que el tatuaje se deforme si cambias de peso es uno de los más comunes y también de los más sobredimensionados. En este artículo te explicamos con datos reales qué ocurre con los tatuajes cuando el cuerpo cambia, qué es verdad y qué es mito, y cómo elegir la zona correcta si estás en proceso de transformación física.",
+      "image": "/img/blog/weight-gym.jpg",
+      "date": "7 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "que-le-pasa-a-un-tatuaje-si-subes-o-bajas-de-peso-o-aumentas-musculo"
+    },
+    {
+      "label": "Cover-up",
+      "slug": "cover-up-vs-laser-cuando-conviene-aclarar-antes-de-tatuarse",
+      "slugEn": "cover-up-vs-laser-when-to-clarify-before-tattooing-again",
+      "title": "Cover-up vs. Eliminación Láser: ¿Cuándo conviene aclarar con láser antes de volver a tatuar?",
+      "description": "Si tienes un tatuaje que quieres tapar, la decisión entre hacer un cover-up directo o combinar láser + cover-up puede marcar toda la diferencia en el resultado. Aquí te explicamos exactamente cuándo el láser previo es necesario, cuándo no, y cómo tomar esta decisión informado.",
+      "image": "/img/blog/coverup-laser.jpg",
+      "date": "6 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "cover-up-vs-laser-cuando-conviene-aclarar-antes-de-tatuarse"
+    },
+    {
+      "label": "Cuidado",
+      "slug": "retoque-de-tatuaje-cuando-es-necesario-y-cuanto-cuesta",
+      "slugEn": "tattoo-touch-up-when-needed-and-how-to-know",
+      "title": "Retoque de tatuajes (Touch-Up): ¿Cuándo es necesario y cómo saber si tu pieza lo necesita?",
+      "description": "Después de meses o años, muchos tatuajes pierden definición, líneas o saturación. Un retoque bien ejecutado puede devolverle vida a una pieza que lo ha perdido. Aquí te explicamos cuándo es el momento correcto, qué esperar del proceso y cómo cotizarlo.",
+      "image": "/img/blog/touchup.jpg",
+      "date": "5 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "retoque-de-tatuaje-cuando-es-necesario-y-cuanto-cuesta"
+    },
+    {
+      "label": "Técnica",
+      "slug": "microrealismo-tatuaje-que-es-como-funciona-cuanto-dura",
+      "slugEn": "micro-realism-tattoo-guide-what-it-is-how-it-works",
+      "title": "Microrealismo en tatuajes: qué es, cómo se hace y cuánto detalle es posible realmente",
+      "description": "El microrealismo es la técnica de tatuar realismo fotográfico en piezas de tamaño reducido, y es una de las más solicitadas por personas con alto poder adquisitivo que buscan piezas elegantes y discretas. Aquí te explicamos qué es posible, cuáles son sus límites reales y cómo prepararte para esta decisión.",
+      "image": "/img/blog/microrealism.jpg",
+      "date": "4 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "microrealismo-tatuaje-que-es-como-funciona-cuanto-dura"
+    },
+    {
+      "label": "Realismo",
+      "slug": "tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato",
+      "slugEn": "pet-portrait-tattoo-realism-how-to-immortalize-your-dog-or-cat",
+      "title": "Tatuajes de mascotas en realismo: Cómo inmortalizar a tu perro o gato en tu piel",
+      "description": "Tatuar el retrato de tu mascota en realismo es uno de los tatuajes más personales y emocionalmente significativos que existen. También es uno de los más técnicamente exigentes. En esta guía te explicamos cómo elegir la foto correcta, qué esperar del proceso y por qué el artista marca toda la diferencia.",
+      "image": "/img/blog/pet-portrait.jpg",
+      "date": "3 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato"
+    },
+    {
+      "label": "Precios",
+      "slug": "cuanto-cuesta-un-tatuaje-en-cali-precios-2026",
+      "slugEn": "how-much-does-a-tattoo-cost-in-cali-colombia-2026",
+      "title": "¿Cuánto cuesta un tatuaje en Cali? Guía de precios 2026 (COP y USD)",
+      "description": "¿Cuánto cuesta hacerse un tatuaje en Cali en 2026? Los precios varían entre $200.000 y varios millones de pesos según el tamaño, estilo y artista. Aquí te explicamos exactamente en qué se basa el precio, qué incluye y cómo cotizar correctamente en Legassy Studio.",
+      "image": "/img/blog/prices-cali.jpg",
+      "date": "2 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "cuanto-cuesta-un-tatuaje-en-cali-precios-2026"
+    },
+    {
+      "label": "Cover-up",
+      "slug": "como-tapar-un-tatuaje-viejo-guia-completa-cover-up",
+      "slugEn": "tattoo-coverup-complete-guide-how-to-cover-old-tattoo",
+      "title": "Cover-up de tatuajes: Guía definitiva para tapar un tatuaje viejo o mal hecho",
+      "description": "¿Tienes un tatuaje que ya no te representa o que salió mal? Un cover-up bien ejecutado puede convertirlo en una pieza de la que te sientas orgulloso. En esta guía te explicamos exactamente qué funciona, qué no, y cómo prepararte para el proceso en Legassy Studio.",
+      "image": "/img/blog/coverup-guide.jpg",
+      "date": "1 de septiembre de 2026",
+      "cta": "Leer más",
+      "ctaUrl": "como-tapar-un-tatuaje-viejo-guia-completa-cover-up"
+    },
+    {
       "label": "Turismo",
       "slug": "turismo-de-tatuajes-que-es-y-porque-colombia-se-volvio-destino",
       "slugEn": "tattoo-tourism-why-colombia-became-a-top-destination",

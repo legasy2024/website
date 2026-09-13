@@ -11,8 +11,6 @@ const PortfolioSection = dynamic(() => import("@/components/home/PortfolioSectio
 const Testimonials = dynamic(() => import("@/components/home/Testimonials/Testimonials"));
 const OurStudio = dynamic(() => import("@/components/home/OurStudio/OurStudio"));
 const ShortsGallery = dynamic(() => import("@/components/home/ShortsGallery/ShortsGallery"));
-const DoYouWantToBe = dynamic(() => import("@/components/home/DoYouWantToBe/DoYouWantToBe"));
-const DoYouWantToWork = dynamic(() => import("@/components/common/DoYouWantToWork/DoYouWantToWork"));
 const BookConsult = dynamic(() => import("@/components/common/BookConsult/BookConsult"));
 const FaqSection = dynamic(() => import("@/components/home/FaqSection/FaqSection"));
 
@@ -124,22 +122,6 @@ export default async function Home({ params: { locale } }) {
     ],
   };
 
-  const DoYouWantToBeTranslations = {
-    title: t("home:do_you_want_to_be.title"),
-    title_decorator: t("home:do_you_want_to_be.title_decorator"),
-    tag1: t("home:do_you_want_to_be.tags.tag_1"),
-    tag2: t("home:do_you_want_to_be.tags.tag_2"),
-    tag3: t("home:do_you_want_to_be.tags.tag_3"),
-    cta_label: t("home:do_you_want_to_be.cta_label"),
-    cta: t("home:do_you_want_to_be.cta"),
-  }
-
-  const DoYouWantToWorkTranslations = {
-    title: t("home:do_you_want_to_work.title"),
-    paragraph: t("home:do_you_want_to_work.paragraph"),
-    cta: t("home:do_you_want_to_work.cta"),
-  }
-
   const BookConsultTranslations = {
     section_title: t("home:book_consultation.section_title"),
     title: t("home:book_consultation.title"),
@@ -163,7 +145,7 @@ export default async function Home({ params: { locale } }) {
     error_phone_form: t("home:book_consultation.error_phone_form"),
     confirm_email_form: t("home:book_consultation.confirm_email_form"),
     error_email_form: t("home:book_consultation.error_email_form"),
-  }
+  };
 
   const faqTranslations = {
     section_title: t("home:faq_section.section_title"),
@@ -172,7 +154,9 @@ export default async function Home({ params: { locale } }) {
     title_end: t("home:faq_section.title_end"),
     description: t("home:faq_section.description"),
     more_questions_text: t("home:faq_section.more_questions_text"),
+    more_questions_subtext: t("home:faq_section.more_questions_subtext"),
     cta_whatsapp: t("home:faq_section.cta_whatsapp"),
+    whatsapp_url: t("home:faq_section.whatsapp_url"),
     categories: {
       all: t("home:faq_section.categories.all"),
       cali: t("home:faq_section.categories.cali"),
@@ -230,8 +214,6 @@ export default async function Home({ params: { locale } }) {
         <Testimonials></Testimonials>
         <OurStudio translations={ourStudioTranslations}></OurStudio> 
         <ShortsGallery translations={shortsGalleryTranslations}></ShortsGallery>
-        <DoYouWantToBe translations={DoYouWantToBeTranslations}></DoYouWantToBe>
-        <DoYouWantToWork translations={DoYouWantToWorkTranslations}></DoYouWantToWork>
         <div className="flex flex-col items-center w-full">
           <BookConsult translations={BookConsultTranslations} locale={locale}></BookConsult>
         </div>
