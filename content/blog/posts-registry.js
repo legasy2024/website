@@ -2155,24 +2155,6 @@ const blogPostsRegistry = [
     "order": 333
   },
   {
-    "id": "tattoo-prices-cali-cop",
-    "slugs": {
-      "es": "cuanto-cuesta-un-tatuaje-en-cali-precios-2026",
-      "en": "how-much-does-a-tattoo-cost-in-cali-colombia-2026"
-    },
-    "image": "/img/blog/prices-cali.jpg",
-    "date": {
-      "es": "2 de septiembre de 2026",
-      "en": "September 2, 2026"
-    },
-    "label": {
-      "es": "Precios",
-      "en": "Pricing"
-    },
-    "published": true,
-    "order": 334
-  },
-  {
     "id": "pet-portrait-tattoo-realism",
     "slugs": {
       "es": "tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato",
@@ -2333,24 +2315,6 @@ const blogPostsRegistry = [
     },
     "published": true,
     "order": 343
-  },
-  {
-    "id": "legassy-booking-process-guide",
-    "slugs": {
-      "es": "como-agendar-tu-tatuaje-en-legassy-studio-paso-a-paso",
-      "en": "how-to-book-your-tattoo-at-legassy-studio-step-by-step"
-    },
-    "image": "/img/blog/booking-process.jpg",
-    "date": {
-      "es": "12 de septiembre de 2026",
-      "en": "September 12, 2026"
-    },
-    "label": {
-      "es": "Proceso",
-      "en": "Process"
-    },
-    "published": true,
-    "order": 344
   }
 ];
 

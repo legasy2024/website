@@ -5,17 +5,6 @@
   "_note": "Este archivo se genera automáticamente desde el registry centralizado. Para modificar posts, edita content/blog/posts-registry.js y ejecuta: npm run generate:posts",
   "posts": [
     {
-      "label": "Proceso",
-      "slug": "como-agendar-tu-tatuaje-en-legassy-studio-paso-a-paso",
-      "slugEn": "how-to-book-your-tattoo-at-legassy-studio-step-by-step",
-      "title": "Cómo agendar tu tatuaje en Legassy Studio: el proceso completo paso a paso",
-      "description": "¿Nunca has agendado un tatuaje en un estudio de nivel profesional y no sabes qué esperar? O quizás ya tienes experiencia pero quieres saber cómo es el proceso específico en Legassy Studio. En este artículo te explicamos exactamente qué pasa desde que escribes el primer mensaje hasta el día que sales del estudio con tu nueva pieza.",
-      "image": "/img/blog/booking-process.jpg",
-      "date": "12 de septiembre de 2026",
-      "cta": "Leer más",
-      "ctaUrl": "como-agendar-tu-tatuaje-en-legassy-studio-paso-a-paso"
-    },
-    {
       "label": "Salud",
       "slug": "tatuar-durante-embarazo-o-lactancia-que-dicen-los-expertos",
       "slugEn": "tattoo-during-pregnancy-breastfeeding-expert-advice",
@@ -113,17 +102,6 @@
       "date": "3 de septiembre de 2026",
       "cta": "Leer más",
       "ctaUrl": "tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato"
-    },
-    {
-      "label": "Precios",
-      "slug": "cuanto-cuesta-un-tatuaje-en-cali-precios-2026",
-      "slugEn": "how-much-does-a-tattoo-cost-in-cali-colombia-2026",
-      "title": "¿Cuánto cuesta un tatuaje en Cali? Guía de precios 2026 (COP y USD)",
-      "description": "¿Cuánto cuesta hacerse un tatuaje en Cali en 2026? Los precios varían entre $200.000 y varios millones de pesos según el tamaño, estilo y artista. Aquí te explicamos exactamente en qué se basa el precio, qué incluye y cómo cotizar correctamente en Legassy Studio.",
-      "image": "/img/blog/prices-cali.jpg",
-      "date": "2 de septiembre de 2026",
-      "cta": "Leer más",
-      "ctaUrl": "cuanto-cuesta-un-tatuaje-en-cali-precios-2026"
     },
     {
       "label": "Cover-up",

@@ -66,6 +66,10 @@ export async function generateMetadata({ params: { locale, slug } }) {
     const postMetadata = getPostBySlug(slug, locale);
     const otherSlug = postMetadata ? postMetadata.slugs[otherLocale] : null;
 
+    const imageUrl = post.image?.startsWith('http') 
+      ? post.image 
+      : `https://www.legassystudio.com${post.image || '/img/blog/coverup-guide.jpg'}`;
+
     return {
       title: seo.title,
       description: seo.description,
@@ -83,6 +87,28 @@ export async function generateMetadata({ params: { locale, slug } }) {
             ? `/${locale}/blog/${slug}`
             : (otherSlug ? `/en/blog/${otherSlug}` : `/${locale}/blog/${slug}`)
         }
+      },
+      openGraph: {
+        title: seo.title,
+        description: seo.description,
+        url: seo.canonical || `https://www.legassystudio.com/${locale}/blog/${slug}`,
+        siteName: 'Legassy Studio',
+        images: [
+          {
+            url: imageUrl,
+            width: 1376,
+            height: 768,
+            alt: seo.title,
+          }
+        ],
+        locale: locale === 'es' ? 'es_CO' : 'en_US',
+        type: 'article',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: seo.title,
+        description: seo.description,
+        images: [imageUrl],
       }
     };
   } catch (error) {
