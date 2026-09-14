@@ -28,6 +28,7 @@ const BlogCard = ({ post, locale }) => {
             src={post.image}
             alt={post.title}
             fill
+            unoptimized
             className="object-cover"
             sizes="(max-width: 640px) 100vw, 40vw"
           />

@@ -53,6 +53,7 @@ export default function BlogArticle({ content, locale }) {
               alt={title}
               loading="lazy"
               fill
+              unoptimized
               className="object-cover rounded-md"
               sizes="100vw"
             />
@@ -86,6 +87,7 @@ export default function BlogArticle({ content, locale }) {
                       alt={item.alt || item.title || `Referencia de tatuaje ${index + 1}`}
                       loading="lazy"
                       fill
+                      unoptimized
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
