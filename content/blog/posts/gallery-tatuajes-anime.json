@@ -10,8 +10,8 @@
       "hideHeroImage": true,
       "excerpt": "Los tatuajes de anime llevan personajes, escenas o símbolos de series y manga a la piel—a menudo con contorno definido y color saturado en ojos, cabello o fondos. Funcionan en antebrazo, brazo, muslo o pierna según el tamaño del personaje. Esta galería reúne piezas reales del…",
       "seo": {
-        "title": "Tatuajes de anime: personajes y escenas a color - Legassy Studio",
-        "description": "Los tatuajes de anime llevan personajes, escenas o símbolos de series y manga a la piel—a menudo con contorno definido y color saturado en ojos, cabello o fondos. Funcionan en antebrazo, brazo, muslo o pierna según el tamaño del personaje. Esta galería reúne piezas reales del portafolio anime…",
+        "title": "Tatuajes de anime: personajes y escenas a color",
+        "description": "Tatuajes de anime: personajes y escenas con contorno definido y color saturado. Galería de piezas reales en Cali para elegir estilo y zona.",
         "keywords": [
           "tatuajes de anime",
           "tatuaje anime",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-de-anime-galeria"
       },
-      "contentHtml": "<p>Los <strong>tatuajes de anime</strong> llevan personajes, escenas o símbolos de series y manga a la piel—a menudo con contorno definido y color saturado en ojos, cabello o fondos. Funcionan en antebrazo, brazo, muslo o pierna según el tamaño del personaje.</p><p>Esta galería reúne piezas reales del portafolio anime: compara estilo, paleta y escala antes de traer tu referencia favorita.</p>",
+      "contentHtml": "<p>Los <strong>tatuajes de anime</strong> llevan personajes, escenas o símbolos de series y manga a la piel—a menudo con contorno definido y color saturado en ojos, cabello o fondos. Funcionan en antebrazo, brazo, muslo o pierna según el tamaño del personaje.</p><p>Esta galería reúne piezas reales del portafolio anime: compara estilo, paleta y escala antes de traer tu referencia favorita.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-con-retratos-galeria\">Tatuajes con retratos: personas, mascotas y personajes</a></li><li><a href=\"/es/blog/tatuajes-a-color-galeria\">Tatuajes a color: saturación y acentos vivos</a></li><li><a href=\"/es/blog/tatuajes-neo-tradicional-galeria\">Tatuajes neo tradicional: color, contorno y volumen</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Anime del portafolio",
         "description": "Personajes y escenas con color y línea clara.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿En qué zona queda mejor un tatuaje de anime?",
+          "a": "Antebrazo, brazo, muslo o pierna, según el tamaño del personaje. Los personajes de cuerpo entero necesitan más espacio."
+        },
+        {
+          "q": "¿Los tatuajes de anime a color se desvanecen?",
+          "a": "El color se mantiene bien con buena saturación y protección solar constante; el contorno definido ayuda a conservar la lectura."
+        },
+        {
+          "q": "¿Puedo llevar una captura de la serie como referencia?",
+          "a": "Sí. El artista adapta la imagen a la piel, ajustando proporciones y paleta para que el tatuaje funcione con los años."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "anime-tattoos-gallery-inspiration",
@@ -87,7 +102,7 @@
       "excerpt": "Anime tattoos bring characters, scenes or symbols from series and manga to skin—often with defined outlines and saturated color in eyes, hair or backgrounds. They fit forearm, arm, thigh or leg depending on character scale. This gallery gathers real anime portfolio work—compare…",
       "seo": {
         "title": "Anime tattoos: characters and color scenes - Legassy Studio",
-        "description": "Anime tattoos bring characters, scenes or symbols from series and manga to skin—often with defined outlines and saturated color in eyes, hair or backgrounds. They fit forearm, arm, thigh or leg depending on character scale. This gallery gathers real anime portfolio work—compare style, palette and…",
+        "description": "Anime tattoos: characters and scenes with clean outlines and saturated color. A gallery of real pieces from Cali to choose style and placement.",
         "keywords": [
           "anime tattoos",
           "anime tattoo",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/anime-tattoos-gallery-inspiration"
       },
-      "contentHtml": "<p><strong>Anime tattoos</strong> bring characters, scenes or symbols from series and manga to skin—often with defined outlines and saturated color in eyes, hair or backgrounds. They fit forearm, arm, thigh or leg depending on character scale.</p><p>This gallery gathers real anime portfolio work—compare style, palette and scale before bringing your favorite reference.</p>",
+      "contentHtml": "<p><strong>Anime tattoos</strong> bring characters, scenes or symbols from series and manga to skin—often with defined outlines and saturated color in eyes, hair or backgrounds. They fit forearm, arm, thigh or leg depending on character scale.</p><p>This gallery gathers real anime portfolio work—compare style, palette and scale before bringing your favorite reference.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/portrait-tattoos-gallery-inspiration\">Portrait tattoos: people, pets and characters</a></li><li><a href=\"/en/blog/color-tattoos-gallery-inspiration\">Color tattoos: saturation and vivid accents</a></li><li><a href=\"/en/blog/neo-traditional-tattoos-gallery\">Neo-traditional tattoos: color, outline and volume</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Portfolio anime",
         "description": "Characters and scenes with color and clear line.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "Where does an anime tattoo look best?",
+          "a": "Forearm, arm, thigh or leg, depending on character size. Full-body characters need more room."
+        },
+        {
+          "q": "Do color anime tattoos fade?",
+          "a": "Color holds well with good saturation and consistent sun protection; clean outlines help keep the design readable."
+        },
+        {
+          "q": "Can I bring a screenshot from the series as a reference?",
+          "a": "Yes. The artist adapts the image to skin, adjusting proportions and palette so the tattoo works long term."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

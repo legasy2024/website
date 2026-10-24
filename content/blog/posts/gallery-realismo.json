@@ -10,8 +10,8 @@
       "hideHeroImage": true,
       "excerpt": "El realismo busca que el tatuaje se lea como una imagen fotográfica o pictórica en piel: retratos, animales, escenas religiosas o mitológicas con proporción, volumen y transiciones suaves entre luces y sombras. Estas piezas del portafolio muestran distintos formatos—antebrazo…",
       "seo": {
-        "title": "Tatuajes realismo: retratos y figuras con detalle - Legassy Studio",
-        "description": "El realismo busca que el tatuaje se lea como una imagen fotográfica o pictórica en piel: retratos, animales, escenas religiosas o mitológicas con proporción, volumen y transiciones suaves entre luces y sombras. Estas piezas del portafolio muestran distintos formatos—antebrazo, pierna, manga—para…",
+        "title": "Tatuajes realismo: retratos y figuras con detalle",
+        "description": "Tatuajes realismo: retratos, animales y escenas con volumen y transiciones suaves. Compara detalle y escala en antebrazo, pierna y manga.",
         "keywords": [
           "tatuajes realismo",
           "tatuaje realista",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-realismo-galeria"
       },
-      "contentHtml": "<p>El <strong>realismo</strong> busca que el tatuaje se lea como una imagen fotográfica o pictórica en piel: retratos, animales, escenas religiosas o mitológicas con proporción, volumen y transiciones suaves entre luces y sombras.</p><p>Estas piezas del portafolio muestran distintos formatos—antebrazo, pierna, manga—para que compares nivel de detalle y escala antes de planear sesiones.</p>",
+      "contentHtml": "<p>El <strong>realismo</strong> busca que el tatuaje se lea como una imagen fotográfica o pictórica en piel: retratos, animales, escenas religiosas o mitológicas con proporción, volumen y transiciones suaves entre luces y sombras.</p><p>Estas piezas del portafolio muestran distintos formatos—antebrazo, pierna, manga—para que compares nivel de detalle y escala antes de planear sesiones.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-retratos-black-grey-galeria\">Tatuajes de retratos en black & grey: la técnica más exigente del realismo</a></li><li><a href=\"/es/blog/tatuajes-mujer-nativa-americana-galeria\">Tatuajes de mujer nativa americana: retratos con tocado y animal totem</a></li><li><a href=\"/es/blog/tatuajes-con-retratos-galeria\">Tatuajes con retratos: personas, mascotas y personajes</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Realismo del portafolio",
         "description": "Retratos, animales y narrativas en negro y gris o color.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Qué tamaño necesita un tatuaje realista?",
+          "a": "El realismo necesita espacio para el detalle: los retratos y figuras suelen funcionar mejor a partir de un tamaño medio, en antebrazo, pierna o manga."
+        },
+        {
+          "q": "¿Cuántas sesiones requiere un tatuaje de realismo?",
+          "a": "Depende del tamaño y el detalle. Una pieza mediana puede hacerse en una sesión larga; mangas y piezas grandes requieren varias."
+        },
+        {
+          "q": "¿Qué foto debo llevar para un tatuaje realista?",
+          "a": "Una imagen nítida, con buena luz y contraste, y en alta resolución. El artista la adaptará a la piel y a la zona elegida."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "realism-tattoos-gallery-inspiration",
@@ -86,8 +101,8 @@
       "hideHeroImage": true,
       "excerpt": "Realism aims for a photographic or painterly read on skin—portraits, animals, religious or myth scenes with proportion, volume and smooth light-to-shadow transitions. These portfolio pieces span forearm, leg and full sleeve formats so you can compare detail level and scale…",
       "seo": {
-        "title": "Realism tattoos: portraits and detailed figures - Legassy Studio",
-        "description": "Realism aims for a photographic or painterly read on skin—portraits, animals, religious or myth scenes with proportion, volume and smooth light-to-shadow transitions. These portfolio pieces span forearm, leg and full sleeve formats so you can compare detail level and scale before planning sessions.",
+        "title": "Realism tattoos: portraits and detailed figures",
+        "description": "Realism tattoos: portraits, animals and scenes with volume and smooth light-to-shadow transitions. Compare detail and scale by placement.",
         "keywords": [
           "realism tattoos",
           "realistic tattoo",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/realism-tattoos-gallery-inspiration"
       },
-      "contentHtml": "<p><strong>Realism</strong> aims for a photographic or painterly read on skin—portraits, animals, religious or myth scenes with proportion, volume and smooth light-to-shadow transitions.</p><p>These portfolio pieces span forearm, leg and full sleeve formats so you can compare detail level and scale before planning sessions.</p>",
+      "contentHtml": "<p><strong>Realism</strong> aims for a photographic or painterly read on skin—portraits, animals, religious or myth scenes with proportion, volume and smooth light-to-shadow transitions.</p><p>These portfolio pieces span forearm, leg and full sleeve formats so you can compare detail level and scale before planning sessions.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/native-american-woman-tattoos-gallery\">Native American woman tattoos: portraits with headdress and totem animal</a></li><li><a href=\"/en/blog/portrait-tattoos-black-grey-gallery\">Portrait tattoos in black & grey: the most demanding realism technique</a></li><li><a href=\"/en/blog/portrait-tattoos-gallery-inspiration\">Portrait tattoos: people, pets and characters</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Portfolio realism",
         "description": "Portraits, animals and narratives in black and grey or color.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "How big does a realism tattoo need to be?",
+          "a": "Realism needs room for detail: portraits and figures usually work best from medium size up, on forearm, leg or sleeve."
+        },
+        {
+          "q": "How many sessions does a realism tattoo take?",
+          "a": "It depends on size and detail. A medium piece can be done in one long session; sleeves and large pieces need several."
+        },
+        {
+          "q": "What photo should I bring for a realism tattoo?",
+          "a": "A sharp, high-resolution image with good light and contrast. The artist will adapt it to your skin and placement."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

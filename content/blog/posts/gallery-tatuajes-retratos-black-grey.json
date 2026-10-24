@@ -10,7 +10,7 @@
       "hideHeroImage": true,
       "excerpt": "Los retratos son el mayor desafío técnico del realismo: capturar la identidad de un rostro —con sus sombras sutiles, la profundidad de los ojos y la textura de la piel— en tinta permanente requiere años de práctica y dominio absoluto de la escala de grises. Esta galería muestra retratos reales del portafolio.",
       "seo": {
-        "title": "Tatuajes de retratos en realismo black & grey - Legassy Studio",
+        "title": "Tatuajes de retratos en realismo black & grey",
         "description": "Galería de tatuajes de retratos en black & grey: rostros femeninos, figuras históricas y personajes en realismo fotográfico. Portafolio de Legassy Studio Cali.",
         "keywords": [
           "tatuajes retratos realismo",
@@ -20,7 +20,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-retratos-black-grey-galeria"
       },
-      "contentHtml": "<p>Los <strong>retratos</strong> son el mayor desafío técnico del realismo: capturar la identidad de un rostro —con sus sombras sutiles, la profundidad de los ojos y la textura de la piel— en tinta permanente requiere años de práctica y dominio absoluto de la escala de grises.</p><p>A diferencia de los tatuajes de animales, donde una pequeña imprecisión pasa desapercibida, en los retratos el ojo humano detecta inmediatamente cualquier desproporción o falta de detalle. Por eso los mejores artistas de realismo miden sus avances precisamente en la calidad de sus retratos. Esta galería muestra rostros reales del portafolio: compara detalle, expresión y fidelidad.</p>",
+      "contentHtml": "<p>Los <strong>retratos</strong> son el mayor desafío técnico del realismo: capturar la identidad de un rostro —con sus sombras sutiles, la profundidad de los ojos y la textura de la piel— en tinta permanente requiere años de práctica y dominio absoluto de la escala de grises.</p><p>A diferencia de los tatuajes de animales, donde una pequeña imprecisión pasa desapercibida, en los retratos el ojo humano detecta inmediatamente cualquier desproporción o falta de detalle. Por eso los mejores artistas de realismo miden sus avances precisamente en la calidad de sus retratos. Esta galería muestra rostros reales del portafolio: compara detalle, expresión y fidelidad.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-realismo-black-grey-galeria\">Tatuajes realismo black & grey: la técnica que parece fotografía</a></li><li><a href=\"/es/blog/tatuajes-mujer-nativa-americana-galeria\">Tatuajes de mujer nativa americana: retratos con tocado y animal totem</a></li><li><a href=\"/es/blog/tatuajes-lobo-black-grey-galeria\">Tatuajes de lobo en realismo black & grey: el alfa de la naturaleza en tu piel</a></li><li><a href=\"/es/blog/tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato\">Tatuajes de mascotas en realismo: Cómo inmortalizar a tu perro o gato en tu piel</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Retratos black & grey del portafolio",
         "description": "Rostros y personajes en realismo fotográfico black & grey.",
@@ -77,7 +77,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Por qué los retratos son lo más difícil del realismo?",
+          "a": "Porque cualquier pequeña desviación en proporciones, ojos o sombras cambia la identidad del rostro. Requiere años de práctica y dominio de la escala de grises."
+        },
+        {
+          "q": "¿Qué foto necesito para un tatuaje de retrato?",
+          "a": "Una foto nítida, de alta resolución, con luz definida y el rostro bien visible. Las fotos borrosas o muy oscuras limitan el resultado."
+        },
+        {
+          "q": "¿Qué tamaño necesita un retrato en black & grey?",
+          "a": "Un tamaño medio o grande para que los rasgos se mantengan legibles con los años; los retratos muy pequeños pierden detalle al envejecer."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "portrait-tattoos-black-grey-gallery",
@@ -97,7 +112,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/portrait-tattoos-black-grey-gallery"
       },
-      "contentHtml": "<p><strong>Portraits</strong> are the greatest technical challenge of realism: capturing the identity of a face—with its subtle shadows, the depth of the eyes and skin texture—in permanent ink requires years of practice and absolute mastery of the greyscale.</p><p>Unlike animal tattoos, where a small imprecision goes unnoticed, in portraits the human eye immediately detects any disproportion or lack of detail. That's why the best realism artists measure their progress precisely in the quality of their portraits. This gallery shows real faces from the portfolio—compare detail, expression and fidelity.</p>",
+      "contentHtml": "<p><strong>Portraits</strong> are the greatest technical challenge of realism: capturing the identity of a face—with its subtle shadows, the depth of the eyes and skin texture—in permanent ink requires years of practice and absolute mastery of the greyscale.</p><p>Unlike animal tattoos, where a small imprecision goes unnoticed, in portraits the human eye immediately detects any disproportion or lack of detail. That's why the best realism artists measure their progress precisely in the quality of their portraits. This gallery shows real faces from the portfolio—compare detail, expression and fidelity.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/black-grey-realism-tattoos-gallery\">Black & grey realism tattoos: the technique that looks like a photograph</a></li><li><a href=\"/en/blog/wolf-black-grey-tattoos-gallery\">Wolf tattoos in black & grey realism: the alpha of nature on your skin</a></li><li><a href=\"/en/blog/native-american-woman-tattoos-gallery\">Native American woman tattoos: portraits with headdress and totem animal</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Black & grey portrait portfolio",
         "description": "Faces and characters in photographic black & grey realism.",
@@ -154,7 +169,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "Why are portraits the hardest part of realism?",
+          "a": "Any small deviation in proportions, eyes or shadows changes the face's identity. It takes years of practice and full command of the grey scale."
+        },
+        {
+          "q": "What photo do I need for a portrait tattoo?",
+          "a": "A sharp, high-resolution photo with defined lighting and the face clearly visible. Blurry or very dark photos limit the result."
+        },
+        {
+          "q": "How big should a black and grey portrait be?",
+          "a": "Medium or large so features stay readable over the years; very small portraits lose detail as they age."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

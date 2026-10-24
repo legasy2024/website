@@ -11,7 +11,7 @@
       "excerpt": "La mano y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo. Incluimos también…",
       "seo": {
         "title": "Tatuajes en la mano: lettering y símbolos - Legassy Studio",
-        "description": "La mano y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo. Incluimos también antebrazo y muñeca…",
+        "description": "Tatuajes en la mano: palabras cortas, símbolos mínimos y microdetalle. Mira piezas reales y qué esperar de su duración en esta zona.",
         "keywords": [
           "tatuajes en la mano",
           "ideas tatuaje mano",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-en-la-mano-galeria"
       },
-      "contentHtml": "<p>La <strong>mano</strong> y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo.</p><p>Incluimos también antebrazo y muñeca cuando el diseño forma parte de la misma lectura visual que la mano.</p>",
+      "contentHtml": "<p>La <strong>mano</strong> y la base del pulgar son zonas de alta exposición: suelen usarse palabras cortas, símbolos mínimos o microdetalle que se lea de un vistazo. La piel aquí se renueva rápido, así que el trazo fino requiere buen cuidado y, a veces, retoques con el tiempo.</p><p>Incluimos también antebrazo y muñeca cuando el diseño forma parte de la misma lectura visual que la mano.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-en-el-brazo-para-hombres\">Tatuajes en el brazo para hombres</a></li><li><a href=\"/es/blog/tatuajes-en-la-pierna-galeria\">Tatuajes en la pierna: muslo, espinilla y tobillo</a></li><li><a href=\"/es/blog/tatuajes-para-mujer-en-la-muneca-galeria\">Tatuajes para mujer en la muñeca: palabras y símbolos</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Mano y zonas contiguas",
         "description": "Manos, muñeca y antebrazo en algunas referencias.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Cuánto duran los tatuajes en la mano?",
+          "a": "Menos que en otras zonas: la piel de la mano se renueva rápido y sufre mucho roce, así que los trazos finos suelen necesitar retoques con el tiempo."
+        },
+        {
+          "q": "¿Qué diseños funcionan en la mano?",
+          "a": "Palabras cortas, símbolos mínimos y microdetalle que se lea de un vistazo."
+        },
+        {
+          "q": "¿Duele tatuarse la mano?",
+          "a": "Es una zona sensible por la cercanía al hueso y la cantidad de terminaciones nerviosas, especialmente en dedos y nudillos."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "hand-tattoos-gallery-inspiration",
@@ -87,7 +102,7 @@
       "excerpt": "The hand and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups. We also include forearm or wrist when the design reads together with…",
       "seo": {
         "title": "Hand tattoos: lettering and symbols - Legassy Studio",
-        "description": "The hand and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups. We also include forearm or wrist when the design reads together with the hand.",
+        "description": "Hand tattoos: short words, minimal symbols and micro detail that read at a glance. See real pieces and what to expect from fading on hands.",
         "keywords": [
           "hand tattoos",
           "hand tattoo ideas",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/hand-tattoos-gallery-inspiration"
       },
-      "contentHtml": "<p>The <strong>hand</strong> and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups.</p><p>We also include forearm or wrist when the design reads together with the hand.</p>",
+      "contentHtml": "<p>The <strong>hand</strong> and thenar area are high-visibility spots—short words, minimal symbols or micro detail that reads at a glance. Skin here turns over quickly, so fine line needs solid aftercare and sometimes touch-ups.</p><p>We also include forearm or wrist when the design reads together with the hand.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/back-tattoos-gallery-inspiration\">Back tattoos: large pieces and upper back</a></li><li><a href=\"/en/blog/leg-tattoos-gallery-inspiration\">Leg tattoos: thigh, shin and ankle</a></li><li><a href=\"/en/blog/womens-wrist-tattoos-gallery-inspiration\">Women's wrist tattoos: words and symbols</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Hands and adjacent areas",
         "description": "Hands, wrist and forearm in some references.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "How long do hand tattoos last?",
+          "a": "Less than in other areas: hand skin renews quickly and gets a lot of friction, so fine lines often need touch-ups over time."
+        },
+        {
+          "q": "Which designs work on the hand?",
+          "a": "Short words, minimal symbols and micro detail that reads at a glance."
+        },
+        {
+          "q": "Does a hand tattoo hurt?",
+          "a": "It's a sensitive area due to bone proximity and nerve endings, especially on fingers and knuckles."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

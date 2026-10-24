@@ -10,8 +10,8 @@
       "hideHeroImage": true,
       "excerpt": "El neo tradicional mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados. En el portafolio verás piezas ilustrativas y con…",
       "seo": {
-        "title": "Tatuajes neo tradicional: color, contorno y volumen - Legassy Studio",
-        "description": "El neo tradicional mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados. En el portafolio verás piezas ilustrativas y con color que se acercan a…",
+        "title": "Tatuajes neo tradicional: color, contorno y volumen",
+        "description": "Tatuajes neo tradicional: contornos definidos, color saturado y volumen. Galería de piezas reales del estudio en Cali con flores y animales.",
         "keywords": [
           "tatuajes neo tradicional",
           "neo tradicional tatuaje",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-neo-tradicional-galeria"
       },
-      "contentHtml": "<p>El <strong>neo tradicional</strong> mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados.</p><p>En el portafolio verás piezas ilustrativas y con color que se acercan a esa estética; cada foto indica zona y nivel de saturación para que compares antes de tu sesión.</p>",
+      "contentHtml": "<p>El <strong>neo tradicional</strong> mezcla la lectura clara del tradicional (contornos definidos, paleta saturada, composición legible) con más detalle, sombras suaves y temáticas actuales: flores, animales, personajes y retratos estilizados.</p><p>En el portafolio verás piezas ilustrativas y con color que se acercan a esa estética; cada foto indica zona y nivel de saturación para que compares antes de tu sesión.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-de-anime-galeria\">Tatuajes de anime: personajes y escenas a color</a></li><li><a href=\"/es/blog/tatuajes-a-color-galeria\">Tatuajes a color: saturación y acentos vivos</a></li><li><a href=\"/es/blog/tatuajes-para-mujer-en-el-brazo-galeria\">Tatuajes para mujer en el brazo: línea fina y color</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Neo trad: color e ilustración",
         "description": "Contornos claros, relleno y acentos de color.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Qué diferencia hay entre tradicional y neo tradicional?",
+          "a": "El neo tradicional conserva los contornos definidos y la paleta saturada del tradicional, pero suma más detalle, sombras suaves y temáticas actuales."
+        },
+        {
+          "q": "¿El neo tradicional dura bien con los años?",
+          "a": "Sí. Sus contornos marcados y colores sólidos lo hacen uno de los estilos que mejor mantienen la lectura a largo plazo."
+        },
+        {
+          "q": "¿Qué diseños funcionan en neo tradicional?",
+          "a": "Flores, animales, personajes y retratos estilizados con color."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "neo-traditional-tattoos-gallery",
@@ -86,8 +101,8 @@
       "hideHeroImage": true,
       "excerpt": "Neo-traditional blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits. These portfolio pieces lean illustrative and color-forward; each photo…",
       "seo": {
-        "title": "Neo-traditional tattoos: color, outline and volume - Legassy Studio",
-        "description": "Neo-traditional blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits. These portfolio pieces lean illustrative and color-forward; each photo notes placement and…",
+        "title": "Neo-traditional tattoos: color, outline and volume",
+        "description": "Neo traditional tattoos: bold outlines, saturated color and volume. A gallery of real studio pieces in Cali with florals, animals and characters.",
         "keywords": [
           "neo traditional tattoos",
           "neo trad tattoo",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/neo-traditional-tattoos-gallery"
       },
-      "contentHtml": "<p><strong>Neo-traditional</strong> blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits.</p><p>These portfolio pieces lean illustrative and color-forward; each photo notes placement and saturation so you can compare before your session.</p>",
+      "contentHtml": "<p><strong>Neo-traditional</strong> blends old-school readability—defined outlines, saturated palette, clear composition—with more detail, soft shading and current themes: florals, animals, characters and stylized portraits.</p><p>These portfolio pieces lean illustrative and color-forward; each photo notes placement and saturation so you can compare before your session.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/womens-arm-tattoos-gallery-inspiration\">Women's arm tattoos: fine line and color</a></li><li><a href=\"/en/blog/couple-tattoos-gallery-inspiration\">Couple tattoos: matching art and promises</a></li><li><a href=\"/en/blog/color-tattoos-gallery-inspiration\">Color tattoos: saturation and vivid accents</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Neo trad: color and illustration",
         "description": "Clear outlines, fill and color accents.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "What's the difference between traditional and neo traditional?",
+          "a": "Neo traditional keeps traditional's bold outlines and saturated palette but adds more detail, soft shading and modern themes."
+        },
+        {
+          "q": "Does neo traditional hold up over time?",
+          "a": "Yes. Its strong outlines and solid color make it one of the styles that stays readable longest."
+        },
+        {
+          "q": "Which designs work in neo traditional?",
+          "a": "Florals, animals, characters and stylized portraits in color."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

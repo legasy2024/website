@@ -10,8 +10,9 @@
       "excerpt": "Explora el fascinante recorrido del arte del tatuaje en Colombia, desde las prácticas ancestrales indígenas hasta las innovadoras técnicas contemporáneas. Descubre cómo este legado cultural milenario continúa evolucionando.",
       "seo": {
         "title": "Tatuajes en Colombia: Fusión de Historia y Modernidad",
-        "description": "Explora el fascinante recorrido del arte del tatuaje en Colombia, desde las prácticas ancestrales indígenas hasta las innovadoras técnicas contemporáneas. Descubre cómo este legado cultural milenario continúa evolucionando.",
+        "description": "Historia de los tatuajes en Colombia: de las prácticas indígenas ancestrales a las técnicas actuales, y cómo este arte define la identidad del país.",
         "keywords": [
+          "historia del tatuaje en colombia",
           "tatuajes colombia",
           "historia tatuaje colombia",
           "tatuajes precolombinos",
@@ -25,7 +26,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/historia-del-arte-del-tatuaje-en-colombia"
       },
-      "contentHtml": "<p>El arte del tatuaje en Colombia es mucho más que una tendencia estética contemporánea: es un recorrido cultural que conecta raíces ancestrales con técnicas modernas. Entender esta historia ayuda a valorar el tatuaje como un lenguaje visual con identidad propia.</p><h2>1. Orígenes: marcas, símbolos y tradición</h2><p>En distintas comunidades indígenas, las marcas corporales han cumplido funciones sociales y simbólicas: identidad, protección, pertenencia, ritual y memoria.</p><h2>2. Evolución urbana y estigmas</h2><p>Durante años, el tatuaje estuvo asociado a subculturas y estigmas. Con el tiempo, el cambio cultural lo llevó a verse como una forma legítima de expresión artística.</p><h2>3. La escena contemporánea: técnica y estilo</h2><p>Hoy Colombia tiene artistas con formación visual sólida y dominio técnico. Se mezclan influencias globales con referencias locales, generando estilos únicos.</p><ul><li>Realismo con alto detalle.</li><li>Ornamental y blackwork.</li><li>Color vibrante y neotradicional.</li><li>Línea fina y minimalismo, con enfoque en durabilidad.</li></ul><blockquote class=\"quote\">El tatuaje es historia personal, pero también historia cultural: se escribe sobre la piel.</blockquote><h2>4. Colombia como destino de tatuaje</h2><p>La calidad artística, el trato cercano y la relación calidad/precio han convertido a ciudades como Cali en destinos atractivos para visitantes internacionales.</p><h2>5. Cierre</h2><p>El tatuaje colombiano sigue evolucionando: conserva raíces y abraza innovación. En <strong>Legassy Studio</strong> creemos en el tatuaje como legado: técnica, arte y significado en una misma pieza.</p>",
+      "contentHtml": "<!-- answer --><p>La historia del tatuaje en Colombia va de las marcas corporales indígenas, que expresaban identidad, protección y pertenencia, a una etapa urbana marcada por el estigma, y de ahí a la escena actual: artistas con formación visual que dominan el realismo, el blackwork y el color, y que han convertido ciudades como Cali en destino internacional.</p><p>El arte del tatuaje en Colombia es mucho más que una tendencia estética contemporánea: es un recorrido cultural que conecta raíces ancestrales con técnicas modernas. Entender esta historia ayuda a valorar el tatuaje como un lenguaje visual con identidad propia.</p><h2>1. Orígenes: marcas, símbolos y tradición</h2><p>En distintas comunidades indígenas, las marcas corporales han cumplido funciones sociales y simbólicas: identidad, protección, pertenencia, ritual y memoria.</p><h2>2. Evolución urbana y estigmas</h2><p>Durante años, el tatuaje estuvo asociado a subculturas y estigmas. Con el tiempo, el cambio cultural lo llevó a verse como una forma legítima de expresión artística.</p><h2>3. La escena contemporánea: técnica y estilo</h2><p>Hoy Colombia tiene artistas con formación visual sólida y dominio técnico. Se mezclan influencias globales con referencias locales, generando estilos únicos.</p><ul><li>Realismo con alto detalle.</li><li>Ornamental y blackwork.</li><li>Color vibrante y neotradicional.</li><li>Línea fina y minimalismo, con enfoque en durabilidad.</li></ul><blockquote class=\"quote\">El tatuaje es historia personal, pero también historia cultural: se escribe sobre la piel.</blockquote><h2>4. Colombia como destino de tatuaje</h2><p>La calidad artística, el trato cercano y la relación calidad/precio han convertido a ciudades como Cali en destinos atractivos para visitantes internacionales.</p><h2>5. Cierre</h2><p>El tatuaje colombiano sigue evolucionando: conserva raíces y abraza innovación. En <strong>Legassy Studio</strong> creemos en el tatuaje como legado: técnica, arte y significado en una misma pieza.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/cali-el-auge-de-una-ciudad-creativa-para-extranjeros\">Tatuajes en Colombia: Cali, El Auge de una Ciudad Creativa para Extranjeros</a></li><li><a href=\"/es/blog/artistas-de-tatuajes-que-hablan-ingles-en-cali\">Tatuarse en Colombia: Artistas de Tatuajes que Hablan Inglés en Cali</a></li><li><a href=\"/es/blog/razones-para-viajar-a-colombia-por-tu-proximo-tatuaje\">7 Razones para Viajar a Colombia por tu Próximo Tatuaje</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/portfolio\">nuestro portafolio de tatuajes en Cali</a>.</p><!-- related:end -->",
       "cta": {
         "whatsapp": {
           "text": "Pedir una Asesoría Personalizada Gratis",
@@ -40,7 +41,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Los indígenas colombianos se tatuaban?",
+          "a": "Distintas comunidades indígenas usaban marcas y pintura corporal con funciones de identidad, protección, pertenencia, ritual y memoria."
+        },
+        {
+          "q": "¿Cuándo dejó de ser un estigma el tatuaje en Colombia?",
+          "a": "De forma gradual: durante años se asoció a subculturas, hasta que el cambio cultural lo llevó a verse como una expresión artística legítima."
+        },
+        {
+          "q": "¿Qué estilos predominan hoy en Colombia?",
+          "a": "Realismo de alto detalle, ornamental y blackwork, y color vibrante y neotradicional, mezclando influencias globales con referencias locales."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "history-of-tattoo-art-in-colombia",
@@ -50,8 +66,9 @@
       "excerpt": "Explore the fascinating journey of tattoo art in Colombia, from ancestral indigenous practices to innovative contemporary techniques. Discover how this millenary cultural legacy continues to evolve.",
       "seo": {
         "title": "Tattoos in Colombia: Fusion of History and Modernity",
-        "description": "Explore the fascinating journey of tattoo art in Colombia, from ancestral indigenous practices to innovative contemporary techniques. Discover how this millenary cultural legacy continues to evolve.",
+        "description": "History of tattoos in Colombia: from ancestral indigenous practices to contemporary techniques, and how this art shapes the country's identity.",
         "keywords": [
+          "history of tattoos in colombia",
           "colombia tattoos",
           "colombian tattoo history",
           "pre-columbian tattoos",
@@ -65,7 +82,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/history-of-tattoo-art-in-colombia"
       },
-      "contentHtml": "<p>Tattoo art in Colombia is much more than a contemporary aesthetic trend: it’s a cultural journey that connects ancestral roots with modern techniques. Understanding this history helps you value tattooing as a visual language with its own identity.</p><h2>1. Origins: marks, symbols, and tradition</h2><p>Across different indigenous communities, body marks have served social and symbolic roles: identity, protection, belonging, ritual, and memory.</p><h2>2. Urban evolution and stigma</h2><p>For many years, tattooing was associated with subcultures and stigma. Over time, cultural change helped it become widely recognized as a legitimate form of artistic expression.</p><h2>3. The contemporary scene: technique and style</h2><p>Today Colombia has artists with strong visual training and technical mastery. Global influences blend with local references, creating unique styles.</p><ul><li>High-detail realism.</li><li>Ornamental and blackwork.</li><li>Vibrant color and neo-traditional.</li><li>Fine line and minimalism, with a focus on longevity.</li></ul><blockquote class=\"quote\">Tattooing is personal history, but also cultural history—written on the skin.</blockquote><h2>4. Colombia as a tattoo destination</h2><p>Artistic quality, warm service, and value for money have turned cities like Cali into attractive destinations for international visitors.</p><h2>5. Closing</h2><p>Colombian tattooing continues to evolve: it keeps its roots and embraces innovation. At <strong>Legassy Studio</strong> we believe in tattooing as legacy: technique, art, and meaning in one piece.</p>",
+      "contentHtml": "<!-- answer --><p>The history of tattoos in Colombia runs from indigenous body markings that expressed identity, protection and belonging, through an urban period marked by stigma, to today's scene: visually trained artists who master realism, blackwork and color and have turned cities like Cali into an international destination.</p><p>Tattoo art in Colombia is much more than a contemporary aesthetic trend: it’s a cultural journey that connects ancestral roots with modern techniques. Understanding this history helps you value tattooing as a visual language with its own identity.</p><h2>1. Origins: marks, symbols, and tradition</h2><p>Across different indigenous communities, body marks have served social and symbolic roles: identity, protection, belonging, ritual, and memory.</p><h2>2. Urban evolution and stigma</h2><p>For many years, tattooing was associated with subcultures and stigma. Over time, cultural change helped it become widely recognized as a legitimate form of artistic expression.</p><h2>3. The contemporary scene: technique and style</h2><p>Today Colombia has artists with strong visual training and technical mastery. Global influences blend with local references, creating unique styles.</p><ul><li>High-detail realism.</li><li>Ornamental and blackwork.</li><li>Vibrant color and neo-traditional.</li><li>Fine line and minimalism, with a focus on longevity.</li></ul><blockquote class=\"quote\">Tattooing is personal history, but also cultural history—written on the skin.</blockquote><h2>4. Colombia as a tattoo destination</h2><p>Artistic quality, warm service, and value for money have turned cities like Cali into attractive destinations for international visitors.</p><h2>5. Closing</h2><p>Colombian tattooing continues to evolve: it keeps its roots and embraces innovation. At <strong>Legassy Studio</strong> we believe in tattooing as legacy: technique, art, and meaning in one piece.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/cali-tattoo-scene-for-foreigners\">Tattoo in Colombia: Cali, The Rise of a Creative City for Foreigners</a></li><li><a href=\"/en/blog/reason-to-travel-to-colombia-for-your-next-tattoo\">7 Reasons to Travel to Colombia for Your Next Tattoo</a></li><li><a href=\"/en/blog/remote-tattoo-process-colombia-from-usa\">Getting Tattooed in Colombia? Remote Collaboration Process with Colombian Artists from the USA</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/portfolio\">our tattoo portfolio in Cali</a>.</p><!-- related:end -->",
       "cta": {
         "whatsapp": {
           "text": "Request a Free Personalized Consultation",
@@ -80,7 +97,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311 0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "Did Colombia's indigenous peoples get tattoos?",
+          "a": "Several indigenous communities used body markings and paint for identity, protection, belonging, ritual and memory."
+        },
+        {
+          "q": "When did tattoos stop being stigmatized in Colombia?",
+          "a": "Gradually: for years they were tied to subcultures, until cultural change led to seeing them as legitimate artistic expression."
+        },
+        {
+          "q": "Which styles dominate in Colombia today?",
+          "a": "High-detail realism, ornamental and blackwork, and vibrant color and neo-traditional, blending global influences with local references."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

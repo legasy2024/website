@@ -10,8 +10,8 @@
       "hideHeroImage": true,
       "excerpt": "Los tatuajes a color pueden ser piezas completas saturadas o diseños en negro con acentos puntuales (ojos, flores, llamas, esferas). La piel y el cuidado solar influyen mucho en cómo se mantiene el tono con los años. Estas referencias muestran anime, ilustración, acuarela y…",
       "seo": {
-        "title": "Tatuajes a color: saturación y acentos vivos - Legassy Studio",
-        "description": "Los tatuajes a color pueden ser piezas completas saturadas o diseños en negro con acentos puntuales (ojos, flores, llamas, esferas). La piel y el cuidado solar influyen mucho en cómo se mantiene el tono con los años. Estas referencias muestran anime, ilustración, acuarela y neo-trad con color real…",
+        "title": "Tatuajes a color: saturación y acentos vivos",
+        "description": "Tatuajes a color: piezas saturadas o negro con acentos vivos. Galería real de anime, acuarela y neotradicional, y cómo se mantiene el tono.",
         "keywords": [
           "tatuajes color",
           "tatuajes a color",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-a-color-galeria"
       },
-      "contentHtml": "<p>Los <strong>tatuajes a color</strong> pueden ser piezas completas saturadas o diseños en negro con acentos puntuales (ojos, flores, llamas, esferas). La piel y el cuidado solar influyen mucho en cómo se mantiene el tono con los años.</p><p>Estas referencias muestran anime, ilustración, acuarela y neo-trad con color real del estudio; compara paleta y zona antes de elegir tamaño.</p>",
+      "contentHtml": "<p>Los <strong>tatuajes a color</strong> pueden ser piezas completas saturadas o diseños en negro con acentos puntuales (ojos, flores, llamas, esferas). La piel y el cuidado solar influyen mucho en cómo se mantiene el tono con los años.</p><p>Estas referencias muestran anime, ilustración, acuarela y neo-trad con color real del estudio; compara paleta y zona antes de elegir tamaño.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-de-anime-galeria\">Tatuajes de anime: personajes y escenas a color</a></li><li><a href=\"/es/blog/tatuajes-neo-tradicional-galeria\">Tatuajes neo tradicional: color, contorno y volumen</a></li><li><a href=\"/es/blog/tatuajes-para-mujer-en-el-brazo-galeria\">Tatuajes para mujer en el brazo: línea fina y color</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Color del portafolio",
         "description": "Anime, flores, personajes y acentos saturados.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Cuánto dura un tatuaje a color?",
+          "a": "Con buena saturación y protección solar, muchos años. El sol y el tipo de piel son los factores que más influyen en cómo se mantiene el tono."
+        },
+        {
+          "q": "¿Es mejor color completo o negro con acentos de color?",
+          "a": "El negro con acentos puntuales es más fácil de mantener; el color completo tiene más impacto pero exige más cuidado solar."
+        },
+        {
+          "q": "¿Qué estilos lucen mejor a color?",
+          "a": "Anime, ilustración, acuarela y neotradicional."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "color-tattoos-gallery-inspiration",
@@ -87,7 +102,7 @@
       "excerpt": "Color tattoos can be fully saturated pieces or black designs with accent hits—eyes, florals, flames, spheres. Skin type and sun care strongly affect how tone holds over time. These references show anime, illustrative, watercolor and neo-trad color from the studio—compare…",
       "seo": {
         "title": "Color tattoos: saturation and vivid accents - Legassy Studio",
-        "description": "Color tattoos can be fully saturated pieces or black designs with accent hits—eyes, florals, flames, spheres. Skin type and sun care strongly affect how tone holds over time. These references show anime, illustrative, watercolor and neo-trad color from the studio—compare palette and placement…",
+        "description": "Color tattoos: fully saturated pieces or black work with vivid accents. Real anime, watercolor and neo-trad pieces, plus how color holds up.",
         "keywords": [
           "color tattoos",
           "colored tattoo",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/color-tattoos-gallery-inspiration"
       },
-      "contentHtml": "<p><strong>Color tattoos</strong> can be fully saturated pieces or black designs with accent hits—eyes, florals, flames, spheres. Skin type and sun care strongly affect how tone holds over time.</p><p>These references show anime, illustrative, watercolor and neo-trad color from the studio—compare palette and placement before choosing size.</p>",
+      "contentHtml": "<p><strong>Color tattoos</strong> can be fully saturated pieces or black designs with accent hits—eyes, florals, flames, spheres. Skin type and sun care strongly affect how tone holds over time.</p><p>These references show anime, illustrative, watercolor and neo-trad color from the studio—compare palette and placement before choosing size.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/anime-tattoos-gallery-inspiration\">Anime tattoos: characters and color scenes</a></li><li><a href=\"/en/blog/neo-traditional-tattoos-gallery\">Neo-traditional tattoos: color, outline and volume</a></li><li><a href=\"/en/blog/tattoos-couples-friends-valentines-day\">Tattoos for Couples and Friends: Valentine's or Friendship Day Specials</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Portfolio color work",
         "description": "Anime, florals, characters and saturated accents.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "How long does a color tattoo last?",
+          "a": "With good saturation and sun protection, many years. Sun exposure and skin type are the biggest factors in how tone holds."
+        },
+        {
+          "q": "Full color or black with color accents?",
+          "a": "Black with accent hits is easier to maintain; full color has more impact but needs more sun care."
+        },
+        {
+          "q": "Which styles look best in color?",
+          "a": "Anime, illustrative, watercolor and neo-traditional."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

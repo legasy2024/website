@@ -10,8 +10,8 @@
       "hideHeroImage": true,
       "excerpt": "Los tatuajes en sombras (negro y gris) se apoyan en degradados, luces reservadas y negros profundos para crear volumen sin depender del color. Funcionan muy bien en retratos, religiosos, animales y piezas narrativas grandes. La selección muestra cómo se construye el contraste…",
       "seo": {
-        "title": "Tatuajes en sombras: negro, gris y contraste - Legassy Studio",
-        "description": "Los tatuajes en sombras (negro y gris) se apoyan en degradados, luces reservadas y negros profundos para crear volumen sin depender del color. Funcionan muy bien en retratos, religiosos, animales y piezas narrativas grandes. La selección muestra cómo se construye el contraste en piel real: fíjate…",
+        "title": "Tatuajes en sombras: negro, gris y contraste",
+        "description": "Tatuajes en sombras negro y gris: degradados, luces y negros profundos que crean volumen sin color. Mira cómo se ve el contraste en piel real.",
         "keywords": [
           "tatuajes sombras",
           "negro y gris tatuaje",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-sombras-negro-gris-galeria"
       },
-      "contentHtml": "<p>Los tatuajes en <strong>sombras</strong> (negro y gris) se apoyan en degradados, luces reservadas y negros profundos para crear volumen sin depender del color. Funcionan muy bien en retratos, religiosos, animales y piezas narrativas grandes.</p><p>La selección muestra cómo se construye el contraste en piel real: fíjate en transiciones, fondos oscuros y lectura del diseño a distancia.</p>",
+      "contentHtml": "<p>Los tatuajes en <strong>sombras</strong> (negro y gris) se apoyan en degradados, luces reservadas y negros profundos para crear volumen sin depender del color. Funcionan muy bien en retratos, religiosos, animales y piezas narrativas grandes.</p><p>La selección muestra cómo se construye el contraste en piel real: fíjate en transiciones, fondos oscuros y lectura del diseño a distancia.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-realismo-black-grey-galeria\">Tatuajes realismo black & grey: la técnica que parece fotografía</a></li><li><a href=\"/es/blog/tatuajes-terror-cine-galeria-black-grey\">Tatuajes de terror y cine: íconos del horror en realismo black & grey</a></li><li><a href=\"/es/blog/tatuajes-lobo-black-grey-galeria\">Tatuajes de lobo en realismo black & grey: el alfa de la naturaleza en tu piel</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Negro, gris y degradados",
         "description": "Contraste y profundidad en piezas curadas.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Qué son los tatuajes en sombras?",
+          "a": "Tatuajes en negro y gris que crean volumen con degradados, luces reservadas y negros profundos, sin usar color."
+        },
+        {
+          "q": "¿Los tatuajes en sombras duran más que los de color?",
+          "a": "Suelen mantener muy bien la lectura con los años gracias al contraste de los negros, siempre que se protejan del sol."
+        },
+        {
+          "q": "¿Qué temas funcionan mejor en sombras?",
+          "a": "Retratos, religiosos, animales y piezas narrativas grandes."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "black-grey-shading-tattoos-gallery",
@@ -86,8 +101,8 @@
       "hideHeroImage": true,
       "excerpt": "Black and grey tattoos rely on smooth gradients, reserved highlights and deep blacks for volume without color. They excel for portraits, religious work, animals and large narrative pieces. This set shows how contrast is built on real skin—watch transitions, dark backgrounds and…",
       "seo": {
-        "title": "Black and grey shading tattoos: contrast and depth - Legassy Studio",
-        "description": "Black and grey tattoos rely on smooth gradients, reserved highlights and deep blacks for volume without color. They excel for portraits, religious work, animals and large narrative pieces. This set shows how contrast is built on real skin—watch transitions, dark backgrounds and how the design…",
+        "title": "Black and grey shading tattoos: contrast and depth",
+        "description": "Black and grey tattoos: smooth gradients, reserved highlights and deep blacks that build volume without color. See real contrast on skin.",
         "keywords": [
           "black and grey tattoos",
           "shading tattoo",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/black-grey-shading-tattoos-gallery"
       },
-      "contentHtml": "<p><strong>Black and grey</strong> tattoos rely on smooth gradients, reserved highlights and deep blacks for volume without color. They excel for portraits, religious work, animals and large narrative pieces.</p><p>This set shows how contrast is built on real skin—watch transitions, dark backgrounds and how the design reads from a distance.</p>",
+      "contentHtml": "<p><strong>Black and grey</strong> tattoos rely on smooth gradients, reserved highlights and deep blacks for volume without color. They excel for portraits, religious work, animals and large narrative pieces.</p><p>This set shows how contrast is built on real skin—watch transitions, dark backgrounds and how the design reads from a distance.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/gorilla-skull-black-grey-tattoos-gallery\">Gorilla and skull tattoos in black & grey: strength and mortality</a></li><li><a href=\"/en/blog/black-grey-sleeve-tattoos-gallery\">Black & grey sleeve tattoos: full arm as a work of art</a></li><li><a href=\"/en/blog/horror-movie-tattoos-black-grey-gallery\">Horror and movie tattoos: horror icons in black & grey realism</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Black, grey and smooth shading",
         "description": "Contrast and depth in healed work.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "What are black and grey tattoos?",
+          "a": "Tattoos that build volume with gradients, reserved highlights and deep blacks, without using color."
+        },
+        {
+          "q": "Do black and grey tattoos last longer than color?",
+          "a": "They usually stay very readable over time thanks to the contrast of the blacks, as long as they're protected from the sun."
+        },
+        {
+          "q": "Which subjects work best in black and grey?",
+          "a": "Portraits, religious work, animals and large narrative pieces."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }

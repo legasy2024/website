@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { getBlogPostBySlug, getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 import { blogPostsRegistry, getPostBySlug } from "@/content/blog/posts-registry";
 import { notFound } from "next/navigation";
+import { buildBlogPostSchema } from "@/lib/blogSchema";
 
 //Components
 import BlogArticle from "@/components/blog/BlogArticle/BlogArticle";
@@ -76,7 +77,7 @@ export async function generateMetadata({ params: { locale, slug } }) {
       keywords: Array.isArray(seo.keywords) ? seo.keywords.join(', ') : seo.keywords,
       language: locale,
       robots: "index, follow",
-      author: "Legassy Studio",
+      authors: [{ name: post.author?.name || "Legassy Studio" }],
       publisher: "Legassy Studio",
       alternates: {
         canonical: seo.canonical || `https://www.legassystudio.com/${locale}/blog/${slug}`,
@@ -118,6 +119,26 @@ export async function generateMetadata({ params: { locale, slug } }) {
       description: 'Blog post'
     };
   }
+}
+
+// Posts relacionados: se leen del bloque "Sigue leyendo" (generado por scripts/blog-interlinking.js)
+function getRelatedPosts(contentHtml, locale) {
+  const block = contentHtml?.split("<!-- related:start -->")[1]?.split("<!-- related:end -->")[0] || "";
+  const prefix = `/${locale}/blog/`;
+  const related = [];
+  for (const [, href, label] of block.matchAll(/<a href="([^"]+)">(.*?)<\/a>/g)) {
+    if (!href.startsWith(prefix)) continue;
+    const meta = getPostBySlug(href.slice(prefix.length), locale);
+    if (meta?.published) {
+      related.push({
+        href,
+        title: label.replace(/<[^>]+>/g, ""),
+        image: meta.image,
+        label: meta.label?.[locale],
+      });
+    }
+  }
+  return related;
 }
 
 export default async function BlogPostPage({ params: { locale, slug } }) {
@@ -176,7 +197,17 @@ export default async function BlogPostPage({ params: { locale, slug } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-        <BlogArticle content={postContent} locale={locale} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildBlogPostSchema(postContent, locale)).replace(/</g, "\\u003c"),
+          }}
+        />
+        <BlogArticle
+          content={postContent}
+          locale={locale}
+          relatedPosts={getRelatedPosts(postContent.contentHtml, locale)}
+        />
         <DoYouWantToBe translations={DoYouWantToBeTranslations} />
         <DoYouWantToWork translations={DoYouWantToWorkTranslations} />
         <div className="flex flex-col items-center w-full">

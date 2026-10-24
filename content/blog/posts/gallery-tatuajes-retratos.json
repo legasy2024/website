@@ -10,8 +10,8 @@
       "hideHeroImage": true,
       "excerpt": "Los tatuajes con retratos exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato. Aquí hay retratos humanos, animales y…",
       "seo": {
-        "title": "Tatuajes con retratos: personas, mascotas y personajes - Legassy Studio",
-        "description": "Los tatuajes con retratos exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato. Aquí hay retratos humanos, animales y híbridos del…",
+        "title": "Tatuajes con retratos: personas, mascotas y personajes",
+        "description": "Tatuajes con retratos: familia, ídolos, figuras religiosas y mascotas en realismo. Qué foto llevar y cómo se logra el parecido en piel.",
         "keywords": [
           "tatuajes con retratos",
           "tatuajes retrato",
@@ -19,7 +19,7 @@
         ],
         "canonical": "https://www.legassystudio.com/es/blog/tatuajes-con-retratos-galeria"
       },
-      "contentHtml": "<p>Los <strong>tatuajes con retratos</strong> exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato.</p><p>Aquí hay retratos humanos, animales y híbridos del portafolio; cada leyenda indica el tipo de retrato y la zona donde está tatuado.</p>",
+      "contentHtml": "<p>Los <strong>tatuajes con retratos</strong> exigen buena referencia fotográfica, proporción facial y sombreado que respete la anatomía. Pueden ser familiares, ídolos, personajes religiosos, mascotas con nombre o figuras de ficción en realismo o microformato.</p><p>Aquí hay retratos humanos, animales y híbridos del portafolio; cada leyenda indica el tipo de retrato y la zona donde está tatuado.</p><!-- related:start --><h2>Sigue leyendo</h2><p>Si este tema te sirvió, estas guías complementan lo que acabas de leer:</p><ul><li><a href=\"/es/blog/tatuajes-retratos-black-grey-galeria\">Tatuajes de retratos en black & grey: la técnica más exigente del realismo</a></li><li><a href=\"/es/blog/tatuajes-de-anime-galeria\">Tatuajes de anime: personajes y escenas a color</a></li><li><a href=\"/es/blog/tatuajes-mujer-nativa-americana-galeria\">Tatuajes de mujer nativa americana: retratos con tocado y animal totem</a></li></ul><p>¿Listo para dar el paso? Revisa <a href=\"/es/contact\">agenda una valoración gratuita con nuestros artistas</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Retratos del portafolio",
         "description": "Humanos, mascotas y personajes según la imagen.",
@@ -76,7 +76,22 @@
         "title": "Información de contacto:",
         "location": "Ubicación: Cali, Colombia",
         "phone": "Teléfono: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "¿Se puede tatuar el retrato de una mascota?",
+          "a": "Sí, es uno de los retratos más solicitados. Con una buena foto, el artista capta la expresión y el pelaje en realismo o microformato."
+        },
+        {
+          "q": "¿Qué hace que un retrato tatuado se parezca a la persona?",
+          "a": "Una buena referencia fotográfica, proporción facial precisa y un sombreado que respete la anatomía del rostro."
+        },
+        {
+          "q": "¿Retrato en realismo o en microformato?",
+          "a": "El realismo de tamaño medio o grande conserva mejor el parecido; el microformato es más discreto pero tiene límites de detalle."
+        }
+      ],
+      "dateModified": "2026-10-12"
     },
     "en": {
       "slug": "portrait-tattoos-gallery-inspiration",
@@ -86,8 +101,8 @@
       "hideHeroImage": true,
       "excerpt": "Portrait tattoos need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale. You'll find human, animal and hybrid portraits below—each caption…",
       "seo": {
-        "title": "Portrait tattoos: people, pets and characters - Legassy Studio",
-        "description": "Portrait tattoos need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale. You'll find human, animal and hybrid portraits below—each caption notes portrait type and…",
+        "title": "Portrait tattoos: people, pets and characters",
+        "description": "Portrait tattoos: family, idols, religious figures and pets in realism. What reference photo to bring and how likeness is achieved on skin.",
         "keywords": [
           "portrait tattoos",
           "tattoo portrait",
@@ -95,7 +110,7 @@
         ],
         "canonical": "https://www.legassystudio.com/en/blog/portrait-tattoos-gallery-inspiration"
       },
-      "contentHtml": "<p><strong>Portrait tattoos</strong> need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale.</p><p>You'll find human, animal and hybrid portraits below—each caption notes portrait type and placement.</p>",
+      "contentHtml": "<p><strong>Portrait tattoos</strong> need strong photo references, facial proportion and shading that respects anatomy. They can be family, idols, religious figures, named pets or fictional characters in realism or micro scale.</p><p>You'll find human, animal and hybrid portraits below—each caption notes portrait type and placement.</p><!-- related:start --><h2>Keep reading</h2><p>If this was useful, these guides build on what you just read:</p><ul><li><a href=\"/en/blog/realism-tattoos-gallery-inspiration\">Realism tattoos: portraits and detailed figures</a></li><li><a href=\"/en/blog/anime-tattoos-gallery-inspiration\">Anime tattoos: characters and color scenes</a></li><li><a href=\"/en/blog/portrait-tattoos-black-grey-gallery\">Portrait tattoos in black & grey: the most demanding realism technique</a></li></ul><p>Ready to take the next step? Check <a href=\"/en/contact\">book a free consultation with our artists</a>.</p><!-- related:end -->",
       "gallery": {
         "title": "Portfolio portraits",
         "description": "People, pets and characters per image.",
@@ -152,7 +167,22 @@
         "title": "Contact information:",
         "location": "Location: Cali, Colombia",
         "phone": "Phone: +57 (310) 311-0611"
-      }
+      },
+      "faq": [
+        {
+          "q": "Can I get my pet's portrait tattooed?",
+          "a": "Yes, it's one of the most requested portraits. With a good photo, the artist captures expression and fur in realism or micro format."
+        },
+        {
+          "q": "What makes a portrait tattoo look like the person?",
+          "a": "A good photo reference, accurate facial proportions and shading that respects the face's anatomy."
+        },
+        {
+          "q": "Realism or micro portrait?",
+          "a": "Medium or large realism keeps the likeness better; micro portraits are more discreet but have detail limits."
+        }
+      ],
+      "dateModified": "2026-10-12"
     }
   }
 }
