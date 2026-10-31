@@ -69,6 +69,43 @@ const nextConfig = {
         domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com', 'images.unsplash.com', 'img.youtube.com', 'i.ytimg.com'],
         formats: ['image/avif',  'image/webp']
     },
+    async redirects() {
+        // El alias *.vercel.app de producción servía el sitio completo (contenido duplicado para Google)
+        return [
+            {
+                source: '/:path*',
+                has: [{ type: 'host', value: 'website-omega-silk-59.vercel.app' }],
+                destination: 'https://www.legassystudio.com/:path*',
+                permanent: true,
+            },
+        ];
+    },
+    async headers() {
+        return [
+            {
+                source: '/:path*',
+                headers: [
+                    { key: 'X-Content-Type-Options', value: 'nosniff' },
+                    { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+                    { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+                    { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+                ],
+            },
+            {
+                // Imágenes de /public/img: sin hash en el nombre, así que caché larga pero revalidable
+                source: '/img/:path*',
+                headers: [
+                    { key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=86400' },
+                ],
+            },
+            {
+                source: '/fonts/:path*',
+                headers: [
+                    { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+                ],
+            },
+        ];
+    },
     async rewrites() {
         // Generar rewrites dinámicamente desde el registry
         const blogRewrites = generateBlogRewrites();

@@ -20,6 +20,10 @@ const BookConsult = dynamic(() =>
   import("@/components/common/BookConsult/BookConsult")
 );
 
+// Slugs válidos: minúsculas, números y guiones. Descarta basura de bots
+// ("null", "favicon.ico", "...&gsessionid=...") sin consultar el loader ni loguear errores.
+const isValidSlug = (slug) => /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug);
+
 //Diferent namespaces
 const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
 
@@ -52,6 +56,9 @@ export async function generateStaticParams() {
  * Genera los metadatos para cada post
  */
 export async function generateMetadata({ params: { locale, slug } }) {
+  if (!isValidSlug(slug)) {
+    return { title: 'Blog Post', robots: { index: false } };
+  }
   try {
     const post = await getBlogPostBySlug(slug, locale);
     
@@ -142,6 +149,8 @@ function getRelatedPosts(contentHtml, locale) {
 }
 
 export default async function BlogPostPage({ params: { locale, slug } }) {
+  if (!isValidSlug(slug)) notFound();
+
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
   // Cargar contenido del post

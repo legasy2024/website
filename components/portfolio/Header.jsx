@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
-import bg_img from './assets/bg_img.png';
+import bg_img from './assets/bg_img.jpg';
 import localFont from "next/font/local";
 
 const eagleFont = localFont({

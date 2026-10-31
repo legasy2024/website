@@ -32,8 +32,8 @@ export default async function initTranslations(
     defaultNS: namespaces[0],
     fallbackNS: namespaces.length > 0 ? namespaces[0] : "common",
     ns: namespaces,
-    preload: resources ? [] : i18nConfig.locales,
-    debug: true,
+    preload: resources ? [] : [locale],
+    debug: false,
   });
 
   return {

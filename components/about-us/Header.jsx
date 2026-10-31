@@ -1,6 +1,6 @@
 'use client'
 
-import bg_img from './assets/bg_img.png';
+import bg_img from './assets/bg_img.jpg';
 import React from 'react';
 import { motion } from 'framer-motion';
 import localFont from "next/font/local";

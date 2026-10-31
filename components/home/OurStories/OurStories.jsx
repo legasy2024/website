@@ -11,7 +11,7 @@ import pensilvaniaImg1 from "./assets/pensilvania1.png";
 import pensilvaniaImg2 from "./assets/pensilvania2.png";
 import luisianaImg1 from "./assets/luisiana1.png";
 import luisianaImg2 from "./assets/luisiana2.png";
-import newyorkImg1 from "./assets/newyork1.png";
+import newyorkImg1 from "./assets/newyork1.jpg";
 import newyorkImg2 from "./assets/newyork2.jpg";
 import nolanImg from "./assets/nolan.jpg";
 import nolamImg2 from "./assets/nolan2.JPEG";
@@ -285,7 +285,7 @@ function OurStories({ translations }) {
         </motion.button>
 
         {/* Story title with animated city name */}
-        <motion.h1
+        <motion.h2
           className="text-TextBlack text-2xl md:text-3xl lg:text-4xl font-bold px-8 mb-6"
           variants={titleVariants}
         >
@@ -303,7 +303,7 @@ function OurStories({ translations }) {
             </motion.span>
           </AnimatePresence>
           {translations.title_end}
-        </motion.h1>
+        </motion.h2>
 
         {/* Content container with touch events for mobile */}
         <div

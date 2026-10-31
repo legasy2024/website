@@ -13,7 +13,7 @@ const i18nNameSpaces = ["home", "portfolio", "navbar", "experience", "help", "pr
 
 const metadata = {
   title: "Portafolio - Legassy Studio",
-  description: "Explora el viaje artístico de Legassy Studio a través de nuestro diverso portafolio. Descubre tatuajes únicos que abarcan estilos de realismo, blackwork, minimalismo, lettering y micro-realismo.",
+  description: "Portafolio de Legassy Studio en Cali: tatuajes de realismo, blackwork, línea fina, minimalismo, lettering y microrealismo hechos por nuestros artistas.",
   keywords: "portafolio de tatuajes, tatuajes realistas, tatuajes blackwork, tatuajes minimalistas, tatuajes de lettering, micro-realismo, galería de arte de tatuajes, artistas de tatuajes en Cali",
   language: "es",
   subject: "Portafolio de Tatuajes de Legassy Studio - Diversidad Artística y Expresión Creativa",
@@ -41,7 +41,7 @@ const metadata = {
 
 const metadata_en = {
   title: "Portfolio - Legassy Studio",
-  description: "Explore the artistic journey of Legassy Studio through our diverse portfolio. Discover unique tattoos spanning realism, blackwork, minimalism, lettering, and micro-realism styles.",
+  description: "Legassy Studio's tattoo portfolio: realism, blackwork, fine line, minimalism, lettering and micro-realism tattoos made in Cali, Colombia.",
   keywords: "tattoo portfolio, realistic tattoos, blackwork tattoos, minimalist tattoos, lettering tattoos, micro-realism, tattoo art gallery, Cali tattoo artists",
   language: "en",
   subject: "Legassy Studio Tattoo Portfolio - Artistic Diversity and Creative Expression",

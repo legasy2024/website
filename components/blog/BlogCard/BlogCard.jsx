@@ -40,7 +40,7 @@ const BlogCard = ({ post, locale }) => {
       </div>
     </div>
     <div className="relative z-10 flex min-w-0 flex-col gap-y-4 p-4 sm:box-border sm:ml-[40%] sm:w-[60%]">
-      <label className="border border-[#C4C4C4] text-TextSecondary-100 pt-1 px-3 rounded-full w-fit">{post.label}</label>
+      <span className="border border-[#C4C4C4] text-TextSecondary-100 pt-1 px-3 rounded-full w-fit">{post.label}</span>
       <h3 className="text-xl font-bold text-white">{post.title}</h3>
       <p className="text-base text-TextSecondary-100 mt-2">{post.description || post.excerpt}</p>
       <span className="mt-auto flex flex-row items-end justify-between pt-2">

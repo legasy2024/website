@@ -36,7 +36,7 @@ const blogPostsRegistry = [
       "es": "razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
       "en": "reason-to-travel-to-colombia-for-your-next-tattoo"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "14 de abril de 2025",
       "en": "April 14, 2025"
@@ -54,7 +54,7 @@ const blogPostsRegistry = [
       "es": "artistas-de-tatuajes-que-hablan-ingles-en-cali",
       "en": "english-speaking-tattoo-artists-in-cali-colombia"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "17 de abril de 2025",
       "en": "April 17, 2025"
@@ -90,7 +90,7 @@ const blogPostsRegistry = [
       "es": "precios-de-tatuajes-en-colombia-vs-eeuu",
       "en": "tattoo-prices-colombia-vs-usa"
     },
-    "image": "/img/blog/post5.png",
+    "image": "/img/blog/post5.jpg",
     "date": {
       "es": "25 de abril de 2025",
       "en": "April 25, 2025"
@@ -108,7 +108,7 @@ const blogPostsRegistry = [
       "es": "estudios-de-tatuajes-inclusivos-en-colombia",
       "en": "inclusive-tattoo-studios-in-colombia"
     },
-    "image": "/img/blog/post6.png",
+    "image": "/img/blog/post6.jpg",
     "date": {
       "es": "25 de abril de 2025",
       "en": "April 25, 2025"
@@ -126,7 +126,7 @@ const blogPostsRegistry = [
       "es": "proceso-de-trabajo-con-artistas-colombianos-a-distancia",
       "en": "remote-tattoo-process-colombia-from-usa"
     },
-    "image": "/img/blog/post7.png",
+    "image": "/img/blog/post7.jpg",
     "date": {
       "es": "29 de abril de 2025",
       "en": "April 29, 2025"
@@ -180,7 +180,7 @@ const blogPostsRegistry = [
       "es": "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
       "en": "7-mistakes-that-ruin-your-tattoo-healing"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "31 de enero de 2026",
       "en": "January 31, 2026"
@@ -198,7 +198,7 @@ const blogPostsRegistry = [
       "es": "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona",
       "en": "how-long-does-a-tattoo-take-to-heal-size-and-placement"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "12 de febrero de 2026",
       "en": "February 12, 2026"
@@ -216,7 +216,7 @@ const blogPostsRegistry = [
       "es": "cuidados-del-tatuaje-paso-a-paso-guia-completa",
       "en": "tattoo-care-step-by-step-complete-guide"
     },
-    "image": "/img/blog/post6.png",
+    "image": "/img/blog/post6.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -234,7 +234,7 @@ const blogPostsRegistry = [
       "es": "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion",
       "en": "normal-signs-and-warning-signs-during-tattoo-healing"
     },
-    "image": "/img/blog/post7.png",
+    "image": "/img/blog/post7.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -252,7 +252,7 @@ const blogPostsRegistry = [
       "es": "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho",
       "en": "recommended-products-for-new-tattoo-care"
     },
-    "image": "/img/blog/post8.png",
+    "image": "/img/blog/post8.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -288,7 +288,7 @@ const blogPostsRegistry = [
       "es": "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion",
       "en": "what-to-do-if-tattoo-loses-color-during-healing"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -306,7 +306,7 @@ const blogPostsRegistry = [
       "es": "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo",
       "en": "how-to-sleep-after-getting-tattoo-without-damaging-it"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -324,7 +324,7 @@ const blogPostsRegistry = [
       "es": "se-puede-hacer-ejercicio-despues-de-tatuarse",
       "en": "can-you-exercise-after-getting-tattoo"
     },
-    "image": "/img/blog/post4.png",
+    "image": "/img/blog/post4.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -396,7 +396,7 @@ const blogPostsRegistry = [
       "es": "preguntas-que-deberias-hacer-antes-de-tatuarte",
       "en": "questions-you-should-ask-before-getting-tattoo"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -414,7 +414,7 @@ const blogPostsRegistry = [
       "es": "cuanto-dura-realmente-un-tatuaje-con-los-anos",
       "en": "how-long-does-tattoo-really-last-over-years"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -432,7 +432,7 @@ const blogPostsRegistry = [
       "es": "diferencias-entre-un-estudio-profesional-de-tatuajes-y-uno-amateur",
       "en": "differences-between-professional-and-amateur-tattoo-studio"
     },
-    "image": "/img/blog/post4.png",
+    "image": "/img/blog/post4.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -450,7 +450,7 @@ const blogPostsRegistry = [
       "es": "cuanto-tiempo-dura-una-sesion-de-tatuaje-segun-el-diseno",
       "en": "how-long-does-tattoo-session-last-depending-on-design"
     },
-    "image": "/img/blog/post6.png",
+    "image": "/img/blog/post6.jpg",
     "date": {
       "es": "13 de febrero de 2026",
       "en": "February 13, 2026"
@@ -468,7 +468,7 @@ const blogPostsRegistry = [
       "es": "duele-hacerse-un-tatuaje-guia-realista-sobre-dolor-zonas-y-sensaciones",
       "en": "does-getting-tattoo-hurt-realistic-guide-pain-zones-sensations"
     },
-    "image": "/img/blog/post7.png",
+    "image": "/img/blog/post7.jpg",
     "date": {
       "es": "12 de febrero de 2026",
       "en": "February 12, 2026"
@@ -504,7 +504,7 @@ const blogPostsRegistry = [
       "es": "como-manejar-el-dolor-durante-una-sesion-de-tatuajes-larga",
       "en": "how-to-manage-pain-during-long-tattoo-session"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "14 de febrero de 2026",
       "en": "February 14, 2026"
@@ -522,7 +522,7 @@ const blogPostsRegistry = [
       "es": "cuanto-duele-tatuarse-segun-el-tipo-de-piel",
       "en": "how-much-does-tattooing-hurt-by-skin-type"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "15 de febrero de 2026",
       "en": "February 15, 2026"
@@ -540,7 +540,7 @@ const blogPostsRegistry = [
       "es": "tecnicas-para-relajarte-mientras-te-estan-tatuando",
       "en": "relaxation-techniques-while-getting-tattooed"
     },
-    "image": "/img/blog/post4.png",
+    "image": "/img/blog/post4.jpg",
     "date": {
       "es": "16 de febrero de 2026",
       "en": "February 16, 2026"
@@ -558,7 +558,7 @@ const blogPostsRegistry = [
       "es": "cuanto-dura-el-dolor-despues-de-tatuarse",
       "en": "how-long-does-tattoo-pain-last-after"
     },
-    "image": "/img/blog/post8.png",
+    "image": "/img/blog/post8.jpg",
     "date": {
       "es": "17 de febrero de 2026",
       "en": "February 17, 2026"
@@ -576,7 +576,7 @@ const blogPostsRegistry = [
       "es": "anestesia-para-tatuajes-funciona-realmente",
       "en": "tattoo-anesthesia-does-it-really-work"
     },
-    "image": "/img/blog/post6.png",
+    "image": "/img/blog/post6.jpg",
     "date": {
       "es": "18 de febrero de 2026",
       "en": "February 18, 2026"
@@ -594,7 +594,7 @@ const blogPostsRegistry = [
       "es": "como-saber-si-un-diseno-de-tatuaje-envejecera-bien",
       "en": "how-to-know-if-a-tattoo-design-will-age-well"
     },
-    "image": "/img/blog/post5.png",
+    "image": "/img/blog/post5.jpg",
     "date": {
       "es": "01 de marzo de 2026",
       "en": "March 01, 2026"
@@ -612,7 +612,7 @@ const blogPostsRegistry = [
       "es": "tatuajes-en-pieles-morenas-mitos-sobre-el-color-y-la-saturacion",
       "en": "tattoos-on-brown-and-dark-skin-myths-color-and-saturation"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "02 de marzo de 2026",
       "en": "March 02, 2026"
@@ -630,7 +630,7 @@ const blogPostsRegistry = [
       "es": "micro-tatuajes-vs-tatuajes-pequenos-por-que-el-detalle-extremo-tiene-riesgos",
       "en": "micro-tattoos-vs-small-tattoos-why-extreme-detail-is-risky"
     },
-    "image": "/img/blog/post8.png",
+    "image": "/img/blog/post8.jpg",
     "date": {
       "es": "03 de marzo de 2026",
       "en": "March 03, 2026"
@@ -684,7 +684,7 @@ const blogPostsRegistry = [
       "es": "se-pueden-tapar-las-estrias-o-cicatrices-con-un-tatuaje-lo-que-dice-la-ciencia",
       "en": "can-you-cover-stretch-marks-or-scars-with-a-tattoo-what-science-says"
     },
-    "image": "/img/blog/post6.png",
+    "image": "/img/blog/post6.jpg",
     "date": {
       "es": "06 de marzo de 2026",
       "en": "March 06, 2026"
@@ -702,7 +702,7 @@ const blogPostsRegistry = [
       "es": "por-que-algunos-tatuajes-se-sienten-en-relieve-despues-de-anos",
       "en": "why-some-tattoos-feel-raised-years-later"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "07 de marzo de 2026",
       "en": "March 07, 2026"
@@ -720,7 +720,7 @@ const blogPostsRegistry = [
       "es": "alergia-a-la-tinta-de-tatuaje-sintomas-causas-y-que-hacer-si-sucede",
       "en": "tattoo-ink-allergy-symptoms-causes-and-what-to-do"
     },
-    "image": "/img/blog/post3.png",
+    "image": "/img/blog/post3.jpg",
     "date": {
       "es": "08 de marzo de 2026",
       "en": "March 08, 2026"
@@ -738,7 +738,7 @@ const blogPostsRegistry = [
       "es": "tatuarse-sobre-lunares-por-que-los-profesionales-siempre-los-evitan",
       "en": "tattooing-over-moles-why-professionals-avoid-it"
     },
-    "image": "/img/blog/post4.png",
+    "image": "/img/blog/post4.jpg",
     "date": {
       "es": "09 de marzo de 2026",
       "en": "March 09, 2026"
@@ -756,7 +756,7 @@ const blogPostsRegistry = [
       "es": "que-pasa-con-la-tinta-de-los-tatuajes-en-el-sistema-linfatico-realidad-vs-ficcion",
       "en": "what-happens-to-tattoo-ink-in-the-lymphatic-system-reality-vs-fiction"
     },
-    "image": "/img/blog/post5.png",
+    "image": "/img/blog/post5.jpg",
     "date": {
       "es": "10 de marzo de 2026",
       "en": "March 10, 2026"
@@ -774,7 +774,7 @@ const blogPostsRegistry = [
       "es": "el-efecto-del-alcohol-y-la-cafeina-en-la-sangre-durante-una-sesion-de-tatuaje",
       "en": "the-effect-of-alcohol-and-caffeine-on-your-blood-during-a-tattoo-session"
     },
-    "image": "/img/blog/post6.png",
+    "image": "/img/blog/post6.jpg",
     "date": {
       "es": "11 de marzo de 2026",
       "en": "March 11, 2026"
@@ -792,7 +792,7 @@ const blogPostsRegistry = [
       "es": "es-seguro-tatuarse-si-tienes-dermatitis-o-psoriasis",
       "en": "is-it-safe-to-get-tattooed-if-you-have-dermatitis-or-psoriasis"
     },
-    "image": "/img/blog/post7.png",
+    "image": "/img/blog/post7.jpg",
     "date": {
       "es": "12 de marzo de 2026",
       "en": "March 12, 2026"
@@ -828,7 +828,7 @@ const blogPostsRegistry = [
       "es": "como-afecta-el-cloro-de-la-piscina-a-un-tatuaje-ya-cicatrizado",
       "en": "how-pool-chlorine-affects-a-fully-healed-tattoo"
     },
-    "image": "/img/blog/post2.png",
+    "image": "/img/blog/post2.jpg",
     "date": {
       "es": "13 de marzo de 2026",
       "en": "March 13, 2026"

@@ -4,7 +4,7 @@
 
 .hero_container{
     @apply flex flex-col relative items-center justify-center w-full desktop:max-w-[1200px] h-full gap-y-14 ;
-    background-image: url('./assets/backgroundLegassy.png');
+    background-image: url('./assets/backgroundLegassy.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

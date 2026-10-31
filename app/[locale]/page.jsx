@@ -28,6 +28,12 @@ const metadata = {
   robots: "index, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
+  openGraph: {
+    url: "https://www.legassystudio.com/es",
+    locale: "es_CO",
+    siteName: "Legassy Studio",
+    type: "website",
+  },
   alternates: {
     canonical: "https://www.legassystudio.com/es",
     languages: {
@@ -48,6 +54,12 @@ const metadata_en = {
   robots: "index, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
+  openGraph: {
+    url: "https://www.legassystudio.com/en",
+    locale: "en_US",
+    siteName: "Legassy Studio",
+    type: "website",
+  },
   alternates: {
     canonical: "https://www.legassystudio.com/en",
     languages: {
