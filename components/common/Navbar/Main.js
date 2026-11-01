@@ -119,37 +119,37 @@ function Navbar({ translations }) {
                   <div className="hidden  md:flex mx-auto items-center space-x-8">
                     <nav className="flex space-x-8 justify-between">
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.2 }}>
-                        <Link href="/portfolio" className={`${getLinkStyle('/portfolio')} text-sm`}>
+                        <Link href={`/${currentLocale}/portfolio`} className={`${getLinkStyle('/portfolio')} text-sm`}>
                           {translations.portfolio}
                         </Link>
                       </motion.div>
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.3 }}>
-                        <Link href="/about" className={`${getLinkStyle('/about')} text-sm`}>
+                        <Link href={`/${currentLocale}/about`} className={`${getLinkStyle('/about')} text-sm`}>
                           {translations.about}
                         </Link>
                       </motion.div>
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.4 }}>
-                        <Link href="/blog" className={`${getLinkStyle('/blog')} text-sm`}>
+                        <Link href={`/${currentLocale}/blog`} className={`${getLinkStyle('/blog')} text-sm`}>
                           {translations.blog}
                         </Link>
                       </motion.div>
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
-                        <Link href="/podcast" className={`${getLinkStyle('/podcast')} text-sm`}>
+                        <Link href={`/${currentLocale}/podcast`} className={`${getLinkStyle('/podcast')} text-sm`}>
                           {translations.podcast}
                         </Link>
                       </motion.div>
                       {/* <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
-                        <Link href="/curses" className={`${getLinkStyle('/curses')} text-sm`}>
+                        <Link href={`/${currentLocale}/curses`} className={`${getLinkStyle('/curses')} text-sm`}>
                           {translations.courses}
                         </Link>
                       </motion.div>
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
-                        <Link href="/vip" className={`${getLinkStyle('/vip')} text-sm`}>
+                        <Link href={`/${currentLocale}/vip`} className={`${getLinkStyle('/vip')} text-sm`}>
                           {translations.vip}
                         </Link>
                       </motion.div> */}
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
-                        <Link href="/contact" className={`${getLinkStyle('/contact')} text-sm`}>
+                        <Link href={`/${currentLocale}/contact`} className={`${getLinkStyle('/contact')} text-sm`}>
                           {translations.contact}
                         </Link>
                       </motion.div>
@@ -183,49 +183,49 @@ function Navbar({ translations }) {
                     >
                       <div className="px-6 py-4 space-y-4 pt-8">
                         <Link
-                          href="/portfolio"
+                          href={`/${currentLocale}/portfolio`}
                           className={`block py-2 text-xl ${getLinkStyle('/portfolio')}`}
                           onClick={closeMenu}
                         >
                           {translations.portfolio}
                         </Link>
                         <Link
-                          href="/about"
+                          href={`/${currentLocale}/about`}
                           className={`block py-2 text-xl ${getLinkStyle('/about')}`}
                           onClick={closeMenu}
                         >
                           {translations.about}
                         </Link>
                         <Link
-                          href="/blog"
+                          href={`/${currentLocale}/blog`}
                           className={`block py-2 text-xl ${getLinkStyle('/blog')}`}
                           onClick={closeMenu}
                         >
                           {translations.blog}
                         </Link>
                         <Link
-                          href="/podcast"
+                          href={`/${currentLocale}/podcast`}
                           className={`block py-2 text-xl ${getLinkStyle('/podcast')}`}
                           onClick={closeMenu}
                         >
                           {translations.podcast}
                         </Link>
                         {/* <Link
-                          href="/curses"
+                          href={`/${currentLocale}/curses`}
                           className={`block py-2 text-xl ${getLinkStyle('/curses')}`}
                           onClick={closeMenu}
                         >
                           {translations.courses}
                         </Link>
                         <Link
-                          href="/vip"
+                          href={`/${currentLocale}/vip`}
                           className={`block py-2 text-xl ${getLinkStyle('/vip')}`}
                           onClick={closeMenu}
                         >
                           {translations.vip}
                         </Link> */}
                         <Link
-                          href="/contact"
+                          href={`/${currentLocale}/contact`}
                           className={`block py-2 text-xl ${getLinkStyle('/contact')}`}
                           onClick={closeMenu}
                         >

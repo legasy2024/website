@@ -1,10 +1,8 @@
 
 //Functions
 import TranslationsProvider from "@/TranslationsProvider";
-import BlogList from "@/components/blog/BlogList/BlogList";
-import Header from "@/components/blog/Header";
+import BlogIndex from "@/components/blog/BlogIndex/BlogIndex";
 import initTranslations from "@/i18n";
-import dynamic from "next/dynamic";
 
 import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 
@@ -78,8 +76,7 @@ export default async function Portfolio({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-        <Header translations={headerTranslations} />
-        <BlogList posts={posts} locale={locale} />
+        <BlogIndex posts={posts} locale={locale} headerTranslations={headerTranslations} />
       </TranslationsProvider>
     </div>
   );
