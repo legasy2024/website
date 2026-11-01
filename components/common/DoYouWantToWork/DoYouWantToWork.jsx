@@ -66,7 +66,7 @@ function DoYouWantToWork({ translations }) {
         >
           {translations.paragraph}
         </motion.p>
-        <Button color="dark" rightIcon={"arrowR"} className="md:w-44 hover:transform transition-transform duration-200 ease-in-out">
+        <Button data-cta="do_you_want_to_work" data-cta-channel="none" color="dark" rightIcon={"arrowR"} className="md:w-44 hover:transform transition-transform duration-200 ease-in-out">
           {translations.cta}
         </Button>
 
@@ -95,7 +95,7 @@ function DoYouWantToWork({ translations }) {
             {translations.paragraph}
           </motion.p>
 
-          <Button color="dark" rightIcon={"arrowR"} className="md:w-48">
+          <Button data-cta="do_you_want_to_work" data-cta-channel="none" color="dark" rightIcon={"arrowR"} className="md:w-48">
             {translations.cta}
           </Button>
         </motion.div>

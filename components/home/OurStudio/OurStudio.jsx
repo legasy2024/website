@@ -119,6 +119,7 @@ function OurStudio({ translations }) {
           variants={buttonAnimation}
           className="flex flex-col md:-ml-4 items-center md:-mt-44 w-full md:w-fit xl:-mt-36 px-14 z-30"
           href="./about"
+          data-cta="our_studio_about"
         >
           <Button rightIcon={"arrowR"} color="dark">
             {translations.cta}

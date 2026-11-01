@@ -149,7 +149,7 @@ function Navbar({ translations }) {
                         </Link>
                       </motion.div> */}
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
-                        <Link href={`/${currentLocale}/contact`} className={`${getLinkStyle('/contact')} text-sm`}>
+                        <Link href={`/${currentLocale}/contact`} data-cta="navbar_contact" className={`${getLinkStyle('/contact')} text-sm`}>
                           {translations.contact}
                         </Link>
                       </motion.div>
@@ -226,6 +226,7 @@ function Navbar({ translations }) {
                         </Link> */}
                         <Link
                           href={`/${currentLocale}/contact`}
+                          data-cta="navbar_contact"
                           className={`block py-2 text-xl ${getLinkStyle('/contact')}`}
                           onClick={closeMenu}
                         >

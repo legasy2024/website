@@ -207,6 +207,7 @@ export default function ShortsGallery({ translations }) {
                           </span>
                           <a
                             href={shortUrl}
+                            data-cta="home_shorts_video"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}
@@ -234,6 +235,7 @@ export default function ShortsGallery({ translations }) {
         >
           <a
             href="https://www.youtube.com/@LegassyStudioColombia"
+            data-cta="home_shorts_youtube_channel"
             target="_blank"
             rel="noopener noreferrer"
             className="group"

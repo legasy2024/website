@@ -31,7 +31,7 @@ DATE_EN = "April 15, 2026"
 DATE_ES_NEW = "16 de mayo de 2026"
 DATE_EN_NEW = "May 16, 2026"
 
-WA = "https://wa.me/573128717100?text="
+WA = "https://wa.me/573103110611?text="
 IG = "https://www.instagram.com/legassystudio?igsh=ZWg5NXF1Nmd6eHJt"
 
 

@@ -137,6 +137,7 @@ function Testimonials() {
 
         <a
           href={GOOGLE_REVIEWS_URL}
+          data-cta="home_google_reviews"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-10 inline-flex items-center gap-x-2 text-white border border-[#827B71] rounded-full px-6 py-3 hover:border-BgOrange hover:text-BgOrange transition-colors"

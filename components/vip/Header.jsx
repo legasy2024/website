@@ -108,6 +108,7 @@ const VipClubComponent = ({ content, benefits }) => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="https://wa.me/message/XGIYHXPQU2JMA1"
+            data-cta="vip_hero_whatsapp"
             target="_blank"
           >
             {content.cta}
@@ -141,6 +142,7 @@ const VipClubComponent = ({ content, benefits }) => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             href="https://wa.me/message/XGIYHXPQU2JMA1"
+            data-cta="vip_hero_whatsapp"
             target="_blank"
           >
             {content.cta}

@@ -11,3 +11,19 @@
         -webkit-text-stroke: 4px black;
     }
 }
+
+/* Mientras el CTA flotante del blog está visible (móvil/tablet), se oculta el botón global de WhatsApp
+   y se deja espacio al final de la página para que la barra no tape el contenido. */
+.wa-floating-button {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+@media (max-width: 1023px) {
+  body[data-wa-bar="on"] .wa-floating-button {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.9);
+    pointer-events: none;
+  }
+  body[data-wa-bar="on"] {
+    padding-bottom: 6rem;
+  }
+}

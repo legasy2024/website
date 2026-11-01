@@ -49,7 +49,7 @@ const definitiveGuideEs = createNewPostJson(
   {
     whatsapp: {
       text: firstBlogEs.cta_button,
-      url: 'https://wa.me/573128717100?text=Hola!%20Vengo%20del%20blog%20XGIYHXPQU2JMA1,%20quisiera%20tener%20mas%20informacion%20sobre%20tatuajes'
+      url: 'https://wa.me/573103110611?text=Hola!%20Vengo%20del%20blog%20XGIYHXPQU2JMA1,%20quisiera%20tener%20mas%20informacion%20sobre%20tatuajes'
     },
     instagram: {
       text: 'Instagram',
@@ -81,7 +81,7 @@ const definitiveGuideEn = createNewPostJson(
   {
     whatsapp: {
       text: firstBlogEn.cta_button,
-      url: 'https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos'
+      url: 'https://wa.me/573103110611?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos'
     },
     instagram: {
       text: 'Instagram',
@@ -114,7 +114,7 @@ const travelReasonsEs = createNewPostJson(
   {
     whatsapp: {
       text: secondBlogEs.final_cta_buttons.whatsapp,
-      url: 'https://wa.me/573128717100?text=Hola!%20Vengo%20del%20blog,%20quisiera%20tener%20mas%20informacion%20sobre%20tatuajes'
+      url: 'https://wa.me/573103110611?text=Hola!%20Vengo%20del%20blog,%20quisiera%20tener%20mas%20informacion%20sobre%20tatuajes'
     },
     instagram: {
       text: secondBlogEs.final_cta_buttons.instagram,
@@ -146,7 +146,7 @@ const travelReasonsEn = createNewPostJson(
   {
     whatsapp: {
       text: secondBlogEn.final_cta_buttons.whatsapp,
-      url: 'https://wa.me/573128717100?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos'
+      url: 'https://wa.me/573103110611?text=Hi!%20I%27m%20coming%20from%20the%20blog,%20I%20would%20like%20more%20information%20about%20tattoos'
     },
     instagram: {
       text: secondBlogEn.final_cta_buttons.instagram,
