@@ -2444,6 +2444,25 @@ const blogPostsRegistry = [
     },
     "published": true,
     "order": 343
+  },
+  {
+    "id": "tattoo-price-cali",
+    "category": "guides",
+    "slugs": {
+      "es": "cuanto-cuesta-un-tatuaje-en-cali",
+      "en": "how-much-does-a-tattoo-cost-in-cali-colombia"
+    },
+    "image": "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+    "date": {
+      "es": "2 de noviembre de 2026",
+      "en": "November 2, 2026"
+    },
+    "label": {
+      "es": "Precios",
+      "en": "Prices"
+    },
+    "published": true,
+    "order": 344
   }
 ];
 
