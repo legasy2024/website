@@ -110,14 +110,14 @@ function Navbar({ translations }) {
             >
               <div className="max-w-7xl mx-auto">
                 <div className="flex flex-row items-center justify-between px-6 py-4 md:px-8">
-                  <Link href={homeHref} className="flex items-center">
-                    <Image src={logoImg} width={140} height={40} alt='logo-img' className='hidden sm:hidden md:block' />
-                    <Image src={logoImg} width={140} height={40} alt='logo-img' className='block sm:hidden md:hidden' />
+                  <Link href={homeHref} className="flex items-center" aria-label="Legassy Studio">
+                    <Image src={logoImg} width={140} height={40} alt='Legassy Studio' className='hidden sm:hidden md:block' />
+                    <Image src={logoImg} width={140} height={40} alt='Legassy Studio' className='block sm:hidden md:hidden' />
                   </Link>
 
                   {/* Desktop Menu */}
                   <div className="hidden  md:flex mx-auto items-center space-x-8">
-                    <nav className="flex space-x-8 justify-between">
+                    <div className="flex space-x-8 justify-between">
                       <motion.div variants={menuItemVariants} transition={{ delay: 0.2 }}>
                         <Link href={`/${currentLocale}/portfolio`} className={`${getLinkStyle('/portfolio')} text-sm`}>
                           {translations.portfolio}
@@ -153,7 +153,7 @@ function Navbar({ translations }) {
                           {translations.contact}
                         </Link>
                       </motion.div>
-                    </nav>
+                    </div>
 
                     <div className='ml-0 md:ml-10'>
                       <LanguageChanger isScrolled={isScrolled} />
@@ -164,6 +164,9 @@ function Navbar({ translations }) {
                   <motion.button
                     className="md:hidden text-white"
                     onClick={toggleMenu}
+                    aria-label={currentLocale === 'es' ? (isMenuOpen ? 'Cerrar menú' : 'Abrir menú') : (isMenuOpen ? 'Close menu' : 'Open menu')}
+                    aria-expanded={isMenuOpen}
+                    aria-controls="mobile-menu"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                   >
@@ -175,6 +178,7 @@ function Navbar({ translations }) {
                 <AnimatePresence>
                   {isMenuOpen && (
                     <motion.div
+                      id="mobile-menu"
                       className="md:hidden bg-black/80 backdrop-blur-lg backdrop-filter rounded-lg shadow-lg"
                       initial="closed"
                       animate="open"

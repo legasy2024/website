@@ -18,7 +18,7 @@ const i18nNameSpaces = ["home", "about", "navbar", "experience", "help", "projec
 
 const metadata = {
   title: "Sobre Nosotros - Legassy Studio",
-  description: "Descubre la historia detrás de Legassy Studio, un colectivo de tatuadores apasionados dedicados a transformar narrativas personales en arte corporal excepcional. Conoce a nuestros artistas y nuestro compromiso con la creatividad.",
+  description: "Conoce la historia de Legassy Studio en Cali: un colectivo de tatuadores que convierte historias personales en arte corporal. Conoce a nuestros artistas.",
   keywords: "artistas de tatuajes, historia del estudio, colectivo creativo de tatuajes, artistas de tatuajes profesionales, filosofía del arte del tatuaje, estudio de tatuajes en Cali",
   language: "es",
   subject: "Sobre Legassy Studio - Nuestra Historia y Visión Artística",
@@ -40,13 +40,14 @@ const metadata = {
       url: "https://www.legassystudio.com/es/about",
       title: "Nosotros - Legassy Studio",
       description: "Descubre la historia detrás de Legassy Studio, un colectivo de tatuadores apasionados dedicados a transformar narrativas personales en arte corporal excepcional.",
+      images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };
 
 const metadata_en = {
   title: "About Us - Legassy Studio",
-  description: "Discover the story behind Legassy Studio, a passionate tattoo collective dedicated to transforming personal narratives into exceptional body art. Meet our artists and our commitment to creativity.",
+  description: "Discover the story of Legassy Studio in Cali, Colombia: a tattoo collective turning personal stories into exceptional body art. Meet our artists.",
   keywords: "tattoo artists, studio history, creative tattoo collective, professional tattoo artists, tattoo art philosophy, Cali tattoo studio",
   language: "en",
   subject: "About Legassy Studio - Our Story and Artistic Vision",
@@ -68,6 +69,7 @@ const metadata_en = {
       url: "https://www.legassystudio.com/en/about",
       title: "About Us - Legassy Studio",
       description: "Discover the story behind Legassy Studio, a passionate tattoo collective dedicated to transforming personal narratives into exceptional body art.",
+      images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };

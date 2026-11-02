@@ -4,6 +4,7 @@ import initTranslations from "@/i18n";
 import localFont from 'next/font/local';
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 //Font
@@ -23,6 +24,9 @@ const dm_sans = DM_Sans({
 // Components
 const Navbar = dynamic(() => import("@/components/common/Navbar/Main"));
 import WhatsAppFloatingButton from "@/components/common/WhatsAppFloatingButton";
+import MotionProvider from "@/components/common/MotionProvider";
+import i18nConfig from "@/i18nConfig";
+import { buildLocalBusinessSchema } from "@/lib/localBusinessSchema";
 import CtaTracker from "@/components/common/CtaTracker";
 
 // Lazy load Footer component
@@ -36,7 +40,16 @@ const i18nNameSpaces = ["home"];
 
 export const metadata = {
   metadataBase: new URL("https://www.legassystudio.com"),
+  openGraph: {
+    siteName: "Legassy Studio",
+    type: "website",
+  },
 };
+
+// Sin esto Next renderiza [locale] dinámicamente en cada request (cache-control: no-store)
+export function generateStaticParams() {
+  return i18nConfig.locales.map((locale) => ({ locale }));
+}
 
 export default async function Layout({ children, params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
@@ -87,13 +100,28 @@ export default async function Layout({ children, params: { locale } }) {
           locale={locale}
           namespaces={i18nNameSpaces}
         >
-          <Navbar translations={navbarTranslations} />
-          {children}
-          <FooterLazyLoading translations={footerTranslations} />
-          <WhatsAppFloatingButton />
+          <MotionProvider>
+            <a
+              href="#main"
+              className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-black"
+            >
+              {locale === "es" ? "Saltar al contenido" : "Skip to content"}
+            </a>
+            <Navbar translations={navbarTranslations} />
+            <main id="main">{children}</main>
+            <FooterLazyLoading translations={footerTranslations} />
+            <WhatsAppFloatingButton />
+          </MotionProvider>
           <Analytics />
+          <SpeedInsights />
           <CtaTracker />
         </TranslationsProvider>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildLocalBusinessSchema(locale)),
+          }}
+        />
       </body>
       {/* Google Analytics 4 (gtag.js, carga afterInteractive) */}
       <GoogleAnalytics gaId="G-TXNXSBJPZP" />

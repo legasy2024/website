@@ -7,12 +7,12 @@ import initTranslations from "@/i18n";
 import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 
 //Diferent namespaces
-const i18nNameSpaces = ["home", "blog", "posts", "about", "navbar", "experience", "help", "projects"];
+const i18nNameSpaces = ["home", "blog"];
 
 
 const metadata = {
   title: "Blog de Legassy Studio - Historias, consejos y arte del tatuaje",
-  description: "Explora el blog de Legassy Studio: historias detrás del tatuaje, consejos para cuidar tu piel, tendencias, procesos creativos y más. Una mirada íntima al arte de grabar legado en la piel.",
+  description: "Blog de Legassy Studio: historias del tatuaje, consejos de cuidado, precios, tendencias y procesos creativos desde nuestro estudio en Cali, Colombia.",
   keywords: "blog de tatuajes, consejos de tatuaje, cuidado del tatuaje, historias de tatuajes, artistas del tatuaje, tendencias tattoo, inspiración tatuajes, blog tattoo, cultura del tatuaje, diseño de tatuajes",
   language: "es",
   subject: "Legassy Studio Blog - Una mirada íntima al arte del tatuaje.",
@@ -32,7 +32,7 @@ const metadata = {
 
 const metadata_en = {
   title: "Legassy Studio Blog - Stories, tips and tattoo art",
-  description: "Explore the Legassy Studio blog: stories behind tattoos, aftercare tips, trends, creative processes and more. An intimate look into the art of engraving legacy on skin.",
+  description: "The Legassy Studio blog: tattoo stories, aftercare tips, pricing, trends and creative processes from our tattoo studio in Cali, Colombia.",
   keywords: "tattoo blog, tattoo tips, tattoo aftercare, tattoo stories, tattoo artists, tattoo trends, tattoo inspiration, tattoo culture, tattoo design",
   language: "en",
   subject: "Legassy Studio Blog - An intimate look into tattoo art.",
@@ -60,7 +60,13 @@ export default async function Portfolio({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, i18nNameSpaces);
 
   // Posts ya vienen ordenados: order más alto = más reciente (ver getAllPublishedPosts)
-  const posts = await getAllBlogPostsWithContent(locale);
+  // BlogList es un client component: solo le pasamos los campos de la tarjeta,
+  // no el contenido completo de cada post (inflaba el HTML a ~1.4 MB)
+  const posts = (await getAllBlogPostsWithContent(locale)).map(
+    ({ id, slug, title, image, label, description, excerpt, cta, date, category }) => ({
+      id, slug, title, image, label, description, excerpt, cta, date, category,
+    }),
+  );
 
   const headerTranslations = {
     section_title: t("blog:header.section_title"),

@@ -76,7 +76,7 @@ function OurStudio({ translations }) {
               {translations.label_title}
             </motion.h2>
             <div className="flex flex-col items-center text-center md:text-start">
-              <motion.h1
+              <motion.h2
                 variants={slideUp}
                 className="text-white place-self-center text-xl md:text-2xl lg:text-3xl font-bold transition-all duration-300 ease-in-out"
               >
@@ -86,7 +86,7 @@ function OurStudio({ translations }) {
                 >
                   {translations.title_decorator}
                 </span>
-              </motion.h1>
+              </motion.h2>
             </div>
 
           </motion.article>

@@ -102,7 +102,7 @@ const travelReasonsEs = createNewPostJson(
   'razones-para-viajar-a-colombia-por-tu-proximo-tatuaje',
   secondBlogEs.title,
   secondBlogEs.date,
-  '/img/blog/post2.png',
+  '/img/blog/post2.jpg',
   'Descubre por qué Colombia se ha convertido en el destino perfecto para combinar turismo y tatuajes de calidad excepcional.',
   {
     title: '7 Razones para Viajar a Colombia por tu Próximo Tatuaje',
@@ -134,7 +134,7 @@ const travelReasonsEn = createNewPostJson(
   'reason-to-travel-to-colombia-for-your-next-tattoo',
   secondBlogEn.title,
   secondBlogEn.date,
-  '/img/blog/post2.png',
+  '/img/blog/post2.jpg',
   'Discover why Colombia has become the perfect destination to combine tourism and exceptional quality tattoos.',
   {
     title: '7 Reasons to Travel to Colombia for Your Next Tattoo',

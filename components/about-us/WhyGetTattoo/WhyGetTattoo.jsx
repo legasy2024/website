@@ -162,7 +162,7 @@ const WhyGetTattoo = ({ translations }) => {
       ref={sectionRef}
       className="w-full h-full max-w-[1200px] m-auto flex flex-col px-5 py-20 gap-y-9"
     >
-      <motion.h1
+      <motion.h2
         ref={titleRef}
         variants={titleVariants}
 
@@ -175,7 +175,7 @@ const WhyGetTattoo = ({ translations }) => {
         >
           {translations.section_title_decorator}
         </motion.span>
-      </motion.h1>
+      </motion.h2>
 
       {/* Mobile Title */}
       <div  >

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { imageByStyles } from "./data/imagesByStyle";
+import { imageByStyles, thumbByStyles } from "./data/imagesByStyle";
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaExpand, FaTimes } from 'react-icons/fa';
 
@@ -15,7 +15,10 @@ function Images({ selectedStyle }) {
   const defaultStyle = "realismo";
   
   // Get images for the selected style or fallback to default
-  const images = imageByStyles[normalizedStyle] || imageByStyles[defaultStyle] || [];
+  const styleKey = imageByStyles[normalizedStyle] ? normalizedStyle : defaultStyle;
+  const images = imageByStyles[styleKey] || [];
+  // Miniaturas de 700px para la cuadrícula; el original solo se carga en pantalla completa
+  const thumbs = thumbByStyles[styleKey] || images;
 
   // Reset loading state when style changes
   useEffect(() => {
@@ -88,7 +91,7 @@ function Images({ selectedStyle }) {
               
               {/* Actual image */}
               <Image
-                src={src}
+                src={thumbs[index] || src}
                 alt={`${selectedStyle || defaultStyle} image ${index + 1}`}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw"

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
+import { useParams } from "next/navigation";
 
 import { trackLead } from "@/lib/analytics";
 
@@ -11,6 +12,7 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
   const [phoneNumber, setPhoneNumber] = useState("");
   const [status, setStatus] = useState(null); // null, "success", "error"
   const [loading, setLoading] = useState(false);
+  const isEs = useParams()?.locale === "es";
 
   const handleCountryCodeChange = (e) => {
     // Keep the '+' and limit to reasonable country code length (1-4 digits)
@@ -100,6 +102,8 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
             value={countryCode}
             onChange={handleCountryCodeChange}
             placeholder="+00"
+            aria-label={isEs ? "Código de país" : "Country code"}
+            autoComplete="tel-country-code"
             disabled={loading}
           />
         </div>
@@ -109,6 +113,8 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
           type="tel"
           className="bg-transparent border-none text-black placeholder-[#AEAEAE] focus:outline-none flex-1 px-2"
           placeholder="(000)-000-0000"
+          aria-label={isEs ? "Número de teléfono" : "Phone number"}
+          autoComplete="tel-national"
           value={phoneNumber}
           onChange={handlePhoneChange}
           maxLength={11}
@@ -121,7 +127,7 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
           className={`py-3 px-2 bg-BgOrange hover:bg-[#8C4405] rounded-r-md transition ${
             loading ? "opacity-70 cursor-not-allowed" : ""
           }`}
-          aria-label="Enviar número"
+          aria-label={isEs ? "Enviar número" : "Send number"}
           disabled={loading}
         >
           {loading ? (

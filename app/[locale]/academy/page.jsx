@@ -441,7 +441,7 @@ export default function AcademyPage({ params: { locale } }) {
   });
 
   return (
-    <main className="bg-[#0B0B0B] text-white">
+    <div className="bg-[#0B0B0B] text-white">
       <section className="relative overflow-hidden bg-gradient-to-br from-black via-[#1A1A1A] to-[#262016] px-6 py-24 md:px-12">
         <div
           className="absolute inset-0 z-0"
@@ -735,6 +735,6 @@ export default function AcademyPage({ params: { locale } }) {
           </Link>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

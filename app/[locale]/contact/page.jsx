@@ -15,7 +15,7 @@ const i18nNameSpaces = ["home", "about", "navbar", "experience", "help", "projec
 
 const metadata = {
   title: "Contáctanos - Legassy Studio",
-  description: "Contáctanos en Legassy Studio, tu estudio de tatuajes en Cali. Estamos listos para escuchar tu idea y convertirla en arte corporal único. Agenda tu cita o resuelve tus dudas.",
+  description: "Contacta a Legassy Studio, estudio de tatuajes en Cali. Cuéntanos tu idea, agenda tu cita o resuelve tus dudas por WhatsApp, email o teléfono.",
   keywords: "contacto tatuajes, agendar tatuaje, estudio de tatuajes Cali, consulta tatuaje, reservar cita, artistas tatuadores, información de contacto",
   language: "es",
   subject: "Información de contacto y reservas - Legassy Studio",
@@ -37,13 +37,14 @@ const metadata = {
       url: "https://www.legassystudio.com/es/contact",
       title: "Contacto - Legassy Studio",
       description: "Contáctanos en Legassy Studio, tu estudio de tatuajes en Cali. Estamos listos para escuchar tu idea y convertirla en arte corporal único.",
+      images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };
 
 const metadata_en = {
   title: "Contact - Legassy Studio",
-  description: "Contact Legassy Studio, your tattoo studio in Cali. We're ready to listen to your idea and transform it into unique body art. Schedule your appointment or resolve your questions.",
+  description: "Contact Legassy Studio, a tattoo studio in Cali, Colombia. Tell us your idea, book your appointment or ask questions via WhatsApp, email or phone.",
   keywords: "tattoo contact, book tattoo, tattoo studio Cali, tattoo consultation, book appointment, tattoo artists, contact information",
   language: "en",
   subject: "Contact Information and Bookings - Legassy Studio",
@@ -65,6 +66,7 @@ const metadata_en = {
       url: "https://www.legassystudio.com/en/contact",
       title: "Contact - Legassy Studio",
       description: "Contact Legassy Studio, your tattoo studio in Cali. We're ready to listen to your idea and transform it into unique body art.",
+      images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };

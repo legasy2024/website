@@ -221,7 +221,7 @@ function BookConsult({ translations, locale = "es" }) {
                     href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-TextBlack font-semibold hover:text-BgOrange transition-colors"
+                    className="inline-block py-1 text-TextBlack font-semibold hover:text-BgOrange transition-colors"
                   >
                     {phoneText}
                   </a>
@@ -238,7 +238,7 @@ function BookConsult({ translations, locale = "es" }) {
                   <a
                     href={`mailto:${emailText}`}
                     data-cta="book_consult_email"
-                    className="text-TextBlack font-semibold hover:text-BgOrange transition-colors"
+                    className="inline-block py-1 text-TextBlack font-semibold hover:text-BgOrange transition-colors"
                   >
                     {emailText}
                   </a>

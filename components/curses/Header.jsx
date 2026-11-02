@@ -1,6 +1,6 @@
 'use client'
 
-import bgImg from './assets/bgImage.png';
+import bgImg from './assets/bgImage.jpg';
 import React from 'react';
 import { motion } from 'framer-motion';
 import localFont from "next/font/local";
@@ -77,7 +77,7 @@ const Header = ({
                 {translations.title}{" "}
 
               </motion.h1>
-              <motion.h1
+              <motion.h2
                 className={`font-normal text-[#D8CDBC] md:-mt-8 text-6xl ml-4 ${eagleFont.className}`}
                 style={{ marginBottom: "-0.2em" }}
                 initial={{ opacity: 0, x: -20 }}
@@ -88,7 +88,7 @@ const Header = ({
                 }}
               >
                 {translations.title_decorator}
-              </motion.h1>
+              </motion.h2>
             </div>
 
           </div>

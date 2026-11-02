@@ -62,12 +62,67 @@ function generateBlogRewrites() {
   return rewrites;
 }
 
+const CSP = [
+    "default-src 'self'",
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.google-analytics.com https://analytics.ahrefs.com https://va.vercel-scripts.com https://vercel.live",
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: blob: https:",
+    "font-src 'self' data:",
+    "connect-src 'self' https://formspree.io https://*.googleapis.com https://*.firebaseio.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://analytics.ahrefs.com https://vitals.vercel-insights.com https://vercel.live wss://*.firebaseio.com",
+    "frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com https://vercel.live",
+    "media-src 'self' https:",
+    "object-src 'none'",
+    "base-uri 'self'",
+    "form-action 'self' https://formspree.io",
+    "frame-ancestors 'self'",
+].join('; ');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         unoptimized: true,
         domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com', 'images.unsplash.com', 'img.youtube.com', 'i.ytimg.com'],
         formats: ['image/avif',  'image/webp']
+    },
+    async redirects() {
+        // El alias *.vercel.app de producción servía el sitio completo (contenido duplicado para Google)
+        return [
+            {
+                source: '/:path*',
+                has: [{ type: 'host', value: 'website-omega-silk-59.vercel.app' }],
+                destination: 'https://www.legassystudio.com/:path*',
+                permanent: true,
+            },
+        ];
+    },
+    async headers() {
+        return [
+            {
+                source: '/:path*',
+                headers: [
+                    { key: 'X-Content-Type-Options', value: 'nosniff' },
+                    { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+                    { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+                    { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+                    // Solo reporta (en la consola del navegador), no bloquea nada.
+                    // Cuando no aparezcan avisos, se puede cambiar a 'Content-Security-Policy'.
+                    { key: 'Content-Security-Policy-Report-Only', value: CSP },
+                ],
+            },
+            {
+                // Imágenes de /public/img: sin hash en el nombre, así que caché larga pero revalidable
+                source: '/img/:path*',
+                headers: [
+                    { key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=86400' },
+                ],
+            },
+            {
+                source: '/fonts/:path*',
+                headers: [
+                    { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+                ],
+            },
+        ];
     },
     async rewrites() {
         // Generar rewrites dinámicamente desde el registry

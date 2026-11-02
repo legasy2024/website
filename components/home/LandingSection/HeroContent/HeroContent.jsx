@@ -41,7 +41,7 @@ function HeroContent( { translations } ) {
       transition: {
         duration: 1,
         ease: "easeOut",
-        delay: 1.1, // Aparece después del título principal
+        delay: 0.3, // Aparece después del título principal
       },
     },
   };
@@ -54,7 +54,7 @@ function HeroContent( { translations } ) {
       opacity: 1,
       transition: {
         duration: 0.8,
-        delay: 1.8, // Aparece después del subtítulo
+        delay: 0.5, // Aparece después del subtítulo
       },
     },
   };
@@ -69,7 +69,7 @@ function HeroContent( { translations } ) {
       y: 0,
       transition: {
         duration: 0.6,
-        delay: 2.3, // Último elemento en aparecer
+        delay: 0.7, // Último elemento en aparecer
       },
     },
   };
@@ -106,7 +106,7 @@ function HeroContent( { translations } ) {
       <div className="flex flex-col items-center justify-center p-5 text-center">
         <motion.h1 
           className="bg-gradient-to-b from-white to-[#989898] text-transparent bg-clip-text text-2xl   md:text-5xl p-1"
-          initial="hidden"
+          initial={false}
           animate="visible"
           variants={titleVariants}
         >

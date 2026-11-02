@@ -211,8 +211,9 @@ export default function ShortsGallery({ translations }) {
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}
-                            className="flex items-center gap-1 text-gray-400 hover:text-white transition-colors p-1"
+                            className="flex items-center justify-center gap-1 text-gray-400 hover:text-white transition-colors p-2 -m-1"
                             title="Abrir en YouTube"
+                            aria-label="Abrir en YouTube"
                           >
                             <FaExternalLinkAlt className="w-3 h-3" />
                           </a>

@@ -46,6 +46,7 @@ const metadata = {
     title: "Podcast - Legassy Studio",
     description:
       "Escucha nuestro podcast y explora el mundo de los tatuajes, el arte y la cultura. Uno de los principales podcasts sobre tatuajes en Cali, Colombia. Conversaciones con artistas, clientes y expertos de la industria.",
+    images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
     siteName: "Legassy Studio",
   },
 };
@@ -77,6 +78,7 @@ const metadata_en = {
     title: "Podcast - Legassy Studio",
     description:
       "Listen to our podcast and explore the world of tattoos, art, and culture. One of the main podcasts talking about tattoos in Cali, Colombia. Conversations with artists, clients, and industry experts.",
+    images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
     siteName: "Legassy Studio",
   },
 };
