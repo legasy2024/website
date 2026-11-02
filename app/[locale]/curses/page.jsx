@@ -35,6 +35,7 @@ const metadata = {
       url: "https://www.legassystudio.com/es/curses",
       title: "Cursos de Tatuaje - Legassy Studio",
       description: "Descubre nuestros cursos de tatuaje impartidos por artistas expertos. Aprende técnicas, higiene y estilos únicos en un ambiente profesional y creativo.",
+      images: [{ url: "/es/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
     }
   };
@@ -63,6 +64,7 @@ const metadata = {
       url: "https://www.legassystudio.com/en/curses",
       title: "Tattoo Courses - Legassy Studio",
       description: "Discover our tattoo courses taught by expert artists. Learn techniques, hygiene, and unique styles in a professional and creative environment.",
+      images: [{ url: "/en/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
     }
   };
