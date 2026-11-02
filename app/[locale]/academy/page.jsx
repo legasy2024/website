@@ -384,8 +384,8 @@ export default function AcademyPage({ params: { locale } }) {
           {content.stats.map((stat) => (
             <div key={stat.label} className="text-center md:text-left">
               <dt className="sr-only">{stat.label}</dt>
-              <dd className={`text-5xl text-[#D8CDBC] md:text-6xl ${eagleFont.className}`}>{stat.value}</dd>
-              <dd className="mt-1 text-sm uppercase tracking-wide text-gray-400">{stat.label}</dd>
+              <dd className={`text-5xl leading-[1.15] text-[#D8CDBC] md:text-6xl ${eagleFont.className}`}>{stat.value}</dd>
+              <dd className="mt-3 text-sm uppercase tracking-wide text-gray-400">{stat.label}</dd>
             </div>
           ))}
         </dl>
@@ -576,7 +576,7 @@ export default function AcademyPage({ params: { locale } }) {
           <h3 className="mt-14 text-2xl font-semibold md:text-3xl">{content.videosTitle}</h3>
           <p className="mt-2 text-gray-400">{content.videosDescription}</p>
           {/* Fila deslizable en móvil, cuadrícula en escritorio. Cada vídeo solo se descarga al darle play. */}
-          <ul className="-mx-6 mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-5 md:overflow-visible md:px-0 [&::-webkit-scrollbar]:hidden">
+          <ul className="-mx-6 mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto scroll-px-6 px-6 pb-4 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-5 md:overflow-visible md:px-0 [&::-webkit-scrollbar]:hidden">
             {videoTestimonials.map((video) => (
               <li key={video.src} className="w-[62vw] max-w-[260px] shrink-0 snap-start md:w-auto md:max-w-none">
                 <figure className="overflow-hidden rounded-2xl border border-white/10 bg-[#141414]">
