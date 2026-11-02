@@ -64,6 +64,7 @@ function PortfolioSection({ translations, locale }) {
 
         <a
           className="mt-20"
+          data-cta="home_portfolio_whatsapp"
           href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
           target="_blank"
         >

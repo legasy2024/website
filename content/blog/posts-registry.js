@@ -4,6 +4,7 @@
  * Este archivo es la única fuente de verdad para:
  * - Slugs en cada idioma
  * - Metadatos básicos (imagen, fecha, label)
+ * - Categoría (`category`: id de content/blog/categories.js)
  * - Orden de los posts
  * - Estado de publicación
  *
@@ -14,6 +15,7 @@
 const blogPostsRegistry = [
   {
     "id": "definitive-guide",
+    "category": "guides",
     "slugs": {
       "es": "guia-definitiva-donde-tatuarse-en-cali",
       "en": "definitive-guide-on-where-to-tattoo-en-cali"
@@ -32,6 +34,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "travel-reasons",
+    "category": "tourism",
     "slugs": {
       "es": "razones-para-viajar-a-colombia-por-tu-proximo-tatuaje",
       "en": "reason-to-travel-to-colombia-for-your-next-tattoo"
@@ -50,6 +53,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "english-speaking",
+    "category": "tourism",
     "slugs": {
       "es": "artistas-de-tatuajes-que-hablan-ingles-en-cali",
       "en": "english-speaking-tattoo-artists-in-cali-colombia"
@@ -68,6 +72,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "cali-creative-city",
+    "category": "tourism",
     "slugs": {
       "es": "cali-el-auge-de-una-ciudad-creativa-para-extranjeros",
       "en": "cali-tattoo-scene-for-foreigners"
@@ -86,6 +91,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "prices-comparison",
+    "category": "tourism",
     "slugs": {
       "es": "precios-de-tatuajes-en-colombia-vs-eeuu",
       "en": "tattoo-prices-colombia-vs-usa"
@@ -104,6 +110,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "inclusive-studios",
+    "category": "guides",
     "slugs": {
       "es": "estudios-de-tatuajes-inclusivos-en-colombia",
       "en": "inclusive-tattoo-studios-in-colombia"
@@ -122,6 +129,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "remote-process",
+    "category": "tourism",
     "slugs": {
       "es": "proceso-de-trabajo-con-artistas-colombianos-a-distancia",
       "en": "remote-tattoo-process-colombia-from-usa"
@@ -140,6 +148,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "history",
+    "category": "guides",
     "slugs": {
       "es": "historia-del-arte-del-tatuaje-en-colombia",
       "en": "history-of-tattoo-art-in-colombia"
@@ -158,6 +167,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "fine-line-durability",
+    "category": "styles",
     "slugs": {
       "es": "tatuajes-de-linea-fina-en-cali-durabilidad-del-trazo",
       "en": "fine-line-tattoos-in-cali-durability"
@@ -176,6 +186,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-healing-mistakes",
+    "category": "aftercare",
     "slugs": {
       "es": "7-errores-que-arruinan-la-curacion-de-tu-tatuaje",
       "en": "7-mistakes-that-ruin-your-tattoo-healing"
@@ -194,6 +205,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-healing-time",
+    "category": "aftercare",
     "slugs": {
       "es": "cuanto-tarda-en-cicatrizar-un-tatuaje-segun-tamano-y-zona",
       "en": "how-long-does-a-tattoo-take-to-heal-size-and-placement"
@@ -212,6 +224,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-care-step-by-step",
+    "category": "aftercare",
     "slugs": {
       "es": "cuidados-del-tatuaje-paso-a-paso-guia-completa",
       "en": "tattoo-care-step-by-step-complete-guide"
@@ -230,6 +243,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-healing-signs",
+    "category": "aftercare",
     "slugs": {
       "es": "senales-normales-y-senales-de-alerta-durante-la-cicatrizacion",
       "en": "normal-signs-and-warning-signs-during-tattoo-healing"
@@ -248,6 +262,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-aftercare-products",
+    "category": "aftercare",
     "slugs": {
       "es": "productos-recomendados-para-cuidar-un-tatuaje-recien-hecho",
       "en": "recommended-products-for-new-tattoo-care"
@@ -266,6 +281,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-sun-protection",
+    "category": "aftercare",
     "slugs": {
       "es": "como-proteger-un-tatuaje-del-sol-sin-danar-la-tinta",
       "en": "how-to-protect-tattoo-from-sun-without-damaging-ink"
@@ -284,6 +300,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-color-loss",
+    "category": "aftercare",
     "slugs": {
       "es": "que-hacer-si-tu-tatuaje-pierde-color-durante-la-cicatrizacion",
       "en": "what-to-do-if-tattoo-loses-color-during-healing"
@@ -302,6 +319,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-sleeping-guide",
+    "category": "aftercare",
     "slugs": {
       "es": "como-dormir-despues-de-hacerte-un-tatuaje-sin-danarlo",
       "en": "how-to-sleep-after-getting-tattoo-without-damaging-it"
@@ -320,6 +338,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-exercise-guide",
+    "category": "aftercare",
     "slugs": {
       "es": "se-puede-hacer-ejercicio-despues-de-tatuarse",
       "en": "can-you-exercise-after-getting-tattoo"
@@ -338,6 +357,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "first-tattoo-guide",
+    "category": "guides",
     "slugs": {
       "es": "todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje-por-primera-vez",
       "en": "everything-you-should-know-before-getting-your-first-tattoo"
@@ -356,6 +376,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "choosing-tattoo-artist",
+    "category": "guides",
     "slugs": {
       "es": "como-elegir-un-buen-tatuador-sin-dejarte-llevar-solo-por-el-precio",
       "en": "how-to-choose-good-tattoo-artist-without-price-only"
@@ -374,6 +395,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "first-tattoo-session",
+    "category": "guides",
     "slugs": {
       "es": "que-esperar-durante-tu-primera-sesion-de-tatuaje",
       "en": "what-to-expect-during-your-first-tattoo-session"
@@ -392,6 +414,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "questions-before-tattoo",
+    "category": "guides",
     "slugs": {
       "es": "preguntas-que-deberias-hacer-antes-de-tatuarte",
       "en": "questions-you-should-ask-before-getting-tattoo"
@@ -410,6 +433,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-longevity",
+    "category": "guides",
     "slugs": {
       "es": "cuanto-dura-realmente-un-tatuaje-con-los-anos",
       "en": "how-long-does-tattoo-really-last-over-years"
@@ -428,6 +452,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "professional-vs-amateur-studio",
+    "category": "guides",
     "slugs": {
       "es": "diferencias-entre-un-estudio-profesional-de-tatuajes-y-uno-amateur",
       "en": "differences-between-professional-and-amateur-tattoo-studio"
@@ -446,6 +471,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-session-duration",
+    "category": "guides",
     "slugs": {
       "es": "cuanto-tiempo-dura-una-sesion-de-tatuaje-segun-el-diseno",
       "en": "how-long-does-tattoo-session-last-depending-on-design"
@@ -464,6 +490,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-pain-guide",
+    "category": "pain",
     "slugs": {
       "es": "duele-hacerse-un-tatuaje-guia-realista-sobre-dolor-zonas-y-sensaciones",
       "en": "does-getting-tattoo-hurt-realistic-guide-pain-zones-sensations"
@@ -482,6 +509,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "most-painful-tattoo-zones",
+    "category": "pain",
     "slugs": {
       "es": "zonas-del-cuerpo-donde-mas-duele-tatuarse-ranking-real",
       "en": "most-painful-body-zones-for-tattoos-real-ranking"
@@ -500,6 +528,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "managing-pain-long-tattoo-session",
+    "category": "pain",
     "slugs": {
       "es": "como-manejar-el-dolor-durante-una-sesion-de-tatuajes-larga",
       "en": "how-to-manage-pain-during-long-tattoo-session"
@@ -518,6 +547,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-pain-by-skin-type",
+    "category": "pain",
     "slugs": {
       "es": "cuanto-duele-tatuarse-segun-el-tipo-de-piel",
       "en": "how-much-does-tattooing-hurt-by-skin-type"
@@ -536,6 +566,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "relaxation-techniques-during-tattoo",
+    "category": "pain",
     "slugs": {
       "es": "tecnicas-para-relajarte-mientras-te-estan-tatuando",
       "en": "relaxation-techniques-while-getting-tattooed"
@@ -554,6 +585,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-pain-duration-after",
+    "category": "pain",
     "slugs": {
       "es": "cuanto-dura-el-dolor-despues-de-tatuarse",
       "en": "how-long-does-tattoo-pain-last-after"
@@ -572,6 +604,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-anesthesia-guide",
+    "category": "pain",
     "slugs": {
       "es": "anestesia-para-tatuajes-funciona-realmente",
       "en": "tattoo-anesthesia-does-it-really-work"
@@ -590,6 +623,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-design-aging-well",
+    "category": "guides",
     "slugs": {
       "es": "como-saber-si-un-diseno-de-tatuaje-envejecera-bien",
       "en": "how-to-know-if-a-tattoo-design-will-age-well"
@@ -608,6 +642,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoos-on-dark-skin-myths",
+    "category": "guides",
     "slugs": {
       "es": "tatuajes-en-pieles-morenas-mitos-sobre-el-color-y-la-saturacion",
       "en": "tattoos-on-brown-and-dark-skin-myths-color-and-saturation"
@@ -626,6 +661,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "micro-tattoos-vs-small-tattoos",
+    "category": "styles",
     "slugs": {
       "es": "micro-tatuajes-vs-tatuajes-pequenos-por-que-el-detalle-extremo-tiene-riesgos",
       "en": "micro-tattoos-vs-small-tattoos-why-extreme-detail-is-risky"
@@ -644,6 +680,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "choose-tattoo-style-personality-anatomy",
+    "category": "guides",
     "slugs": {
       "es": "como-elegir-el-estilo-de-tatuaje-ideal-segun-tu-personalidad-y-anatomia",
       "en": "how-to-choose-the-right-tattoo-style-for-your-personality-and-anatomy"
@@ -662,6 +699,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "blackwork-vs-realism-technical-guide",
+    "category": "styles",
     "slugs": {
       "es": "blackwork-vs-realismo-guia-visual-para-entender-las-diferencias-tecnicas",
       "en": "blackwork-vs-realism-a-clear-guide-to-technical-differences"
@@ -680,6 +718,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-over-stretch-marks-scars-science",
+    "category": "health",
     "slugs": {
       "es": "se-pueden-tapar-las-estrias-o-cicatrices-con-un-tatuaje-lo-que-dice-la-ciencia",
       "en": "can-you-cover-stretch-marks-or-scars-with-a-tattoo-what-science-says"
@@ -698,6 +737,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-raised-years-later",
+    "category": "aftercare",
     "slugs": {
       "es": "por-que-algunos-tatuajes-se-sienten-en-relieve-despues-de-anos",
       "en": "why-some-tattoos-feel-raised-years-later"
@@ -716,6 +756,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-allergy-symptoms-causes",
+    "category": "health",
     "slugs": {
       "es": "alergia-a-la-tinta-de-tatuaje-sintomas-causas-y-que-hacer-si-sucede",
       "en": "tattoo-ink-allergy-symptoms-causes-and-what-to-do"
@@ -734,6 +775,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-over-moles-why-avoid",
+    "category": "health",
     "slugs": {
       "es": "tatuarse-sobre-lunares-por-que-los-profesionales-siempre-los-evitan",
       "en": "tattooing-over-moles-why-professionals-avoid-it"
@@ -752,6 +794,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-ink-lymphatic-system",
+    "category": "health",
     "slugs": {
       "es": "que-pasa-con-la-tinta-de-los-tatuajes-en-el-sistema-linfatico-realidad-vs-ficcion",
       "en": "what-happens-to-tattoo-ink-in-the-lymphatic-system-reality-vs-fiction"
@@ -770,6 +813,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-alcohol-caffeine-effects",
+    "category": "health",
     "slugs": {
       "es": "el-efecto-del-alcohol-y-la-cafeina-en-la-sangre-durante-una-sesion-de-tatuaje",
       "en": "the-effect-of-alcohol-and-caffeine-on-your-blood-during-a-tattoo-session"
@@ -788,6 +832,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-dermatitis-psoriasis-safety",
+    "category": "health",
     "slugs": {
       "es": "es-seguro-tatuarse-si-tienes-dermatitis-o-psoriasis",
       "en": "is-it-safe-to-get-tattooed-if-you-have-dermatitis-or-psoriasis"
@@ -806,6 +851,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-laser-hair-removal-same-area",
+    "category": "health",
     "slugs": {
       "es": "tatuajes-y-depilacion-laser-por-que-nunca-deben-mezclarse-en-la-misma-zona",
       "en": "tattoos-and-laser-hair-removal-why-they-shouldnt-mix-in-the-same-area"
@@ -824,6 +870,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "pool-chlorine-effect-healed-tattoo",
+    "category": "aftercare",
     "slugs": {
       "es": "como-afecta-el-cloro-de-la-piscina-a-un-tatuaje-ya-cicatrizado",
       "en": "how-pool-chlorine-affects-a-fully-healed-tattoo"
@@ -842,6 +889,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "flying-after-tattoo-travel-guide",
+    "category": "tourism",
     "slugs": {
       "es": "guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme",
       "en": "traveler-guide-can-you-fly-immediately-after-getting-a-tattoo"
@@ -860,6 +908,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "blood-donation-after-tattoo-wait-time",
+    "category": "health",
     "slugs": {
       "es": "donar-sangre-despues-de-un-tatuaje-cuanto-tiempo-hay-que-esperar-realmente",
       "en": "blood-donation-after-a-tattoo-how-long-should-you-really-wait"
@@ -878,6 +927,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gym-training-with-new-tattoo",
+    "category": "aftercare",
     "slugs": {
       "es": "como-entrenar-en-el-gimnasio-sin-estirar-la-piel-de-un-tatuaje-nuevo",
       "en": "how-to-train-at-the-gym-without-stretching-a-new-tattoo"
@@ -896,6 +946,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-white-ink-yellowing",
+    "category": "styles",
     "slugs": {
       "es": "por-que-los-tatuajes-blancos-suelen-volverse-amarillos-o-desaparecer",
       "en": "why-white-tattoos-often-turn-yellow-or-disappear"
@@ -914,6 +965,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-aftercare-creams-truth",
+    "category": "aftercare",
     "slugs": {
       "es": "la-verdad-sobre-las-cremas-para-tatuajes-son-mejores-las-marcas-especializadas-o-la-vaselina",
       "en": "the-truth-about-tattoo-creams-are-specialized-brands-better-than-petroleum-jelly"
@@ -932,6 +984,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-blowout-ink-spread",
+    "category": "styles",
     "slugs": {
       "es": "que-es-el-blowout-en-un-tatuaje-y-por-que-se-expande-la-tinta-bajo-la-piel",
       "en": "what-is-blowout-in-a-tattoo-and-why-ink-spreads-under-the-skin"
@@ -950,6 +1003,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "reading-artist-portfolio-how-to",
+    "category": "guides",
     "slugs": {
       "es": "como-leer-el-portafolio-de-un-artista-en-que-fijarse-mas-alla-de-los-seguidores",
       "en": "how-to-read-a-tattoo-artist-portfolio-what-to-look-at-beyond-followers"
@@ -968,6 +1022,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "handpoke-vs-machine-tattoos",
+    "category": "styles",
     "slugs": {
       "es": "tatuajes-handpoke-vs-maquina-diferencias-en-dolor-duracion-y-estetica",
       "en": "handpoke-vs-machine-tattoos-differences-in-pain-longevity-and-aesthetics"
@@ -986,6 +1041,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "arm-tattoo-gallery",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-el-brazo-para-hombres",
       "en": "arm-tattoos-gallery-ideas-and-recommendations"
@@ -1004,6 +1060,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-para-hombres",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-para-hombres-galeria",
       "en": "mens-tattoos-gallery-inspiration"
@@ -1022,6 +1079,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-para-mujeres",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-para-mujeres-galeria",
       "en": "womens-tattoos-gallery-inspiration"
@@ -1040,6 +1098,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-cuello",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-el-cuello-galeria",
       "en": "neck-tattoos-gallery-inspiration"
@@ -1058,6 +1117,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-antebrazo",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-el-antebrazo-galeria",
       "en": "forearm-tattoos-gallery-inspiration"
@@ -1076,6 +1136,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-espalda",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-la-espalda-galeria",
       "en": "back-tattoos-gallery-inspiration"
@@ -1094,6 +1155,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-pareja",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-pareja-galeria",
       "en": "couple-tattoos-gallery-inspiration"
@@ -1112,6 +1174,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-mujer-brazo",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-para-mujer-en-el-brazo-galeria",
       "en": "womens-arm-tattoos-gallery-inspiration"
@@ -1130,6 +1193,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-mano",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-la-mano-galeria",
       "en": "hand-tattoos-gallery-inspiration"
@@ -1148,6 +1212,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-pequenos-hombres",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-pequenos-para-hombres-galeria",
       "en": "small-tattoos-for-men-gallery"
@@ -1166,6 +1231,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-pequenos-mujer",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-pequenos-para-mujer-galeria",
       "en": "small-tattoos-for-women-gallery"
@@ -1184,6 +1250,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-pierna",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-la-pierna-galeria",
       "en": "leg-tattoos-gallery-inspiration"
@@ -1202,6 +1269,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-espalda-mujer",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-la-espalda-para-mujer-galeria",
       "en": "back-tattoos-for-women-gallery"
@@ -1220,6 +1288,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-minimalistas",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-minimalistas-galeria",
       "en": "minimalist-tattoos-gallery-inspiration"
@@ -1238,6 +1307,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-cuello-hombres",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-el-cuello-para-hombres-galeria",
       "en": "neck-tattoos-for-men-gallery"
@@ -1256,6 +1326,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-hombres-pierna",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-para-hombres-en-la-pierna-galeria",
       "en": "mens-leg-tattoos-gallery-inspiration"
@@ -1274,6 +1345,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-elegantes-mujeres",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-elegantes-para-mujeres-galeria",
       "en": "elegant-tattoos-for-women-gallery"
@@ -1292,6 +1364,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-bonitos-mujer",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-bonitos-para-mujer-galeria",
       "en": "pretty-tattoos-for-women-gallery"
@@ -1310,6 +1383,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-mujer-muneca",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-para-mujer-en-la-muneca-galeria",
       "en": "womens-wrist-tattoos-gallery-inspiration"
@@ -1328,6 +1402,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-pequenos-amigas",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-pequenos-para-amigas-galeria",
       "en": "small-friendship-tattoos-gallery-inspiration"
@@ -1346,6 +1421,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-cuello-mujer",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-en-el-cuello-para-mujer-galeria",
       "en": "neck-tattoos-for-women-gallery"
@@ -1364,6 +1440,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-manga-completa",
+    "category": "gallery",
     "slugs": {
       "es": "tatuaje-manga-completa-galeria",
       "en": "full-sleeve-tattoo-gallery-inspiration"
@@ -1382,6 +1459,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-minis",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-minis-galeria",
       "en": "mini-tattoos-gallery-inspiration"
@@ -1400,6 +1478,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-tribal",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-estilo-tribal-galeria",
       "en": "tribal-style-tattoos-gallery"
@@ -1418,6 +1497,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-neo-tradicional",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-neo-tradicional-galeria",
       "en": "neo-traditional-tattoos-gallery"
@@ -1436,6 +1516,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-realismo",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-realismo-galeria",
       "en": "realism-tattoos-gallery-inspiration"
@@ -1454,6 +1535,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-sombras-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-sombras-negro-gris-galeria",
       "en": "black-grey-shading-tattoos-gallery"
@@ -1472,6 +1554,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-retratos",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-con-retratos-galeria",
       "en": "portrait-tattoos-gallery-inspiration"
@@ -1490,6 +1573,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-color",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-a-color-galeria",
       "en": "color-tattoos-gallery-inspiration"
@@ -1508,6 +1592,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-estilo-puntillismo",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-puntillismo-galeria",
       "en": "dotwork-tattoos-gallery-inspiration"
@@ -1526,6 +1611,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-anime",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-de-anime-galeria",
       "en": "anime-tattoos-gallery-inspiration"
@@ -1544,6 +1630,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "hidden-tattoos-work",
+    "category": "guides",
     "slugs": {
       "es": "tatuajes-ocultos-mejores-zonas-cuerpo-trabajo",
       "en": "hidden-tattoos-best-body-areas-for-work"
@@ -1562,6 +1649,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "first-large-tattoo-prep",
+    "category": "pain",
     "slugs": {
       "es": "como-prepararte-noche-anterior-primer-tatuaje-grande",
       "en": "how-to-prepare-night-before-first-large-tattoo"
@@ -1580,6 +1668,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "cover-c-section-scar-botanical",
+    "category": "styles",
     "slugs": {
       "es": "tapar-cicatriz-cesarea-apendicitis-tatuaje-botanico",
       "en": "cover-c-section-appendicitis-scar-botanical-tattoo"
@@ -1598,6 +1687,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "micro-tattoos-couples-cali",
+    "category": "gallery",
     "slugs": {
       "es": "microtatuajes-parejas-cali-disenos-discretos",
       "en": "micro-tattoos-couples-cali-discreet-designs"
@@ -1616,6 +1706,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoos-couples-friends-valentines",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-novios-amigos-san-valentin-amor-amistad",
       "en": "tattoos-couples-friends-valentines-day"
@@ -1634,6 +1725,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "executive-tattoos-office",
+    "category": "guides",
     "slugs": {
       "es": "tatuajes-ejecutivos-estilos-zonas-ropa-oficina",
       "en": "executive-tattoos-styles-areas-office-clothes"
@@ -1652,6 +1744,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "small-tattoos-hidden-watch-shirt",
+    "category": "guides",
     "slugs": {
       "es": "ideas-tatuajes-pequenos-zonas-escondidas",
       "en": "small-tattoo-ideas-hidden-watch-shirt"
@@ -1670,6 +1763,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "invisible-elegant-tattoos",
+    "category": "guides",
     "slugs": {
       "es": "tatuajes-invisibles-elegantes-discretos",
       "en": "invisible-elegant-tattoos-discreet-placements"
@@ -1688,6 +1782,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-prep-24-hours-checklist",
+    "category": "aftercare",
     "slugs": {
       "es": "checklist-24-horas-previas-preparar-sesion-tatuaje",
       "en": "24-hour-prep-checklist-for-long-tattoo-session"
@@ -1706,6 +1801,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "transform-abdominoplasty-scar-botanical",
+    "category": "styles",
     "slugs": {
       "es": "transforma-cicatriz-abdominoplastia-tatuaje-botanico",
       "en": "transform-abdominoplasty-scar-into-botanical-art"
@@ -1724,6 +1820,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-realismo-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-realismo-black-grey-galeria",
       "en": "black-grey-realism-tattoos-gallery"
@@ -1742,6 +1839,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-lobo-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-lobo-black-grey-galeria",
       "en": "wolf-black-grey-tattoos-gallery"
@@ -1760,6 +1858,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-animales-salvajes",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-animales-salvajes-galeria",
       "en": "wild-animal-tattoos-realism-gallery"
@@ -1778,6 +1877,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-gorila-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-gorila-calavera-black-grey-galeria",
       "en": "gorilla-skull-black-grey-tattoos-gallery"
@@ -1796,6 +1896,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-terror-cine",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-terror-cine-galeria-black-grey",
       "en": "horror-movie-tattoos-black-grey-gallery"
@@ -1814,6 +1915,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-samurai",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-samurai-galeria-black-grey",
       "en": "samurai-tattoos-black-grey-gallery"
@@ -1832,6 +1934,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-religiosos-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-religiosos-black-grey-galeria",
       "en": "religious-tattoos-black-grey-gallery"
@@ -1850,6 +1953,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-nativa-americana",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-mujer-nativa-americana-galeria",
       "en": "native-american-woman-tattoos-gallery"
@@ -1868,6 +1972,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-zeus-fenix-sleeve",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-zeus-fenix-sleeve-galeria",
       "en": "zeus-phoenix-sleeve-tattoo-gallery"
@@ -1886,6 +1991,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-mitologia-griega",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-mitologia-griega-galeria",
       "en": "greek-mythology-tattoos-gallery"
@@ -1904,6 +2010,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-egipcios-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-egipcios-black-grey-galeria",
       "en": "egyptian-mythology-tattoos-black-grey-gallery"
@@ -1922,6 +2029,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-retratos-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-retratos-black-grey-galeria",
       "en": "portrait-tattoos-black-grey-gallery"
@@ -1940,6 +2048,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "gallery-tatuajes-sleeve-black-grey",
+    "category": "gallery",
     "slugs": {
       "es": "tatuajes-sleeve-black-grey-galeria",
       "en": "black-grey-sleeve-tattoos-gallery"
@@ -1958,6 +2067,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-tourism-what-is-it",
+    "category": "tourism",
     "slugs": {
       "es": "turismo-de-tatuajes-que-es-y-para-quien",
       "en": "tattoo-tourism-explained-what-it-is-and-who-its-for"
@@ -1976,6 +2086,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-trip-real-cost-breakdown",
+    "category": "tourism",
     "slugs": {
       "es": "cuanto-cuesta-viaje-de-tatuajes-vuelos-hotel-tinta",
       "en": "real-cost-breakdown-tattoo-trip-flights-hotel-ink"
@@ -1994,6 +2105,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-tourism-red-flags",
+    "category": "tourism",
     "slugs": {
       "es": "senales-de-alerta-turismo-tatuajes-estudio-a-evitar",
       "en": "tattoo-tourism-red-flags-studio-you-should-skip"
@@ -2012,6 +2124,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "best-countries-tattoo-tourism-2026",
+    "category": "tourism",
     "slugs": {
       "es": "mejores-paises-turismo-tatuajes-2026-donde-queda-colombia",
       "en": "best-countries-tattoo-tourism-2026-where-colombia-ranks"
@@ -2030,6 +2143,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-collecting-every-country",
+    "category": "tourism",
     "slugs": {
       "es": "coleccionistas-tatuajes-tinta-en-cada-pais",
       "en": "tattoo-collecting-why-people-get-ink-every-country-they-visit"
@@ -2048,6 +2162,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "first-time-tattoo-tourist-guide",
+    "category": "tourism",
     "slugs": {
       "es": "guia-primer-turista-tatuaje-lee-antes-de-reservar",
       "en": "first-time-tattoo-tourist-read-this-before-booking"
@@ -2066,6 +2181,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-trip-duration-planning",
+    "category": "tourism",
     "slugs": {
       "es": "cuanto-debe-durar-un-viaje-de-tatuajes-sesiones-vs-turismo",
       "en": "how-long-should-a-tattoo-trip-be-sessions-vs-sightseeing"
@@ -2084,6 +2200,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-tourism-vs-local-studio",
+    "category": "tourism",
     "slugs": {
       "es": "turismo-tatuaje-vs-estudio-local-comparacion-honesta",
       "en": "tattoo-tourism-vs-local-studio-honest-comparison"
@@ -2102,6 +2219,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "what-nobody-tells-you-tattoo-on-vacation",
+    "category": "tourism",
     "slugs": {
       "es": "lo-que-nadie-te-dice-de-tatuarse-en-vacaciones",
       "en": "what-nobody-tells-you-about-getting-tattooed-on-vacation"
@@ -2120,6 +2238,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "colombia-tattoo-tourism-destination",
+    "category": "tourism",
     "slugs": {
       "es": "turismo-de-tatuajes-que-es-y-porque-colombia-se-volvio-destino",
       "en": "tattoo-tourism-why-colombia-became-a-top-destination"
@@ -2138,6 +2257,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-coverup-guide",
+    "category": "styles",
     "slugs": {
       "es": "como-tapar-un-tatuaje-viejo-guia-completa-cover-up",
       "en": "tattoo-coverup-complete-guide-how-to-cover-old-tattoo"
@@ -2156,6 +2276,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "pet-portrait-tattoo-realism",
+    "category": "styles",
     "slugs": {
       "es": "tatuajes-de-mascotas-en-realismo-como-inmortalizar-a-tu-perro-o-gato",
       "en": "pet-portrait-tattoo-realism-how-to-immortalize-your-dog-or-cat"
@@ -2174,6 +2295,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "microrealism-tattoo-guide",
+    "category": "styles",
     "slugs": {
       "es": "microrealismo-tatuaje-que-es-como-funciona-cuanto-dura",
       "en": "micro-realism-tattoo-guide-what-it-is-how-it-works"
@@ -2192,6 +2314,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-touchup-when-needed",
+    "category": "aftercare",
     "slugs": {
       "es": "retoque-de-tatuaje-cuando-es-necesario-y-cuanto-cuesta",
       "en": "tattoo-touch-up-when-needed-and-how-to-know"
@@ -2210,6 +2333,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "coverup-vs-laser-when-to-use",
+    "category": "styles",
     "slugs": {
       "es": "cover-up-vs-laser-cuando-conviene-aclarar-antes-de-tatuarse",
       "en": "cover-up-vs-laser-when-to-clarify-before-tattooing-again"
@@ -2228,6 +2352,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-weight-change-gym",
+    "category": "aftercare",
     "slugs": {
       "es": "que-le-pasa-a-un-tatuaje-si-subes-o-bajas-de-peso-o-aumentas-musculo",
       "en": "what-happens-to-tattoo-weight-change-muscle-gain"
@@ -2246,6 +2371,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-design-process-reference",
+    "category": "guides",
     "slugs": {
       "es": "como-pedir-un-tatuaje-original-referencias-pinterest-vs-diseno-propio",
       "en": "pinterest-vs-original-tattoo-design-how-to-communicate-your-idea"
@@ -2264,6 +2390,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "botanical-floral-tattoo-guide",
+    "category": "styles",
     "slugs": {
       "es": "tatuajes-botanicos-y-florales-guia-zonas-significado-estilos",
       "en": "botanical-floral-tattoo-guide-styles-areas-meaning"
@@ -2282,6 +2409,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-fingers-hands-durability",
+    "category": "styles",
     "slugs": {
       "es": "tatuajes-en-dedos-y-manos-durabilidad-realidad-y-alternativas",
       "en": "finger-hand-tattoos-durability-truth-and-alternatives"
@@ -2300,6 +2428,7 @@ const blogPostsRegistry = [
   },
   {
     "id": "tattoo-pregnancy-breastfeeding",
+    "category": "health",
     "slugs": {
       "es": "tatuar-durante-embarazo-o-lactancia-que-dicen-los-expertos",
       "en": "tattoo-during-pregnancy-breastfeeding-expert-advice"

@@ -81,6 +81,7 @@ function generateRegistryEntry(postId, postData) {
   return `
   {
     id: "${postId}",
+    category: "guides", // id de content/blog/categories.js
     slugs: {
       es: "${postData.slug.es}",
       en: "${postData.slug.en}"

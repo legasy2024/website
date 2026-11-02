@@ -223,6 +223,7 @@ export default function FaqSection({ translations }) {
 
           <a
             href={translations?.whatsapp_url || "https://wa.me/573103110611?text=Hola!%20Tengo%20una%20pregunta%20sobre%20los%20tatuajes%20en%20Legassy%20Studio"}
+            data-cta="home_faq_whatsapp"
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-TextBlack hover:bg-black text-white font-semibold text-xs md:text-sm transition-all shadow-md hover:shadow-lg"

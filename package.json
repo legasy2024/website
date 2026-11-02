@@ -9,9 +9,11 @@
     "lint": "next lint",
     "generate:posts": "node scripts/generate-posts-json.js",
     "validate:blog": "node scripts/validate-blog-system.js",
-    "create:post": "node scripts/create-blog-post.js"
+    "create:post": "node scripts/create-blog-post.js",
+    "optimize:images": "node scripts/optimize-images.js"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.3",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
     "firebase": "^12.8.0",

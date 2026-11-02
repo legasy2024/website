@@ -136,6 +136,7 @@ function HeroContent( { translations } ) {
           initial="hidden"
           animate="visible"
           variants={buttonVariants}
+          data-cta="home_hero_whatsapp"
           href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
           target="_blank"
         >

@@ -459,12 +459,14 @@ export default function AcademyPage({ params: { locale } }) {
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
               href={`/${locale}/contact`}
+              data-cta="academy_hero_primary"
               className="rounded-full bg-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
             >
               {content.heroPrimaryCta}
             </Link>
             <Link
               href={`/${locale}/contact`}
+              data-cta="academy_hero_secondary"
               className="rounded-full border border-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-[#D8CDBC] transition hover:bg-[#D8CDBC] hover:text-black"
             >
               {content.heroSecondaryCta}
@@ -726,6 +728,7 @@ export default function AcademyPage({ params: { locale } }) {
           <p className="mx-auto mt-5 max-w-2xl text-gray-300">{content.finalCtaText}</p>
           <Link
             href={`/${locale}/contact`}
+            data-cta="academy_final_cta"
             className="mt-8 inline-block rounded-full bg-[#D8CDBC] px-8 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
           >
             {content.finalCtaButton}

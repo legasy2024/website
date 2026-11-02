@@ -6,6 +6,7 @@ import { getBlogPostBySlug, getAllBlogPostsWithContent } from "@/lib/blogContent
 import { blogPostsRegistry, getPostBySlug } from "@/content/blog/posts-registry";
 import { notFound } from "next/navigation";
 import { buildBlogPostSchema } from "@/lib/blogSchema";
+import { getThumbSrc } from "@/lib/blogImages";
 
 //Components
 import BlogArticle from "@/components/blog/BlogArticle/BlogArticle";
@@ -140,7 +141,7 @@ function getRelatedPosts(contentHtml, locale) {
       related.push({
         href,
         title: label.replace(/<[^>]+>/g, ""),
-        image: meta.image,
+        image: getThumbSrc(meta.image),
         label: meta.label?.[locale],
       });
     }

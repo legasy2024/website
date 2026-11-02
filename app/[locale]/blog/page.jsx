@@ -1,10 +1,8 @@
 
 //Functions
 import TranslationsProvider from "@/TranslationsProvider";
-import BlogList from "@/components/blog/BlogList/BlogList";
-import Header from "@/components/blog/Header";
+import BlogIndex from "@/components/blog/BlogIndex/BlogIndex";
 import initTranslations from "@/i18n";
-import dynamic from "next/dynamic";
 
 import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 
@@ -65,8 +63,8 @@ export default async function Portfolio({ params: { locale } }) {
   // BlogList es un client component: solo le pasamos los campos de la tarjeta,
   // no el contenido completo de cada post (inflaba el HTML a ~1.4 MB)
   const posts = (await getAllBlogPostsWithContent(locale)).map(
-    ({ id, slug, title, image, label, description, excerpt, cta, date }) => ({
-      id, slug, title, image, label, description, excerpt, cta, date,
+    ({ id, slug, title, image, label, description, excerpt, cta, date, category }) => ({
+      id, slug, title, image, label, description, excerpt, cta, date, category,
     }),
   );
 
@@ -84,8 +82,7 @@ export default async function Portfolio({ params: { locale } }) {
         locale={locale}
         namespaces={i18nNameSpaces}
       >
-        <Header translations={headerTranslations} />
-        <BlogList posts={posts} locale={locale} />
+        <BlogIndex posts={posts} locale={locale} headerTranslations={headerTranslations} />
       </TranslationsProvider>
     </div>
   );

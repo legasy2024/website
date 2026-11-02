@@ -4,6 +4,8 @@ import { useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 
+import { trackLead } from "@/lib/analytics";
+
 function EmailForm({ onSubmit, className, confirm_email_form, error_email_form }) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState(null); // null, "success", "error"
@@ -32,6 +34,7 @@ function EmailForm({ onSubmit, className, confirm_email_form, error_email_form }
 
       if (response.ok) {
         setStatus("success");
+        trackLead("email_form");
         setEmail("");
         if (onSubmit) {
           onSubmit(email);

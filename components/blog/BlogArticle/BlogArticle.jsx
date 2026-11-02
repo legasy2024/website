@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import styles from "./BlogArticle.module.css";
+import BlogWhatsAppBar from "../BlogWhatsAppBar/BlogWhatsAppBar";
 
 /**
  * Componente genérico para renderizar artículos del blog
@@ -68,6 +69,7 @@ export default function BlogArticle({ content, locale, relatedPosts = [] }) {
 
   return (
     <section className="w-full m-auto px-5 py-16 md:py-28 bg-[#212121] text-white">
+      <BlogWhatsAppBar locale={locale} postTitle={title} />
       <div className="w-full max-w-[1200px] m-auto flex flex-col">
         {/* Label */}
         {content.label && (
@@ -128,6 +130,7 @@ export default function BlogArticle({ content, locale, relatedPosts = [] }) {
               </p>
               <Link
                 href={whatsappUrl}
+                data-cta="blog_sidebar_whatsapp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-[#A14E05] text-white font-medium py-2 px-4 rounded-lg transition-colors hover:bg-[#8a3f04]"
@@ -159,6 +162,7 @@ export default function BlogArticle({ content, locale, relatedPosts = [] }) {
                   </div>
                   <Link
                     href={whatsappUrl}
+                    data-cta="blog_inline_whatsapp"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="shrink-0 text-center bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors hover:bg-[#8a3f04]"
@@ -242,7 +246,7 @@ export default function BlogArticle({ content, locale, relatedPosts = [] }) {
             </h2>
             <div className={styles.relatedGrid}>
               {relatedPosts.map((post) => (
-                <Link key={post.href} href={post.href} className={styles.relatedCard}>
+                <Link key={post.href} href={post.href} data-cta="blog_related_post" className={styles.relatedCard}>
                   <div className={styles.relatedImageWrap}>
                     <Image
                       src={post.image}
@@ -274,6 +278,9 @@ export default function BlogArticle({ content, locale, relatedPosts = [] }) {
             {cta.whatsapp && (
               <Link
                 href={cta.whatsapp.url}
+                data-cta="blog_post_end_whatsapp"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-[#A14E05] text-white font-medium py-2 px-6 rounded-lg transition-colors hover:bg-[#8a3f04]"
               >
                 {cta.whatsapp.text}
@@ -283,6 +290,7 @@ export default function BlogArticle({ content, locale, relatedPosts = [] }) {
             {cta.instagram && (
               <Link
                 href={cta.instagram.url}
+                data-cta="blog_post_end_instagram"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45] text-white font-medium py-2 px-6 rounded-full hover:opacity-90 transition-opacity flex items-center gap-2"

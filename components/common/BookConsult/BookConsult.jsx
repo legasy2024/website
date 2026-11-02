@@ -90,6 +90,7 @@ function BookConsult({ translations, locale = "es" }) {
           whileHover={{ scale: 1.03 }}
           className="md:ml-24"
           whileTap={{ scale: 0.97 }}
+          data-cta="book_consult_whatsapp"
           href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
           target="_blank"
         >
@@ -116,6 +117,8 @@ function BookConsult({ translations, locale = "es" }) {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => setCurrentMethod("whatsapp")}
+          data-cta="book_consult_tab_whatsapp"
+          data-cta-channel="ui"
         >
           <button className={currentMethod === "whatsapp" ? `flex py-4 justify-center rounded-lg flex-row items-center text-white bg-TextBlack w-40 max-w-52` : `flex flex-row items-center text-black rounded-lg bg-white py-3 justify-center w-40 max-w-52 border border-[#828282]`}> <FaWhatsapp className="mr-2" /> WhatsApp</button>
         </motion.div>
@@ -125,6 +128,8 @@ function BookConsult({ translations, locale = "es" }) {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => setCurrentMethod("email")}
+          data-cta="book_consult_tab_email"
+          data-cta-channel="ui"
         >
           <button className={currentMethod === "email" ? `flex py-4 justify-center rounded-lg flex-row items-center text-white bg-TextBlack w-40 max-w-52` : `flex flex-row items-center text-black rounded-lg bg-white py-3 justify-center w-40 max-w-52 border border-[#828282]`}> <MdOutlineEmail className="mr-2" /> {translations.email_label}</button>
         </motion.div>
@@ -212,6 +217,7 @@ function BookConsult({ translations, locale = "es" }) {
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-500 font-medium">WhatsApp / Tel:</span>
                   <a
+                    data-cta="book_consult_phone_whatsapp"
                     href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -231,6 +237,7 @@ function BookConsult({ translations, locale = "es" }) {
                   <span className="text-xs text-gray-500 font-medium">Email:</span>
                   <a
                     href={`mailto:${emailText}`}
+                    data-cta="book_consult_email"
                     className="inline-block py-1 text-TextBlack font-semibold hover:text-BgOrange transition-colors"
                   >
                     {emailText}
@@ -243,6 +250,7 @@ function BookConsult({ translations, locale = "es" }) {
             <div className="pt-2">
               <a
                 href={mapsUrl}
+                data-cta="book_consult_maps"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-BgOrange hover:bg-[#c35e07] text-white font-semibold text-sm transition-all shadow-md hover:shadow-lg"

@@ -5,6 +5,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 import { useParams } from "next/navigation";
 
+import { trackLead } from "@/lib/analytics";
+
 function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }) {
   const [countryCode, setCountryCode] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -67,6 +69,7 @@ function PhoneForm({ onSubmit, className, confirm_phone_form, error_phone_form }
 
       if (response.ok) {
         setStatus("success");
+        trackLead("phone_form");
         setCountryCode("");
         setPhoneNumber("");
         if (onSubmit) {

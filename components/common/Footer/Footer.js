@@ -21,6 +21,7 @@ function Footer({ translations }) {
         <div className="flex flex-col sm:flex-row items-center gap-y-2 sm:gap-x-6 text-xs text-gray-300 text-center md:text-left">
           <a
             href={mapsUrl}
+            data-cta="footer_maps"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-white transition-colors"
@@ -38,19 +39,19 @@ function Footer({ translations }) {
 
         {/* Redes Sociales */}
         <span className="flex flex-row gap-x-3">
-          <a href="https://www.instagram.com/legassystudio/" target="_blank" className="cursor-pointer" rel="noopener noreferrer" aria-label="Instagram Legassy Studio">
+          <a href="https://www.instagram.com/legassystudio/" data-cta="footer_instagram" target="_blank" className="cursor-pointer" rel="noopener noreferrer" aria-label="Instagram Legassy Studio">
             <figure className="p-3 bg-white/10 hover:bg-white/20 transition-colors rounded-full">
               <Image src={logoIg} width={18} height={18} alt="Instagram icon" />
             </figure>
           </a>
 
-          <a href="https://www.tiktok.com/@legassystudio" target="_blank" className="cursor-pointer" rel="noopener noreferrer" aria-label="TikTok Legassy Studio">
+          <a href="https://www.tiktok.com/@legassystudio" data-cta="footer_tiktok" target="_blank" className="cursor-pointer" rel="noopener noreferrer" aria-label="TikTok Legassy Studio">
             <figure className="p-3 bg-white/10 hover:bg-white/20 transition-colors rounded-full">
               <Image src={logoTiktok} width={18} height={18} alt="TikTok icon" />
             </figure>
           </a>
 
-          <a href="https://www.youtube.com/@LegassyStudioColombia" target="_blank" className="cursor-pointer" rel="noopener noreferrer" aria-label="YouTube Legassy Studio">
+          <a href="https://www.youtube.com/@LegassyStudioColombia" data-cta="footer_youtube" target="_blank" className="cursor-pointer" rel="noopener noreferrer" aria-label="YouTube Legassy Studio">
             <figure className="p-3 bg-white/10 hover:bg-white/20 transition-colors rounded-full flex items-center justify-center">
               <FaYoutube className="w-4 h-4 text-white" />
             </figure>

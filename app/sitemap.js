@@ -1,5 +1,6 @@
 import { getAllBlogPostsWithContent } from "@/lib/blogContentLoader";
 import { getPostById } from "@/content/blog/posts-registry";
+import { blogCategories } from "@/content/blog/categories";
 
 const BASE_URL = "https://www.legassystudio.com";
 
@@ -127,8 +128,21 @@ export default async function sitemap() {
 
   const blogEntries = await buildBlogEntries();
 
+  const categoryEntries = blogCategories.flatMap((category) => {
+    const enUrl = `${BASE_URL}/en/blog/category/${category.slug.en}`;
+    const esUrl = `${BASE_URL}/es/blog/category/${category.slug.es}`;
+    return [enUrl, esUrl].map((url) => ({
+      url,
+      lastModified: new Date().toISOString(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+      alternates: { languages: { en: enUrl, es: esUrl } },
+    }));
+  });
+
   return [
     ...buildStaticEntries(),
+    ...categoryEntries,
     ...blogEntries,
   ];
 }

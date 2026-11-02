@@ -12,6 +12,7 @@ function Button({
   showIcons = true,
   rightIcon = null,
   leftIcon = null,
+  ...rest
 }) {
   const baseStyles =
     "flex flex-row items-center gap-2 px-6 py-3 rounded-md hover:transform hover:scale-105 transition-transform duration-200 ease-in-out max-w-96 place-content-center cursor-pointer";
@@ -28,7 +29,7 @@ function Button({
   };
 
   return (
-    <button className={`${baseStyles} ${colors[color]} ${className}`}>
+    <button className={`${baseStyles} ${colors[color]} ${className}`} {...rest}>
       {showIcons && <span className="text-lg">{icons[leftIcon]}</span>}
       <span>{children}</span>
       {showIcons && <span className="text-lg">{icons[rightIcon]}</span>}

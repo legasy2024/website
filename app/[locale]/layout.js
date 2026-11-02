@@ -5,6 +5,7 @@ import localFont from 'next/font/local';
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 //Font
 import { DM_Sans } from 'next/font/google';
@@ -26,6 +27,7 @@ import WhatsAppFloatingButton from "@/components/common/WhatsAppFloatingButton";
 import MotionProvider from "@/components/common/MotionProvider";
 import i18nConfig from "@/i18nConfig";
 import { buildLocalBusinessSchema } from "@/lib/localBusinessSchema";
+import CtaTracker from "@/components/common/CtaTracker";
 
 // Lazy load Footer component
 const FooterLazyLoading = dynamic(() => import("@/components/common/Footer/Footer"), {
@@ -84,20 +86,6 @@ export default async function Layout({ children, params: { locale } }) {
           name="ahrefs-site-verification" 
           content="3d7eba9b40dbc368d69901cb93dc90d497e3fa66558cdc3120ccc8f2da6c29bf"
         />
-        {/* Google Tag Manager */}
-        <Script
-          id="gtm-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','WGV3D58Z');
-            `,
-          }}
-        />
         {/* Ahrefs Analytics */}
         <Script
           id="ahrefs-analytics"
@@ -107,15 +95,6 @@ export default async function Layout({ children, params: { locale } }) {
         />
       </head>
       <body className={dm_sans.className}>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe 
-            src="https://www.googletagmanager.com/ns.html?id=WGV3D58Z"
-            height="0" 
-            width="0" 
-            style={{ display: 'none', visibility: 'hidden' }}
-          />
-        </noscript>
         <TranslationsProvider
           resources={resources}
           locale={locale}
@@ -135,6 +114,7 @@ export default async function Layout({ children, params: { locale } }) {
           </MotionProvider>
           <Analytics />
           <SpeedInsights />
+          <CtaTracker />
         </TranslationsProvider>
         <script
           type="application/ld+json"
@@ -143,6 +123,8 @@ export default async function Layout({ children, params: { locale } }) {
           }}
         />
       </body>
+      {/* Google Analytics 4 (gtag.js, carga afterInteractive) */}
+      <GoogleAnalytics gaId="G-TXNXSBJPZP" />
     </html>
   );
 }
