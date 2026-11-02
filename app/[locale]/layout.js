@@ -4,6 +4,7 @@ import initTranslations from "@/i18n";
 import localFont from 'next/font/local';
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 //Font
@@ -92,6 +93,7 @@ export default async function Layout({ children, params: { locale } }) {
           <FooterLazyLoading translations={footerTranslations} />
           <WhatsAppFloatingButton />
           <Analytics />
+          <SpeedInsights />
           <CtaTracker />
         </TranslationsProvider>
       </body>
