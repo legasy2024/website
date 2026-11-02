@@ -145,6 +145,10 @@ const pageContent = {
     ],
     testimonialsTag: "ESTUDIANTES",
     testimonialsTitle: "Lo que dicen nuestros alumnos",
+    videosTitle: "Escúchalo de nuestros estudiantes",
+    videosDescription: "Alumnos de la academia cuentan cómo vivieron el curso.",
+    videoLabel: "Testimonio en vídeo",
+    studentFallback: "Estudiante de la academia",
     testimonials: [
       {
         quote:
@@ -251,6 +255,10 @@ const pageContent = {
     ],
     testimonialsTag: "STUDENTS",
     testimonialsTitle: "What our students say",
+    videosTitle: "Hear it from our students",
+    videosDescription: "Academy students share how they experienced the course.",
+    videoLabel: "Video testimonial",
+    studentFallback: "Academy student",
     testimonials: [
       {
         quote:
@@ -275,6 +283,15 @@ const pageContent = {
     finalCtaButton: "Get information",
   },
 };
+
+// Vídeos de testimonios (H.264 540x960, ~1.1 Mbps). Sin nombre confirmado → «Estudiante de la academia».
+const videoTestimonials = [
+  { src: "/video/academy/testimonio-luisa.mp4", poster: "/img/academy/testimonios/testimonio-luisa.jpg", name: "Luisa" },
+  { src: "/video/academy/testimonio-estudiante-2.mp4", poster: "/img/academy/testimonios/testimonio-estudiante-2.jpg", name: "Miguel Ángel" },
+  { src: "/video/academy/testimonio-estudiante-4.mp4", poster: "/img/academy/testimonios/testimonio-estudiante-4.jpg", name: "" },
+  { src: "/video/academy/testimonio-estudiante-5.mp4", poster: "/img/academy/testimonios/testimonio-estudiante-5.jpg", name: "" },
+  { src: "/video/academy/testimonio-estudiante-final.mp4", poster: "/img/academy/testimonios/testimonio-estudiante-final.jpg", name: "" },
+];
 
 function buildCourseSchema(locale, content) {
   return {
@@ -555,6 +572,31 @@ export default function AcademyPage({ params: { locale } }) {
               </figure>
             ))}
           </div>
+
+          <h3 className="mt-14 text-2xl font-semibold md:text-3xl">{content.videosTitle}</h3>
+          <p className="mt-2 text-gray-400">{content.videosDescription}</p>
+          {/* Fila deslizable en móvil, cuadrícula en escritorio. Cada vídeo solo se descarga al darle play. */}
+          <ul className="-mx-6 mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-5 md:overflow-visible md:px-0 [&::-webkit-scrollbar]:hidden">
+            {videoTestimonials.map((video) => (
+              <li key={video.src} className="w-[62vw] max-w-[260px] shrink-0 snap-start md:w-auto md:max-w-none">
+                <figure className="overflow-hidden rounded-2xl border border-white/10 bg-[#141414]">
+                  <video
+                    className="aspect-[9/16] w-full bg-black object-cover"
+                    src={video.src}
+                    poster={video.poster}
+                    controls
+                    playsInline
+                    preload="none"
+                    aria-label={`${content.videoLabel}: ${video.name || content.studentFallback}`}
+                    data-cta="academy_video_testimonial"
+                  />
+                  <figcaption className="px-4 py-3 text-sm font-semibold text-[#D8CDBC]">
+                    {video.name || content.studentFallback}
+                  </figcaption>
+                </figure>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
