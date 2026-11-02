@@ -369,152 +369,8 @@ export default function AcademyPage({ params: { locale } }) {
         </dl>
       </section>
 
-      {/* Método */}
-      <section className="px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-6xl">
-          <p className={sectionTagClass}>{content.methodTag}</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.methodTitle}</h2>
-          <p className="mt-4 max-w-3xl text-base text-gray-300 md:text-lg">{content.methodDescription}</p>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {content.methodCards.map((card) => (
-              <article
-                key={card.id}
-                className="group overflow-hidden rounded-2xl border border-white/10 bg-[#141414] transition hover:border-[#D8CDBC]/50"
-              >
-                <div className="relative h-44 overflow-hidden">
-                  <Image
-                    src={card.image}
-                    alt=""
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/20 to-transparent" />
-                </div>
-                <div className="px-5 pb-6">
-                  <p className={`text-4xl text-[#D8CDBC] ${eagleFont.className}`}>/{card.id}</p>
-                  <h3 className="mt-2 text-xl font-semibold">{card.title}</h3>
-                  <p className="mt-2 text-gray-300">{card.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Plan de estudios */}
-      <section id="plan" className="scroll-mt-24 bg-[#121212] px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-6xl">
-          <p className={sectionTagClass}>{content.planTag}</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.planTitle}</h2>
-          <ol className="mt-10 grid gap-5 md:grid-cols-2">
-            {content.modules.map((module, index) => (
-              <li key={module.title} className="rounded-2xl border border-white/10 bg-black/40 p-6 md:p-8">
-                <p className="text-sm tracking-[0.2em] text-[#D8CDBC]">
-                  {locale === "en" ? "MODULE" : "MÓDULO"} {index + 1}
-                </p>
-                <h3 className="mt-2 text-2xl font-semibold">{module.title}</h3>
-                <p className="mt-3 text-gray-300">{module.text}</p>
-              </li>
-            ))}
-          </ol>
-          <p className="mt-8 text-center text-sm uppercase tracking-[0.2em] text-gray-400">{content.planFooter}</p>
-        </div>
-      </section>
-
-      {/* Diferencial */}
-      <section className="px-6 py-20 md:px-12">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
-          <div className="relative aspect-[16/10] overflow-hidden rounded-3xl">
-            <Image
-              src={mentorshipImg}
-              alt={locale === "en" ? "One-on-one mentoring at the academy" : "Mentoría 1 a 1 en la academia"}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
-          <div>
-            <p className={sectionTagClass}>{content.authorityTag}</p>
-            <h2 className="mt-3 text-3xl font-semibold md:text-4xl">{content.authorityTitle}</h2>
-            <p className="mt-4 text-gray-300 md:text-lg">{content.authorityText}</p>
-            <p className="mt-6 inline-block rounded-full border border-[#D8CDBC]/60 px-4 py-2 text-sm font-semibold text-[#D8CDBC]">
-              {content.royalBadge}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Docentes */}
-      <section className="bg-[#121212] px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-6xl">
-          <p className={sectionTagClass}>{content.teachersTag}</p>
-          <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.teachersTitle}</h2>
-          <p className="mt-4 max-w-2xl text-gray-300">{content.teachersDescription}</p>
-          <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-            {teachers.map((teacher) => (
-              <li key={teacher.name} className="overflow-hidden rounded-2xl border border-white/10 bg-black/40">
-                <div className="relative aspect-[3/4] bg-[#1a1a1a]">
-                  <Image
-                    src={teacher.img}
-                    alt={teacher.alt}
-                    fill
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                    className="object-contain object-bottom"
-                  />
-                </div>
-                <div className="p-4">
-                  <p className="font-semibold">{teacher.name}</p>
-                  <p className="text-sm text-gray-400">{teacher.art || teacher.position}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* Qué incluye */}
-      <section className="px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-6xl">
-          <p className={sectionTagClass}>{content.includesTag}</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.includesTitle}</h2>
-          <div className="mt-10 grid gap-10 md:grid-cols-2">
-            <div>
-              <ul className="space-y-4">
-                {content.includes.map((item) => (
-                  <li key={item} className="flex gap-3 text-gray-200 md:text-lg">
-                    <span aria-hidden="true" className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#D8CDBC]" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-8 text-gray-400">{content.pricingNote}</p>
-              <a
-                href={ctaUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-cta="academy_pricing_whatsapp"
-                className="mt-6 inline-block rounded-full bg-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
-              >
-                {content.pricingCta}
-              </a>
-            </div>
-            <div>
-              <p className="mb-4 text-sm uppercase tracking-[0.2em] text-gray-400">{content.worksTitle}</p>
-              <div className="grid grid-cols-3 gap-3">
-                {content.worksImages.map((item) => (
-                  <div key={item.alt} className="relative aspect-[3/4] overflow-hidden rounded-xl">
-                    <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 33vw, 200px" className="object-cover" />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonios */}
-      <section className="bg-[#121212] px-6 py-20 md:px-12">
+      <section className="px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
           <p className={sectionTagClass}>{content.testimonialsTag}</p>
           <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.testimonialsTitle}</h2>
@@ -559,6 +415,150 @@ export default function AcademyPage({ params: { locale } }) {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* Método */}
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.methodTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.methodTitle}</h2>
+          <p className="mt-4 max-w-3xl text-base text-gray-300 md:text-lg">{content.methodDescription}</p>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {content.methodCards.map((card) => (
+              <article
+                key={card.id}
+                className="group overflow-hidden rounded-2xl border border-white/10 bg-[#141414] transition hover:border-[#D8CDBC]/50"
+              >
+                <div className="relative h-44 overflow-hidden">
+                  <Image
+                    src={card.image}
+                    alt=""
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/20 to-transparent" />
+                </div>
+                <div className="px-5 pb-6">
+                  <p className={`text-4xl text-[#D8CDBC] ${eagleFont.className}`}>/{card.id}</p>
+                  <h3 className="mt-2 text-xl font-semibold">{card.title}</h3>
+                  <p className="mt-2 text-gray-300">{card.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Plan de estudios */}
+      <section id="plan" className="scroll-mt-24 px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.planTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.planTitle}</h2>
+          <ol className="mt-10 grid gap-5 md:grid-cols-2">
+            {content.modules.map((module, index) => (
+              <li key={module.title} className="rounded-2xl border border-white/10 bg-black/40 p-6 md:p-8">
+                <p className="text-sm tracking-[0.2em] text-[#D8CDBC]">
+                  {locale === "en" ? "MODULE" : "MÓDULO"} {index + 1}
+                </p>
+                <h3 className="mt-2 text-2xl font-semibold">{module.title}</h3>
+                <p className="mt-3 text-gray-300">{module.text}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-8 text-center text-sm uppercase tracking-[0.2em] text-gray-400">{content.planFooter}</p>
+        </div>
+      </section>
+
+      {/* Diferencial */}
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
+          <div className="relative aspect-[16/10] overflow-hidden rounded-3xl">
+            <Image
+              src={mentorshipImg}
+              alt={locale === "en" ? "One-on-one mentoring at the academy" : "Mentoría 1 a 1 en la academia"}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <p className={sectionTagClass}>{content.authorityTag}</p>
+            <h2 className="mt-3 text-3xl font-semibold md:text-4xl">{content.authorityTitle}</h2>
+            <p className="mt-4 text-gray-300 md:text-lg">{content.authorityText}</p>
+            <p className="mt-6 inline-block rounded-full border border-[#D8CDBC]/60 px-4 py-2 text-sm font-semibold text-[#D8CDBC]">
+              {content.royalBadge}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Docentes */}
+      <section className="px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.teachersTag}</p>
+          <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.teachersTitle}</h2>
+          <p className="mt-4 max-w-2xl text-gray-300">{content.teachersDescription}</p>
+          <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {teachers.map((teacher) => (
+              <li key={teacher.name} className="overflow-hidden rounded-2xl border border-white/10 bg-black/40">
+                <div className="relative aspect-[3/4] bg-[#1a1a1a]">
+                  <Image
+                    src={teacher.img}
+                    alt={teacher.alt}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className="object-contain object-bottom"
+                  />
+                </div>
+                <div className="p-4">
+                  <p className="font-semibold">{teacher.name}</p>
+                  <p className="text-sm text-gray-400">{teacher.art || teacher.position}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Qué incluye */}
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.includesTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.includesTitle}</h2>
+          <div className="mt-10 grid gap-10 md:grid-cols-2">
+            <div>
+              <ul className="space-y-4">
+                {content.includes.map((item) => (
+                  <li key={item} className="flex gap-3 text-gray-200 md:text-lg">
+                    <span aria-hidden="true" className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#D8CDBC]" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-8 text-gray-400">{content.pricingNote}</p>
+              <a
+                href={ctaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta="academy_pricing_whatsapp"
+                className="mt-6 inline-block rounded-full bg-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
+              >
+                {content.pricingCta}
+              </a>
+            </div>
+            <div>
+              <p className="mb-4 text-sm uppercase tracking-[0.2em] text-gray-400">{content.worksTitle}</p>
+              <div className="grid grid-cols-3 gap-3">
+                {content.worksImages.map((item) => (
+                  <div key={item.alt} className="relative aspect-[3/4] overflow-hidden rounded-xl">
+                    <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 33vw, 200px" className="object-cover" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
