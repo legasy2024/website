@@ -22,16 +22,28 @@ export async function generateMetadata({ params: { locale, category: slug } }) {
   const category = getCategoryBySlug(slug, locale);
   if (!category) return {};
 
-  const name = category.name[locale];
+  const title = category.seoTitle[locale];
+  const description = category.description[locale];
   const esPath = `/es/blog/category/${category.slug.es}`;
   const enPath = `/en/blog/category/${category.slug.en}`;
+  const canonical = `https://www.legassystudio.com${locale === "en" ? enPath : esPath}`;
 
   return {
-    title: locale === "en" ? `${name} - Legassy Studio Blog` : `${name} - Blog de Legassy Studio`,
-    description: category.description[locale],
-    robots: "index, follow",
+    title,
+    description,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      locale: locale === "en" ? "en_US" : "es_CO",
+    },
     alternates: {
-      canonical: `https://www.legassystudio.com${locale === "en" ? enPath : esPath}`,
+      canonical,
       languages: {
         en: enPath,
         es: esPath,

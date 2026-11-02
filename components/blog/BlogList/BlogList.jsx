@@ -30,7 +30,12 @@ const BlogList = ({ posts, locale }) => {
   return (
     <div className="flex flex-col w-full min-w-0 items-center gap-y-6">
       <div className="flex flex-col w-full divide-y divide-[#EDEDED]">
-        {visiblePosts.map((post, index) => (
+        {posts.map((post, index) => index >= visibleCount ? (
+          // Los posts aún no cargados van en el HTML (ocultos) para que Google descubra todos los enlaces
+          <div key={post.slug || post.title} hidden>
+            <BlogCard post={post} locale={locale} />
+          </div>
+        ) : (
           <motion.div
             key={post.slug || post.title}
             variants={item}
