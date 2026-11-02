@@ -138,6 +138,11 @@ function Navbar({ translations }) {
                           {translations.podcast}
                         </Link>
                       </motion.div>
+                      <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
+                        <Link href={`/${currentLocale}/academy`} data-cta="navbar_academy" className={`${getLinkStyle('/academy')} text-sm`}>
+                          {translations.academy}
+                        </Link>
+                      </motion.div>
                       {/* <motion.div variants={menuItemVariants} transition={{ delay: 0.5 }}>
                         <Link href={`/${currentLocale}/curses`} className={`${getLinkStyle('/curses')} text-sm`}>
                           {translations.courses}
@@ -213,6 +218,14 @@ function Navbar({ translations }) {
                           onClick={closeMenu}
                         >
                           {translations.podcast}
+                        </Link>
+                        <Link
+                          href={`/${currentLocale}/academy`}
+                          data-cta="navbar_academy"
+                          className={`block py-2 text-xl ${getLinkStyle('/academy')}`}
+                          onClick={closeMenu}
+                        >
+                          {translations.academy}
                         </Link>
                         {/* <Link
                           href={`/${currentLocale}/curses`}
