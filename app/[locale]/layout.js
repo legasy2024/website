@@ -123,8 +123,9 @@ export default async function Layout({ children, params: { locale } }) {
           }}
         />
       </body>
-      {/* Google Analytics 4 (gtag.js, carga afterInteractive) */}
-      <GoogleAnalytics gaId="G-TXNXSBJPZP" />
+      {/* Google Analytics 4 (gtag.js, carga afterInteractive).
+          Solo en el deploy de producción de Vercel: localhost y previews no ensucian los datos. */}
+      {process.env.VERCEL_ENV === "production" && <GoogleAnalytics gaId="G-TXNXSBJPZP" />}
     </html>
   );
 }
