@@ -2,9 +2,7 @@ import localFont from "next/font/local";
 import Image from "next/image";
 import heroImg from "../../../public/img/academy/artista-tatuando-estudio-legassy.jpg";
 import mentorshipImg from "../../../public/img/academy/mentoria-1-a-1-academia-tatuaje-cali.jpg";
-import studioImg from "../../../public/img/academy/sede-legassy-studio-cali.jpg";
 import designClassImg from "../../../public/img/academy/clase-diseno-procreate-academia.jpg";
-import classroomImg from "../../../public/img/academy/salon-de-clases-academia-tatuaje.jpg";
 import drawingImg from "../../../public/img/academy/alumno-dibujando-academia.jpg";
 import syntheticImg from "../../../public/img/academy/estudiante-practica-piel-sintetica.jpg";
 import studentFinalImg from "../../../public/img/academy/estudiante-luisa-proyecto-final.jpg";
@@ -117,16 +115,6 @@ const pageContent = {
     teachersTag: "DOCENTES",
     teachersTitle: "Aprende con el equipo de Legassy",
     teachersDescription: "Los mismos artistas que puedes ver en nuestro portafolio te acompañan durante el curso.",
-    spaceTag: "NUESTRO ESPACIO",
-    spaceTitle: "El entorno determina el nivel de tu aprendizaje",
-    spaceText:
-      "Para formar profesionales, el espacio debe exigir el mismo estándar que un estudio de alta gama. Nuestra sede en el sur de Cali está pensada para eso.",
-    spaceImages: [
-      { image: designClassImg, alt: "Clase de diseño con tablet en Legassy Tattoo Academy" },
-      { image: studioImg, alt: "Entrada de la sede de Legassy Studio en el sur de Cali" },
-      { image: classroomImg, alt: "Salón de clases de la academia de tatuaje en Cali" },
-      { image: drawingImg, alt: "Alumno practicando dibujo en la academia" },
-    ],
     includesTag: "QUÉ INCLUYE",
     includesTitle: "Tu carrera profesional no es un gasto, es una inversión",
     includes: [
@@ -227,16 +215,6 @@ const pageContent = {
     teachersTag: "INSTRUCTORS",
     teachersTitle: "Learn with the Legassy team",
     teachersDescription: "The same artists you can see in our portfolio guide you throughout the course.",
-    spaceTag: "OUR SPACE",
-    spaceTitle: "Your environment sets the level of your learning",
-    spaceText:
-      "To train professionals, the space must hold the same standard as a high-end studio. Our location in south Cali is designed for that.",
-    spaceImages: [
-      { image: designClassImg, alt: "Design class with a tablet at Legassy Tattoo Academy" },
-      { image: studioImg, alt: "Entrance of Legassy Studio in south Cali" },
-      { image: classroomImg, alt: "Classroom at the tattoo academy in Cali" },
-      { image: drawingImg, alt: "Student practicing drawing at the academy" },
-    ],
     includesTag: "WHAT’S INCLUDED",
     includesTitle: "Your career is not an expense, it’s an investment",
     includes: [
@@ -495,24 +473,8 @@ export default function AcademyPage({ params: { locale } }) {
         </div>
       </section>
 
-      {/* Espacio */}
-      <section className="px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-6xl">
-          <p className={sectionTagClass}>{content.spaceTag}</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.spaceTitle}</h2>
-          <p className="mt-4 max-w-3xl text-gray-300 md:text-lg">{content.spaceText}</p>
-          <div className="mt-10 grid grid-cols-2 gap-3 md:gap-4">
-            {content.spaceImages.map((item) => (
-              <div key={item.alt} className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-                <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 50vw, 600px" className="object-cover" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Qué incluye */}
-      <section className="bg-[#121212] px-6 py-20 md:px-12">
+      <section className="px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
           <p className={sectionTagClass}>{content.includesTag}</p>
           <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.includesTitle}</h2>
@@ -552,7 +514,7 @@ export default function AcademyPage({ params: { locale } }) {
       </section>
 
       {/* Testimonios */}
-      <section className="px-6 py-20 md:px-12">
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
           <p className={sectionTagClass}>{content.testimonialsTag}</p>
           <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.testimonialsTitle}</h2>
@@ -601,7 +563,7 @@ export default function AcademyPage({ params: { locale } }) {
       </section>
 
       {/* Preguntas frecuentes */}
-      <section className="bg-[#121212] px-6 py-20 md:px-12">
+      <section className="px-6 py-20 md:px-12">
         <div className="mx-auto max-w-4xl">
           <p className={sectionTagClass}>{content.faqTag}</p>
           <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.faqTitle}</h2>
@@ -620,7 +582,7 @@ export default function AcademyPage({ params: { locale } }) {
       </section>
 
       {/* CTA final */}
-      <section className="px-6 py-24 text-center md:px-12">
+      <section className="bg-[#121212] px-6 py-24 text-center md:px-12">
         <h2 className="mx-auto max-w-3xl text-3xl font-semibold md:text-5xl">{content.finalCtaTitle}</h2>
         <p className={`mt-4 text-4xl text-[#D8CDBC] md:text-5xl ${eagleFont.className}`}>{content.finalCtaText}</p>
         <a
