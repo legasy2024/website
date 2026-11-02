@@ -2452,7 +2452,7 @@ const blogPostsRegistry = [
       "es": "cuanto-cuesta-un-tatuaje-en-cali",
       "en": "how-much-does-a-tattoo-cost-in-cali-colombia"
     },
-    "image": "/img/portfolio-blog/galleries/gallery-manga-completa/01.jpg",
+    "image": "/img/portfolio-blog/realismo-cali/manga-elefante-tigre-realismo-cali.jpg",
     "date": {
       "es": "2 de noviembre de 2026",
       "en": "November 2, 2026"
