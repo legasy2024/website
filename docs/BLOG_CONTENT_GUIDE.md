@@ -224,7 +224,7 @@ content/blog/
   "cta": {
     "whatsapp": {
       "text": "Contactar",
-      "url": "https://wa.me/573128717100"
+      "url": "https://wa.me/573103110611"
     },
     "instagram": {
       "text": "Ver Instagram",
