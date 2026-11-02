@@ -2558,6 +2558,101 @@ const blogPostsRegistry = [
     },
     "published": true,
     "order": 349
+  },
+  {
+    "id": "become-tattoo-artist-colombia",
+    "category": "academy",
+    "slugs": {
+      "es": "como-ser-tatuador-en-colombia-requisitos",
+      "en": "how-to-become-a-tattoo-artist-in-colombia"
+    },
+    "image": "/img/academy/artista-tatuando-estudio-legassy.jpg",
+    "date": {
+      "es": "3 de noviembre de 2026",
+      "en": "November 3, 2026"
+    },
+    "label": {
+      "es": "Academia",
+      "en": "Academy"
+    },
+    "published": true,
+    "order": 350
+  },
+  {
+    "id": "learn-to-tattoo-from-scratch",
+    "category": "academy",
+    "slugs": {
+      "es": "como-aprender-a-tatuar-desde-cero",
+      "en": "how-to-learn-to-tattoo-from-scratch"
+    },
+    "image": "/img/academy/alumno-dibujando-academia.jpg",
+    "date": {
+      "es": "3 de noviembre de 2026",
+      "en": "November 3, 2026"
+    },
+    "label": {
+      "es": "Academia",
+      "en": "Academy"
+    },
+    "published": true,
+    "order": 351
+  },
+  {
+    "id": "online-vs-in-person-tattoo-course",
+    "category": "academy",
+    "slugs": {
+      "es": "curso-de-tatuaje-online-o-presencial",
+      "en": "online-vs-in-person-tattoo-course"
+    },
+    "image": "/img/academy/mentoria-1-a-1-academia-tatuaje-cali.jpg",
+    "date": {
+      "es": "3 de noviembre de 2026",
+      "en": "November 3, 2026"
+    },
+    "label": {
+      "es": "Academia",
+      "en": "Academy"
+    },
+    "published": true,
+    "order": 352
+  },
+  {
+    "id": "tattoo-academy-cali-how-to-choose",
+    "category": "academy",
+    "slugs": {
+      "es": "academia-de-tatuajes-en-cali-como-elegir",
+      "en": "tattoo-academy-in-cali-how-to-choose"
+    },
+    "image": "/img/academy/clase-diseno-procreate-academia.jpg",
+    "date": {
+      "es": "3 de noviembre de 2026",
+      "en": "November 3, 2026"
+    },
+    "label": {
+      "es": "Academia",
+      "en": "Academy"
+    },
+    "published": true,
+    "order": 353
+  },
+  {
+    "id": "tattoo-artist-earnings-colombia",
+    "category": "academy",
+    "slugs": {
+      "es": "cuanto-gana-un-tatuador-en-colombia",
+      "en": "how-much-does-a-tattoo-artist-earn-in-colombia"
+    },
+    "image": "/img/academy/manga-cristo-realismo-legassy.jpg",
+    "date": {
+      "es": "3 de noviembre de 2026",
+      "en": "November 3, 2026"
+    },
+    "label": {
+      "es": "Academia",
+      "en": "Academy"
+    },
+    "published": true,
+    "order": 354
   }
 ];
 

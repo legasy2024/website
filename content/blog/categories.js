@@ -102,6 +102,19 @@ const blogCategories = [
       en: "Real tattoo ideas and references by placement, style and theme.",
     },
   },
+  {
+    id: "academy",
+    name: { es: "Academia", en: "Academy" },
+    slug: { es: "academia-de-tatuaje", en: "tattoo-academy" },
+    seoTitle: {
+      es: "Aprender a tatuar en Cali: guías para tatuadores | Legassy",
+      en: "Learn to Tattoo in Cali: Guides for New Artists | Legassy",
+    },
+    description: {
+      es: "Cómo ser tatuador, aprender desde cero, elegir academia en Cali y construir tu carrera en el tatuaje.",
+      en: "How to become a tattoo artist, learn from scratch, choose an academy in Cali and build your tattoo career.",
+    },
+  },
 ];
 
 function getCategoryById(id) {

@@ -146,6 +146,14 @@ const pageContent = {
         alt: "Luisa, estudiante de Legassy Tattoo Academy, con su proyecto final",
       },
     ],
+    guidesTitle: "Guías para futuros tatuadores",
+    guides: [
+      { href: "/es/blog/como-ser-tatuador-en-colombia-requisitos", label: "Cómo ser tatuador en Colombia: requisitos y normativa" },
+      { href: "/es/blog/como-aprender-a-tatuar-desde-cero", label: "Cómo aprender a tatuar desde cero" },
+      { href: "/es/blog/curso-de-tatuaje-online-o-presencial", label: "Curso de tatuaje online o presencial" },
+      { href: "/es/blog/academia-de-tatuajes-en-cali-como-elegir", label: "Academia de tatuajes en Cali: qué revisar" },
+      { href: "/es/blog/cuanto-gana-un-tatuador-en-colombia", label: "¿Cuánto gana un tatuador en Colombia?" },
+    ],
     faqTag: "PREGUNTAS FRECUENTES",
     faqTitle: "Resolvemos tus dudas sobre el curso",
     faqs: [
@@ -245,6 +253,14 @@ const pageContent = {
         image: studentFinalImg,
         alt: "Luisa, a Legassy Tattoo Academy student, holding her final project",
       },
+    ],
+    guidesTitle: "Guides for future tattoo artists",
+    guides: [
+      { href: "/en/blog/how-to-become-a-tattoo-artist-in-colombia", label: "How to become a tattoo artist in Colombia" },
+      { href: "/en/blog/how-to-learn-to-tattoo-from-scratch", label: "How to learn to tattoo from scratch" },
+      { href: "/en/blog/online-vs-in-person-tattoo-course", label: "Online vs. in-person tattoo course" },
+      { href: "/en/blog/tattoo-academy-in-cali-how-to-choose", label: "Tattoo academy in Cali: what to check" },
+      { href: "/en/blog/how-much-does-a-tattoo-artist-earn-in-colombia", label: "How much does a tattoo artist earn in Colombia?" },
     ],
     faqTag: "FAQ",
     faqTitle: "Your questions about the course",
@@ -578,6 +594,20 @@ export default function AcademyPage({ params: { locale } }) {
               </details>
             ))}
           </div>
+          <h3 className="mt-14 text-xl font-semibold md:text-2xl">{content.guidesTitle}</h3>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+            {content.guides.map((guide) => (
+              <li key={guide.href}>
+                <a
+                  href={guide.href}
+                  className="flex items-center justify-between gap-3 rounded-xl border border-white/10 px-4 py-3 text-gray-200 transition hover:border-[#D8CDBC]/60 hover:text-[#D8CDBC]"
+                >
+                  {guide.label}
+                  <span aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
