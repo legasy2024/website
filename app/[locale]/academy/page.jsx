@@ -369,8 +369,41 @@ export default function AcademyPage({ params: { locale } }) {
         </dl>
       </section>
 
-      {/* Testimonios */}
+      {/* Método */}
       <section className="px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.methodTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.methodTitle}</h2>
+          <p className="mt-4 max-w-3xl text-base text-gray-300 md:text-lg">{content.methodDescription}</p>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {content.methodCards.map((card) => (
+              <article
+                key={card.id}
+                className="group overflow-hidden rounded-2xl border border-white/10 bg-[#141414] transition hover:border-[#D8CDBC]/50"
+              >
+                <div className="relative h-44 overflow-hidden">
+                  <Image
+                    src={card.image}
+                    alt=""
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/20 to-transparent" />
+                </div>
+                <div className="px-5 pb-6">
+                  <p className={`text-4xl text-[#D8CDBC] ${eagleFont.className}`}>/{card.id}</p>
+                  <h3 className="mt-2 text-xl font-semibold">{card.title}</h3>
+                  <p className="mt-2 text-gray-300">{card.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonios */}
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
           <p className={sectionTagClass}>{content.testimonialsTag}</p>
           <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.testimonialsTitle}</h2>
@@ -415,39 +448,6 @@ export default function AcademyPage({ params: { locale } }) {
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* Método */}
-      <section className="bg-[#121212] px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-6xl">
-          <p className={sectionTagClass}>{content.methodTag}</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.methodTitle}</h2>
-          <p className="mt-4 max-w-3xl text-base text-gray-300 md:text-lg">{content.methodDescription}</p>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {content.methodCards.map((card) => (
-              <article
-                key={card.id}
-                className="group overflow-hidden rounded-2xl border border-white/10 bg-[#141414] transition hover:border-[#D8CDBC]/50"
-              >
-                <div className="relative h-44 overflow-hidden">
-                  <Image
-                    src={card.image}
-                    alt=""
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/20 to-transparent" />
-                </div>
-                <div className="px-5 pb-6">
-                  <p className={`text-4xl text-[#D8CDBC] ${eagleFont.className}`}>/{card.id}</p>
-                  <h3 className="mt-2 text-xl font-semibold">{card.title}</h3>
-                  <p className="mt-2 text-gray-300">{card.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
         </div>
       </section>
 
