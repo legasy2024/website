@@ -40,7 +40,7 @@ const metadata = {
       url: "https://www.legassystudio.com/es/about",
       title: "Nosotros - Legassy Studio",
       description: "Descubre la historia detrás de Legassy Studio, un colectivo de tatuadores apasionados dedicados a transformar narrativas personales en arte corporal excepcional.",
-      images: [{ url: "/es/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
+      images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };
@@ -69,7 +69,7 @@ const metadata_en = {
       url: "https://www.legassystudio.com/en/about",
       title: "About Us - Legassy Studio",
       description: "Discover the story behind Legassy Studio, a passionate tattoo collective dedicated to transforming personal narratives into exceptional body art.",
-      images: [{ url: "/en/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
+      images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };

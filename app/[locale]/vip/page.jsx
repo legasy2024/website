@@ -46,7 +46,7 @@ const metadata = {
     title: "Club VIP - Legassy Studio",
     description:
       "Únete al Club VIP de Legassy Studio y desbloquea beneficios exclusivos, descuentos especiales, servicio prioritario y experiencias únicas para entusiastas de tatuajes y perforaciones.",
-    images: [{ url: "/es/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
+    images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
     siteName: "Legassy Studio",
   },
 };
@@ -78,7 +78,7 @@ const metadata_en = {
     title: "VIP Club - Legassy Studio",
     description:
       "Join the Legassy Studio VIP Club and unlock exclusive benefits, special discounts, priority service, and unique experiences for tattoo and piercing enthusiasts.",
-    images: [{ url: "/en/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
+    images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
     siteName: "Legassy Studio",
   },
 };

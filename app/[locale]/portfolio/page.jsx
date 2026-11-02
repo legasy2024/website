@@ -35,7 +35,7 @@ const metadata = {
       url: "https://www.legassystudio.com/es/portfolio",
       title: "Portafolio - Legassy Studio",
       description: "Explora el viaje artístico de Legassy Studio a través de nuestro diverso portafolio de tatuajes únicos.",
-      images: [{ url: "/es/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
+      images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };
@@ -64,7 +64,7 @@ const metadata_en = {
       url: "https://www.legassystudio.com/en/portfolio",
       title: "Portfolio - Legassy Studio",
       description: "Explore the artistic journey of Legassy Studio through our diverse portfolio of unique tattoos.",
-      images: [{ url: "/en/opengraph-image.png", width: 1200, height: 600, alt: "Legassy Studio" }],
+      images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
       siteName: "Legassy Studio"
   }
 };

@@ -64,7 +64,7 @@ function PortfolioSection({ translations, locale }) {
 
         <a
           className="mt-20"
-          href="https://wa.me/3103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
+          href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
           target="_blank"
         >
           <CtaButton text={translations.cta_label} buttonText={translations.cta} />

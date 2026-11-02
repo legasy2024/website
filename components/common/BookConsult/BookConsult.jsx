@@ -90,7 +90,7 @@ function BookConsult({ translations, locale = "es" }) {
           whileHover={{ scale: 1.03 }}
           className="md:ml-24"
           whileTap={{ scale: 0.97 }}
-          href="https://wa.me/3103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
+          href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
           target="_blank"
         >
           <Button className="w-full">{translations.cta}</Button>
@@ -212,10 +212,10 @@ function BookConsult({ translations, locale = "es" }) {
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-500 font-medium">WhatsApp / Tel:</span>
                   <a
-                    href="https://wa.me/3103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
+                    href="https://wa.me/573103110611?text=Hola!%20Vengo%20de%20la%20página%20web,%20quisiera%20tener%20más%20información"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-TextBlack font-semibold hover:text-BgOrange transition-colors"
+                    className="inline-block py-1 text-TextBlack font-semibold hover:text-BgOrange transition-colors"
                   >
                     {phoneText}
                   </a>
@@ -231,7 +231,7 @@ function BookConsult({ translations, locale = "es" }) {
                   <span className="text-xs text-gray-500 font-medium">Email:</span>
                   <a
                     href={`mailto:${emailText}`}
-                    className="text-TextBlack font-semibold hover:text-BgOrange transition-colors"
+                    className="inline-block py-1 text-TextBlack font-semibold hover:text-BgOrange transition-colors"
                   >
                     {emailText}
                   </a>
