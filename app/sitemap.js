@@ -29,6 +29,7 @@ export default async function sitemap() {
     "/vip",
     "/podcast",
     "/contact",
+    "/academy",
   ];
 
   // Helper para generar alternates de idioma para una ruta base (sin locale)

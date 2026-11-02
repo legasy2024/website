@@ -1,86 +1,58 @@
-import Link from "next/link";
 import localFont from "next/font/local";
 import Image from "next/image";
-import heroBgImage from "../../../public/img/portfolio-blog/realismo-3.jpg";
-import methodImg1 from "../../../public/img/portfolio-blog/anime-1.jpg";
-import methodImg2 from "../../../public/img/portfolio-blog/realismo-2.jpg";
-import methodImg3 from "../../../public/img/portfolio-blog/surrealismo-1.jpg";
-import methodImg4 from "../../../public/img/portfolio-blog/surrealismo-2.jpg";
-import methodImg5 from "../../../public/img/portfolio-blog/realismo-3.jpg";
-import methodImg6 from "../../../public/img/portfolio-blog/galleries/gallery-tatuajes-antebrazo/03.jpg";
-import specializationAnimeImg from "../../../public/img/portfolio-blog/anime-1.jpg";
-import specializationBlackworkImg from "../../../public/img/portfolio-blog/galleries/gallery-tatuajes-mano/05.jpg";
-import specializationRealismImg from "../../../public/img/portfolio-blog/realismo-2.jpg";
+import heroImg from "../../../public/img/academy/artista-tatuando-estudio-legassy.jpg";
+import mentorshipImg from "../../../public/img/academy/mentoria-1-a-1-academia-tatuaje-cali.jpg";
+import studioImg from "../../../public/img/academy/sede-legassy-studio-cali.jpg";
+import designClassImg from "../../../public/img/academy/clase-diseno-procreate-academia.jpg";
+import classroomImg from "../../../public/img/academy/salon-de-clases-academia-tatuaje.jpg";
+import drawingImg from "../../../public/img/academy/alumno-dibujando-academia.jpg";
+import syntheticImg from "../../../public/img/academy/estudiante-practica-piel-sintetica.jpg";
+import studentFinalImg from "../../../public/img/academy/estudiante-luisa-proyecto-final.jpg";
+import workSleeveImg from "../../../public/img/academy/manga-cristo-realismo-legassy.jpg";
+import workPortraitImg from "../../../public/img/academy/retrato-ozzy-realismo-legassy.jpg";
+import workFineLineImg from "../../../public/img/academy/floral-linea-fina-mano-legassy.jpg";
 import { membersDataEs, membersDataEn } from "../../../components/home/OurStudio/data/membersData";
 
 const eagleFont = localFont({
   src: "../../../public/fonts/eagle/EagleHorizonP.ttf",
 });
 
-const methodCardVisuals = {
-  "01": {
-    image: methodImg1,
-    chipEs: "Ruta flexible",
-    chipEn: "Flexible path",
-    widget: "100% online",
-  },
-  "02": {
-    image: methodImg2,
-    chipEs: "Setup pro",
-    chipEn: "Pro setup",
-    widget: "Kit sugerido",
-  },
-  "03": {
-    image: methodImg3,
-    chipEs: "Enfoque práctico",
-    chipEn: "Practical focus",
-    widget: "60+ prácticas",
-  },
-  "04": {
-    image: methodImg4,
-    chipEs: "Acompañamiento",
-    chipEn: "Mentorship",
-    widget: "Feedback 1:1",
-  },
-  "05": {
-    image: methodImg5,
-    chipEs: "Especialización",
-    chipEn: "Specialization",
-    widget: "Tracks PRO",
-  },
-  "06": {
-    image: methodImg6,
-    chipEs: "Salida profesional",
-    chipEn: "Career launch",
-    widget: "Portafolio final",
-  },
-};
+const SITE = "https://www.legassystudio.com";
+const WHATSAPP = "573103110611";
+
+const whatsappUrl = (text) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
 
 const metadataEs = {
-  title: "Academy - Legassy Studio",
+  title: "Academia de tatuaje en Cali | Legassy Tattoo Academy",
   description:
-    "Formación intensiva en tatuaje con enfoque práctico, mentoría personalizada y rutas de especialización en Legassy Academy.",
+    "Curso de tatuaje 100% personalizado en Cali: 65 horas, 22 clases en 2 meses, kit profesional Royal y práctica en piel real dentro de un estudio activo.",
   alternates: {
-    canonical: "https://www.legassystudio.com/es/academy",
-    languages: {
-      en: "/en/academy",
-      es: "/es/academy",
-      "x-default": "/en/academy",
-    },
+    canonical: `${SITE}/es/academy`,
+    languages: { en: "/en/academy", es: "/es/academy", "x-default": "/en/academy" },
+  },
+  openGraph: {
+    url: `${SITE}/es/academy`,
+    locale: "es_CO",
+    siteName: "Legassy Studio",
+    type: "website",
+    images: [{ url: "/img/academy/mentoria-1-a-1-academia-tatuaje-cali.jpg", width: 800, height: 452, alt: "Mentoría 1 a 1 en Legassy Tattoo Academy, Cali" }],
   },
 };
 
 const metadataEn = {
-  title: "Academy - Legassy Studio",
+  title: "Tattoo Academy in Cali, Colombia | Legassy Tattoo Academy",
   description:
-    "Intensive tattoo training with practical focus, personalized mentorship, and specialization tracks at Legassy Academy.",
+    "A 100% personalized tattoo course in Cali: 65 hours, 22 classes over 2 months, a Royal professional kit and real-skin practice inside a working studio.",
   alternates: {
-    canonical: "https://www.legassystudio.com/en/academy",
-    languages: {
-      en: "/en/academy",
-      es: "/es/academy",
-      "x-default": "/en/academy",
-    },
+    canonical: `${SITE}/en/academy`,
+    languages: { en: "/en/academy", es: "/es/academy", "x-default": "/en/academy" },
+  },
+  openGraph: {
+    url: `${SITE}/en/academy`,
+    locale: "en_US",
+    siteName: "Legassy Studio",
+    type: "website",
+    images: [{ url: "/img/academy/mentoria-1-a-1-academia-tatuaje-cali.jpg", width: 800, height: 452, alt: "One-on-one mentoring at Legassy Tattoo Academy, Cali" }],
   },
 };
 
@@ -88,561 +60,346 @@ export async function generateMetadata({ params: { locale } }) {
   return locale === "en" ? metadataEn : metadataEs;
 }
 
+// Contenido tomado del documento oficial «Legassy Tattoo Academy 2026»
 const pageContent = {
   es: {
-    sectionTag: "LEGASSY ACADEMY",
-    heroTitle: "Vive de tu talento",
+    sectionTag: "LEGASSY TATTOO ACADEMY · CALI",
+    heroTitle: "No formamos aficionados.",
+    heroTitleAccent: "Entrenamos a la próxima élite del tatuaje.",
     heroSubtitle:
-      "Conviértete en tatuador profesional con un programa intensivo diseñado para llevarte de cero a resultados reales.",
-    heroPrimaryCta: "Aplica ahora",
-    heroSecondaryCta: "Hablar con un mentor",
-    methodTitle: "Aprende con un método pensado para el mundo real",
-    methodDescription:
-      "Combinamos teoría clara, práctica intensiva y mentoría personalizada para que avances con estructura y resultados medibles desde el inicio.",
-    methodCards: [
-      {
-        id: "01",
-        title: "Online y a tu ritmo",
-        text: "Contenido estructurado para avanzar paso a paso desde cualquier ciudad.",
-      },
-      {
-        id: "02",
-        title: "Kit de práctica",
-        text: "Material recomendado para entrenar técnica, precisión e higiene profesional.",
-      },
-      {
-        id: "03",
-        title: "Práctica guiada",
-        text: "Más de 60 ejercicios diseñados para construir criterio, trazo y seguridad.",
-      },
-      {
-        id: "04",
-        title: "Mentoría 1 a 1",
-        text: "Feedback directo de artistas activos para corregir y acelerar tu progreso.",
-      },
-      {
-        id: "05",
-        title: "Especialización por estilos",
-        text: "Rutas de enfoque para llevar tu talento hacia el estilo que más te represente.",
-      },
-      {
-        id: "06",
-        title: "Portafolio y proyección",
-        text: "Construye piezas finales y una presentación sólida para mostrar tu trabajo de forma profesional.",
-      },
-    ],
-    stageOne: "PRIMERA ETAPA",
-    stageOneTitle: "Fundamentos del tatuaje",
-    stageOneProgram: "Bootcamp Legassy Iniciación",
-    stageOneDescription:
-      "Base técnica, higiene, diseño y criterio artístico para preparar tu evolución hacia una especialización profesional.",
-    stageTwo: "SEGUNDA ETAPA",
-    stageTwoTitle: "3 especializaciones profesionales",
-    stageTwoDescription:
-      "Elige una ruta avanzada para profundizar en técnica, propuesta visual y ejecución de piezas de alto nivel.",
-    stageTwoPrograms: [
-      {
-        name: "Bootcamp PRO Anime",
-        focus: "Línea dinámica, composición narrativa y color vibrante.",
-        badge: "ALTA DEMANDA",
-        duration: "12 semanas",
-        level: "Nivel PRO",
-      },
-      {
-        name: "Bootcamp PRO Blackwork",
-        focus: "Contraste sólido, texturas y lectura visual contundente.",
-        badge: "PRECISIÓN TÉCNICA",
-        duration: "12 semanas",
-        level: "Nivel PRO",
-      },
-      {
-        name: "Bootcamp PRO Realismo",
-        focus: "Volumen, profundidad y detalle para piezas hiperrealistas.",
-        badge: "MAESTRÍA DE SOMBRA",
-        duration: "14 semanas",
-        level: "Nivel PRO+",
-      },
-    ],
-    teachersTitle: "Aprende con artistas referentes de la industria",
-    teachersDescription:
-      "Nuestro equipo combina experiencia técnica, dirección artística y acompañamiento académico para acelerar tu curva de aprendizaje.",
-    teachers: [
-      {
-        name: "Alejandro Navia",
-        role: "Tatuador",
-        style: "Realismo",
-        badge: "Mentor senior",
-      },
-      {
-        name: "Miguel Raigoza",
-        role: "Tatuador",
-        style: "Realismo",
-        badge: "Clínica de detalle",
-      },
-      {
-        name: "Nathalia Perez",
-        role: "Tatuadora",
-        style: "Puntillismo",
-        badge: "Dirección de trazo",
-      },
-      {
-        name: "Ángel",
-        role: "Tatuador",
-        style: "Realismo sombra",
-        badge: "Sombra avanzada",
-      },
-      {
-        name: "Jeff",
-        role: "Tatuador",
-        style: "Black and Gray",
-        badge: "Composición pro",
-      },
-      {
-        name: "Artista Residente",
-        role: "Tatuador",
-        style: "Experimental",
-        badge: "Laboratorio creativo",
-      },
-    ],
-    statsTitle: "Los resultados hablan",
+      "Un curso de tatuaje 100% personalizado, dentro de un estudio activo en el sur de Cali, con artistas que tatúan a diario.",
+    heroPrimaryCta: "Quiero información",
+    heroSecondaryCta: "Ver plan de estudios",
+    whatsappText: "Hola! Vengo de la página de la academia y quisiera información sobre el curso de tatuaje",
     stats: [
-      { value: "+5.000", label: "Alumnos formados en programas intensivos" },
-      { value: "9.2/10", label: "Satisfacción promedio en la experiencia" },
-      { value: "+15", label: "Países con estudiantes activos de la academia" },
+      { value: "65", label: "horas de formación" },
+      { value: "22", label: "clases" },
+      { value: "2", label: "meses" },
+      { value: "+15", label: "años de experiencia en el arte" },
     ],
+    methodTag: "MÉTODO LEGASSY",
+    methodTitle: "Aprendes en un estudio real, no en un salón de clases",
+    methodDescription:
+      "A diferencia de las academias donde eres un alumno más en un salón de 30 personas, aquí la formación es 1 a 1. Condensamos más de 15 años de experiencia de nuestros artistas residentes en un modelo enfocado en técnica milimétrica y en cómo construir una carrera.",
+    methodCards: [
+      { id: "01", title: "100% personalizado", text: "Formación 1 a 1: el artista te acompaña y te corrige trazo a trazo.", image: mentorshipImg },
+      { id: "02", title: "Dentro de un estudio activo", text: "Te formas en las mismas estaciones donde nuestros artistas atienden a sus clientes.", image: heroImg },
+      { id: "03", title: "Kit Profesional Royal", text: "Máquina inalámbrica, cartuchos clínicos e insumos premium incluidos.", image: designClassImg },
+      { id: "04", title: "De piel sintética a piel real", text: "Practicas sobre piel sintética y terminas con un proyecto en piel real bajo supervisión.", image: syntheticImg },
+      { id: "05", title: "Marca y ventas", text: "Aprendes a posicionar tu marca, defender tus precios y registrar tu trabajo en foto y video.", image: drawingImg },
+    ],
+    planTag: "PLAN DE ESTUDIOS",
+    planTitle: "4 módulos, de la hoja en blanco a tu primer cliente",
+    modules: [
+      {
+        title: "Dibujo, diseño digital y estándar clínico",
+        text: "Dibujo, visión espacial y diseño digital en Procreate. Composición anatómica para gran formato y protocolos internacionales de bioseguridad.",
+      },
+      {
+        title: "Física del trazo y dominio sintético",
+        text: "Técnica milímetro a milímetro: cómo penetra la aguja en la piel para lograr líneas sólidas, empaque de color sin dañar el tejido y transiciones en greywash, todo antes de tocar a un cliente.",
+      },
+      {
+        title: "Ejecución clínica en piel real",
+        text: "La prueba definitiva bajo supervisión: proyectos completos controlando el estiramiento, la saturación y la inflamación para lograr resultados sólidos y una buena cicatrización.",
+      },
+      {
+        title: "Mentalidad empresarial y ventas",
+        text: "La estructura para posicionar tu marca, defender tus precios, cerrar clientes por chat y registrar tus proyectos en foto y video. Entras como aprendiz y sales preparado para el mercado.",
+      },
+    ],
+    planFooter: "65 horas de formación · 22 clases · 2 meses",
+    authorityTag: "¿QUÉ NOS HACE DIFERENTES?",
+    authorityTitle: "La autoridad de un estudio que tatúa todos los días",
+    authorityText:
+      "No enseñamos desde la teoría de un salón de clases, sino desde la ejecución diaria de un estudio. Te formamos en las mismas estaciones donde nuestros artistas residentes e invitados atienden a sus clientes, con el método que usan hoy.",
+    royalBadge: "Único estudio en Colombia patrocinado por Royal Three Elements",
+    teachersTag: "DOCENTES",
+    teachersTitle: "Aprende con el equipo de Legassy",
+    teachersDescription: "Los mismos artistas que puedes ver en nuestro portafolio te acompañan durante el curso.",
+    spaceTag: "NUESTRO ESPACIO",
+    spaceTitle: "El entorno determina el nivel de tu aprendizaje",
+    spaceText:
+      "Para formar profesionales, el espacio debe exigir el mismo estándar que un estudio de alta gama. Nuestra sede en el sur de Cali está pensada para eso.",
+    spaceImages: [
+      { image: designClassImg, alt: "Clase de diseño con tablet en Legassy Tattoo Academy" },
+      { image: studioImg, alt: "Entrada de la sede de Legassy Studio en el sur de Cali" },
+      { image: classroomImg, alt: "Salón de clases de la academia de tatuaje en Cali" },
+      { image: drawingImg, alt: "Alumno practicando dibujo en la academia" },
+    ],
+    includesTag: "QUÉ INCLUYE",
+    includesTitle: "Tu carrera profesional no es un gasto, es una inversión",
+    includes: [
+      "Kit Profesional Royal: máquina inalámbrica, cartuchos clínicos e insumos premium",
+      "Todo el material de práctica en piel sintética",
+      "Práctica final en piel real bajo supervisión",
+      "65 horas de formación 1 a 1 en 22 clases",
+    ],
+    pricingNote: "Tenemos beneficios con descuentos y diferentes métodos de pago. Escríbenos y te contamos el valor y las opciones disponibles.",
+    pricingCta: "Consultar valor y beneficios",
+    worksTitle: "El nivel que vas a aprender",
+    worksImages: [
+      { image: workSleeveImg, alt: "Manga en realismo black and grey hecha en Legassy Studio" },
+      { image: workPortraitImg, alt: "Retrato en realismo hecho en Legassy Studio" },
+      { image: workFineLineImg, alt: "Tatuaje floral en línea fina en la mano, Legassy Studio" },
+    ],
+    testimonialsTag: "ESTUDIANTES",
     testimonialsTitle: "Lo que dicen nuestros alumnos",
-    testimonialsDescription:
-      "Historias reales de alumnos que transformaron su proceso creativo con acompañamiento, práctica y método.",
     testimonials: [
       {
         quote:
-          "Entré sin experiencia y en pocos meses ya estaba construyendo un portafolio sólido. Lo que más me ayudó fue la combinación entre práctica guiada y mentoría constante: cada corrección era puntual, clara y aplicable en la siguiente sesión. Hoy tengo más seguridad técnica, mejor criterio para diseñar piezas y una ruta real para crecer como tatuadora.",
-        author: "Laura M.",
-      },
-      {
-        quote:
-          "La mentoría fue clave: corregí errores técnicos que no había notado por mi cuenta.",
-        author: "Andrés C.",
-      },
-      {
-        quote:
-          "El enfoque práctico me dio confianza para empezar a tatuar con criterio profesional.",
-        author: "Valentina R.",
+          "Lo que más me impactó de Legassy no fue solo la técnica que enseñan, sino el entorno. No estás en un salón de clases genérico, vas a aprender en un estudio de tatuajes real. Terminas tu proyecto en piel real con una seguridad increíble porque tienes docentes experimentados al lado tuyo corrigiéndote cada trazo.",
+        author: "Luisa",
+        image: studentFinalImg,
+        alt: "Luisa, estudiante de Legassy Tattoo Academy, con su proyecto final",
       },
     ],
-    faqTitle: "Preguntas frecuentes",
+    faqTag: "PREGUNTAS FRECUENTES",
+    faqTitle: "Resolvemos tus dudas sobre el curso",
     faqs: [
-      {
-        q: "¿Necesito experiencia previa?",
-        a: "No. El programa inicia desde fundamentos y escala progresivamente a práctica aplicada.",
-      },
-      {
-        q: "¿Hay acompañamiento real?",
-        a: "Sí. Cada alumno recibe seguimiento y revisión de prácticas con recomendaciones accionables.",
-      },
-      {
-        q: "¿Qué incluye la certificación?",
-        a: "Al completar y aprobar las prácticas, obtienes diploma de finalización y guía de próximos pasos profesionales.",
-      },
-      {
-        q: "¿Puedo especializarme en un estilo?",
-        a: "Sí. Tras la etapa base puedes tomar una ruta PRO enfocada en tu estilo principal.",
-      },
+      { q: "¿Necesito experiencia previa?", a: "No. Todos los grandes artistas empezaron desde cero: el curso arranca con dibujo y diseño, y avanza hasta tu primer proyecto en piel real." },
+      { q: "¿Es presencial u online?", a: "Es presencial y 100% personalizado, en nuestro estudio del sur de Cali. La formación es 1 a 1 con nuestros artistas." },
+      { q: "¿Cuánto dura el curso?", a: "65 horas de formación repartidas en 22 clases durante 2 meses." },
+      { q: "¿Qué incluye?", a: "El Kit Profesional Royal (máquina inalámbrica, cartuchos clínicos e insumos premium), todo el material de práctica en piel sintética y la práctica final en piel real." },
+      { q: "¿Cuánto cuesta y qué formas de pago hay?", a: "Tenemos beneficios con descuentos y diferentes métodos de pago. Escríbenos por WhatsApp y te contamos el valor y las opciones disponibles." },
+      { q: "¿Dónde queda la academia?", a: "En Legassy Studio, en el sur de Cali: Calle 7 # 56-55, cerca de Mall Plaza y de la Plaza de Toros de Cañaveralejo." },
     ],
-    finalCtaTitle: "Dale a tu carrera el siguiente nivel",
-    finalCtaText:
-      "Agenda una llamada con el equipo académico y recibe una ruta recomendada según tu perfil.",
+    finalCtaTitle: "Todos los grandes artistas empezaron desde cero.",
+    finalCtaText: "Déjanos guiar tu primer trazo.",
     finalCtaButton: "Quiero información",
   },
   en: {
-    sectionTag: "LEGASSY ACADEMY",
-    heroTitle: "Turn your talent into a career",
+    sectionTag: "LEGASSY TATTOO ACADEMY · CALI",
+    heroTitle: "We don’t train hobbyists.",
+    heroTitleAccent: "We train the next elite of tattooing.",
     heroSubtitle:
-      "Become a professional tattoo artist with an intensive program built to take you from zero to real outcomes.",
-    heroPrimaryCta: "Apply now",
-    heroSecondaryCta: "Talk to a mentor",
-    methodTitle: "Learn with a real-world training method",
-    methodDescription:
-      "We combine clear theory, intensive practice, and personalized mentorship so you progress with structure and measurable outcomes from day one.",
-    methodCards: [
-      {
-        id: "01",
-        title: "Online at your pace",
-        text: "Structured content so you can progress step by step from anywhere.",
-      },
-      {
-        id: "02",
-        title: "Practice kit",
-        text: "Recommended materials to train technique, precision, and hygiene.",
-      },
-      {
-        id: "03",
-        title: "Guided practice",
-        text: "60+ exercises designed to build consistency, linework, and confidence.",
-      },
-      {
-        id: "04",
-        title: "1-on-1 mentorship",
-        text: "Direct feedback from active artists to improve faster and avoid bad habits.",
-      },
-      {
-        id: "05",
-        title: "Style specialization",
-        text: "Focused tracks to develop your voice in the style that fits you best.",
-      },
-      {
-        id: "06",
-        title: "Portfolio and positioning",
-        text: "Build final pieces and a solid showcase to present your work with a professional standard.",
-      },
-    ],
-    stageOne: "STAGE ONE",
-    stageOneTitle: "Tattoo fundamentals",
-    stageOneProgram: "Legassy Fundamentals Bootcamp",
-    stageOneDescription:
-      "Technical base, hygiene, design, and artistic criteria to prepare your transition into a professional specialization path.",
-    stageTwo: "STAGE TWO",
-    stageTwoTitle: "3 professional specializations",
-    stageTwoDescription:
-      "Choose an advanced track to deepen your technical execution, visual direction, and high-level tattoo outcomes.",
-    stageTwoPrograms: [
-      {
-        name: "PRO Anime Bootcamp",
-        focus: "Dynamic linework, narrative composition, and vibrant color.",
-        badge: "HIGH DEMAND",
-        duration: "12 weeks",
-        level: "PRO level",
-      },
-      {
-        name: "PRO Blackwork Bootcamp",
-        focus: "Solid contrast, textures, and bold visual readability.",
-        badge: "TECHNICAL PRECISION",
-        duration: "12 weeks",
-        level: "PRO level",
-      },
-      {
-        name: "PRO Realism Bootcamp",
-        focus: "Volume, depth, and detail for hyper-realistic pieces.",
-        badge: "SHADING MASTERY",
-        duration: "14 weeks",
-        level: "PRO+ level",
-      },
-    ],
-    teachersTitle: "Train with industry-leading artists",
-    teachersDescription:
-      "Our team combines technical expertise, artistic direction, and academic support to accelerate your learning curve.",
-    teachers: [
-      {
-        name: "Alejandro Navia",
-        role: "Tattoo Artist",
-        style: "Realism",
-        badge: "Senior mentor",
-      },
-      {
-        name: "Miguel Raigoza",
-        role: "Tattoo Artist",
-        style: "Realism",
-        badge: "Detail clinic",
-      },
-      {
-        name: "Nathalia Perez",
-        role: "Tattoo Artist",
-        style: "Pointillism",
-        badge: "Line direction",
-      },
-      {
-        name: "Angel",
-        role: "Tattoo Artist",
-        style: "Shadow realism",
-        badge: "Advanced shading",
-      },
-      {
-        name: "Jeff",
-        role: "Tattoo Artist",
-        style: "Black and Gray",
-        badge: "Pro composition",
-      },
-      {
-        name: "Resident Artist",
-        role: "Tattoo Artist",
-        style: "Experimental",
-        badge: "Creative lab",
-      },
-    ],
-    statsTitle: "The numbers speak",
+      "A 100% personalized tattoo course inside a working studio in south Cali, Colombia, with artists who tattoo every day.",
+    heroPrimaryCta: "Get information",
+    heroSecondaryCta: "See the curriculum",
+    whatsappText: "Hi! I'm coming from the academy page and would like information about the tattoo course",
     stats: [
-      { value: "+5,000", label: "Students trained in intensive programs" },
-      { value: "9.2/10", label: "Average student satisfaction score" },
-      { value: "+15", label: "Countries with active academy students" },
+      { value: "65", label: "hours of training" },
+      { value: "22", label: "classes" },
+      { value: "2", label: "months" },
+      { value: "15+", label: "years of experience in the craft" },
     ],
+    methodTag: "THE LEGASSY METHOD",
+    methodTitle: "You learn in a real studio, not a classroom",
+    methodDescription:
+      "Unlike academies where you are one of 30 students in a room, here training is one-on-one. We condense more than 15 years of our resident artists’ experience into a model focused on precise technique and on building a career.",
+    methodCards: [
+      { id: "01", title: "100% personalized", text: "One-on-one training: the artist guides and corrects you line by line.", image: mentorshipImg },
+      { id: "02", title: "Inside a working studio", text: "You train at the same stations where our artists tattoo their clients.", image: heroImg },
+      { id: "03", title: "Royal Professional Kit", text: "Wireless machine, clinical cartridges and premium supplies included.", image: designClassImg },
+      { id: "04", title: "From synthetic to real skin", text: "You practice on synthetic skin and finish with a real-skin project under supervision.", image: syntheticImg },
+      { id: "05", title: "Brand and sales", text: "You learn to position your brand, defend your prices and document your work in photo and video.", image: drawingImg },
+    ],
+    planTag: "CURRICULUM",
+    planTitle: "4 modules, from a blank page to your first client",
+    modules: [
+      {
+        title: "Drawing, digital design and clinical standards",
+        text: "Drawing, spatial vision and digital design in Procreate. Anatomical composition for large pieces and international biosafety protocols.",
+      },
+      {
+        title: "Line physics and synthetic mastery",
+        text: "Technique millimeter by millimeter: how the needle enters the skin to get solid lines, color packing without damaging tissue and smooth greywash transitions, all before touching a client.",
+      },
+      {
+        title: "Clinical execution on real skin",
+        text: "The ultimate test under supervision: complete projects controlling stretching, saturation and inflammation for solid results and good healing.",
+      },
+      {
+        title: "Business mindset and sales",
+        text: "The structure to position your brand, defend your prices, close clients over chat and document your projects in photo and video. You come in as an apprentice and leave ready for the market.",
+      },
+    ],
+    planFooter: "65 hours of training · 22 classes · 2 months",
+    authorityTag: "WHAT MAKES US DIFFERENT?",
+    authorityTitle: "The authority of a studio that tattoos every day",
+    authorityText:
+      "We don’t teach from classroom theory but from a studio’s daily work. You train at the same stations where our resident and guest artists see their clients, with the method they use today.",
+    royalBadge: "The only studio in Colombia sponsored by Royal Three Elements",
+    teachersTag: "INSTRUCTORS",
+    teachersTitle: "Learn with the Legassy team",
+    teachersDescription: "The same artists you can see in our portfolio guide you throughout the course.",
+    spaceTag: "OUR SPACE",
+    spaceTitle: "Your environment sets the level of your learning",
+    spaceText:
+      "To train professionals, the space must hold the same standard as a high-end studio. Our location in south Cali is designed for that.",
+    spaceImages: [
+      { image: designClassImg, alt: "Design class with a tablet at Legassy Tattoo Academy" },
+      { image: studioImg, alt: "Entrance of Legassy Studio in south Cali" },
+      { image: classroomImg, alt: "Classroom at the tattoo academy in Cali" },
+      { image: drawingImg, alt: "Student practicing drawing at the academy" },
+    ],
+    includesTag: "WHAT’S INCLUDED",
+    includesTitle: "Your career is not an expense, it’s an investment",
+    includes: [
+      "Royal Professional Kit: wireless machine, clinical cartridges and premium supplies",
+      "All synthetic-skin practice materials",
+      "Final real-skin practice under supervision",
+      "65 hours of one-on-one training in 22 classes",
+    ],
+    pricingNote: "We offer discount benefits and different payment methods. Message us and we will share the price and available options.",
+    pricingCta: "Ask about price and benefits",
+    worksTitle: "The level you will learn",
+    worksImages: [
+      { image: workSleeveImg, alt: "Black and grey realism sleeve done at Legassy Studio" },
+      { image: workPortraitImg, alt: "Realism portrait done at Legassy Studio" },
+      { image: workFineLineImg, alt: "Fine-line floral hand tattoo, Legassy Studio" },
+    ],
+    testimonialsTag: "STUDENTS",
     testimonialsTitle: "What our students say",
-    testimonialsDescription:
-      "Real stories from students who transformed their creative process through mentorship, practice, and structure.",
     testimonials: [
       {
         quote:
-          "I started with zero experience and within a few months I was already building a portfolio I felt truly proud of. What made the biggest difference was the mix of guided practice and constant mentorship: every correction was precise, clear, and immediately applicable in the next session. Now I have stronger technical confidence, better design judgment, and a real path to grow as a tattoo artist.",
-        author: "Laura M.",
-      },
-      {
-        quote:
-          "Mentorship made the difference: I fixed technical mistakes I could not see on my own.",
-        author: "Andres C.",
-      },
-      {
-        quote:
-          "The practical approach gave me confidence to start tattooing with professional criteria.",
-        author: "Valentina R.",
+          "What impressed me most about Legassy wasn’t only the technique they teach, but the environment. You’re not in a generic classroom, you learn in a real tattoo studio. You finish your project on real skin with incredible confidence because experienced teachers are right next to you correcting every line.",
+        author: "Luisa",
+        image: studentFinalImg,
+        alt: "Luisa, a Legassy Tattoo Academy student, holding her final project",
       },
     ],
-    faqTitle: "Frequently asked questions",
+    faqTag: "FAQ",
+    faqTitle: "Your questions about the course",
     faqs: [
-      {
-        q: "Do I need previous experience?",
-        a: "No. The program starts with fundamentals and scales progressively into practical work.",
-      },
-      {
-        q: "Will I get real support?",
-        a: "Yes. Every student gets ongoing follow-up and detailed practice reviews.",
-      },
-      {
-        q: "What does the certification include?",
-        a: "After completing and passing all practices, you receive a completion diploma and next-step guidance.",
-      },
-      {
-        q: "Can I specialize in a specific style?",
-        a: "Yes. After the foundational stage, you can enroll in a PRO track aligned with your preferred style.",
-      },
+      { q: "Do I need previous experience?", a: "No. Every great artist started from zero: the course begins with drawing and design and builds up to your first real-skin project." },
+      { q: "Is it in person or online?", a: "It is in person and 100% personalized, at our studio in south Cali. Training is one-on-one with our artists." },
+      { q: "How long is the course?", a: "65 hours of training across 22 classes over 2 months." },
+      { q: "What is included?", a: "The Royal Professional Kit (wireless machine, clinical cartridges and premium supplies), all synthetic-skin practice materials and the final real-skin practice." },
+      { q: "How much does it cost and how can I pay?", a: "We offer discount benefits and different payment methods. Message us on WhatsApp and we will share the price and available options." },
+      { q: "Where is the academy?", a: "At Legassy Studio in south Cali: Calle 7 # 56-55, near Mall Plaza and the Cañaveralejo Bullring." },
     ],
-    finalCtaTitle: "Take your career to the next level",
-    finalCtaText:
-      "Book a call with the academic team and get a training path tailored to your profile.",
-    finalCtaButton: "I want more info",
+    finalCtaTitle: "Every great artist started from zero.",
+    finalCtaText: "Let us guide your first line.",
+    finalCtaButton: "Get information",
   },
 };
 
+function buildCourseSchema(locale, content) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Course",
+        name: "Legassy Tattoo Academy",
+        description: locale === "en" ? metadataEn.description : metadataEs.description,
+        inLanguage: locale === "en" ? "en" : "es",
+        url: `${SITE}/${locale}/academy`,
+        provider: { "@type": "Organization", "@id": `${SITE}/#business`, name: "Legassy Studio", sameAs: SITE },
+        hasCourseInstance: {
+          "@type": "CourseInstance",
+          courseMode: "Onsite",
+          courseWorkload: "PT65H",
+          location: {
+            "@type": "Place",
+            name: "Legassy Studio",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Calle 7 # 56-55",
+              addressLocality: "Cali",
+              addressRegion: "Valle del Cauca",
+              addressCountry: "CO",
+            },
+          },
+        },
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: content.faqs.map(({ q, a }) => ({
+          "@type": "Question",
+          name: q,
+          acceptedAnswer: { "@type": "Answer", text: a },
+        })),
+      },
+    ],
+  };
+}
+
+const sectionTagClass = "text-xs tracking-[0.3em] text-[#D8CDBC] md:text-sm";
+
 export default function AcademyPage({ params: { locale } }) {
   const content = locale === "en" ? pageContent.en : pageContent.es;
-  const specializationImages = [
-    specializationAnimeImg,
-    specializationBlackworkImg,
-    specializationRealismImg,
-  ];
-  const sourceMembers = locale === "en" ? membersDataEn : membersDataEs;
-  const academyTeachers = content.teachers.map((teacher) => {
-    const matchingMember = sourceMembers.find((member) =>
-      member.name.toLowerCase().includes(teacher.name.toLowerCase().split(" ")[0])
-    );
-    return {
-      ...teacher,
-      img: matchingMember?.img ?? sourceMembers[0]?.img,
-      alt: matchingMember?.alt ?? teacher.name,
-    };
-  });
+  const teachers = locale === "en" ? membersDataEn : membersDataEs;
+  const ctaUrl = whatsappUrl(content.whatsappText);
 
   return (
     <div className="bg-[#0B0B0B] text-white">
-      <section className="relative overflow-hidden bg-gradient-to-br from-black via-[#1A1A1A] to-[#262016] px-6 py-24 md:px-12">
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: `url(${heroBgImage.src})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-        <div className="absolute inset-0 z-0 bg-black/65" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildCourseSchema(locale, content)).replace(/</g, "\\u003c") }}
+      />
+
+      {/* Hero */}
+      <section className="relative overflow-hidden px-6 pb-16 pt-32 md:px-12 md:pb-24 md:pt-40">
+        <Image src={heroImg} alt="" fill priority className="object-cover object-center" sizes="100vw" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-[#0B0B0B]" />
         <div className="relative z-10 mx-auto max-w-6xl">
-          <p className="mb-4 text-sm tracking-[0.25em] text-[#D8CDBC]">{content.sectionTag}</p>
-          <h1 className="max-w-3xl text-4xl font-semibold md:text-6xl">{content.heroTitle}</h1>
+          <p className={sectionTagClass}>{content.sectionTag}</p>
+          <h1 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight md:text-6xl">
+            {content.heroTitle}{" "}
+            <span className="text-[#D8CDBC]">{content.heroTitleAccent}</span>
+          </h1>
           <p className="mt-6 max-w-2xl text-base text-gray-300 md:text-lg">{content.heroSubtitle}</p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Link
-              href={`/${locale}/contact`}
-              data-cta="academy_hero_primary"
+            <a
+              href={ctaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cta="academy_hero_whatsapp"
               className="rounded-full bg-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
             >
               {content.heroPrimaryCta}
-            </Link>
-            <Link
-              href={`/${locale}/contact`}
-              data-cta="academy_hero_secondary"
+            </a>
+            <a
+              href="#plan"
               className="rounded-full border border-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-[#D8CDBC] transition hover:bg-[#D8CDBC] hover:text-black"
             >
               {content.heroSecondaryCta}
-            </Link>
+            </a>
           </div>
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-[#121212] px-6 py-20 md:px-12">
-        <div className="pointer-events-none absolute -left-20 top-10 h-64 w-64 rounded-full bg-[#D8CDBC]/10 blur-3xl" />
-        <div className="pointer-events-none absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-[#D8CDBC]/10 blur-3xl" />
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-semibold md:text-5xl">{content.methodTitle}</h2>
-          <p className="mt-4 max-w-3xl text-base text-gray-300 md:text-lg">{content.methodDescription}</p>
-          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {content.methodCards.map((card) => {
-              const visuals = methodCardVisuals[card.id];
-              const chip = locale === "en" ? visuals.chipEn : visuals.chipEs;
-
-              return (
-                <article
-                  key={card.id}
-                  className="group rounded-2xl border border-white/10 bg-black/40 p-4 backdrop-blur-sm transition hover:border-[#D8CDBC]/50"
-                >
-                  <div className="relative h-40 overflow-hidden rounded-xl">
-                    <Image
-                      src={visuals.image}
-                      alt={card.title}
-                      fill
-                      className="object-cover transition duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                    <div className="absolute left-3 top-3 rounded-full border border-[#D8CDBC]/60 bg-black/40 px-3 py-1 text-xs tracking-wide text-[#D8CDBC]">
-                      {chip}
-                    </div>
-                    <div className="absolute bottom-3 right-3 rounded-md bg-[#D8CDBC] px-2 py-1 text-[11px] font-semibold uppercase text-black">
-                      {visuals.widget}
-                    </div>
-                  </div>
-                  <div className="px-2 pb-2 pt-4">
-                    <p className={`text-4xl text-[#D8CDBC] ${eagleFont.className}`}>/{card.id}</p>
-                    <h3 className="mt-3 text-xl font-semibold">{card.title}</h3>
-                    <p className="mt-3 text-gray-300">{card.text}</p>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </div>
+      {/* Cifras del programa */}
+      <section className="border-y border-white/10 bg-[#121212] px-6 py-10 md:px-12">
+        <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-6 md:grid-cols-4">
+          {content.stats.map((stat) => (
+            <div key={stat.label} className="text-center md:text-left">
+              <dt className="sr-only">{stat.label}</dt>
+              <dd className={`text-5xl text-[#D8CDBC] md:text-6xl ${eagleFont.className}`}>{stat.value}</dd>
+              <dd className="mt-1 text-sm uppercase tracking-wide text-gray-400">{stat.label}</dd>
+            </div>
+          ))}
+        </dl>
       </section>
 
+      {/* Método */}
       <section className="px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
-          <div className="relative overflow-hidden rounded-3xl border border-[#D8CDBC]/40 bg-[#151515] p-8 md:p-10">
-            <div className="pointer-events-none absolute -right-12 -top-12 h-40 w-40 rounded-full border border-[#D8CDBC]/30" />
-            <div className="pointer-events-none absolute -bottom-20 left-10 h-48 w-48 rounded-full bg-[#D8CDBC]/10 blur-3xl" />
-            <p className="text-sm tracking-[0.2em] text-[#D8CDBC]">{content.stageOne}</p>
-            <h3 className="mt-3 text-3xl font-semibold md:text-4xl">{content.stageOneTitle}</h3>
-            <p className="mt-3 text-lg text-gray-300">{content.stageOneProgram}</p>
-            <p className="mt-3 max-w-3xl text-gray-400">{content.stageOneDescription}</p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <span className="rounded-full border border-[#D8CDBC]/50 bg-black/40 px-3 py-1 text-xs tracking-wide text-[#D8CDBC]">
-                {locale === "en" ? "Foundation block" : "Bloque base"}
-              </span>
-              <span className="rounded-full border border-white/20 bg-black/40 px-3 py-1 text-xs tracking-wide text-gray-300">
-                {locale === "en" ? "Technique + hygiene" : "Técnica + higiene"}
-              </span>
-              <span className="rounded-full border border-white/20 bg-black/40 px-3 py-1 text-xs tracking-wide text-gray-300">
-                {locale === "en" ? "Portfolio mindset" : "Mentalidad de portafolio"}
-              </span>
-            </div>
-          </div>
-
-          <div className="mt-8 rounded-3xl border border-white/10 bg-[#101010] p-8 md:p-10">
-            <div className="flex flex-wrap items-end justify-between gap-4">
-              <div>
-                <p className="text-sm tracking-[0.2em] text-[#D8CDBC]">{content.stageTwo}</p>
-                <h3 className="mt-3 text-3xl font-semibold md:text-4xl">{content.stageTwoTitle}</h3>
-                <p className="mt-3 max-w-3xl text-gray-400">{content.stageTwoDescription}</p>
-              </div>
-              <div className="rounded-2xl border border-[#D8CDBC]/40 bg-black/40 px-5 py-3 text-right">
-                <p className="text-xs uppercase tracking-[0.2em] text-gray-400">
-                  {locale === "en" ? "Tracks available" : "Rutas disponibles"}
-                </p>
-                <p className={`text-4xl leading-none text-[#D8CDBC] ${eagleFont.className}`}>03</p>
-              </div>
-            </div>
-
-            <div className="mt-8 grid gap-5 md:grid-cols-3">
-              {content.stageTwoPrograms.map((program, index) => (
-                <article
-                  key={program.name}
-                  className="group relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-4 transition hover:border-[#D8CDBC]/50"
-                >
-                  <div className="relative h-44 overflow-hidden rounded-xl">
-                    <Image
-                      src={specializationImages[index]}
-                      alt={program.name}
-                      fill
-                      className="object-cover transition duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
-                    <span className="absolute left-3 top-3 rounded-full border border-[#D8CDBC]/60 bg-black/50 px-3 py-1 text-[11px] font-semibold tracking-wide text-[#D8CDBC]">
-                      {program.badge}
-                    </span>
-                    <span className="absolute bottom-3 right-3 rounded-md bg-black/70 px-2 py-1 text-[11px] uppercase tracking-wide text-white">
-                      {program.level}
-                    </span>
-                  </div>
-
-                  <div className="px-2 pb-2 pt-4">
-                    <h4 className="text-xl font-semibold">{program.name}</h4>
-                    <p className="mt-2 text-sm text-gray-300">{program.focus}</p>
-
-                    <div className="mt-4 flex items-center justify-between rounded-xl border border-white/10 bg-[#141414] px-3 py-2">
-                      <span className="text-xs uppercase tracking-[0.2em] text-gray-400">
-                        {locale === "en" ? "Duration" : "Duración"}
-                      </span>
-                      <span className="text-sm font-semibold text-[#D8CDBC]">{program.duration}</span>
-                    </div>
-
-                    <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/10">
-                      <div
-                        className="h-full rounded-full bg-gradient-to-r from-[#D8CDBC] to-[#A89278]"
-                        style={{ width: `${78 + index * 8}%` }}
-                      />
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="relative overflow-hidden bg-[#121212] px-6 py-20 md:px-12">
-        <div className="pointer-events-none absolute -left-24 top-20 h-72 w-72 rounded-full bg-[#D8CDBC]/10 blur-3xl" />
-        <div className="pointer-events-none absolute -right-24 bottom-10 h-80 w-80 rounded-full bg-[#D8CDBC]/10 blur-3xl" />
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-semibold md:text-5xl">{content.teachersTitle}</h2>
-          <p className="mt-4 max-w-3xl text-gray-300">{content.teachersDescription}</p>
-
-          <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-12">
-            {academyTeachers.map((teacher, index) => (
+          <p className={sectionTagClass}>{content.methodTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.methodTitle}</h2>
+          <p className="mt-4 max-w-3xl text-base text-gray-300 md:text-lg">{content.methodDescription}</p>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {content.methodCards.map((card) => (
               <article
-                key={teacher.name}
-                className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-black/35 backdrop-blur-sm ${
-                  index === 0 || index === 3 ? "md:col-span-7" : "md:col-span-5"
-                }`}
+                key={card.id}
+                className="group overflow-hidden rounded-2xl border border-white/10 bg-[#141414] transition hover:border-[#D8CDBC]/50"
               >
-                <div className="flex h-full min-h-[170px]">
-                  <div className="relative w-28 shrink-0 md:w-36">
-                    <Image src={teacher.img} alt={teacher.alt} fill className="object-cover" />
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50" />
-                  </div>
-
-                  <div className="flex flex-1 flex-col justify-between p-4">
-                    <div>
-                      <div className="flex items-center justify-between gap-3">
-                        <p className="text-lg font-semibold">{teacher.name}</p>
-                        <p className={`text-2xl leading-none text-[#D8CDBC]/70 ${eagleFont.className}`}>
-                          {String(index + 1).padStart(2, "0")}
-                        </p>
-                      </div>
-                      <p className="mt-1 text-[11px] uppercase tracking-[0.2em] text-gray-400">{teacher.role}</p>
-                    </div>
-
-                    <div className="mt-3 flex flex-wrap items-center gap-2">
-                      <span className="rounded-full border border-[#D8CDBC]/50 bg-black/40 px-2.5 py-1 text-[11px] text-[#D8CDBC]">
-                        {teacher.style}
-                      </span>
-                      <span className="rounded-full border border-white/20 bg-black/40 px-2.5 py-1 text-[11px] text-gray-300">
-                        {teacher.badge}
-                      </span>
-                    </div>
-                  </div>
+                <div className="relative h-44 overflow-hidden">
+                  <Image
+                    src={card.image}
+                    alt=""
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-black/20 to-transparent" />
+                </div>
+                <div className="px-5 pb-6">
+                  <p className={`text-4xl text-[#D8CDBC] ${eagleFont.className}`}>/{card.id}</p>
+                  <h3 className="mt-2 text-xl font-semibold">{card.title}</h3>
+                  <p className="mt-2 text-gray-300">{card.text}</p>
                 </div>
               </article>
             ))}
@@ -650,71 +407,169 @@ export default function AcademyPage({ params: { locale } }) {
         </div>
       </section>
 
+      {/* Plan de estudios */}
+      <section id="plan" className="scroll-mt-24 bg-[#121212] px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.planTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.planTitle}</h2>
+          <ol className="mt-10 grid gap-5 md:grid-cols-2">
+            {content.modules.map((module, index) => (
+              <li key={module.title} className="rounded-2xl border border-white/10 bg-black/40 p-6 md:p-8">
+                <p className="text-sm tracking-[0.2em] text-[#D8CDBC]">
+                  {locale === "en" ? "MODULE" : "MÓDULO"} {index + 1}
+                </p>
+                <h3 className="mt-2 text-2xl font-semibold">{module.title}</h3>
+                <p className="mt-3 text-gray-300">{module.text}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-8 text-center text-sm uppercase tracking-[0.2em] text-gray-400">{content.planFooter}</p>
+        </div>
+      </section>
+
+      {/* Diferencial */}
+      <section className="px-6 py-20 md:px-12">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
+          <div className="relative aspect-[16/10] overflow-hidden rounded-3xl">
+            <Image
+              src={mentorshipImg}
+              alt={locale === "en" ? "One-on-one mentoring at the academy" : "Mentoría 1 a 1 en la academia"}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <p className={sectionTagClass}>{content.authorityTag}</p>
+            <h2 className="mt-3 text-3xl font-semibold md:text-4xl">{content.authorityTitle}</h2>
+            <p className="mt-4 text-gray-300 md:text-lg">{content.authorityText}</p>
+            <p className="mt-6 inline-block rounded-full border border-[#D8CDBC]/60 px-4 py-2 text-sm font-semibold text-[#D8CDBC]">
+              {content.royalBadge}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Docentes */}
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.teachersTag}</p>
+          <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.teachersTitle}</h2>
+          <p className="mt-4 max-w-2xl text-gray-300">{content.teachersDescription}</p>
+          <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {teachers.map((teacher) => (
+              <li key={teacher.name} className="overflow-hidden rounded-2xl border border-white/10 bg-black/40">
+                <div className="relative aspect-[3/4] bg-[#1a1a1a]">
+                  <Image
+                    src={teacher.img}
+                    alt={teacher.alt}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className="object-contain object-bottom"
+                  />
+                </div>
+                <div className="p-4">
+                  <p className="font-semibold">{teacher.name}</p>
+                  <p className="text-sm text-gray-400">{teacher.art || teacher.position}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Espacio */}
       <section className="px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-semibold md:text-5xl">{content.statsTitle}</h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {content.stats.map((stat) => (
-              <article key={stat.label} className="rounded-2xl border border-white/10 bg-[#151515] p-6">
-                <p className={`text-5xl text-[#D8CDBC] ${eagleFont.className}`}>{stat.value}</p>
-                <p className="mt-4 text-gray-300">{stat.label}</p>
-              </article>
+          <p className={sectionTagClass}>{content.spaceTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.spaceTitle}</h2>
+          <p className="mt-4 max-w-3xl text-gray-300 md:text-lg">{content.spaceText}</p>
+          <div className="mt-10 grid grid-cols-2 gap-3 md:gap-4">
+            {content.spaceImages.map((item) => (
+              <div key={item.alt} className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+                <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 50vw, 600px" className="object-cover" />
+              </div>
             ))}
           </div>
         </div>
       </section>
 
+      {/* Qué incluye */}
       <section className="bg-[#121212] px-6 py-20 md:px-12">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-3xl font-semibold md:text-5xl">{content.testimonialsTitle}</h2>
-          <p className="mt-4 max-w-3xl text-gray-300">{content.testimonialsDescription}</p>
-
-          <div className="mt-10 grid gap-5 md:grid-cols-12">
-            <article className="relative overflow-hidden rounded-3xl border border-[#D8CDBC]/40 bg-gradient-to-br from-[#1A1A1A] to-black p-7 md:col-span-7">
-              <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[#D8CDBC]/10 blur-2xl" />
-              <p className={`text-5xl leading-none text-[#D8CDBC]/70 ${eagleFont.className}`}>"</p>
-              <p className="mt-3 text-lg leading-relaxed text-gray-100">"{content.testimonials[0].quote}"</p>
-              <div className="mt-6 flex flex-wrap items-center gap-3">
-                <span className="rounded-full border border-[#D8CDBC]/50 bg-black/40 px-3 py-1 text-xs tracking-wide text-[#D8CDBC]">
-                  {content.testimonials[0].author}
-                </span>
-                <span className="text-sm text-gray-400">★★★★★</span>
-                <span className="text-xs uppercase tracking-[0.2em] text-gray-500">
-                  {locale === "en" ? "Verified review" : "Reseña verificada"}
-                </span>
+          <p className={sectionTagClass}>{content.includesTag}</p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-semibold md:text-5xl">{content.includesTitle}</h2>
+          <div className="mt-10 grid gap-10 md:grid-cols-2">
+            <div>
+              <ul className="space-y-4">
+                {content.includes.map((item) => (
+                  <li key={item} className="flex gap-3 text-gray-200 md:text-lg">
+                    <span aria-hidden="true" className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#D8CDBC]" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-8 text-gray-400">{content.pricingNote}</p>
+              <a
+                href={ctaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cta="academy_pricing_whatsapp"
+                className="mt-6 inline-block rounded-full bg-[#D8CDBC] px-7 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
+              >
+                {content.pricingCta}
+              </a>
+            </div>
+            <div>
+              <p className="mb-4 text-sm uppercase tracking-[0.2em] text-gray-400">{content.worksTitle}</p>
+              <div className="grid grid-cols-3 gap-3">
+                {content.worksImages.map((item) => (
+                  <div key={item.alt} className="relative aspect-[3/4] overflow-hidden rounded-xl">
+                    <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 33vw, 200px" className="object-cover" />
+                  </div>
+                ))}
               </div>
-            </article>
-
-            <div className="grid gap-5 md:col-span-5">
-              {content.testimonials.slice(1).map((item, index) => (
-                <article key={item.author} className="rounded-2xl border border-white/10 bg-black/35 p-5">
-                  <div className="flex items-center justify-between gap-3">
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#D8CDBC]">{item.author}</p>
-                    <p className={`text-2xl leading-none text-[#D8CDBC]/60 ${eagleFont.className}`}>
-                      0{index + 2}
-                    </p>
-                  </div>
-                  <p className="mt-3 text-gray-200">"{item.quote}"</p>
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-sm text-gray-400">★★★★★</span>
-                    <span className="text-[11px] uppercase tracking-[0.2em] text-gray-500">
-                      {locale === "en" ? "Student" : "Alumno"}
-                    </span>
-                  </div>
-                </article>
-              ))}
             </div>
           </div>
         </div>
       </section>
 
+      {/* Testimonios */}
       <section className="px-6 py-20 md:px-12">
+        <div className="mx-auto max-w-6xl">
+          <p className={sectionTagClass}>{content.testimonialsTag}</p>
+          <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.testimonialsTitle}</h2>
+          <div className="mt-10 grid gap-6">
+            {content.testimonials.map((testimonial) => (
+              <figure
+                key={testimonial.author}
+                className="grid items-center gap-6 overflow-hidden rounded-3xl border border-white/10 bg-[#141414] md:grid-cols-[280px_1fr]"
+              >
+                <div className="relative aspect-[3/4] md:h-full">
+                  <Image src={testimonial.image} alt={testimonial.alt} fill sizes="(max-width: 768px) 100vw, 280px" className="object-cover" />
+                </div>
+                <div className="p-6 md:p-10">
+                  <blockquote className="text-lg text-gray-200 md:text-xl">“{testimonial.quote}”</blockquote>
+                  <figcaption className="mt-4 font-semibold text-[#D8CDBC]">— {testimonial.author}</figcaption>
+                </div>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Preguntas frecuentes */}
+      <section className="bg-[#121212] px-6 py-20 md:px-12">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-3xl font-semibold md:text-5xl">{content.faqTitle}</h2>
-          <div className="mt-10 space-y-4">
+          <p className={sectionTagClass}>{content.faqTag}</p>
+          <h2 className="mt-3 text-3xl font-semibold md:text-5xl">{content.faqTitle}</h2>
+          <div className="mt-10 divide-y divide-white/10 border-y border-white/10">
             {content.faqs.map((faq) => (
-              <details key={faq.q} className="rounded-xl border border-white/15 bg-[#151515] p-5">
-                <summary className="cursor-pointer text-lg font-semibold">{faq.q}</summary>
+              <details key={faq.q} className="group py-5">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold">
+                  {faq.q}
+                  <span aria-hidden="true" className="text-2xl text-[#D8CDBC] transition group-open:rotate-45">+</span>
+                </summary>
                 <p className="mt-3 text-gray-300">{faq.a}</p>
               </details>
             ))}
@@ -722,18 +577,19 @@ export default function AcademyPage({ params: { locale } }) {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-[#1D1B18] to-[#262016] px-6 py-20 md:px-12">
-        <div className="mx-auto max-w-5xl text-center">
-          <h2 className="text-3xl font-semibold md:text-5xl">{content.finalCtaTitle}</h2>
-          <p className="mx-auto mt-5 max-w-2xl text-gray-300">{content.finalCtaText}</p>
-          <Link
-            href={`/${locale}/contact`}
-            data-cta="academy_final_cta"
-            className="mt-8 inline-block rounded-full bg-[#D8CDBC] px-8 py-3 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
-          >
-            {content.finalCtaButton}
-          </Link>
-        </div>
+      {/* CTA final */}
+      <section className="px-6 py-24 text-center md:px-12">
+        <h2 className="mx-auto max-w-3xl text-3xl font-semibold md:text-5xl">{content.finalCtaTitle}</h2>
+        <p className={`mt-4 text-4xl text-[#D8CDBC] md:text-5xl ${eagleFont.className}`}>{content.finalCtaText}</p>
+        <a
+          href={ctaUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-cta="academy_final_whatsapp"
+          className="mt-10 inline-block rounded-full bg-[#D8CDBC] px-8 py-4 text-sm font-semibold uppercase tracking-wide text-black transition hover:bg-[#c7b8a3]"
+        >
+          {content.finalCtaButton}
+        </a>
       </section>
     </div>
   );
