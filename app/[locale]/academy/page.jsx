@@ -251,7 +251,7 @@ const pageContent = {
           "What impressed me most about Legassy wasn’t only the technique they teach, but the environment. You’re not in a generic classroom, you learn in a real tattoo studio. You finish your project on real skin with incredible confidence because experienced teachers are right next to you correcting every line.",
         author: "Luisa",
         image: studentFinalImg,
-        alt: "Luisa, a Legassy Tattoo Academy student, holding her final project",
+        alt: "Luisa, a Legassy Tattoo Academy student, holding the final project",
       },
     ],
     guidesTitle: "Guides for future tattoo artists",

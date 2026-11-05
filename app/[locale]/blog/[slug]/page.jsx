@@ -21,9 +21,10 @@ const BookConsult = dynamic(() =>
   import("@/components/common/BookConsult/BookConsult")
 );
 
-// Slugs válidos: minúsculas, números y guiones. Descarta basura de bots
+// Solo slugs de posts publicados (en cualquier idioma). Descarta basura de bots
 // ("null", "favicon.ico", "...&gsessionid=...") sin consultar el loader ni loguear errores.
-const isValidSlug = (slug) => /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug);
+const isValidSlug = (slug) =>
+  blogPostsRegistry.some((post) => post.published && Object.values(post.slugs).includes(slug));
 
 //Diferent namespaces
 const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
