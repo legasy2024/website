@@ -13,7 +13,6 @@ import i18nConfig from '@/i18nConfig'
 function Navbar({ translations }) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isVisible, setIsVisible] = useState(false)
   const pathname = usePathname()
 
   // Resolver locale actual desde la URL para que el logo lleve al home correcto (/{locale})
@@ -39,12 +38,8 @@ function Navbar({ translations }) {
 
     window.addEventListener('scroll', handleScroll)
 
-    // Set visibility after 1 second
-    const timer = setTimeout(() => setIsVisible(true), 1000)
-
     return () => {
       window.removeEventListener('scroll', handleScroll)
-      clearTimeout(timer)
     }
   }, [])
 
@@ -94,14 +89,8 @@ function Navbar({ translations }) {
 
   return (
     <nav className="flex flex-col items-center">
-      <AnimatePresence>
-        {isVisible && (
-          <motion.div
-            className="fixed w-full z-50"
-            initial="hidden"
-            animate="visible"
-            variants={navbarVariants}
-          >
+      {/* Siempre en el HTML inicial: el menú lleva los enlaces internos que ve Google */}
+      <div className="fixed w-full z-50">
             <motion.div
               animate={isScrolled ? "solid" : "transparent"}
               variants={navbarVariants}
@@ -256,9 +245,7 @@ function Navbar({ translations }) {
                 </AnimatePresence>
               </div>
             </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      </div>
     </nav>
   )
 }

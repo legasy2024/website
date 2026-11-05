@@ -28,7 +28,7 @@ const metadata = {
   language: "es",
   subject: "Club VIP de Legassy Studio - Beneficios Exclusivos de Membresía",
   coverage: "Global",
-  robots: "index, follow",
+  robots: "noindex, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
@@ -36,7 +36,7 @@ const metadata = {
     languages: {
       en: "/en/vip",
       es: "/es/vip",
-      "x-default": "/en/vip",
+      "x-default": "/es/vip",
     },
   },
   openGraph: {
@@ -60,7 +60,7 @@ const metadata_en = {
   language: "en",
   subject: "Legassy Studio VIP Club - Exclusive Membership Benefits",
   coverage: "Global",
-  robots: "index, follow",
+  robots: "noindex, follow",
   author: "Legassy Studio",
   publisher: "Legassy Studio",
   alternates: {
@@ -68,7 +68,7 @@ const metadata_en = {
     languages: {
       en: "/en/vip",
       es: "/es/vip",
-      "x-default": "/en/vip",
+      "x-default": "/es/vip",
     },
   },
   openGraph: {

@@ -47,7 +47,7 @@ export async function generateMetadata({ params: { locale, category: slug } }) {
       languages: {
         en: enPath,
         es: esPath,
-        "x-default": enPath,
+        "x-default": esPath,
       },
     },
   };

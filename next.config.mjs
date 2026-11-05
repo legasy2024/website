@@ -88,6 +88,12 @@ const nextConfig = {
         // El alias *.vercel.app de producción servía el sitio completo (contenido duplicado para Google)
         return [
             {
+                // /curses era una página de 25 palabras que competía con /academy
+                source: '/:locale(en|es)/curses',
+                destination: '/:locale/academy',
+                permanent: true,
+            },
+            {
                 source: '/:path*',
                 has: [{ type: 'host', value: 'website-omega-silk-59.vercel.app' }],
                 destination: 'https://www.legassystudio.com/:path*',

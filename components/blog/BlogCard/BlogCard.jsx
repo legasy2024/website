@@ -29,9 +29,9 @@ const BlogCard = ({ post, locale }) => {
           <span className="text-TextSecondary-300">·</span>
           <span className="text-TextSecondary-200">{post.date}</span>
         </div>
-        <h3 className="text-base sm:text-lg font-bold leading-snug text-TextBlack group-hover:underline underline-offset-2 line-clamp-2">
+        <h2 className="text-base sm:text-lg font-bold leading-snug text-TextBlack group-hover:underline underline-offset-2 line-clamp-2">
           {post.title}
-        </h3>
+        </h2>
         <p className="max-sm:hidden text-sm text-Subtitle line-clamp-2">{post.description || post.excerpt}</p>
       </div>
     </Link>
