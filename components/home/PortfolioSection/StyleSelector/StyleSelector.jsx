@@ -22,7 +22,7 @@ function StyleSelector({ onSelect, selectedStyle, locale }) {
   const tattooStyles = locale === "en" ? tattooStylesEn : tattooStylesEs;
 
   return (
-    <div className="flex justify-center max-w-[400px] md:max-w-[1200px] items-center md:items-start">
+    <div className="flex w-full justify-center md:max-w-[1200px] items-center md:items-start">
       <div className="flex flex-row w-full overflow-x-auto items-center gap-x-0 md:gap-x-12 gap-y-3">
         {tattooStyles.map((style) => (
           <motion.button
