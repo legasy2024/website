@@ -20,9 +20,9 @@ const i18nNameSpaces = [
 ];
 
 const metadata = {
-  title: "Podcast - Legassy Studio",
+  title: "Podcast de tatuajes en Cali | Legassy Studio",
   description:
-    "Escucha nuestro podcast y explora el mundo de los tatuajes, el arte y la cultura. Uno de los principales podcasts sobre tatuajes en Cali, Colombia. Conversaciones con artistas, clientes y expertos de la industria.",
+    "Podcast de Legassy Studio, estudio de tatuajes en Cali: conversaciones con artistas y clientes sobre tatuajes, arte y cultura.",
   keywords:
     "podcast de tatuajes, cultura del tatuaje, entrevistas con artistas, historias de tatuajes, consejos de tatuajes, estudio de tatuajes en Cali, podcast tatuajes Cali Colombia, mejor podcast tatuajes Colombia",
   language: "es",
@@ -36,25 +36,25 @@ const metadata = {
     languages: {
       en: "/en/podcast",
       es: "/es/podcast",
-      "x-default": "/en/podcast",
+      "x-default": "/es/podcast",
     },
   },
   openGraph: {
     type: "website",
     locale: "es_CO",
-    url: "https://legassystudio.com/es/podcast",
-    title: "Podcast - Legassy Studio",
+    url: "https://www.legassystudio.com/es/podcast",
+    title: "Podcast de tatuajes en Cali | Legassy Studio",
     description:
-      "Escucha nuestro podcast y explora el mundo de los tatuajes, el arte y la cultura. Uno de los principales podcasts sobre tatuajes en Cali, Colombia. Conversaciones con artistas, clientes y expertos de la industria.",
+      "Podcast de Legassy Studio, estudio de tatuajes en Cali: conversaciones con artistas y clientes sobre tatuajes, arte y cultura.",
     images: [{ url: "/es/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
     siteName: "Legassy Studio",
   },
 };
 
 const metadata_en = {
-  title: "Podcast - Legassy Studio",
+  title: "Tattoo Podcast from Cali, Colombia | Legassy Studio",
   description:
-    "Listen to our podcast and explore the world of tattoos, art, and culture. One of the main podcasts talking about tattoos in Cali, Colombia. Conversations with artists, clients, and industry experts.",
+    "The Legassy Studio podcast from Cali, Colombia: conversations with artists and clients about tattoos, art and culture.",
   keywords:
     "tattoo podcast, tattoo culture, artist interviews, tattoo stories, tattoo tips, Cali tattoo studio, tattoo podcast Cali Colombia, best tattoo podcast Colombia",
   language: "en",
@@ -68,16 +68,16 @@ const metadata_en = {
     languages: {
       en: "/en/podcast",
       es: "/es/podcast",
-      "x-default": "/en/podcast",
+      "x-default": "/es/podcast",
     },
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://legassystudio.com/podcast",
-    title: "Podcast - Legassy Studio",
+    url: "https://www.legassystudio.com/en/podcast",
+    title: "Tattoo Podcast from Cali, Colombia | Legassy Studio",
     description:
-      "Listen to our podcast and explore the world of tattoos, art, and culture. One of the main podcasts talking about tattoos in Cali, Colombia. Conversations with artists, clients, and industry experts.",
+      "The Legassy Studio podcast from Cali, Colombia: conversations with artists and clients about tattoos, art and culture.",
     images: [{ url: "/en/opengraph-image.jpg", width: 1200, height: 600, alt: "Legassy Studio" }],
     siteName: "Legassy Studio",
   },

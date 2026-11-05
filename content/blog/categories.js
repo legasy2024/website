@@ -16,7 +16,7 @@ const blogCategories = [
     name: { es: "Cuidado del tatuaje", en: "Tattoo aftercare" },
     slug: { es: "cuidado-del-tatuaje", en: "tattoo-aftercare" },
     seoTitle: {
-      es: "Cuidado del tatuaje: cicatrización y consejos | Legassy Studio",
+      es: "Cuidado del tatuaje: cicatrización y consejos | Legassy",
       en: "Tattoo Aftercare: Healing Tips & Products | Legassy Studio",
     },
     description: {
@@ -46,7 +46,7 @@ const blogCategories = [
       en: "Does a Tattoo Hurt? Pain by Placement | Legassy Studio",
     },
     description: {
-      es: "Cuánto duele, las zonas más sensibles y cómo vivir mejor tu sesión.",
+      es: "Cuánto duele un tatuaje, cuáles son las zonas más sensibles y cómo vivir mejor tu sesión.",
       en: "How much it hurts, the most sensitive areas and how to get through your session.",
     },
   },
@@ -56,7 +56,7 @@ const blogCategories = [
     slug: { es: "salud-y-ciencia", en: "health-and-science" },
     seoTitle: {
       es: "Tatuajes y salud: alergias, piel y embarazo | Legassy Studio",
-      en: "Tattoos & Health: Allergies, Skin, Pregnancy | Legassy Studio",
+      en: "Tattoos & Health: Allergies, Skin, Pregnancy | Legassy",
     },
     description: {
       es: "Alergias, condiciones de la piel, embarazo y lo que dice la ciencia sobre los tatuajes.",
@@ -68,7 +68,7 @@ const blogCategories = [
     name: { es: "Técnicas y estilos", en: "Techniques & styles" },
     slug: { es: "tecnicas-y-estilos", en: "techniques-and-styles" },
     seoTitle: {
-      es: "Estilos de tatuaje: línea fina, realismo y más | Legassy Studio",
+      es: "Estilos de tatuaje: línea fina, realismo y más | Legassy",
       en: "Tattoo Styles: Fine Line, Realism & More | Legassy Studio",
     },
     description: {
@@ -82,7 +82,7 @@ const blogCategories = [
     slug: { es: "turismo-y-viajes", en: "tourism-and-travel" },
     seoTitle: {
       es: "Tatuarte en Cali, Colombia: costos y viaje | Legassy Studio",
-      en: "Get Tattooed in Cali, Colombia: Costs & Travel | Legassy Studio",
+      en: "Get Tattooed in Cali, Colombia: Costs & Travel | Legassy",
     },
     description: {
       es: "Viajar para tatuarte: Cali, Colombia, costos reales y cómo planear tu viaje.",
@@ -94,12 +94,12 @@ const blogCategories = [
     name: { es: "Galerías", en: "Galleries" },
     slug: { es: "galerias", en: "galleries" },
     seoTitle: {
-      es: "Ideas de tatuajes: galerías por zona y estilo | Legassy Studio",
-      en: "Tattoo Ideas: Galleries by Placement & Style | Legassy Studio",
+      es: "Ideas de tatuajes: galerías por zona y estilo | Legassy",
+      en: "Tattoo Ideas: Galleries by Placement & Style | Legassy",
     },
     description: {
-      es: "Ideas y referencias reales de tatuajes por zona, estilo y temática.",
-      en: "Real tattoo ideas and references by placement, style and theme.",
+      es: "Ideas y referencias reales de tatuajes por zona, estilo y temática para inspirar tu próximo diseño.",
+      en: "Real tattoo ideas and references by placement, style and theme to inspire your next design.",
     },
   },
   {

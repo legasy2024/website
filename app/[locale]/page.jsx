@@ -13,6 +13,7 @@ const OurStudio = dynamic(() => import("@/components/home/OurStudio/OurStudio"))
 const ShortsGallery = dynamic(() => import("@/components/home/ShortsGallery/ShortsGallery"));
 const BookConsult = dynamic(() => import("@/components/common/BookConsult/BookConsult"));
 const FaqSection = dynamic(() => import("@/components/home/FaqSection/FaqSection"));
+import LocalLinks from "@/components/home/LocalLinks";
 
 //Diferent namespaces
 const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
@@ -20,8 +21,8 @@ const i18nNameSpaces = ["home", "navbar", "experience", "help", "projects"];
 
 const metadata = {
   title: "Legassy Studio - Estudio Premium de Tatuajes en Cali, Colombia",
-  description: "Legassy Studio: estudio privado en Cali donde arte y creatividad se transforman en tatuajes únicos, grabando un legado en cada trazo",
-  keywords: "tatuajes, estudio de tatuajes, tattoo, artistas del tatuaje, tatuaje realista, blackwork, minimalista, lettering, tatuajes personalizados, microrealismo, ilustraciones",
+  description: "Estudio privado de tatuajes en el sur de Cali, cerca de Mall Plaza. Realismo, línea fina, microrealismo y más. Asesoría y cotización gratis por WhatsApp.",
+  keywords: "tatuajes cali, estudio de tatuajes cali, tatuadores en cali, tatuaje realista, línea fina, microrealismo, tatuajes personalizados, sur de cali",
   language: "es",
   subject: "Legassy Studio - Grabando un legado en cada trazo.",
   coverage: "Global",
@@ -39,14 +40,14 @@ const metadata = {
     languages: {
       en: "/en",
       es: "/es",
-      "x-default": "/en",
+      "x-default": "/es",
     },
   }
 };
 
 const metadata_en = {
   title: "Legassy Studio - Premium Tattoo Studio in Cali, Colombia",
-  description: "Legassy Studio: private tattoo studio in Cali, Colombia where art becomes unique, personalized designs, engraving a legacy with every stroke",
+  description: "Private tattoo studio in south Cali, Colombia. Realism, fine line, micro-realism and more. Free consultation and quote on WhatsApp.",
   keywords: "tattoos, tattoo studio, tattoo, tattoo artists, realistic tattoo, blackwork, minimalist, lettering, custom tattoos, microrealism, illustrations",
   language: "en",
   subject: "Legassy Studio - Engraving a legacy in every stroke.",
@@ -65,7 +66,7 @@ const metadata_en = {
     languages: {
       en: "/en",
       es: "/es",
-      "x-default": "/en",
+      "x-default": "/es",
     },
   }
 };
@@ -230,6 +231,7 @@ export default async function Home({ params: { locale } }) {
           <BookConsult translations={BookConsultTranslations} locale={locale}></BookConsult>
         </div>
         <FaqSection translations={faqTranslations}></FaqSection>
+        <LocalLinks locale={locale} />
       </TranslationsProvider>
     </>
   );

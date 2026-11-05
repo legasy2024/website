@@ -26,7 +26,7 @@ const metadataEs = {
     "Curso de tatuaje 100% personalizado en Cali: 65 horas, 22 clases en 2 meses, kit profesional Royal y práctica en piel real dentro de un estudio activo.",
   alternates: {
     canonical: `${SITE}/es/academy`,
-    languages: { en: "/en/academy", es: "/es/academy", "x-default": "/en/academy" },
+    languages: { en: "/en/academy", es: "/es/academy", "x-default": "/es/academy" },
   },
   openGraph: {
     url: `${SITE}/es/academy`,
@@ -43,7 +43,7 @@ const metadataEn = {
     "A 100% personalized tattoo course in Cali: 65 hours, 22 classes over 2 months, a Royal professional kit and real-skin practice inside a working studio.",
   alternates: {
     canonical: `${SITE}/en/academy`,
-    languages: { en: "/en/academy", es: "/es/academy", "x-default": "/en/academy" },
+    languages: { en: "/en/academy", es: "/es/academy", "x-default": "/es/academy" },
   },
   openGraph: {
     url: `${SITE}/en/academy`,
@@ -307,7 +307,7 @@ function buildCourseSchema(locale, content) {
             name: "Legassy Studio",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Calle 7 # 56-55",
+              streetAddress: "Calle 7 # 56 - 55",
               addressLocality: "Cali",
               addressRegion: "Valle del Cauca",
               addressCountry: "CO",
@@ -315,6 +315,17 @@ function buildCourseSchema(locale, content) {
           },
         },
       },
+      ...videoTestimonials.map((video) => ({
+        "@type": "VideoObject",
+        name: locale === "en"
+          ? `${video.name ? `${video.name}'s testimonial` : "Student testimonial"} | Legassy Tattoo Academy, Cali`
+          : `Testimonio ${video.name ? `de ${video.name}` : "de estudiante"} | Legassy Tattoo Academy, Cali`,
+        description: content.videosDescription,
+        thumbnailUrl: `${SITE}${video.poster}`,
+        contentUrl: `${SITE}${video.src}`,
+        uploadDate: "2026-11-02",
+        inLanguage: "es",
+      })),
       {
         "@type": "FAQPage",
         mainEntity: content.faqs.map(({ q, a }) => ({

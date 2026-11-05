@@ -1,10 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { useParams } from 'next/navigation';
 import { imageByStyles, thumbByStyles } from "./data/imagesByStyle";
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaExpand, FaTimes } from 'react-icons/fa';
 
+const STYLE_NAMES = {
+  realismo: ['realismo', 'realism'],
+  surrealismo: ['surrealismo', 'surrealism'],
+  linea_fina: ['línea fina', 'fine line'],
+  microrealismo: ['microrealismo', 'micro-realism'],
+  anime: ['anime', 'anime'],
+  puntillismo: ['puntillismo', 'pointillism'],
+  libre: ['estilo libre', 'free style'],
+};
+
+// Texto alternativo por estilo: dice a Google y a lectores de pantalla qué muestra la foto
+const styleAlt = (key, isEn, n) => {
+  const [es, en] = STYLE_NAMES[key] || STYLE_NAMES.realismo;
+  const number = n ? ` (${n})` : '';
+  return isEn
+    ? `${en} tattoo by Legassy Studio in Cali, Colombia${number}`
+    : `Tatuaje de ${es} de Legassy Studio en Cali${number}`;
+};
+
 function Images({ selectedStyle }) {
+  const isEn = useParams()?.locale === 'en';
   // State to track loading images
   const [loadingImages, setLoadingImages] = useState({});
   // State for the fullscreen modal
@@ -92,7 +113,7 @@ function Images({ selectedStyle }) {
               {/* Actual image */}
               <Image
                 src={thumbs[index] || src}
-                alt={`${selectedStyle || defaultStyle} image ${index + 1}`}
+                alt={styleAlt(styleKey, isEn, index + 1)}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw"
                 className={`object-contain hover:scale-105 transition-transform duration-300 ${loadingImages[index] ? 'opacity-0' : 'opacity-100'}`}
@@ -154,7 +175,7 @@ function Images({ selectedStyle }) {
             >
               <Image
                 src={selectedImage}
-                alt="Fullscreen view"
+                alt={styleAlt(styleKey, isEn)}
                 fill
                 className="object-contain"
                 sizes="100vw"

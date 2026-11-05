@@ -110,7 +110,7 @@ export default async function Layout({ children, params: { locale } }) {
             </a>
             <Navbar translations={navbarTranslations} />
             <main id="main">{children}</main>
-            <FooterLazyLoading translations={footerTranslations} />
+            <FooterLazyLoading translations={footerTranslations} locale={locale} navLinks={navbarTranslations} />
             <WhatsAppFloatingButton />
           </MotionProvider>
           <Analytics />

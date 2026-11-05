@@ -25,8 +25,6 @@ export default async function sitemap() {
     "/portfolio",
     "/about",
     "/blog",
-    "/curses",
-    "/vip",
     "/podcast",
     "/contact",
     "/academy",
@@ -43,7 +41,6 @@ export default async function sitemap() {
       // Entrada EN
       entries.push({
         url: enUrl,
-        lastModified: new Date().toISOString(),
         changeFrequency: "weekly",
         priority: path === "" ? 1.0 : 0.8,
         alternates: {
@@ -57,7 +54,6 @@ export default async function sitemap() {
       // Entrada ES
       entries.push({
         url: esUrl,
-        lastModified: new Date().toISOString(),
         changeFrequency: "weekly",
         priority: path === "" ? 1.0 : 0.8,
         alternates: {
@@ -93,7 +89,10 @@ export default async function sitemap() {
 
       const enUrl = `${BASE_URL}/en/blog/${enSlug}`;
       const esUrl = `${BASE_URL}/es/blog/${esSlug}`;
-      const lastModified = parsePostDateToISO(postEs.id);
+      const modified = postEs.dateModified ? new Date(postEs.dateModified) : null;
+      const lastModified = modified && !Number.isNaN(modified.getTime())
+        ? modified.toISOString()
+        : parsePostDateToISO(postEs.id);
 
       // Entrada EN
       entries.push({
@@ -134,7 +133,6 @@ export default async function sitemap() {
     const esUrl = `${BASE_URL}/es/blog/category/${category.slug.es}`;
     return [enUrl, esUrl].map((url) => ({
       url,
-      lastModified: new Date().toISOString(),
       changeFrequency: "weekly",
       priority: 0.7,
       alternates: { languages: { en: enUrl, es: esUrl } },

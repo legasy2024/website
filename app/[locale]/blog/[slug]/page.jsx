@@ -93,9 +93,9 @@ export async function generateMetadata({ params: { locale, slug } }) {
         languages: {
           [locale]: `/${locale}/blog/${slug}`,
           ...(otherSlug && { [otherLocale]: `/${otherLocale}/blog/${otherSlug}` }),
-          "x-default": locale === 'en'
-            ? `/${locale}/blog/${slug}`
-            : (otherSlug ? `/en/blog/${otherSlug}` : `/${locale}/blog/${slug}`)
+          "x-default": locale === 'es'
+            ? `/es/blog/${slug}`
+            : (otherSlug ? `/es/blog/${otherSlug}` : `/en/blog/${slug}`)
         }
       },
       openGraph: {

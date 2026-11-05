@@ -11,7 +11,7 @@ const i18nNameSpaces = ["home", "blog"];
 
 
 const metadata = {
-  title: "Blog de Legassy Studio - Historias, consejos y arte del tatuaje",
+  title: "Blog de tatuajes en Cali: guías y consejos | Legassy Studio",
   description: "Blog de Legassy Studio: historias del tatuaje, consejos de cuidado, precios, tendencias y procesos creativos desde nuestro estudio en Cali, Colombia.",
   keywords: "blog de tatuajes, consejos de tatuaje, cuidado del tatuaje, historias de tatuajes, artistas del tatuaje, tendencias tattoo, inspiración tatuajes, blog tattoo, cultura del tatuaje, diseño de tatuajes",
   language: "es",
@@ -25,7 +25,7 @@ const metadata = {
     languages: {
       en: "/en/blog",
       es: "/es/blog",
-      "x-default": "/en/blog",
+      "x-default": "/es/blog",
     },
   }
 };
@@ -45,7 +45,7 @@ const metadata_en = {
     languages: {
       en: "/en/blog",
       es: "/es/blog",
-      "x-default": "/en/blog",
+      "x-default": "/es/blog",
     },
   },
   };

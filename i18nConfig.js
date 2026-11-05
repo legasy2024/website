@@ -2,7 +2,7 @@ const i18nConfig = {
     locales: [
       'en', 'es'
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'es',
     prefixDefault: true,
     localeDetection: true,
     namespaces: ['common', 'testimonials'],
