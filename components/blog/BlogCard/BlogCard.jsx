@@ -19,7 +19,7 @@ const BlogCard = ({ post, locale }) => {
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center bg-[#1a1a1a]">
-            <Image src="/img/logo.svg" alt={post.title} width={48} height={48} className="opacity-30" />
+            <Image src="/img/mb_logo.svg" alt="" width={44} height={45} className="opacity-40" />
           </div>
         )}
       </div>
