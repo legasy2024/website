@@ -79,9 +79,11 @@ const localInfo = {
       { label: "Horario", text: "Lunes a sábado, de 8am a 5pm." },
       { label: "WhatsApp", text: "+57 310 311 0611. Es nuestro único número." },
       { label: "Menores de edad", text: "Tatuamos a menores de edad solo con el consentimiento de un adulto responsable." },
+      { label: "Si vienes de otra ciudad o país", text: "El aeropuerto internacional de Cali es el Alfonso Bonilla Aragón (CLO). Escríbenos por WhatsApp con tu idea y las fechas de tu viaje para planear la sesión según tus días en Cali." },
     ],
     links: [
       { href: "/es/portfolio", label: "Ver el portafolio" },
+      { href: "/es/blog/guia-para-viajeros-puedo-volar-en-avion-inmediatamente-despues-de-tatuarme", label: "Volar después de tatuarte" },
       { href: "/es/blog/cuanto-cuesta-un-tatuaje-en-cali", label: "Qué define el precio de un tatuaje" },
       { href: "/es/blog/tu-primer-tatuaje-en-cali-paso-a-paso", label: "Tu primer tatuaje, paso a paso" },
       { href: "/es/academy", label: "Academia de tatuaje en Cali" },
@@ -95,9 +97,11 @@ const localInfo = {
       { label: "Hours", text: "Monday to Saturday, 8am to 5pm." },
       { label: "WhatsApp", text: "+57 310 311 0611. This is our only number." },
       { label: "Minors", text: "We tattoo minors only with the consent of a responsible adult." },
+      { label: "Coming from abroad", text: "Cali's international airport is Alfonso Bonilla Aragón (CLO), and Cali is on GMT-5 all year. Send us your idea and travel dates on WhatsApp so we can plan your session around your trip." },
     ],
     links: [
       { href: "/en/portfolio", label: "See the portfolio" },
+      { href: "/en/blog/traveler-guide-can-you-fly-immediately-after-getting-a-tattoo", label: "Flying after a tattoo" },
       { href: "/en/blog/how-much-does-a-tattoo-cost-in-cali-colombia", label: "What sets the price of a tattoo" },
       { href: "/en/blog/your-first-tattoo-in-cali-step-by-step", label: "Your first tattoo, step by step" },
       { href: "/en/academy", label: "Tattoo academy in Cali" },
