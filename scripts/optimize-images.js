@@ -27,7 +27,7 @@ const TARGETS = [
   { dir: path.join(ROOT, "components"), maxSize: 2000, skip: [] },
 ];
 
-const THUMB_WIDTH = 640;
+const THUMB_WIDTH = 360;
 const JPEG = { quality: 78, mozjpeg: true, progressive: true };
 const PNG = { palette: true, quality: 80, compressionLevel: 9, effort: 10 };
 
