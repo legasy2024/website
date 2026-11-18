@@ -28,6 +28,8 @@ export default async function sitemap() {
     "/podcast",
     "/contact",
     "/academy",
+    "/piercing",
+    "/tattoo-trip",
   ];
 
   // Helper para generar alternates de idioma para una ruta base (sin locale)

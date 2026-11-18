@@ -21,6 +21,8 @@ function Footer({ translations, locale = "es", navLinks = {} }) {
     ["blog", navLinks.blog],
     ["podcast", navLinks.podcast],
     ["contact", navLinks.contact],
+    ["piercing", labels.piercing],
+    ["tattoo-trip", labels.trip],
   ].filter(([, label]) => label);
 
   return (
