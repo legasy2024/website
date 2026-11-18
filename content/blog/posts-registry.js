@@ -2653,6 +2653,25 @@ const blogPostsRegistry = [
     },
     "published": true,
     "order": 354
+  },
+  {
+    "id": "cali-vs-medellin-tattoo",
+    "category": "guides",
+    "slugs": {
+      "es": "cali-o-medellin-para-tatuarte",
+      "en": "cali-vs-medellin-for-a-tattoo-trip"
+    },
+    "image": "/img/portfolio-blog/realismo-cali/manga-leon-realismo-cali.jpg",
+    "date": {
+      "es": "17 de noviembre de 2026",
+      "en": "November 17, 2026"
+    },
+    "label": {
+      "es": "Viajes",
+      "en": "Travel"
+    },
+    "published": true,
+    "order": 355
   }
 ];
 
