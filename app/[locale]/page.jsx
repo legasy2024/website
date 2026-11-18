@@ -84,6 +84,8 @@ export default async function Home({ params: { locale } }) {
     hero_subtitle: t("home:hero_content.subtitle"),
     hero_text: t("home:hero_content.text"),
     cta: t("home:hero_content.cta"),
+    bg_alt_1: t("home:hero_content.bg_alt_1"),
+    bg_alt_2: t("home:hero_content.bg_alt_2"),
   }
 
   const portfolioTranslations = {

@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import HeroContent from "./HeroContent/HeroContent";
+import backPoseidon from "./assets/hero-espalda-poseidon.jpg";
+import backHannya from "./assets/hero-espalda-hannya.jpg";
 import "./landing.css";
 
 function LandingSection({ translations }) {
@@ -9,12 +12,36 @@ function LandingSection({ translations }) {
     <section className="relative">
       <div className="hero relative">
         <div className="hero_container">
-          {/* Side Gradients */}
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-0 bottom-0 left-0 w-6 sm:w-20 md:w-44 bg-gradient-to-r from-black/50 to-transparent z-10"></div>
-            <div className="absolute top-0 bottom-0 right-0 w-6 sm:w-20 md:w-44 bg-gradient-to-l from-black/50 to-transparent z-10"></div>
+          {/* Fondo: dos espaldas en escritorio, Poseidón en móvil y tablet */}
+          <div className="absolute inset-0 flex">
+            <div className="relative h-full w-full lg:w-1/2">
+              <Image
+                src={backPoseidon}
+                alt={translations.bg_alt_1 || ""}
+                fill
+                priority
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover object-[50%_25%] lg:object-[50%_28%]"
+              />
+            </div>
+            <div className="relative hidden h-full lg:block lg:w-1/2">
+              <Image
+                src={backHannya}
+                alt={translations.bg_alt_2 || ""}
+                fill
+                sizes="50vw"
+                className="object-cover object-[50%_30%]"
+              />
+            </div>
           </div>
-          <HeroContent translations = {translations} />
+
+          {/* Sombras para que el texto se lea */}
+          <div className="hero_shade_mobile absolute inset-0 pointer-events-none lg:hidden" />
+          <div className="hero_shade_desktop absolute inset-0 pointer-events-none hidden lg:block" />
+
+          <div className="relative z-10 flex flex-col items-center gap-y-6 lg:gap-y-14">
+            <HeroContent translations={translations} />
+          </div>
         </div>
       </div>
     </section>
