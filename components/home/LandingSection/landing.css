@@ -1,11 +1,19 @@
 .hero{
-    @apply flex flex-col  bg-black items-center w-full h-[800px];
+    @apply flex flex-col bg-black items-center w-full h-[800px];
 }
 
 .hero_container{
-    @apply flex flex-col relative items-center justify-center w-full desktop:max-w-[1200px] h-full gap-y-14 ;
-    background-image: url('./assets/backgroundLegassy.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @apply flex flex-col relative items-center justify-end lg:justify-center w-full h-full gap-y-14 pb-10 lg:pb-0 overflow-hidden;
+}
+
+/* Móvil y tablet: espalda completa arriba, texto abajo sobre la zona más oscura */
+.hero_shade_mobile{
+    background: linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.35) 30%, rgba(0,0,0,.6) 60%, rgba(0,0,0,.92));
+}
+
+/* Escritorio: dos espaldas a los lados y centro oscuro para el texto */
+.hero_shade_desktop{
+    background:
+        linear-gradient(to right, rgba(0,0,0,.35), rgba(0,0,0,.9) 42%, rgba(0,0,0,.9) 58%, rgba(0,0,0,.35)),
+        linear-gradient(to bottom, rgba(0,0,0,.55), transparent 25%, transparent 78%, #000);
 }
