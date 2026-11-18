@@ -46,6 +46,18 @@ import realismo44 from "../assets/realismo/realismo44.jpg"
 import realismo45 from "../assets/realismo/realismo45.jpg"
 import realismo46 from "../assets/realismo/realismo46.jpg"
 import realismo47 from "../assets/realismo/realismo47.jpg"
+import realismo48 from "../assets/realismo/realismo48.jpg"
+import realismo49 from "../assets/realismo/realismo49.jpg"
+import realismo50 from "../assets/realismo/realismo50.jpg"
+import realismo51 from "../assets/realismo/realismo51.jpg"
+import realismo52 from "../assets/realismo/realismo52.jpg"
+import realismo53 from "../assets/realismo/realismo53.jpg"
+import realismo54 from "../assets/realismo/realismo54.jpg"
+import realismo55 from "../assets/realismo/realismo55.jpg"
+import realismo56 from "../assets/realismo/realismo56.jpg"
+import realismo57 from "../assets/realismo/realismo57.jpg"
+import realismo58 from "../assets/realismo/realismo58.jpg"
+import realismo59 from "../assets/realismo/realismo59.jpg"
 /* Surrealismo */
 import surrealismo1 from "../assets/surrealismo/surrealismo1.jpg"
 import surrealismo2 from "../assets/surrealismo/surrealismo2.JPEG"
@@ -170,6 +182,18 @@ import realismo44Thumb from "../thumbs/realismo/realismo44.jpg"
 import realismo45Thumb from "../thumbs/realismo/realismo45.jpg"
 import realismo46Thumb from "../thumbs/realismo/realismo46.jpg"
 import realismo47Thumb from "../thumbs/realismo/realismo47.jpg"
+import realismo48Thumb from "../thumbs/realismo/realismo48.jpg"
+import realismo49Thumb from "../thumbs/realismo/realismo49.jpg"
+import realismo50Thumb from "../thumbs/realismo/realismo50.jpg"
+import realismo51Thumb from "../thumbs/realismo/realismo51.jpg"
+import realismo52Thumb from "../thumbs/realismo/realismo52.jpg"
+import realismo53Thumb from "../thumbs/realismo/realismo53.jpg"
+import realismo54Thumb from "../thumbs/realismo/realismo54.jpg"
+import realismo55Thumb from "../thumbs/realismo/realismo55.jpg"
+import realismo56Thumb from "../thumbs/realismo/realismo56.jpg"
+import realismo57Thumb from "../thumbs/realismo/realismo57.jpg"
+import realismo58Thumb from "../thumbs/realismo/realismo58.jpg"
+import realismo59Thumb from "../thumbs/realismo/realismo59.jpg"
 import surrealismo1Thumb from "../thumbs/surrealismo/surrealismo1.jpg"
 import surrealismo2Thumb from "../thumbs/surrealismo/surrealismo2.JPEG"
 import surrealismo3Thumb from "../thumbs/surrealismo/surrealismo3.JPEG"
@@ -236,7 +260,7 @@ import libre2Thumb from "../thumbs/libre/libre2.JPEG"
 import libre3Thumb from "../thumbs/libre/libre3.JPEG"
 
 export const imageByStyles = {
-    'realismo': [realismo1, realismo2, realismo3, realismo4, realismo5, realismo6, realismo7, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16, realismo17, realismo18, realismo19, realismo20, realismo21, realismo22, realismo23, realismo24, realismo25, realismo26, realismo27, realismo28, realismo29, realismo30, realismo31, realismo32, realismo33, realismo34, realismo35, realismo36, realismo37, realismo38, realismo39, realismo40, realismo41, realismo42, realismo43, realismo44, realismo45, realismo46, realismo47],
+    'realismo': [realismo53, realismo51, realismo54, realismo56, realismo48, realismo49, realismo57, realismo50, realismo52, realismo58, realismo55, realismo1, realismo59, realismo2, realismo4, realismo3, realismo6, realismo7, realismo5, realismo8, realismo9, realismo10, realismo11, realismo12, realismo13, realismo14, realismo15, realismo16, realismo17, realismo18, realismo19, realismo20, realismo21, realismo22, realismo23, realismo24, realismo25, realismo26, realismo27, realismo28, realismo29, realismo30, realismo31, realismo32, realismo33, realismo34, realismo35, realismo36, realismo37, realismo38, realismo39, realismo40, realismo41, realismo42, realismo43, realismo44, realismo45, realismo46, realismo47],
     'surrealismo': [surrealismo12, surrealismo11, surrealismo10, surrealismo9, surrealismo8, surrealismo7, surrealismo6, surrealismo5, surrealismo4, surrealismo3, surrealismo2, surrealismo1],
     "linea_fina": [lineaFina23, lineaFina22, lineaFina21, lineaFina20, lineaFina19, lineaFina18, lineaFina17, lineaFina16, lineaFina15, lineaFina14, lineaFina13, lineaFina12, lineaFina11, lineaFina10, lineaFina9, lineaFina8, lineaFina1, lineaFina4, lineaFina3, lineaFina5, lineaFina7],
     "microrealismo": [microrealismo10, microrealismo9, microrealismo8, microrealismo7, microrealismo6, microrealismo5, microrealismo4, microrealismo3, microrealismo2, microrealismo1],
@@ -247,7 +271,7 @@ export const imageByStyles = {
 }
 
 export const thumbByStyles = {
-    'realismo': [realismo1Thumb, realismo2Thumb, realismo3Thumb, realismo4Thumb, realismo5Thumb, realismo6Thumb, realismo7Thumb, realismo8Thumb, realismo9Thumb, realismo10Thumb, realismo11Thumb, realismo12Thumb, realismo13Thumb, realismo14Thumb, realismo15Thumb, realismo16Thumb, realismo17Thumb, realismo18Thumb, realismo19Thumb, realismo20Thumb, realismo21Thumb, realismo22Thumb, realismo23Thumb, realismo24Thumb, realismo25Thumb, realismo26Thumb, realismo27Thumb, realismo28Thumb, realismo29Thumb, realismo30Thumb, realismo31Thumb, realismo32Thumb, realismo33Thumb, realismo34Thumb, realismo35Thumb, realismo36Thumb, realismo37Thumb, realismo38Thumb, realismo39Thumb, realismo40Thumb, realismo41Thumb, realismo42Thumb, realismo43Thumb, realismo44Thumb, realismo45Thumb, realismo46Thumb, realismo47Thumb],
+    'realismo': [realismo53Thumb, realismo51Thumb, realismo54Thumb, realismo56Thumb, realismo48Thumb, realismo49Thumb, realismo57Thumb, realismo50Thumb, realismo52Thumb, realismo58Thumb, realismo55Thumb, realismo1Thumb, realismo59Thumb, realismo2Thumb, realismo4Thumb, realismo3Thumb, realismo6Thumb, realismo7Thumb, realismo5Thumb, realismo8Thumb, realismo9Thumb, realismo10Thumb, realismo11Thumb, realismo12Thumb, realismo13Thumb, realismo14Thumb, realismo15Thumb, realismo16Thumb, realismo17Thumb, realismo18Thumb, realismo19Thumb, realismo20Thumb, realismo21Thumb, realismo22Thumb, realismo23Thumb, realismo24Thumb, realismo25Thumb, realismo26Thumb, realismo27Thumb, realismo28Thumb, realismo29Thumb, realismo30Thumb, realismo31Thumb, realismo32Thumb, realismo33Thumb, realismo34Thumb, realismo35Thumb, realismo36Thumb, realismo37Thumb, realismo38Thumb, realismo39Thumb, realismo40Thumb, realismo41Thumb, realismo42Thumb, realismo43Thumb, realismo44Thumb, realismo45Thumb, realismo46Thumb, realismo47Thumb],
     'surrealismo': [surrealismo12Thumb, surrealismo11Thumb, surrealismo10Thumb, surrealismo9Thumb, surrealismo8Thumb, surrealismo7Thumb, surrealismo6Thumb, surrealismo5Thumb, surrealismo4Thumb, surrealismo3Thumb, surrealismo2Thumb, surrealismo1Thumb],
     "linea_fina": [lineaFina23Thumb, lineaFina22Thumb, lineaFina21Thumb, lineaFina20Thumb, lineaFina19Thumb, lineaFina18Thumb, lineaFina17Thumb, lineaFina16Thumb, lineaFina15Thumb, lineaFina14Thumb, lineaFina13Thumb, lineaFina12Thumb, lineaFina11Thumb, lineaFina10Thumb, lineaFina9Thumb, lineaFina8Thumb, lineaFina1Thumb, lineaFina4Thumb, lineaFina3Thumb, lineaFina5Thumb, lineaFina7Thumb],
     "microrealismo": [microrealismo10Thumb, microrealismo9Thumb, microrealismo8Thumb, microrealismo7Thumb, microrealismo6Thumb, microrealismo5Thumb, microrealismo4Thumb, microrealismo3Thumb, microrealismo2Thumb, microrealismo1Thumb],
