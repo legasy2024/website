@@ -34,11 +34,6 @@ const WORKS = [
   { src: `${L}/lettering-columna-linea-fina-cali.jpg`, alt: { es: "Lettering en línea fina sobre la columna", en: "Fine line lettering along the spine" } },
 ];
 
-const STUDIO = {
-  src: "/img/academy/sede-legassy-studio-cali.jpg",
-  alt: { es: "Entrada de Legassy Studio en Pampa Linda, sur de Cali", en: "Entrance of Legassy Studio in Pampa Linda, south Cali" },
-};
-
 const copy = {
   es: {
     meta: {
@@ -388,33 +383,22 @@ export default function ValleDelCaucaPage({ params: { locale } }) {
         </ol>
       </section>
 
-      <section className="mx-auto grid w-full max-w-[1200px] items-center gap-8 px-5 pt-12 desktop:px-0 md:grid-cols-2">
-        <div>
-          <h2 className="text-2xl font-bold md:text-3xl">{t.visitTitle}</h2>
-          <ul className="mt-4 space-y-1">
-            {t.visit.map((line) => (
-              <li key={line}>{line}</li>
-            ))}
-          </ul>
-          <a
-            href={MAPS}
-            target="_blank"
-            rel="noopener noreferrer"
-            data-cta="valle_maps"
-            className="mt-4 inline-block font-semibold underline underline-offset-4"
-          >
-            {t.mapsLabel}
-          </a>
-        </div>
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-black">
-          <Image
-            src={STUDIO.src}
-            alt={STUDIO.alt[lang]}
-            fill
-            sizes="(min-width: 768px) 50vw, 100vw"
-            className="object-cover"
-          />
-        </div>
+      <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
+        <h2 className="text-2xl font-bold md:text-3xl">{t.visitTitle}</h2>
+        <ul className="mt-4 space-y-1">
+          {t.visit.map((line) => (
+            <li key={line}>{line}</li>
+          ))}
+        </ul>
+        <a
+          href={MAPS}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-cta="valle_maps"
+          className="mt-4 inline-block font-semibold underline underline-offset-4"
+        >
+          {t.mapsLabel}
+        </a>
       </section>
 
       <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
