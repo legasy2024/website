@@ -10,6 +10,7 @@ const copy = {
     contact: "Cómo llegar y contacto",
     piercing: "Piercing en Cali",
     trip: "Viaja a Cali a tatuarte",
+    valle: "Tatuajes para todo el Valle del Cauca",
     guides: "Guías para antes de tatuarte",
   },
   en: {
@@ -20,6 +21,7 @@ const copy = {
     contact: "Directions and contact",
     piercing: "Piercing in Cali",
     trip: "Plan a tattoo trip to Cali",
+    valle: "Tattoos for all of Valle del Cauca",
     guides: "Guides before you get tattooed",
   },
 };
@@ -48,6 +50,9 @@ export default function LocalLinks({ locale = "es" }) {
           </Link>
           <Link href={`/${locale}/tattoo-trip`} data-cta="home_local_trip" className="font-semibold text-[#D8CDBC] underline underline-offset-4 hover:text-white">
             {t.trip}
+          </Link>
+          <Link href={`/${locale}/valle-del-cauca`} data-cta="home_local_valle" className="font-semibold text-[#D8CDBC] underline underline-offset-4 hover:text-white">
+            {t.valle}
           </Link>
         </div>
 

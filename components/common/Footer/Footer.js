@@ -23,6 +23,7 @@ function Footer({ translations, locale = "es", navLinks = {} }) {
     ["contact", navLinks.contact],
     ["piercing", labels.piercing],
     ["tattoo-trip", labels.trip],
+    ["valle-del-cauca", labels.valle],
   ].filter(([, label]) => label);
 
   return (

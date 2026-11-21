@@ -30,6 +30,7 @@ export default async function sitemap() {
     "/academy",
     "/piercing",
     "/tattoo-trip",
+    "/valle-del-cauca",
   ];
 
   // Helper para generar alternates de idioma para una ruta base (sin locale)
