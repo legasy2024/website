@@ -1,9 +1,38 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const SITE = "https://www.legassystudio.com";
 const WA = "573103110611";
 const MAPS = "https://maps.app.goo.gl/p3jzZbkTe7SJs1By5";
 const TOWNS = ["Jamundí", "Palmira", "Yumbo", "Candelaria", "Florida"];
+
+const R = "/img/portfolio-blog/realismo-cali";
+const L = "/img/portfolio-blog/linea-fina-cali";
+
+const HERO = {
+  src: `${R}/manga-leon-realismo-cali.jpg`,
+  alt: { es: "Manga de león en realismo negro y gris hecha en Legassy Studio, Cali", en: "Black and grey realism lion sleeve tattooed at Legassy Studio, Cali" },
+};
+
+// Fotos de las tarjetas de servicios, en el mismo orden que copy.services (null = tarjeta sin foto)
+const SERVICE_IMAGES = [
+  { src: `${R}/rostro-ojo-verde-pantorrilla-cali.jpg`, alt: { es: "Rostro en realismo con ojo verde en la pantorrilla", en: "Realism face with a green eye on the calf" } },
+  { src: `${R}/manga-leon-guerrero-realismo-cali.jpg`, alt: { es: "Manga de león y guerrero en realismo", en: "Lion and warrior realism sleeve" } },
+  { src: "/img/portfolio-blog/galleries/gallery-tatuajes-minis/01.jpg", alt: { es: "Tatuaje mini de palabra en línea fina en la muñeca", en: "Fine line mini word tattoo on the wrist" } },
+  null,
+  { src: "/img/academy/mentoria-1-a-1-academia-tatuaje-cali.jpg", alt: { es: "Mentoría uno a uno en la academia de tatuaje de Legassy en Cali", en: "One-on-one mentoring at the Legassy tattoo academy in Cali" } },
+];
+
+const WORKS = [
+  { src: `${R}/manga-poseidon-flores-realismo-cali.jpg`, alt: { es: "Manga de Poseidón con flores en realismo", en: "Poseidon and flowers realism sleeve" } },
+  { src: `${L}/colibri-linea-fina-cali.jpg`, alt: { es: "Colibrí en línea fina", en: "Fine line hummingbird" } },
+  { src: `${R}/espalda-hannya-black-grey-cali.jpg`, alt: { es: "Espalda con máscara Hannya en negro y gris", en: "Hannya mask back piece in black and grey" } },
+  { src: `${R}/ganesha-pantorrilla-realismo-cali.jpg`, alt: { es: "Ganesha en realismo en la pantorrilla", en: "Ganesha realism tattoo on the calf" } },
+  { src: `${L}/corazon-anatomico-linea-fina-cali.jpg`, alt: { es: "Corazón anatómico en línea fina", en: "Fine line anatomical heart" } },
+  { src: `${R}/manga-elefante-tigre-realismo-cali.jpg`, alt: { es: "Manga de elefante y tigre en realismo", en: "Elephant and tiger realism sleeve" } },
+  { src: `${R}/espalda-poseidon-catrina-realismo-cali.jpg`, alt: { es: "Espalda con Poseidón y catrina en realismo", en: "Poseidon and catrina realism back piece" } },
+  { src: `${L}/lettering-columna-linea-fina-cali.jpg`, alt: { es: "Lettering en línea fina sobre la columna", en: "Fine line lettering along the spine" } },
+];
 
 const copy = {
   es: {
@@ -53,6 +82,9 @@ const copy = {
         link: "Conocer la academia",
       },
     ],
+    worksTitle: "Trabajos hechos en el estudio",
+    worksText: "Algunas piezas de nuestros artistas. Hay muchas más en el portafolio.",
+    worksLink: "Ver el portafolio completo",
     stepsTitle: "Cómo aprovechar el viaje a Cali",
     steps: [
       "Escríbenos por WhatsApp con tu idea, la zona del cuerpo, el tamaño aproximado y fotos de referencia si las tienes.",
@@ -140,6 +172,9 @@ const copy = {
         link: "See the academy",
       },
     ],
+    worksTitle: "Work done at the studio",
+    worksText: "A few pieces by our artists. There are many more in the portfolio.",
+    worksLink: "See the full portfolio",
     stepsTitle: "How to make the most of your trip to Cali",
     steps: [
       "Message us on WhatsApp with your idea, the body area, the approximate size and reference photos if you have them.",
@@ -246,18 +281,30 @@ export default function ValleDelCaucaPage({ params: { locale } }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <div className="h-16 bg-black md:h-20" />
 
-      <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
-        <h1 className="text-3xl font-bold md:text-5xl">{t.h1}</h1>
-        <p className="mt-4 max-w-3xl text-lg">{t.intro}</p>
-        <a
-          href={waUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          data-cta="valle_whatsapp_top"
-          className="mt-6 inline-flex rounded-full bg-black px-6 py-3 font-semibold text-white transition-colors hover:bg-gray-800"
-        >
-          {t.cta}
-        </a>
+      <section className="mx-auto grid w-full max-w-[1200px] items-center gap-8 px-5 pt-12 desktop:px-0 md:grid-cols-[1.2fr_1fr]">
+        <div>
+          <h1 className="text-3xl font-bold md:text-5xl">{t.h1}</h1>
+          <p className="mt-4 max-w-3xl text-lg">{t.intro}</p>
+          <a
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cta="valle_whatsapp_top"
+            className="mt-6 inline-flex rounded-full bg-black px-6 py-3 font-semibold text-white transition-colors hover:bg-gray-800"
+          >
+            {t.cta}
+          </a>
+        </div>
+        <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-black md:max-h-[560px]">
+          <Image
+            src={HERO.src}
+            alt={HERO.alt[lang]}
+            fill
+            priority
+            sizes="(min-width: 768px) 45vw, 100vw"
+            className="object-cover"
+          />
+        </div>
       </section>
 
       <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
@@ -268,16 +315,60 @@ export default function ValleDelCaucaPage({ params: { locale } }) {
       <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
         <h2 className="text-2xl font-bold md:text-3xl">{t.servicesTitle}</h2>
         <ul className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {t.services.map((s) => (
-            <li key={s.name} className="rounded-xl bg-white p-5">
-              <h3 className="font-semibold">{s.name}</h3>
-              <p className="mt-1 text-gray-700">{s.text}</p>
-              <Link href={s.href} className="mt-3 inline-block font-semibold underline underline-offset-4">
-                {s.link}
-              </Link>
+          {t.services.map((s, i) => {
+            const img = SERVICE_IMAGES[i];
+            return (
+              <li
+                key={s.name}
+                className={`flex flex-col overflow-hidden rounded-xl ${img ? "bg-white" : "bg-black text-white"}`}
+              >
+                {img && (
+                  <div className="relative aspect-[4/3] w-full">
+                    <Image
+                      src={img.src}
+                      alt={img.alt[lang]}
+                      fill
+                      sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                )}
+                <div className={`flex flex-1 flex-col p-5 ${img ? "" : "justify-center"}`}>
+                  <h3 className={img ? "font-semibold" : "text-2xl font-bold"}>{s.name}</h3>
+                  <p className={`mt-1 ${img ? "text-gray-700" : "text-gray-300"}`}>{s.text}</p>
+                  <Link href={s.href} className="mt-3 inline-block font-semibold underline underline-offset-4">
+                    {s.link}
+                  </Link>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
+        <h2 className="text-2xl font-bold md:text-3xl">{t.worksTitle}</h2>
+        <p className="mt-2 text-gray-700">{t.worksText}</p>
+        <ul className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4">
+          {WORKS.map((w) => (
+            <li key={w.src} className="relative aspect-[3/4] overflow-hidden rounded-xl bg-black">
+              <Image
+                src={w.src}
+                alt={w.alt[lang]}
+                fill
+                sizes="(min-width: 768px) 25vw, 50vw"
+                className="object-cover transition-transform duration-300 hover:scale-105"
+              />
             </li>
           ))}
         </ul>
+        <Link
+          href={`/${lang}/portfolio`}
+          data-cta="valle_portfolio"
+          className="mt-5 inline-block font-semibold underline underline-offset-4"
+        >
+          {t.worksLink}
+        </Link>
       </section>
 
       <section className="mx-auto w-full max-w-[1200px] px-5 pt-12 desktop:px-0">
